@@ -75,6 +75,12 @@ const keywordIndex = {
     'silah': 'killing',
     'yara': 'wound',
     'ağlamak': 'crying',
+    'eski sevgili': 'ex-partner', // Custom file
+    'ex': 'ex-partner',
+    'sevgili': 'ex-partner', // Weak match but useful
+    'uzay': 'space', // Custom file
+    'uzaylı': 'space',
+    'alien': 'space',
     'koşmak': 'running',
     'yüzmek': 'swimming',
     'dans': 'dancing',
