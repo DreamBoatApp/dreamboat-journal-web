@@ -1,8 +1,9 @@
 {
     "HomePage": {
         "title": "Dreamboat Journal",
-        "subtitle": "Entschlüsseln Sie die Geheimnisse Ihres Unterbewusstseins",
+        "subtitle": "Schreiben Sie Ihren Traum unten und lassen Sie KI ihn sofort interpretieren",
         "searchPlaceholder": "Wovon haben Sie geträumt?",
+        "popular": "Beliebt",
         "cta": "App Herunterladen"
     },
     "Navigation": {

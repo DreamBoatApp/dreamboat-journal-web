@@ -1,8 +1,9 @@
 {
     "HomePage": {
         "title": "Dreamboat Journal",
-        "subtitle": "Bilinçaltınızın sırlarını çözün",
+        "subtitle": "Rüyanızı aşağıya yazın, yapay zeka ile anında yorumlansın",
         "searchPlaceholder": "Ne rüya gördünüz?",
+        "popular": "Popüler",
         "cta": "Uygulamayı İndir"
     },
     "Navigation": {

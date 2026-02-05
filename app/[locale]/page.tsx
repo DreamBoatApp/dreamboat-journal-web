@@ -18,7 +18,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
                 {/* Hero Text */}
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-lg">
-                    {t('title')} <span className="text-xs text-green-500 font-bold">V3.2</span>
+                    {t('title')}
                 </h1>
 
                 <p className="text-xl md:text-2xl text-slate-300 max-w-2xl font-light tracking-wide leading-relaxed">
@@ -38,7 +38,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
                 {/* Categories */}
                 <div className="flex flex-wrap justify-center gap-3 text-sm text-indigo-200/70">
-                    <span>Popular:</span>
+                    <span>{t('popular')}:</span>
                     {['Snake', 'Falling', 'Teeth', 'Flying'].map(s => (
                         <Link key={s} href={`/meaning/${s.toLowerCase()}`} className="hover:text-white underline decoration-indigo-500/30 hover:decoration-indigo-400 transition-all">
                             {s}
@@ -46,12 +46,7 @@ export default async function HomePage({ params: { locale } }: Props) {
                     ))}
                 </div>
 
-                {/* CTA Button */}
-                <div className="mt-12">
-                    <button className="btn-nebula">
-                        {t('cta')}
-                    </button>
-                </div>
+
 
             </div>
 

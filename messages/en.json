@@ -1,8 +1,9 @@
 {
   "HomePage": {
     "title": "Dreamboat Journal",
-    "subtitle": "Unlock the secrets of your subconscious",
+    "subtitle": "Write your dream below and let AI interpret it instantly",
     "searchPlaceholder": "What did you dream about?",
+    "popular": "Popular",
     "cta": "Download App"
   },
   "Navigation": {

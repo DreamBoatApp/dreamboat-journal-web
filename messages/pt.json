@@ -1,8 +1,9 @@
 {
     "HomePage": {
         "title": "Dreamboat Journal",
-        "subtitle": "Desvende os segredos do seu subconsciente",
+        "subtitle": "Escreva seu sonho abaixo e deixe a IA interpretá-lo instantaneamente",
         "searchPlaceholder": "O que você sonhou?",
+        "popular": "Popular",
         "cta": "Baixar App"
     },
     "Navigation": {
