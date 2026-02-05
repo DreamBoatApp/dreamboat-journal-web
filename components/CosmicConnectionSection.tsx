@@ -105,7 +105,7 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
                                     href="https://play.google.com/store/apps/details?id=com.dreamboat.journal"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="px-8 py-3 bg-white/10 border border-white/20 text-white rounded-full text-sm font-bold hover:bg-white/20 transition-all backdrop-blur-md shadow-xl hover:-translate-y-0.5"
+                                    className="px-8 py-3 bg-white text-indigo-950 rounded-full text-sm font-bold hover:bg-gray-100 transition-all shadow-xl hover:shadow-white/20 hover:-translate-y-0.5"
                                 >
                                     {t('downloadAndroid')}
                                 </a>
