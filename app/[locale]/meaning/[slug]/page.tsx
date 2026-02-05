@@ -180,7 +180,7 @@ export default async function MeaningPage({ params }: Props) {
                         <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-indigo-300">
                             {t_page('symbolismTitle')}
                         </h2>
-                        <div className="prose-p:text-slate-300">
+                        <div className="text-lg leading-relaxed font-light text-slate-200">
                             <p className="whitespace-pre-line">{t.symbolism}</p>
                         </div>
                     </section>
