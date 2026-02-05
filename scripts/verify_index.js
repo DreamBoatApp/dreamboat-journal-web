@@ -8,6 +8,13 @@ const indexedSlugs = new Set(Object.values(keywordIndex));
 // Define recent batches to verify (Batch 11-15)
 const batchSlugs = [
 
+    // Batch 18 (100 items)
+    'lawyer', 'judge', 'nurse', 'dentist', 'engineer', 'architect', 'barber', 'tailor', 'butcher', 'carpenter', 'gardener', 'firefighter', 'postman', 'waiter', 'secretary', 'artist', 'athlete', 'driver', 'maid', 'beggar',
+    'airplane', 'train', 'subway', 'tram', 'taxi', 'motorcycle', 'ambulance', 'fire-truck', 'tractor', 'balloon', 'parachute', 'port', 'airport', 'station', 'traffic', 'crossroads', 'bus-terminal', 'gas-station', 'steering-wheel', 'wagon',
+    'surgery', 'medicine', 'syringe', 'bleeding', 'bandage', 'pharmacy', 'wheelchair', 'crutch', 'lungs', 'brain', 'intestines', 'kidney', 'skin', 'sweat', 'thinness', 'obesity', 'fever', 'cough', 'fainting', 'band-aid',
+    'cup', 'plate', 'fork', 'knife', 'spoon', 'pot', 'pan', 'tray', 'pitcher', 'bottle', 'fridge', 'washing-machine', 'dishwasher', 'oven', 'iron-appliance', 'vacuum-cleaner', 'air-conditioner', 'chandelier', 'curtain', 'quilt',
+    'barn', 'well', 'cellar', 'labyrinth', 'ruins', 'castle', 'tower', 'town', 'city', 'pit', 'getting-lost', 'festival', 'lock', 'map', 'compass', 'passport', 'ticket', 'backpack', 'toy', 'letter',
+
     // Batch 17 (100 items)
     'giraffe', 'zebra', 'crocodile', 'turtle', 'frog', 'snail', 'hedgehog', 'shark', 'octopus', 'crab', 'jellyfish', 'penguin', 'seal', 'seagull', 'stork', 'deer', 'camel', 'donkey', 'goat', 'squirrel',
     'bread', 'milk', 'wine', 'chocolate', 'cake', 'ice-cream', 'soup', 'rice', 'pasta', 'pizza', 'hamburger', 'beer', 'sugar', 'flour', 'cheese', 'olive', 'tomato', 'potato', 'onion', 'garlic',
