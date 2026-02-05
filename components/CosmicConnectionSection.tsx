@@ -64,8 +64,8 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
     };
 
     return (
-        <section className="mb-12 p-6 rounded-xl bg-indigo-950/60 border border-purple-500/20 relative overflow-hidden shadow-2xl shadow-indigo-900/20">
-            <h2 className="text-xl md:text-2xl font-bold mb-4 flex flex-wrap items-center gap-2 text-white">
+        <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20 relative overflow-hidden">
+            <h2 className="text-2xl font-bold mb-4 flex flex-wrap items-center gap-2 text-amber-300">
                 {title} <span className="text-indigo-200 font-normal text-base md:text-lg">({t('moonPhasePrefix')}{t(`phases.${phase}`)} {getPhaseIcon()})</span>
             </h2>
 
