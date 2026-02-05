@@ -7,6 +7,19 @@ const indexedSlugs = new Set(Object.values(keywordIndex));
 
 // Define recent batches to verify (Batch 11-15)
 const batchSlugs = [
+
+    // Batch 16 (100 items)
+    'farmer', 'chef', 'pilot', 'actor', 'prisoner', 'teenager', 'twins', 'orphan', 'mermaid', 'unicorn',
+    'fairy', 'dragon', 'phoenix', 'werewolf', 'alien', 'giant', 'puppet', 'robot', 'spirit', 'piano',
+    'guitar', 'violin', 'flute', 'trumpet', 'drum', 'singing', 'musical-note', 'music', 'choir', 'broom',
+    'shovel', 'axe', 'hammer', 'needle', 'rope', 'net', 'chain', 'vase', 'faucet', 'coat',
+    'gloves', 'glasses', 'belt', 'tie', 'scarf', 'socks', 'underwear', 'pyjamas', 'uniform', 'computer',
+    'keyboard', 'television', 'camera', 'radio', 'internet', 'password', 'battery', 'alarm', 'helicopter', 'volcano',
+    'waterfall', 'swamp', 'cliff', 'valley', 'island', 'farm', 'park', 'tunnel', 'hotel', 'restaurant',
+    'library', 'theater', 'shop', 'church', 'factory', 'museum', 'stadium', 'village', 'pink', 'orange-color',
+    'brown', 'grey', 'iron', 'copper', 'bronze', 'glass', 'wood', 'plastic', 'climbing', 'vomiting',
+    'birth', 'scar', 'tattoo', 'blind', 'deaf', 'zipper', 'pocket', 'trash', 'umbrella', 'stairs',
+
     // Batch 15 (50 items)
     'dog', 'cat', 'horse', 'snake', 'mouse', 'bird', 'eagle', 'pigeon', 'scorpion', 'fly',
     'rain', 'snow', 'sun', 'lightning', 'storm', 'fog', 'rainbow', 'flood', 'earthquake', 'fire',
