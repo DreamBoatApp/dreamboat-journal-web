@@ -44,6 +44,7 @@
         "bannerSymbolCopy": "Rüyadaki \"{symbol}\" sembolünün senin için özel anlamını öğren.",
         "bannerDefaultCopy": "Rüyalarının gerçek anlamını keşfet.",
         "openInApp": "Uygulamada Aç",
-        "scanToDownload": "Telefonunuzla tarayın"
+        "scanToDownload": "Telefonunuzla tarayın",
+        "blurCTA": "Tam analizi görmek ve kişisel yorumunuzu almak için uygulamayı indirin."
     }
 }

@@ -112,6 +112,7 @@ export default async function MeaningPage({ params }: Props) {
 
     const t = content!; // Content is guaranteed here
     const t_page = await getTranslations('MeaningPage');
+    const CosmicConnectionSection = (await import('@/components/CosmicConnectionSection')).default;
 
     // Helper to fix capitalization title (e.g. SNAKE -> Snake)
     const fixCaps = (text: string) => {
@@ -151,7 +152,7 @@ export default async function MeaningPage({ params }: Props) {
                 }}
             />
 
-            <main className="relative z-10 container mx-auto px-4 py-12 md:py-24 max-w-4xl">
+            <main className="relative z-10 container mx-auto px-4 py-12 md:py-24 max-w-3xl">
 
                 {/* Header */}
                 <header className="mb-12 text-center relative">
@@ -164,66 +165,51 @@ export default async function MeaningPage({ params }: Props) {
                     <div className="w-24 h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full"></div>
                 </header>
 
-                <div className="grid md:grid-cols-[1fr_300px] gap-12">
+                {/* Main Content (Centered, No Sidebar) */}
+                <article className="prose prose-invert prose-lg max-w-none">
 
-                    {/* Main Content */}
-                    <article className="prose prose-invert prose-lg max-w-none">
+                    {/* Introduction */}
+                    <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm mb-8 shadow-xl">
+                        <p className="text-lg leading-relaxed text-slate-200">
+                            {t.introduction}
+                        </p>
+                    </div>
 
-                        {/* Introduction */}
-                        <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm mb-8 shadow-xl">
-                            <p className="text-lg leading-relaxed text-slate-200">
-                                {t.introduction}
-                            </p>
+                    {/* Symbolism Deep Dive */}
+                    <section className="mb-12">
+                        <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-indigo-300">
+                            {t_page('symbolismTitle')}
+                        </h2>
+                        <div className="prose-p:text-slate-300">
+                            <p className="whitespace-pre-line">{t.symbolism}</p>
                         </div>
+                    </section>
 
-                        {/* Symbolism Deep Dive */}
-                        <section className="mb-12">
-                            <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-indigo-300">
-                                {t_page('symbolismTitle')}
-                            </h2>
-                            <div className="prose-p:text-slate-300">
-                                <p className="whitespace-pre-line">{t.symbolism}</p>
-                            </div>
-                        </section>
+                    {/* Cosmic Connection (New Gated Component) */}
+                    <CosmicConnectionSection
+                        title={t_page('cosmicConnectionTitle')}
+                        analysisText={t.cosmicAnalysis}
+                    />
 
-                        {/* Cosmic Connection */}
-                        <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20">
-                            <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-amber-300">
-                                {t_page('cosmicConnectionTitle')}
-                            </h2>
-                            <p className="text-slate-300 italic">
-                                "{t.cosmicAnalysis}"
-                            </p>
-                        </section>
+                    {/* Inline CTA */}
+                    <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
 
-                        {/* Inline CTA */}
-                        <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
-
-                        {/* Common Scenarios */}
-                        <section>
-                            <h2 className="text-2xl font-semibold text-white flex items-center gap-3 mb-6">
-                                <span className="w-8 h-[1px] bg-indigo-500"></span>
-                                {t_page('commonDreamsTitle')}
-                            </h2>
-                            <ul className="grid gap-4">
-                                {content.commonScenarios.map((scenario, i) => (
-                                    <li key={i} className="flex gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 transition-all">
-                                        <span className="text-indigo-400 font-mono text-lg">0{i + 1}</span>
-                                        <p className="text-gray-300">{fixCaps(scenario)}</p>
-                                    </li>
-                                ))}
-                            </ul>
-                        </section>
-
-                    </article>
-
-                    {/* Sidebar */}
-                    <aside className="space-y-8">
-                        {/* Moon Phase Widget */}
-                        <MoonPhaseWidget />
-                    </aside>
-
-                </div>
+                    {/* Common Scenarios */}
+                    <section>
+                        <h2 className="text-2xl font-semibold text-white flex items-center gap-3 mb-6">
+                            <span className="w-8 h-[1px] bg-indigo-500"></span>
+                            {t_page('commonDreamsTitle')}
+                        </h2>
+                        <ul className="grid gap-4">
+                            {content.commonScenarios.map((scenario, i) => (
+                                <li key={i} className="flex gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 transition-all">
+                                    <span className="text-indigo-400 font-mono text-lg">0{i + 1}</span>
+                                    <p className="text-gray-300">{fixCaps(scenario)}</p>
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                </article>
 
             </main>
         </div>
