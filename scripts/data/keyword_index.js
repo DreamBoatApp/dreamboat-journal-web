@@ -119,7 +119,7 @@ const keywordIndex = {
     'orman': 'forest',
     'bahçe': 'garden',
     'gökyüzü': 'flying',
-    'bulut': 'flying',
+    'bulut': 'cloud', // Remapped from flying to custom cloud.json
     'güneş': 'sun',
     'ay': 'moon',
     'yıldız': 'star',
@@ -127,6 +127,8 @@ const keywordIndex = {
     'deprem': 'earthquake',
     'sel': 'flood',
     'kasırga': 'tornado',
+    'şimşek': 'lightning', // Added explicit mapping
+    'yıldırım': 'lightning',
     'volkan': 'volcano',
     'mağara': 'cave',
     'labirent': 'labyrinth',
