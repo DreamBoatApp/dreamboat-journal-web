@@ -181,7 +181,13 @@ export default async function MeaningPage({ params }: Props) {
                             {t_page('symbolismTitle')}
                         </h2>
                         <div className="text-lg leading-relaxed font-light text-slate-200">
-                            <p className="whitespace-pre-line">{t.symbolism}</p>
+                            <p className="whitespace-pre-line">
+                                {t.symbolism.split(/(\*\*.*?\*\*)/g).map((part, i) =>
+                                    part.startsWith('**') && part.endsWith('**')
+                                        ? <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>
+                                        : part
+                                )}
+                            </p>
                         </div>
                     </section>
 

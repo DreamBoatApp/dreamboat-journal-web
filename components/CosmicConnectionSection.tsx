@@ -77,7 +77,12 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
                     {/* Text Content - Rendered fully but masked */}
                     {/* We add fake extra text to better demonstrate the fade effect if analysis is short */}
                     <p className="text-slate-300 italic leading-loose text-lg whitespace-pre-line pb-4 opacity-90">
-                        "{analysisText}
+                        "
+                        {analysisText.split(/(\*\*.*?\*\*)/g).map((part, i) =>
+                            part.startsWith('**') && part.endsWith('**')
+                                ? <strong key={i} className="text-indigo-200 font-semibold not-italic">{part.slice(2, -2)}</strong>
+                                : part
+                        )}
                         {'\n\n'}
                         Bu evrede rüyalarınızın size fısıldadığı sırlar, sadece bilinçaltınızın derinliklerinde değil, aynı zamanda kozmik bir hizalanmanın da işaretidir. Ay'ın bu konumu, içsel rehberliğinizin en güçlü olduğu..."
                     </p>
