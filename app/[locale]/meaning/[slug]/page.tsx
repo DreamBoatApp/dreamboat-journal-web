@@ -171,7 +171,15 @@ export default async function MeaningPage({ params }: Props) {
                     {/* Introduction */}
                     <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm mb-8 shadow-xl">
                         <p className="text-lg leading-relaxed text-slate-200">
-                            {t.introduction}
+                            {t.introduction.split(/(\*\*.*?\*\*|\*[^*]+?\*)/g).map((part, i) => {
+                                if (part.startsWith('**') && part.endsWith('**')) {
+                                    return <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>;
+                                }
+                                if (part.startsWith('*') && part.endsWith('*')) {
+                                    return <em key={i} className="text-indigo-200 italic">{part.slice(1, -1)}</em>;
+                                }
+                                return part;
+                            })}
                         </p>
                     </div>
 
