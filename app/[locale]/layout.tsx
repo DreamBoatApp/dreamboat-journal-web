@@ -18,7 +18,7 @@ export default async function RootLayout({
     params
 }: Readonly<{
     children: React.ReactNode;
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 }>) {
     // Ensure that the incoming `locale` is valid
     // (Await params in Next.js 15+, but let's be safe)

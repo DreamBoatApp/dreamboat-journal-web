@@ -1,8 +1,8 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 
-export default function HomePage() {
-    const t = useTranslations('HomePage');
+export default async function HomePage() {
+    const t = await getTranslations('HomePage');
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-24 text-center">
