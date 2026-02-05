@@ -200,7 +200,7 @@ export default async function MeaningPage({ params }: Props) {
                         <ul className="grid gap-4">
                             {content.commonScenarios.map((scenario, i) => (
                                 <li key={i} className="flex gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 transition-all">
-                                    <span className="text-indigo-400 font-mono text-lg">0{i + 1}</span>
+                                    <span className="text-indigo-400 font-bold text-lg">–</span>
                                     <p className="text-gray-300">{fixCaps(scenario)}</p>
                                 </li>
                             ))}

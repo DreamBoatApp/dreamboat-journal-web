@@ -10,18 +10,18 @@ export default function InlineCTA({ symbol }: Props) {
     const t = useTranslations('InlineCTA');
 
     return (
-        <div className="my-10 p-8 md:p-10 rounded-2xl bg-gradient-to-br from-indigo-950 to-[#0a0a16] border border-white/10 text-center relative overflow-hidden group shadow-2xl">
+        <div className="my-12 py-8 px-6 md:px-0 text-center relative overflow-hidden border-t border-white/10">
 
-            {/* Background Decor */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-purple-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
+            {/* Background Decor - Subtle & Blended */}
+            <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-indigo-500/50 to-transparent"></div>
+            <div className="absolute -top-24 left-1/2 w-96 h-96 bg-indigo-900/10 rounded-full blur-[100px] -translate-x-1/2 pointer-events-none"></div>
 
             <div className="relative z-10 max-w-2xl mx-auto">
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
+                <h3 className="text-xl font-bold text-indigo-200 mb-4 tracking-wide uppercase text-sm">
                     {t('title')}
                 </h3>
-                <div className="text-indigo-100/80 mb-2 space-y-4 text-left leading-relaxed text-lg">
-                    <p className="whitespace-pre-line">{t('description')}</p>
+                <div className="text-slate-400 space-y-4 text-left leading-relaxed text-sm md:text-base font-light">
+                    <p className="whitespace-pre-line text-center">{t('description')}</p>
                 </div>
             </div>
         </div>
