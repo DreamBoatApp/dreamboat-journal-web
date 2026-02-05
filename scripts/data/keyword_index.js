@@ -175,6 +175,17 @@ const keywordIndex = {
     'gül': 'flower',
     'papatya': 'flower',
     'bahçe': 'garden', // Custom file
+    // Batch 11
+    'fil': 'elephant',
+    'kaplan': 'tiger', // Custom file (mapped to 'tiger')
+    'yunus': 'dolphin',
+    'balina': 'whale',
+    'tavşan': 'rabbit',
+    'arı': 'bee',
+    'kelebek': 'butterfly',
+    'karınca': 'ant',
+    'yarasa': 'bat',
+    'baykuş': 'owl',
 };
 
 // Add English keywords (symbol names and associations from dictionary)
