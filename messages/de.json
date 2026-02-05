@@ -1,0 +1,13 @@
+{
+    "HomePage": {
+        "title": "Dreamboat Journal",
+        "subtitle": "Entschlüsseln Sie die Geheimnisse Ihres Unterbewusstseins",
+        "searchPlaceholder": "Wovon haben Sie geträumt?",
+        "cta": "App Herunterladen"
+    },
+    "Navigation": {
+        "home": "Startseite",
+        "dictionary": "Traumdeutung",
+        "blog": "Blog"
+    }
+}

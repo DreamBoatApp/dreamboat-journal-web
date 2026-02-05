@@ -1,0 +1,13 @@
+{
+    "HomePage": {
+        "title": "Dreamboat Journal",
+        "subtitle": "Bilinçaltınızın sırlarını çözün",
+        "searchPlaceholder": "Ne rüya gördünüz?",
+        "cta": "Uygulamayı İndir"
+    },
+    "Navigation": {
+        "home": "Anasayfa",
+        "dictionary": "Rüya Tabirleri",
+        "blog": "Blog"
+    }
+}

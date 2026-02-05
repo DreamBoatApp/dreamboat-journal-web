@@ -1,0 +1,13 @@
+{
+  "HomePage": {
+    "title": "Dreamboat Journal",
+    "subtitle": "Unlock the secrets of your subconscious",
+    "searchPlaceholder": "What did you dream about?",
+    "cta": "Download App"
+  },
+  "Navigation": {
+    "home": "Home",
+    "dictionary": "Dictionary",
+    "blog": "Blog"
+  }
+}

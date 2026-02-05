@@ -1,0 +1,13 @@
+{
+    "HomePage": {
+        "title": "Dreamboat Journal",
+        "subtitle": "Desvende os segredos do seu subconsciente",
+        "searchPlaceholder": "O que você sonhou?",
+        "cta": "Baixar App"
+    },
+    "Navigation": {
+        "home": "Início",
+        "dictionary": "Sonhos",
+        "blog": "Blog"
+    }
+}
