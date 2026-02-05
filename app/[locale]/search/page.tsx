@@ -3,10 +3,13 @@ import Link from 'next/link';
 import keywordIndex from '@/scripts/data/keyword_index';
 import { logFailedSearch } from '@/lib/logger';
 
+
 type Props = {
     params: Promise<{ locale: string }>;
     searchParams: Promise<{ q?: string }>;
 };
+
+
 
 // ... (extractKeywords and findMatches remain unchanged)
 // We skip re-writing them to save tokens/complexity, targeting only the import and component start
@@ -76,6 +79,8 @@ export default async function SearchPage({ params, searchParams }: Props) {
         logFailedSearch(query, locale, 'web');
     }
 
+
+
     // Multiple matches or no matches - show results page
     return (
         <div className="min-h-screen bg-[#030014] text-white">
@@ -123,7 +128,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
                                         <div>
                                             <span className="text-indigo-400 text-sm">"{keyword}" →</span>
                                             <h2 className="text-xl font-semibold text-white capitalize mt-1">
-                                                {slug.replace(/-/g, ' ')}
+                                                {keyword}
                                             </h2>
                                         </div>
                                         <span className="text-indigo-400">→</span>
