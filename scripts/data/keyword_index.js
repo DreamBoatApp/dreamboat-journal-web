@@ -161,6 +161,20 @@ const keywordIndex = {
     'cadı': 'witch',
     'büyücü': 'wizard',
     'koşmak': 'running',
+    'dans': 'dancing', // Custom file
+    'tren': 'train', // Custom file
+    'uçak': 'airplane', // Custom file
+    'uçuş': 'airplane',
+    'hastane': 'hospital', // Custom file
+    'mağara': 'cave', // Custom file (Replaced Grave/Mezarlık which was done in Batch 9)
+    'kral': 'king', // Custom file
+    'kraliçe': 'queen', // Custom file
+    'saat': 'clock', // Custom file
+    'zaman': 'clock',
+    'çiçek': 'flower', // Custom file
+    'gül': 'flower',
+    'papatya': 'flower',
+    'bahçe': 'garden', // Custom file
 };
 
 // Add English keywords (symbol names and associations from dictionary)
