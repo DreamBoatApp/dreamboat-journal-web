@@ -1,4 +1,5 @@
 import { notFound, redirect } from 'next/navigation';
+import { getTranslations } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -109,6 +110,7 @@ export default async function MeaningPage({ params }: Props) {
     }
 
     const t = content!; // Content is guaranteed here
+    const t_page = await getTranslations('MeaningPage');
 
     // Helper to fix capitalization title (e.g. SNAKE -> Snake)
     const fixCaps = (text: string) => {
@@ -153,7 +155,7 @@ export default async function MeaningPage({ params }: Props) {
                 {/* Header */}
                 <header className="mb-12 text-center relative">
                     <div className="inline-block mb-4 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium tracking-wider text-purple-300 uppercase">
-                        Dream Dictionary
+                        {t_page('dictionaryTag')}
                     </div>
                     <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-100 to-indigo-200 mb-6 drop-shadow-lg">
                         {t.title}
@@ -179,7 +181,7 @@ export default async function MeaningPage({ params }: Props) {
                         {/* Symbolism Deep Dive */}
                         <section className="mb-12">
                             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-indigo-300">
-                                <span className="text-2xl">🔮</span> Symbolism & Meaning
+                                <span className="text-2xl">🔮</span> {t_page('symbolismTitle')}
                             </h2>
                             <div className="prose-p:text-slate-300">
                                 <p className="whitespace-pre-line">{t.symbolism}</p>
@@ -189,7 +191,7 @@ export default async function MeaningPage({ params }: Props) {
                         {/* Cosmic Connection */}
                         <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20">
                             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-amber-300">
-                                <span className="text-2xl">🌙</span> Cosmic Connection
+                                <span className="text-2xl">🌙</span> {t_page('cosmicConnectionTitle')}
                             </h2>
                             <p className="text-slate-300 italic">
                                 "{t.cosmicAnalysis}"
@@ -203,7 +205,7 @@ export default async function MeaningPage({ params }: Props) {
                         <section>
                             <h2 className="text-2xl font-semibold text-white flex items-center gap-3 mb-6">
                                 <span className="w-8 h-[1px] bg-indigo-500"></span>
-                                Common Dreams
+                                {t_page('commonDreamsTitle')}
                             </h2>
                             <ul className="grid gap-4">
                                 {content.commonScenarios.map((scenario, i) => (

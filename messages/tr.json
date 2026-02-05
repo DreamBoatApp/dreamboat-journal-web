@@ -17,6 +17,12 @@
         "dictionary": "Rüya Tabirleri",
         "blog": "Blog"
     },
+    "MeaningPage": {
+        "dictionaryTag": "Rüya Sözlüğü",
+        "symbolismTitle": "Sembolizm ve Anlamı",
+        "cosmicConnectionTitle": "Kozmik Bağlantı",
+        "commonDreamsTitle": "Yaygın Rüyalar"
+    },
     "Common": {
         "moonPhaseTitle": "Şu Anki Ay Evresi",
         "moonPhaseDesc": "Rüyalarınız ay döngüsünden etkilenir.",
