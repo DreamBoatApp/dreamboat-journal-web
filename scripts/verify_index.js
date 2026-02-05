@@ -8,6 +8,13 @@ const indexedSlugs = new Set(Object.values(keywordIndex));
 // Define recent batches to verify (Batch 11-15)
 const batchSlugs = [
 
+    // Batch 17 (100 items)
+    'giraffe', 'zebra', 'crocodile', 'turtle', 'frog', 'snail', 'hedgehog', 'shark', 'octopus', 'crab', 'jellyfish', 'penguin', 'seal', 'seagull', 'stork', 'deer', 'camel', 'donkey', 'goat', 'squirrel',
+    'bread', 'milk', 'wine', 'chocolate', 'cake', 'ice-cream', 'soup', 'rice', 'pasta', 'pizza', 'hamburger', 'beer', 'sugar', 'flour', 'cheese', 'olive', 'tomato', 'potato', 'onion', 'garlic',
+    'lunar-eclipse', 'solar-eclipse', 'comet', 'black-hole', 'spaceship', 'northern-lights', 'hurricane', 'tornado', 'avalanche', 'tsunami', 'crater', 'beach', 'meteor', 'flower-garden', 'rose', 'tulip', 'daisy', 'cactus', 'tree-roots', 'leaf',
+    'diving', 'drowning', 'escaping', 'chased', 'hiding', 'searching', 'finding', 'losing', 'stealing', 'giving', 'receiving', 'selling', 'buying', 'writing', 'reading', 'painting', 'repairing', 'waiting', 'waking-up', 'praying',
+    'fear', 'joy', 'anger', 'jealousy', 'shame', 'pride', 'love', 'hate', 'longing', 'loneliness', 'success', 'failure', 'wealth', 'poverty', 'sickness', 'healing', 'accident', 'luck', 'heaven', 'hell',
+
     // Batch 16 (100 items)
     'farmer', 'chef', 'pilot', 'actor', 'prisoner', 'teenager', 'twins', 'orphan', 'mermaid', 'unicorn',
     'fairy', 'dragon', 'phoenix', 'werewolf', 'alien', 'giant', 'puppet', 'robot', 'spirit', 'piano',
