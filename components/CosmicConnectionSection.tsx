@@ -64,44 +64,54 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
     };
 
     return (
-        <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20 relative overflow-hidden">
-            <h2 className="text-2xl font-bold mb-4 flex flex-wrap items-center gap-2 text-amber-300">
-                {title} <span className="text-indigo-200 font-normal text-base md:text-lg">({t('moonPhasePrefix')}{t(`phases.${phase}`)} {getPhaseIcon()})</span>
-            </h2>
+        <section className="mb-12 relative group rounded-2xl overflow-hidden border border-white/5 bg-[#030014]">
+            {/* Ambient Glow */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/10 rounded-full blur-[100px] pointer-events-none"></div>
 
-            <div className="relative">
-                <p className="text-indigo-100/90 italic leading-relaxed whitespace-pre-line text-lg">
-                    "{analysisText}"
-                </p>
+            <div className="relative p-6 md:p-8">
+                <h2 className="text-2xl font-bold mb-6 flex flex-wrap items-center gap-3 text-amber-300 relative z-10">
+                    {title} <span className="text-amber-200/60 text-lg font-normal">({t('moonPhasePrefix')}{t(`phases.${phase}`)} {getPhaseIcon()})</span>
+                </h2>
 
-                {/* Blur Overlay & CTA */}
-                <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#030014] to-transparent flex items-end justify-center pb-0">
-                    {/* Gradient covers text, buttons below */}
-                </div>
-            </div>
+                <div className="relative">
+                    {/* Text Content - Rendered fully but masked */}
+                    {/* We add fake extra text to better demonstrate the fade effect if analysis is short */}
+                    <p className="text-slate-300 italic leading-loose text-lg whitespace-pre-line pb-4 opacity-90">
+                        "{analysisText}
+                        {'\n\n'}
+                        Bu evrede rüyalarınızın size fısıldadığı sırlar, sadece bilinçaltınızın derinliklerinde değil, aynı zamanda kozmik bir hizalanmanın da işaretidir. Ay'ın bu konumu, içsel rehberliğinizin en güçlü olduğu..."
+                    </p>
 
-            {/* Gated Content CTA */}
-            <div className="mt-4 p-6 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md text-center max-w-md mx-auto relative z-10">
-                <p className="text-indigo-100 font-medium mb-4">
-                    {t('blurCTA')}
-                </p>
-                <div className="flex flex-row gap-3 justify-center">
-                    <a
-                        href="https://apps.apple.com/app/id6739992078"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-8 py-2.5 bg-white text-indigo-950 rounded-full text-sm font-bold hover:bg-indigo-50 transition-all shadow-lg shadow-white/10"
-                    >
-                        {t('downloadIOS')}
-                    </a>
-                    <a
-                        href="https://play.google.com/store/apps/details?id=com.dreamboat.journal"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="px-8 py-2.5 border border-white/30 bg-transparent text-white rounded-full text-sm font-bold hover:bg-white/10 transition-all"
-                    >
-                        {t('downloadAndroid')}
-                    </a>
+                    {/* Seamless Fade Out Overlay */}
+                    {/* Uses the exact page background color #030014 for seamless blend */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#030014] via-[#030014]/90 to-transparent z-20 flex flex-col items-center justify-end pb-8">
+
+                        {/* CTA Container - Floating in the fade */}
+                        <div className="text-center transform translate-y-2">
+                            <p className="text-indigo-200 font-medium mb-6 px-4 drop-shadow-lg text-lg">
+                                {t('blurCTA')}
+                            </p>
+
+                            <div className="flex flex-row gap-4 justify-center">
+                                <a
+                                    href="https://apps.apple.com/app/id6739992078"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-8 py-3 bg-white text-indigo-950 rounded-full text-sm font-bold hover:bg-gray-100 transition-all shadow-xl hover:shadow-white/20 hover:-translate-y-0.5"
+                                >
+                                    {t('downloadIOS')}
+                                </a>
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=com.dreamboat.journal"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="px-8 py-3 bg-white/10 border border-white/20 text-white rounded-full text-sm font-bold hover:bg-white/20 transition-all backdrop-blur-md shadow-xl hover:-translate-y-0.5"
+                                >
+                                    {t('downloadAndroid')}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
