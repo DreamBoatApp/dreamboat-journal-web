@@ -129,9 +129,19 @@ const keywordIndex = {
     'kasırga': 'tornado',
     'şimşek': 'lightning', // Added explicit mapping
     'yıldırım': 'lightning',
-    'volkan': 'volcano',
-    'mağara': 'cave',
-    'labirent': 'labyrinth',
+    'bıçak': 'knife',
+    'silah': 'weapon', // Custom file
+    'tabanca': 'weapon',
+    'tüfek': 'weapon',
+    'yara': 'wound',
+    'kanat': 'wings', // Custom file
+    'melek': 'angel',
+    'şeytan': 'demon',
+    'vampir': 'vampire',
+    'zombi': 'zombie',
+    'cadı': 'witch',
+    'büyücü': 'wizard',
+    'koşmak': 'running',
 };
 
 // Add English keywords (symbol names and associations from dictionary)
