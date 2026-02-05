@@ -2,10 +2,11 @@ import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 
 type Props = {
-    params: { locale: string };
+    params: Promise<{ locale: string }>;
 };
 
-export default async function HomePage({ params: { locale } }: Props) {
+export default async function HomePage({ params }: Props) {
+    const { locale } = await params;
     const t = await getTranslations('HomePage');
 
     return (

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import keywordIndex from '@/scripts/data/keyword_index';
 
 type Props = {
-    params: { locale: string };
-    searchParams: { q?: string };
+    params: Promise<{ locale: string }>;
+    searchParams: Promise<{ q?: string }>;
 };
 
 // Extract keywords from search query
@@ -35,9 +35,9 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
     return matches;
 }
 
-export default function SearchPage({ params, searchParams }: Props) {
-    const query = searchParams.q || '';
-    const { locale } = params;
+export default async function SearchPage({ params, searchParams }: Props) {
+    const { locale } = await params;
+    const { q: query = '' } = await searchParams;
 
     if (!query) {
         // No query, redirect to home
