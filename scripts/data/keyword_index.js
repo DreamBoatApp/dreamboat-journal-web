@@ -62,6 +62,25 @@ const keywordIndex = {
     'fırtına': 'storm',
     'simsek': 'lightning',
     'kar': 'snow',
+    'mezar': 'grave', // Custom file
+    'mezarlık': 'grave',
+    'tabut': 'coffin', // Custom file
+    'cenaze': 'funeral', // Custom file
+    'ölüm': 'dead-person', // Custom file
+    'ölü': 'dead-person',
+    'ceset': 'dead-person',
+    'hayalet': 'ghost',
+    'öldürmek': 'killing', // Custom file
+    'cinayet': 'killing',
+    'katil': 'killing',
+    'gelinlik': 'wedding-dress', // Custom file
+    'gelin': 'wedding-dress',
+    'düğün': 'wedding',
+    'evlilik': 'wedding',
+    'hamile': 'pregnancy',
+    'gebe': 'pregnancy',
+    'bebek': 'baby',
+    'doğum': 'baby',
     'wc': 'toilet', // Requested alias
     'tuvalet': 'toilet',
     'klozet': 'toilet',
