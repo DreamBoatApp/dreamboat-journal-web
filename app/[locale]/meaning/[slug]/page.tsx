@@ -191,11 +191,8 @@ export default async function MeaningPage({ params }: Props) {
                         analysisText={t.cosmicAnalysis}
                     />
 
-                    {/* Inline CTA */}
-                    <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
-
                     {/* Common Scenarios */}
-                    <section>
+                    <section className="mb-12">
                         <h2 className="text-2xl font-semibold text-white flex items-center gap-3 mb-6">
                             <span className="w-8 h-[1px] bg-indigo-500"></span>
                             {t_page('commonDreamsTitle')}
@@ -209,8 +206,10 @@ export default async function MeaningPage({ params }: Props) {
                             ))}
                         </ul>
                     </section>
-                </article>
 
+                    {/* Inline CTA (About DreamBoat) - Moved to bottom */}
+                    <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
+                </article>
             </main>
         </div>
     );

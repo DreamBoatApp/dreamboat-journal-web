@@ -18,10 +18,9 @@
         "blog": "Blog"
     },
     "InlineCTA": {
-        "eyebrow": "KİŞİSEL RÜYA ANALİZİ",
-        "title": "<strong>{symbol}</strong> ile ilgili rüyanızın size özel anlamını merak ediyor musunuz?",
-        "description": "Evrensel anlamlar sadece başlangıçtır. <strong>Dream Boat AI</strong>, bu sembolde gizli kişisel mesajı bulmak için benzersiz duygularınızı ve bağlamınızı analiz eder.",
-        "button": "\"{symbol}\" Analizi Yap"
+        "title": "DreamBoat Nedir?",
+        "description": "Farklı kaynaklardan rüya yorumu aramaya son verin. DreamBoat, rüyalarınızı duygularınızla birlikte kaydedip gelişmiş yapay zeka modelleriyle yorumlayan kişisel yardımcınızdır.\n\nRüyalarınızı birer sanat tablosuna dönüştürebilir, bu eserleri arka plan yapabilir veya sevdiklerinizle paylaşabilirsiniz. Ayrıca rüyalarınızı favorileyebilir, geçmiş rüyalarınızda arama yapabilir ve aylık duygu değişimlerinizi takip edebilirsiniz.\n\nHaftalık ve aylık analizlerle öne çıkan temaları keşfederken, rüyayı gördüğünüz andaki Ay evrelerinin ve kozmik olayların üzerinizdeki etkilerini de anlayabilirsiniz.",
+        "button": ""
     },
     "MeaningPage": {
         "dictionaryTag": "Rüya Sözlüğü",
