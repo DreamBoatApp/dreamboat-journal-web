@@ -26,7 +26,7 @@ export default async function HomePage({ params: { locale } }: Props) {
                 </p>
 
                 {/* Premium Search Bar */}
-                <form action={`/${locale}/dictionary/a`} className="w-full max-w-lg mt-8 relative group">
+                <form action={`/${locale}/search`} className="w-full max-w-lg mt-8 relative group">
                     <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-pink-600 rounded-full opacity-30 group-hover:opacity-70 blur transition duration-500"></div>
                     <input
                         name="q"
