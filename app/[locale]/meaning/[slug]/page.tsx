@@ -1,10 +1,11 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import MoonPhaseWidget from '@/components/MoonPhaseWidget';
 import InlineCTA from '@/components/InlineCTA';
 import dictionary from '@/scripts/data/source_dictionary';
+import aliasMap from '@/scripts/data/alias_map';
 
 // --- Types ---
 type Props = {
@@ -95,7 +96,15 @@ export async function generateMetadata({ params }: Props) {
 export default function MeaningPage({ params }: Props) {
     const content = getContent(params.locale, params.slug);
 
-    if (!content) notFound();
+    // If no direct content, check if slug is an alias (e.g., "viper" -> "snake")
+    if (!content) {
+        const mainSlug = (aliasMap as Record<string, string>)[params.slug];
+        if (mainSlug) {
+            // Redirect to the main symbol page
+            redirect(`/${params.locale}/meaning/${mainSlug}`);
+        }
+        notFound();
+    }
 
     // Helper to fix capitalization title (e.g. SNAKE -> Snake)
     // This is a purely visual fix.
