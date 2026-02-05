@@ -16,7 +16,7 @@ function extractKeywords(query: string): string[] {
         .trim();
 
     // Split into words
-    return normalized.split(' ').filter(word => word.length > 2);
+    return normalized.split(' ').filter(word => word.length >= 2);
 }
 
 // Find matching symbols from keywords
