@@ -18,7 +18,7 @@ export default async function HomePage({ params: { locale } }: Props) {
 
                 {/* Hero Text */}
                 <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-lg">
-                    {t('title')} <span className="text-xs text-red-500 font-bold">V3.1</span>
+                    {t('title')} <span className="text-xs text-green-500 font-bold">V3.2</span>
                 </h1>
 
                 <p className="text-xl md:text-2xl text-slate-300 max-w-2xl font-light tracking-wide leading-relaxed">
