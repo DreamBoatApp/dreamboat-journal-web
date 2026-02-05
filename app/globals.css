@@ -3,18 +3,62 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary-glow: var(--primary-glow);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 :root {
-  /* Default to Dark Mode inspired colors */
-  --background: #020617; 
-  --foreground: #e2e8f0;
+  /* Cosmic Void Palette */
+  --background: #030014;
+  /* Deepest Void Blue/Black */
+  --foreground: #F8FAFC;
+  /* Slate 50 */
+  --primary-glow: #A855F7;
+  /* Purple 500 */
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Nebula Background Effect */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at 50% 0%, rgba(88, 28, 135, 0.15) 0%, transparent 50%),
+    /* Top Purple Mist */
+    radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.05) 0%, transparent 30%);
+  /* Subtle Blue Star-stuff */
+  z-index: -1;
+  pointer-events: none;
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  @apply bg-slate-900/40 backdrop-blur-xl border border-white/5 shadow-2xl;
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}
+
+.btn-nebula {
+  @apply relative px-8 py-3 rounded-full text-white font-medium transition-all duration-300;
+  background: linear-gradient(135deg, #7C3AED 0%, #DB2777 100%);
+  /* Violet to Pink */
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.3);
+}
+
+.btn-nebula:hover {
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.5);
+  transform: translateY(-1px);
 }
