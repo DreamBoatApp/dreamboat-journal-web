@@ -14,6 +14,10 @@
         "moonPhaseTitle": "Fase Lunar Actual",
         "moonPhaseDesc": "Tus sueños están influenciados por el ciclo lunar.",
         "downloadIOS": "Descargar en iOS",
-        "downloadAndroid": "Descargar en Android"
+        "downloadAndroid": "Descargar en Android",
+        "bannerSymbolCopy": "Descubre el significado personal de \"{symbol}\" en tu sueño.",
+        "bannerDefaultCopy": "Descubre el verdadero significado de tus sueños.",
+        "openInApp": "Abrir en App",
+        "scanToDownload": "Escanea con tu teléfono"
     }
 }

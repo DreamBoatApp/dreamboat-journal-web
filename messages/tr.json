@@ -14,6 +14,10 @@
         "moonPhaseTitle": "Şu Anki Ay Evresi",
         "moonPhaseDesc": "Rüyalarınız ay döngüsünden etkilenir.",
         "downloadIOS": "iOS İndir",
-        "downloadAndroid": "Android İndir"
+        "downloadAndroid": "Android İndir",
+        "bannerSymbolCopy": "Rüyadaki \"{symbol}\" sembolünün senin için özel anlamını öğren.",
+        "bannerDefaultCopy": "Rüyalarının gerçek anlamını keşfet.",
+        "openInApp": "Uygulamada Aç",
+        "scanToDownload": "Telefonunuzla tarayın"
     }
 }

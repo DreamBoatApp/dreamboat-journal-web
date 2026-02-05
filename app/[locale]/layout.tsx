@@ -5,7 +5,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
-import AppStoreBanner from '@/components/AppStoreBanner';
+import SmartBanner from '@/components/SmartBanner';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +38,7 @@ export default async function RootLayout({
             <body className={`${inter.className} bg-slate-950 text-slate-200 antialiased`}>
                 <NextIntlClientProvider messages={messages}>
                     {children}
-                    <AppStoreBanner />
+                    <SmartBanner />
                 </NextIntlClientProvider>
             </body>
         </html>

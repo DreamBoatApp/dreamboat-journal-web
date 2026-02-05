@@ -9,5 +9,15 @@
     "home": "Home",
     "dictionary": "Dictionary",
     "blog": "Blog"
+  },
+  "Common": {
+    "moonPhaseTitle": "Current Moon Phase",
+    "moonPhaseDesc": "Your dreams are influenced by the moon cycle.",
+    "downloadIOS": "Download iOS",
+    "downloadAndroid": "Download Android",
+    "bannerSymbolCopy": "Discover the personal meaning of \"{symbol}\" in your dream.",
+    "bannerDefaultCopy": "Discover the true meaning of your dreams.",
+    "openInApp": "Open in App",
+    "scanToDownload": "Scan with your phone"
   }
 }

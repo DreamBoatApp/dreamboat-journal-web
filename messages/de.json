@@ -14,6 +14,10 @@
         "moonPhaseTitle": "Aktuelle Mondphase",
         "moonPhaseDesc": "Ihre Träume werden vom Mondzyklus beeinflusst.",
         "downloadIOS": "Laden Sie iOS",
-        "downloadAndroid": "Laden Sie Android"
+        "downloadAndroid": "Laden Sie Android",
+        "bannerSymbolCopy": "Entdecken Sie die persönliche Bedeutung von \"{symbol}\" in Ihrem Traum.",
+        "bannerDefaultCopy": "Entdecken Sie die wahre Bedeutung Ihrer Träume.",
+        "openInApp": "In App öffnen",
+        "scanToDownload": "Mit dem Handy scannen"
     }
 }
