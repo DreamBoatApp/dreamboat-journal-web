@@ -73,7 +73,8 @@ export async function generateStaticParams() {
 
 // --- METADATA ---
 export async function generateMetadata({ params }: Props) {
-    const content = getContent(params.locale, params.slug);
+    const { locale, slug } = await params;
+    const content = getContent(locale, slug);
 
     if (!content) return { title: 'Not Found' };
 
@@ -82,32 +83,34 @@ export async function generateMetadata({ params }: Props) {
         description: content.seoDescription,
         alternates: {
             languages: {
-                'en': `/en/meaning/${params.slug}`,
-                'tr': `/tr/meaning/${params.slug}`,
-                'de': `/de/meaning/${params.slug}`,
-                'es': `/es/meaning/${params.slug}`,
-                'pt': `/pt/meaning/${params.slug}`,
+                'en': `/en/meaning/${slug}`,
+                'tr': `/tr/meaning/${slug}`,
+                'de': `/de/meaning/${slug}`,
+                'es': `/es/meaning/${slug}`,
+                'pt': `/pt/meaning/${slug}`,
             }
         }
     };
 }
 
 // --- PAGE COMPONENT ---
-export default function MeaningPage({ params }: Props) {
-    const content = getContent(params.locale, params.slug);
+export default async function MeaningPage({ params }: Props) {
+    const { locale, slug } = await params;
+    const content = getContent(locale, slug);
 
     // If no direct content, check if slug is an alias (e.g., "viper" -> "snake")
     if (!content) {
-        const mainSlug = (aliasMap as Record<string, string>)[params.slug];
+        const mainSlug = (aliasMap as Record<string, string>)[slug];
         if (mainSlug) {
             // Redirect to the main symbol page
-            redirect(`/${params.locale}/meaning/${mainSlug}`);
+            redirect(`/${locale}/meaning/${mainSlug}`);
         }
         notFound();
     }
 
+    const t = content!; // Content is guaranteed here
+
     // Helper to fix capitalization title (e.g. SNAKE -> Snake)
-    // This is a purely visual fix.
     const fixCaps = (text: string) => {
         return text.replace(/\b([A-Z]{2,})\b/g, (match) => {
             return match.charAt(0).toUpperCase() + match.slice(1).toLowerCase();
@@ -115,29 +118,24 @@ export default function MeaningPage({ params }: Props) {
     };
 
     return (
-        <div className="min-h-screen bg-[#030014] text-white selection:bg-indigo-500/30">
-
-            {/* Background Ambience */}
+        <div className="min-h-screen bg-[#030014] text-white font-sans selection:bg-purple-500/30">
+            {/* Background Effects */}
             <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
-                <div className="absolute -top-[20%] -left-[10%] w-[70vw] h-[70vw] rounded-full bg-purple-900/20 blur-[120px] mix-blend-screen animate-pulse-slow"></div>
-                <div className="absolute top-[40%] -right-[10%] w-[60vw] h-[60vw] rounded-full bg-indigo-900/10 blur-[100px] mix-blend-screen"></div>
+                <div className="absolute top-0 left-0 w-full h-[500px] bg-gradient-to-b from-purple-900/20 to-transparent"></div>
+                <div className="absolute top-[10%] right-[10%] w-[500px] h-[500px] rounded-full bg-indigo-600/10 blur-[100px] animate-pulse"></div>
             </div>
 
+            {/* JSON-LD Schema */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify({
                         '@context': 'https://schema.org',
                         '@type': 'Article',
-                        headline: content.title,
-                        description: content.seoDescription,
-                        image: 'https://dreamboatjournal.com/og-image.jpg', // Placeholder
+                        headline: t.title,
+                        description: t.seoDescription,
+                        image: 'https://dreamboatjournal.com/og-image.jpg',
                         author: {
-                            '@type': 'Organization',
-                            name: 'Dream Boat Team',
-                            url: 'https://dreamboatjournal.com'
-                        },
-                        publisher: {
                             '@type': 'Organization',
                             name: 'Dream Boat Journal',
                             logo: {
@@ -152,55 +150,54 @@ export default function MeaningPage({ params }: Props) {
 
             <main className="relative z-10 container mx-auto px-4 py-12 md:py-24 max-w-4xl">
 
-                {/* Breadcrumb */}
-                <nav className="mb-8 flex items-center gap-2 text-sm text-indigo-300/60 font-mono tracking-wide">
-                    <Link href={`/${params.locale}`} className="hover:text-white transition-colors">HOME</Link>
-                    <span>/</span>
-                    <Link href={`/${params.locale}/dictionary`} className="hover:text-white transition-colors">DICTIONARY</Link>
-                    <span>/</span>
-                    <span className="text-indigo-400">{params.slug.toUpperCase()}</span>
-                </nav>
-
-                {/* Hero Section */}
-                <header className="mb-12">
-                    <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-indigo-100 to-purple-200 leading-tight mb-6">
-                        {fixCaps(content.title)}
+                {/* Header */}
+                <header className="mb-12 text-center relative">
+                    <div className="inline-block mb-4 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium tracking-wider text-purple-300 uppercase">
+                        Dream Dictionary
+                    </div>
+                    <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-100 to-indigo-200 mb-6 drop-shadow-lg">
+                        {t.title}
                     </h1>
-                    <p className="text-lg md:text-xl text-indigo-100/80 leading-relaxed border-l-4 border-indigo-500 pl-6 italic">
-                        {fixCaps(content.introduction)}
-                    </p>
+                    <div className="w-24 h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full"></div>
                 </header>
 
-                {/* Content Grid */}
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+                <div className="grid md:grid-cols-[1fr_300px] gap-12">
 
-                    {/* Main Article Area */}
-                    <article className="lg:col-span-2 space-y-12">
+                    {/* Main Content */}
+                    <article className="prose prose-invert prose-lg max-w-none">
 
-                        {/* Symbolism */}
-                        <section className="prose prose-invert prose-indigo max-w-none">
-                            <h2 className="text-2xl font-semibold text-white flex items-center gap-3">
-                                <span className="w-8 h-[1px] bg-indigo-500"></span>
-                                Symbolism & Archetypes
+                        {/* Introduction */}
+                        <div className="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm mb-8 shadow-xl">
+                            <p className="text-lg leading-relaxed text-slate-200">
+                                {t.introduction}
+                            </p>
+                        </div>
+
+                        {/* Moon Phase Widget (Contextual) */}
+                        <MoonPhaseWidget />
+
+                        {/* Symbolism Deep Dive */}
+                        <section className="mb-12">
+                            <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-indigo-300">
+                                <span className="text-2xl">🔮</span> Symbolism & Meaning
                             </h2>
-                            <div className="whitespace-pre-line text-gray-300 leading-relaxed">
-                                {fixCaps(content.symbolism)}
+                            <div className="prose-p:text-slate-300">
+                                <p className="whitespace-pre-line">{t.symbolism}</p>
                             </div>
                         </section>
 
-                        {/* Cosmic Analysis */}
-                        <section className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-indigo-900/30 to-purple-900/10 border border-indigo-500/20 p-8">
-                            <div className="absolute top-0 right-0 p-4 opacity-10">
-                                <svg className="w-32 h-32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" /></svg>
-                            </div>
-                            <h2 className="text-xl font-semibold text-indigo-200 mb-4">✨ Cosmic Connection</h2>
-                            <p className="text-gray-300 leading-relaxed">
-                                {fixCaps(content.cosmicAnalysis)}
+                        {/* Cosmic Connection */}
+                        <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20">
+                            <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-amber-300">
+                                <span className="text-2xl">🌙</span> Cosmic Connection
+                            </h2>
+                            <p className="text-slate-300 italic">
+                                "{t.cosmicAnalysis}"
                             </p>
                         </section>
 
                         {/* Inline CTA */}
-                        <InlineCTA symbol={content.title.split(' ').pop() || params.slug} />
+                        <InlineCTA symbol={t.title.split(' ').pop() || slug} />
 
                         {/* Common Scenarios */}
                         <section>
