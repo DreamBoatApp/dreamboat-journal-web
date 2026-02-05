@@ -19,8 +19,8 @@
     },
     "InlineCTA": {
         "eyebrow": "KİŞİSEL RÜYA ANALİZİ",
-        "title": "**{symbol}** ile ilgili rüyanızın size özel anlamını merak ediyor musunuz?",
-        "description": "Evrensel anlamlar sadece başlangıçtır. **Dream Boat AI**, bu sembolde gizli kişisel mesajı bulmak için benzersiz duygularınızı ve bağlamınızı analiz eder.",
+        "title": "<strong>{symbol}</strong> ile ilgili rüyanızın size özel anlamını merak ediyor musunuz?",
+        "description": "Evrensel anlamlar sadece başlangıçtır. <strong>Dream Boat AI</strong>, bu sembolde gizli kişisel mesajı bulmak için benzersiz duygularınızı ve bağlamınızı analiz eder.",
         "button": "\"{symbol}\" Analizi Yap"
     },
     "MeaningPage": {
