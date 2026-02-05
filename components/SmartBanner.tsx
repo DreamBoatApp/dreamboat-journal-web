@@ -60,9 +60,11 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                     <div className="flex items-center gap-3">
                         {/* App Icon */}
                         <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-xl border border-white/10 shadow-lg">
-                            <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-2xl">
-                                ⛵
-                            </div>
+                            <img
+                                src="/images/app_icon.png"
+                                alt="Dream Boat"
+                                className="w-full h-full object-cover"
+                            />
                         </div>
 
                         {/* Text */}
@@ -100,9 +102,11 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                 {/* Header */}
                 <div className="flex items-center gap-3 mb-3">
                     <div className="relative h-10 w-10 shrink-0 overflow-hidden rounded-xl border border-white/10">
-                        <div className="absolute inset-0 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-lg">
-                            ⛵
-                        </div>
+                        <img
+                            src="/images/app_icon.png"
+                            alt="Dream Boat"
+                            className="w-full h-full object-cover"
+                        />
                     </div>
                     <div>
                         <h4 className="font-semibold text-white text-sm">Dream Boat</h4>
