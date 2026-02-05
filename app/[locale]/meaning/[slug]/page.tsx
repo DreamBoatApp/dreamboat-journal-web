@@ -182,11 +182,15 @@ export default async function MeaningPage({ params }: Props) {
                         </h2>
                         <div className="text-lg leading-relaxed font-light text-slate-200">
                             <p className="whitespace-pre-line">
-                                {t.symbolism.split(/(\*\*.*?\*\*)/g).map((part, i) =>
-                                    part.startsWith('**') && part.endsWith('**')
-                                        ? <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>
-                                        : part
-                                )}
+                                {t.symbolism.split(/(\*\*.*?\*\*|\*[^*]+?\*)/g).map((part, i) => {
+                                    if (part.startsWith('**') && part.endsWith('**')) {
+                                        return <strong key={i} className="text-white font-semibold">{part.slice(2, -2)}</strong>;
+                                    }
+                                    if (part.startsWith('*') && part.endsWith('*')) {
+                                        return <em key={i} className="text-indigo-200 italic">{part.slice(1, -1)}</em>;
+                                    }
+                                    return part;
+                                })}
                             </p>
                         </div>
                     </section>
