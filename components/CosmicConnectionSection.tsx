@@ -64,43 +64,43 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
     };
 
     return (
-        <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20 relative overflow-hidden">
-            <h2 className="text-2xl font-bold mb-4 flex flex-wrap items-center gap-2 text-amber-300">
-                {title} <span className="text-amber-200/80 text-lg font-normal">({t(`phases.${phase}`)} {getPhaseIcon()})</span>
+        <section className="mb-12 p-6 rounded-xl bg-indigo-950/60 border border-purple-500/20 relative overflow-hidden shadow-2xl shadow-indigo-900/20">
+            <h2 className="text-xl md:text-2xl font-bold mb-4 flex flex-wrap items-center gap-2 text-white">
+                {title} <span className="text-indigo-200 font-normal text-base md:text-lg">({t('moonPhasePrefix')}{t(`phases.${phase}`)} {getPhaseIcon()})</span>
             </h2>
 
             <div className="relative">
-                <p className="text-slate-300 italic leading-relaxed whitespace-pre-line">
+                <p className="text-indigo-100/90 italic leading-relaxed whitespace-pre-line text-lg">
                     "{analysisText}"
                 </p>
 
                 {/* Blur Overlay & CTA */}
-                <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#0e0c1f] to-transparent flex items-end justify-center pb-0">
+                <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#030014] to-transparent flex items-end justify-center pb-0">
                     {/* Gradient covers text, buttons below */}
                 </div>
             </div>
 
             {/* Gated Content CTA */}
-            <div className="mt-6 p-6 rounded-xl bg-indigo-600/20 border border-indigo-500/30 backdrop-blur-sm text-center">
-                <p className="text-white font-medium mb-4">
+            <div className="mt-4 p-6 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md text-center max-w-md mx-auto relative z-10">
+                <p className="text-indigo-100 font-medium mb-4">
                     {t('blurCTA')}
                 </p>
-                <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <div className="flex flex-row gap-3 justify-center">
                     <a
                         href="https://apps.apple.com/app/id6739992078"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-6 py-2 bg-white text-indigo-900 rounded-lg font-bold hover:bg-indigo-50 transition-colors flex items-center justify-center gap-2"
+                        className="px-8 py-2.5 bg-white text-indigo-950 rounded-full text-sm font-bold hover:bg-indigo-50 transition-all shadow-lg shadow-white/10"
                     >
-                        🍎 iOS İndir
+                        {t('downloadIOS')}
                     </a>
                     <a
                         href="https://play.google.com/store/apps/details?id=com.dreamboat.journal"
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="px-6 py-2 border border-white/20 bg-transparent text-white rounded-lg font-bold hover:bg-white/10 transition-colors flex items-center justify-center gap-2"
+                        className="px-8 py-2.5 border border-white/30 bg-transparent text-white rounded-full text-sm font-bold hover:bg-white/10 transition-all"
                     >
-                        🤖 Android İndir
+                        {t('downloadAndroid')}
                     </a>
                 </div>
             </div>

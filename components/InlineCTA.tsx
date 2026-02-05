@@ -19,9 +19,6 @@ export default function InlineCTA({ symbol }: Props) {
             <div className="absolute top-0 right-0 w-32 h-32 bg-indigo-500/10 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2 group-hover:bg-indigo-500/20 transition-all duration-700"></div>
 
             <div className="relative z-10">
-                <p className="text-indigo-200 uppercase tracking-widest text-xs font-bold mb-3">
-                    {t('eyebrow')}
-                </p>
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
                     {t.rich('title', {
                         symbol: formattedSymbol,
