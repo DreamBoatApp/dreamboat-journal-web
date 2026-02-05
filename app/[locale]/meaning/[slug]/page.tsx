@@ -56,8 +56,8 @@ export async function generateStaticParams() {
     // Simple helper matching the script's logic
     const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
 
-    // DEBUG: Limit to 10 pages to unblock Vercel build
-    const limitedKeys = keys.slice(0, 10);
+    // DEBUG: Limit removed - Generate ALL pages
+    const limitedKeys = keys; // keys.slice(0, 10);
 
     for (const locale of locales) {
         for (const key of limitedKeys) {
