@@ -26,6 +26,7 @@ const keywordIndex = {
     'okyanus': 'ocean',
     'örümcek': 'spider',
     'köpek': 'dog',
+    'köpeğ': 'dog', // Handle "köpeğim" (consonant softening)
     'kedi': 'cat',
     'bebek': 'baby',
     'ev': 'house',

@@ -23,11 +23,33 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
     const matches: { keyword: string; slug: string }[] = [];
     const seenSlugs = new Set<string>();
 
+    const indexKeys = Object.keys(index);
+
     for (const keyword of keywords) {
-        const slug = index[keyword];
-        if (slug && !seenSlugs.has(slug)) {
-            matches.push({ keyword, slug });
-            seenSlugs.add(slug);
+        // 1. Direct Match (Fast & Exact)
+        const exactSlug = index[keyword];
+        if (exactSlug) {
+            if (!seenSlugs.has(exactSlug)) {
+                matches.push({ keyword, slug: exactSlug });
+                seenSlugs.add(exactSlug);
+            }
+            continue;
+        }
+
+        // 2. Prefix Match (Agglutinative Support - e.g. "okulda" -> matches "okul")
+        // We look for the longest key in the index that is a prefix of the user's keyword.
+        // Limit: Key must be at least 3 chars long to avoid false positives (e.g. "is" inside "island").
+        const prefixMatch = indexKeys
+            .filter(k => k.length >= 3 && keyword.startsWith(k))
+            .sort((a, b) => b.length - a.length)[0]; // Sort by length desc to get "longest" root
+
+        if (prefixMatch) {
+            const slug = index[prefixMatch];
+            if (!seenSlugs.has(slug)) {
+                // Show the matched root (e.g. "okul") as the keyword found
+                matches.push({ keyword: prefixMatch, slug });
+                seenSlugs.add(slug);
+            }
         }
     }
     return matches;
