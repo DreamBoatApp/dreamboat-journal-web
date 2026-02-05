@@ -24,6 +24,7 @@ type ArticleContent = {
     cosmicAnalysis: string;
     commonScenarios: string[];
     cta: string;
+    localizedName?: string;
 };
 
 // --- DATA FETCHING ---
@@ -196,7 +197,7 @@ export default async function MeaningPage({ params }: Props) {
                         </section>
 
                         {/* Inline CTA */}
-                        <InlineCTA symbol={t.title.split(' ').pop() || slug} />
+                        <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
 
                         {/* Common Scenarios */}
                         <section>
@@ -220,17 +221,6 @@ export default async function MeaningPage({ params }: Props) {
                     <aside className="space-y-8">
                         {/* Moon Phase Widget */}
                         <MoonPhaseWidget />
-
-                        {/* CTA Box */}
-                        <div className="rounded-2xl bg-indigo-600 p-6 text-center shadow-lg shadow-indigo-900/50">
-                            <h3 className="text-xl font-bold text-white mb-2">Dive Deeper</h3>
-                            <p className="text-indigo-100 text-sm mb-4">
-                                Get a personalized interpretation of your dream using our AI engine.
-                            </p>
-                            <a href="https://onelink.to/dreamboat" className="block w-full py-3 bg-white text-indigo-700 font-bold rounded-lg hover:bg-indigo-50 transition-colors">
-                                Launch Dream Boat
-                            </a>
-                        </div>
                     </aside>
 
                 </div>
