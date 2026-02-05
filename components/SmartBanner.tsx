@@ -143,7 +143,7 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                         rel="noreferrer"
                         className="flex-1 py-2 bg-white/5 border border-white/10 text-white rounded-lg text-[10px] font-medium text-center hover:bg-white/10 transition-colors"
                     >
-                        🍎 iOS
+                        iOS
                     </a>
                     <a
                         href={PLAY_STORE_URL}
@@ -151,7 +151,7 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                         rel="noreferrer"
                         className="flex-1 py-2 bg-white/5 border border-white/10 text-white rounded-lg text-[10px] font-medium text-center hover:bg-white/10 transition-colors"
                     >
-                        🤖 Android
+                        Android
                     </a>
                 </div>
             </div>
