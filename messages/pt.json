@@ -4,7 +4,13 @@
         "subtitle": "Descubra o significado dos símbolos nos seus sonhos",
         "searchPlaceholder": "O que você sonhou?",
         "popular": "Popular",
-        "cta": "Baixar App"
+        "cta": "Baixar App",
+        "symbols": {
+            "snake": "Cobra",
+            "falling": "Cair",
+            "teeth": "Dentes",
+            "flying": "Voar"
+        }
     },
     "Navigation": {
         "home": "Início",

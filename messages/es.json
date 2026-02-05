@@ -4,7 +4,13 @@
         "subtitle": "Descubre el significado de los símbolos en tus sueños",
         "searchPlaceholder": "¿Qué has soñado?",
         "popular": "Popular",
-        "cta": "Descargar App"
+        "cta": "Descargar App",
+        "symbols": {
+            "snake": "Serpiente",
+            "falling": "Caer",
+            "teeth": "Dientes",
+            "flying": "Volar"
+        }
     },
     "Navigation": {
         "home": "Inicio",

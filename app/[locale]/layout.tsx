@@ -6,7 +6,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import SmartBanner from '@/components/SmartBanner';
-
+import LanguageSelector from '@/components/LanguageSelector';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -37,6 +37,7 @@ export default async function RootLayout({
         <html lang={locale}>
             <body className={`${inter.className} bg-slate-950 text-slate-200 antialiased`}>
                 <NextIntlClientProvider messages={messages}>
+                    <LanguageSelector />
                     {children}
                     <SmartBanner />
                 </NextIntlClientProvider>

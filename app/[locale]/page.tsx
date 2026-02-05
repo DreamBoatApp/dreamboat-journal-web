@@ -39,9 +39,9 @@ export default async function HomePage({ params: { locale } }: Props) {
                 {/* Categories */}
                 <div className="flex flex-wrap justify-center gap-3 text-sm text-indigo-200/70">
                     <span>{t('popular')}:</span>
-                    {['Snake', 'Falling', 'Teeth', 'Flying'].map(s => (
-                        <Link key={s} href={`/meaning/${s.toLowerCase()}`} className="hover:text-white underline decoration-indigo-500/30 hover:decoration-indigo-400 transition-all">
-                            {s}
+                    {(['snake', 'falling', 'teeth', 'flying'] as const).map(slug => (
+                        <Link key={slug} href={`/meaning/${slug}`} className="hover:text-white underline decoration-indigo-500/30 hover:decoration-indigo-400 transition-all">
+                            {t(`symbols.${slug}`)}
                         </Link>
                     ))}
                 </div>

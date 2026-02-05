@@ -4,7 +4,13 @@
     "subtitle": "Discover the meaning of symbols in your dreams",
     "searchPlaceholder": "What did you dream about?",
     "popular": "Popular",
-    "cta": "Download App"
+    "cta": "Download App",
+    "symbols": {
+      "snake": "Snake",
+      "falling": "Falling",
+      "teeth": "Teeth",
+      "flying": "Flying"
+    }
   },
   "Navigation": {
     "home": "Home",

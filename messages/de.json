@@ -4,7 +4,13 @@
         "subtitle": "Entdecken Sie die Bedeutung von Symbolen in Ihren Träumen",
         "searchPlaceholder": "Wovon haben Sie geträumt?",
         "popular": "Beliebt",
-        "cta": "App Herunterladen"
+        "cta": "App Herunterladen",
+        "symbols": {
+            "snake": "Schlange",
+            "falling": "Fallen",
+            "teeth": "Zähne",
+            "flying": "Fliegen"
+        }
     },
     "Navigation": {
         "home": "Startseite",

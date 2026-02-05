@@ -4,7 +4,13 @@
         "subtitle": "Rüyanızdaki sembollerin anlamını keşfedin",
         "searchPlaceholder": "Ne rüya gördünüz?",
         "popular": "Popüler",
-        "cta": "Uygulamayı İndir"
+        "cta": "Uygulamayı İndir",
+        "symbols": {
+            "snake": "Yılan",
+            "falling": "Düşmek",
+            "teeth": "Diş",
+            "flying": "Uçmak"
+        }
     },
     "Navigation": {
         "home": "Anasayfa",
