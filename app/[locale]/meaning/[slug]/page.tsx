@@ -175,13 +175,10 @@ export default async function MeaningPage({ params }: Props) {
                             </p>
                         </div>
 
-                        {/* Moon Phase Widget (Contextual) */}
-                        <MoonPhaseWidget />
-
                         {/* Symbolism Deep Dive */}
                         <section className="mb-12">
                             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-indigo-300">
-                                <span className="text-2xl">🔮</span> {t_page('symbolismTitle')}
+                                {t_page('symbolismTitle')}
                             </h2>
                             <div className="prose-p:text-slate-300">
                                 <p className="whitespace-pre-line">{t.symbolism}</p>
@@ -191,7 +188,7 @@ export default async function MeaningPage({ params }: Props) {
                         {/* Cosmic Connection */}
                         <section className="mb-12 p-6 rounded-xl bg-indigo-950/30 border border-indigo-500/20">
                             <h2 className="text-2xl font-bold mb-4 flex items-center gap-3 text-amber-300">
-                                <span className="text-2xl">🌙</span> {t_page('cosmicConnectionTitle')}
+                                {t_page('cosmicConnectionTitle')}
                             </h2>
                             <p className="text-slate-300 italic">
                                 "{t.cosmicAnalysis}"
