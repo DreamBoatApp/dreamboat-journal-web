@@ -39,8 +39,9 @@
             "Dark": "Karanlık Ay"
         },
         "moonPhaseDesc": "Rüyalarınız ay döngüsünden etkilenir.",
-        "downloadIOS": "iOS İndir",
-        "downloadAndroid": "Android İndir",
+        "moonPhasePrefix": "Rüyanızı Gördüğünüz Ay Evresi: ",
+        "downloadIOS": "iOS",
+        "downloadAndroid": "Android",
         "bannerSymbolCopy": "Rüyadaki \"{symbol}\" sembolünün senin için özel anlamını öğren.",
         "bannerDefaultCopy": "Rüyalarının gerçek anlamını keşfet.",
         "openInApp": "Uygulamada Aç",

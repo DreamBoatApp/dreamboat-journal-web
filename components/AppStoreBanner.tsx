@@ -32,17 +32,17 @@ export default function AppStoreBanner() {
                         href="https://apps.apple.com/app/id6739992078"
                         target="_blank"
                         rel="noreferrer"
-                        className="hidden sm:block px-4 py-2 bg-white text-indigo-950 rounded-lg text-xs font-bold hover:bg-gray-100 transition-colors"
+                        className="px-6 py-2 bg-white text-indigo-950 rounded-full text-xs font-bold hover:bg-indigo-50 transition-colors shadow-lg"
                     >
-                        iOS
+                        {t('downloadIOS')}
                     </a>
                     <a
                         href="https://play.google.com/store/apps/details?id=com.dreamboat.journal"
                         target="_blank"
                         rel="noreferrer"
-                        className="px-4 py-2 bg-indigo-600 text-white rounded-lg text-xs font-bold hover:bg-indigo-500 transition-colors"
+                        className="px-6 py-2 bg-white/10 border border-white/20 text-white rounded-full text-xs font-bold hover:bg-white/20 transition-colors backdrop-blur-sm"
                     >
-                        OPEN APP
+                        {t('downloadAndroid')}
                     </a>
                 </div>
 
