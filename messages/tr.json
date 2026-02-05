@@ -17,6 +17,12 @@
         "dictionary": "Rüya Tabirleri",
         "blog": "Blog"
     },
+    "InlineCTA": {
+        "eyebrow": "KİŞİSEL RÜYA ANALİZİ",
+        "title": "**{symbol}** ile ilgili rüyanızın size özel anlamını merak ediyor musunuz?",
+        "description": "Evrensel anlamlar sadece başlangıçtır. **Dream Boat AI**, bu sembolde gizli kişisel mesajı bulmak için benzersiz duygularınızı ve bağlamınızı analiz eder.",
+        "button": "\"{symbol}\" Analizi Yap"
+    },
     "MeaningPage": {
         "dictionaryTag": "Rüya Sözlüğü",
         "symbolismTitle": "Sembolizm ve Anlamı",
@@ -25,6 +31,13 @@
     },
     "Common": {
         "moonPhaseTitle": "Şu Anki Ay Evresi",
+        "phases": {
+            "New": "Yeni Ay",
+            "Waxing": "Büyüyen Ay",
+            "Full": "Dolunay",
+            "Waning": "Küçülen Ay",
+            "Dark": "Karanlık Ay"
+        },
         "moonPhaseDesc": "Rüyalarınız ay döngüsünden etkilenir.",
         "downloadIOS": "iOS İndir",
         "downloadAndroid": "Android İndir",

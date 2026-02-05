@@ -7,7 +7,7 @@ type Props = {
 };
 
 export default function InlineCTA({ symbol }: Props) {
-    const t = useTranslations('Common');
+    const t = useTranslations('InlineCTA');
 
     // Format symbol (SNAKE -> Snake)
     const formattedSymbol = symbol.charAt(0).toUpperCase() + symbol.slice(1).toLowerCase();
@@ -20,18 +20,23 @@ export default function InlineCTA({ symbol }: Props) {
 
             <div className="relative z-10">
                 <p className="text-indigo-200 uppercase tracking-widest text-xs font-bold mb-3">
-                    Personal Dream Analysis
+                    {t('eyebrow')}
                 </p>
                 <h3 className="text-xl md:text-2xl font-bold text-white mb-4">
-                    Curious about your specific dream of a {formattedSymbol}?
+                    {t.rich('title', {
+                        symbol: formattedSymbol,
+                        strong: (chunks) => <strong className="text-indigo-300">{chunks}</strong>
+                    })}
                 </h3>
                 <p className="text-indigo-100/80 mb-6 max-w-xl mx-auto">
-                    Universal meanings are just the start. The <strong>Dream Boat AI</strong> analyzes your unique emotions and context to find the personal message hidden in this symbol.
+                    {t.rich('description', {
+                        strong: (chunks) => <strong className="text-white">{chunks}</strong>
+                    })}
                 </p>
 
                 <div className="flex flex-col sm:flex-row justify-center gap-4">
-                    <a href="https://onelink.to/dreamboat" className="btn-nebula px-8 py-3 rounded-full font-bold">
-                        Analyze "{formattedSymbol}" Now
+                    <a href="https://onelink.to/dreamboat" className="inline-block px-8 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 rounded-full text-white font-bold transition-all shadow-lg shadow-indigo-500/25">
+                        {t('button', { symbol: formattedSymbol })}
                     </a>
                 </div>
             </div>

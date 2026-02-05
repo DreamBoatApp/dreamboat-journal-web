@@ -67,7 +67,7 @@ const MoonPhaseWidget = () => {
             <div className="relative z-10 flex items-center justify-between">
                 <div>
                     <h3 className="text-lg font-semibold text-white">
-                        {t('moonPhaseTitle')} <span className="text-indigo-300">({phase})</span>
+                        {t('moonPhaseTitle')} <span className="text-indigo-300">({t(`phases.${phase}`)})</span>
                     </h3>
                     <p className="mt-2 text-sm text-indigo-200/80">
                         {t('moonPhaseDesc')}
