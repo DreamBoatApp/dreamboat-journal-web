@@ -1,25 +1,24 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import keywordIndex from '@/scripts/data/keyword_index';
+import { logFailedSearch } from '@/lib/logger';
 
 type Props = {
     params: Promise<{ locale: string }>;
     searchParams: Promise<{ q?: string }>;
 };
 
-// Extract keywords from search query
+// ... (extractKeywords and findMatches remain unchanged)
+// We skip re-writing them to save tokens/complexity, targeting only the import and component start
+
 function extractKeywords(query: string): string[] {
-    // Normalize: lowercase, remove punctuation
     const normalized = query.toLowerCase()
         .replace(/[.,!?;:'"()]/g, '')
         .replace(/\s+/g, ' ')
         .trim();
-
-    // Split into words
     return normalized.split(' ').filter(word => word.length >= 2);
 }
 
-// Find matching symbols from keywords
 function findMatches(keywords: string[], index: Record<string, string>): { keyword: string; slug: string }[] {
     const matches: { keyword: string; slug: string }[] = [];
     const seenSlugs = new Set<string>();
@@ -31,7 +30,6 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
             seenSlugs.add(slug);
         }
     }
-
     return matches;
 }
 
@@ -40,7 +38,6 @@ export default async function SearchPage({ params, searchParams }: Props) {
     const { q: query = '' } = await searchParams;
 
     if (!query) {
-        // No query, redirect to home
         redirect(`/${locale}`);
     }
 
@@ -50,6 +47,11 @@ export default async function SearchPage({ params, searchParams }: Props) {
     // If exactly one match, redirect directly to that symbol page
     if (matches.length === 1) {
         redirect(`/${locale}/meaning/${matches[0].slug}`);
+    }
+
+    // Log failed search if no matches found
+    if (matches.length === 0 && query.length > 2) {
+        logFailedSearch(query, locale, 'web');
     }
 
     // Multiple matches or no matches - show results page
@@ -157,3 +159,4 @@ export default async function SearchPage({ params, searchParams }: Props) {
         </div>
     );
 }
+
