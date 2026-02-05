@@ -6,19 +6,63 @@ const indexFile = 'c:\\Users\\guney\\.gemini\\antigravity\\scratch\\dreamboat_jo
 
 try {
     const allFiles = fs.readdirSync(contentDir)
-        .filter(f => f.endsWith('.json'))
-        .map(f => f.replace('.json', ''));
+        .filter(f => f.endsWith('.json'));
 
     const indexContent = fs.readFileSync(indexFile, 'utf-8');
 
-    // Naively check if the slug appears in the file
-    // Note: exact match with quotes to avoid partial matches
-    const newSlugs = allFiles.filter(slug => !indexContent.includes(`'${slug}'`));
+    // Find files whose slug is NOT in the index AND are recent (last 24h)
+    const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+    const now = Date.now();
 
-    console.log("NEW_SLUGS_START");
-    console.log(JSON.stringify(newSlugs, null, 2));
-    console.log("NEW_SLUGS_END");
-    console.log(`Total new slugs found: ${newSlugs.length}`);
+    const newFiles = allFiles.filter(file => {
+        const filePath = path.join(contentDir, file);
+        const stats = fs.statSync(filePath);
+        if (now - stats.mtimeMs > ONE_DAY_MS) return false;
+
+        const slug = file.replace('.json', '');
+        return !indexContent.includes(`'${slug}'`);
+    });
+
+    const entries = [];
+    const slugs = [];
+
+    newFiles.forEach(file => {
+        try {
+            console.log("Processing:", file);
+            const filePath = path.join(contentDir, file);
+            const fileContent = fs.readFileSync(filePath, 'utf-8');
+            if (!fileContent.trim()) {
+                console.warn(`Skipping empty file: ${file}`);
+                return;
+            }
+            const content = JSON.parse(fileContent);
+            if (!content) {
+                console.warn(`Skipping null content: ${file}`);
+                return;
+            }
+            const slug = file.replace('.json', '');
+            const localizedName = (content.localizedName || slug).toLowerCase();
+
+            entries.push(`    '${localizedName}': '${slug}',`);
+            slugs.push(`'${slug}'`);
+        } catch (err) {
+            console.error(`Error processing ${file}:`, err.message);
+        }
+    });
+
+    const output = `--- KEYWORD INDEX ENTRIES ---
+${entries.join('\n')}
+
+--- VERIFY INDEX SLUGS ---
+${slugs.join(', ')}
+
+Total new items: ${newFiles.length}
+Errors encountered: ${allFiles.length - newFiles.length} (filtered) or read errors.
+`;
+
+    fs.writeFileSync('new_slugs.txt', output, 'utf-8');
+    console.log("Output written to new_slugs.txt");
+
 } catch (error) {
     console.error("Error:", error);
 }
