@@ -1,7 +1,11 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 
-export default async function HomePage() {
+type Props = {
+    params: { locale: string };
+};
+
+export default async function HomePage({ params: { locale } }: Props) {
     const t = await getTranslations('HomePage');
 
     return (
@@ -22,13 +26,24 @@ export default async function HomePage() {
                 </p>
 
                 {/* Premium Search Bar */}
-                <div className="w-full max-w-lg mt-8 relative group">
+                <form action={`/${locale}/dictionary/a`} className="w-full max-w-lg mt-8 relative group">
                     <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-pink-600 rounded-full opacity-30 group-hover:opacity-70 blur transition duration-500"></div>
                     <input
+                        name="q"
                         type="text"
                         placeholder={t('searchPlaceholder')}
                         className="relative w-full px-8 py-5 rounded-full bg-[#0a0a16] border border-white/10 text-white placeholder:text-slate-500 focus:outline-none focus:ring-0 focus:border-white/20 transition-all text-lg shadow-xl"
                     />
+                </form>
+
+                {/* Categories */}
+                <div className="flex flex-wrap justify-center gap-3 text-sm text-indigo-200/70">
+                    <span>Popular:</span>
+                    {['Snake', 'Falling', 'Teeth', 'Flying'].map(s => (
+                        <Link key={s} href={`/meaning/${s.toLowerCase()}`} className="hover:text-white underline decoration-indigo-500/30 hover:decoration-indigo-400 transition-all">
+                            {s}
+                        </Link>
+                    ))}
                 </div>
 
                 {/* CTA Button */}

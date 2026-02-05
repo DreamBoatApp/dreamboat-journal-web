@@ -9,5 +9,11 @@
         "home": "Anasayfa",
         "dictionary": "Rüya Tabirleri",
         "blog": "Blog"
+    },
+    "Common": {
+        "moonPhaseTitle": "Şu Anki Ay Evresi",
+        "moonPhaseDesc": "Rüyalarınız ay döngüsünden etkilenir.",
+        "downloadIOS": "iOS İndir",
+        "downloadAndroid": "Android İndir"
     }
 }

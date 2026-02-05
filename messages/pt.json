@@ -9,5 +9,11 @@
         "home": "Início",
         "dictionary": "Sonhos",
         "blog": "Blog"
+    },
+    "Common": {
+        "moonPhaseTitle": "Fase da Lua Atual",
+        "moonPhaseDesc": "Seus sonhos são influenciados pelo ciclo lunar.",
+        "downloadIOS": "Baixar no iOS",
+        "downloadAndroid": "Baixar no Android"
     }
 }

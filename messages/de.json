@@ -9,5 +9,11 @@
         "home": "Startseite",
         "dictionary": "Traumdeutung",
         "blog": "Blog"
+    },
+    "Common": {
+        "moonPhaseTitle": "Aktuelle Mondphase",
+        "moonPhaseDesc": "Ihre Träume werden vom Mondzyklus beeinflusst.",
+        "downloadIOS": "Laden Sie iOS",
+        "downloadAndroid": "Laden Sie Android"
     }
 }
