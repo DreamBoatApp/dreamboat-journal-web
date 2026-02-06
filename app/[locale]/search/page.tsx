@@ -114,9 +114,16 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
     return matches;
 }
 
+import { getPopularSymbols } from '@/lib/popularity';
+
+// ... (existing helper functions)
+
 export default async function SearchPage({ params, searchParams }: Props) {
     const { locale } = await params;
     const { q: query = '' } = await searchParams;
+
+    // Get dynamic popular symbols for "no results" state
+    const popularSymbols = getPopularSymbols(5);
 
     if (!query) {
         redirect(`/${locale}`);
@@ -225,13 +232,13 @@ export default async function SearchPage({ params, searchParams }: Props) {
                         <div className="text-center">
                             <p className="text-slate-300 mb-4">Popüler sembolleri deneyin:</p>
                             <div className="flex flex-wrap justify-center gap-3">
-                                {['yılan', 'diş', 'uçmak', 'su', 'köpek'].map(symbol => (
+                                {popularSymbols.map(symbol => (
                                     <Link
-                                        key={symbol}
-                                        href={`/${locale}/search?q=${symbol}`}
+                                        key={symbol.slug}
+                                        href={`/${locale}/search?q=${symbol.name}`}
                                         className="px-4 py-2 rounded-full bg-indigo-600/20 border border-indigo-500/30 hover:bg-indigo-600/40 transition-colors"
                                     >
-                                        {symbol}
+                                        {symbol.name}
                                     </Link>
                                 ))}
                             </div>

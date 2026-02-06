@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
+import { getPopularSymbols } from '@/lib/popularity';
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -8,6 +9,9 @@ type Props = {
 export default async function HomePage({ params }: Props) {
     const { locale } = await params;
     const t = await getTranslations('HomePage');
+
+    // Get dynamic popular symbols (randomized subset per request)
+    const popularSymbols = getPopularSymbols(5);
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-8 text-center relative overflow-hidden">
@@ -40,9 +44,9 @@ export default async function HomePage({ params }: Props) {
                 {/* Categories */}
                 <div className="flex flex-wrap justify-center gap-3 text-sm text-indigo-200/70">
                     <span>{t('popular')}:</span>
-                    {(['snake', 'falling', 'teeth', 'flying'] as const).map(slug => (
-                        <Link key={slug} href={`/meaning/${slug}`} className="hover:text-white underline decoration-indigo-500/30 hover:decoration-indigo-400 transition-all">
-                            {t(`symbols.${slug}`)}
+                    {popularSymbols.map(symbol => (
+                        <Link key={symbol.slug} href={`/meaning/${symbol.slug}`} className="hover:text-white underline decoration-indigo-500/30 hover:decoration-indigo-400 transition-all">
+                            {symbol.name}
                         </Link>
                     ))}
                 </div>
