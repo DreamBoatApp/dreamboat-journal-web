@@ -77,6 +77,9 @@ const batchSlugs = [
 
     // Batch 19 & New Discoveries
     'asteroid', 'chaos', 'circle', 'color', 'cross', 'dew', 'dream', 'dunes', 'echo', 'eclipse', 'fate', 'frost', 'future', 'galaxy', 'geyser', 'glacier', 'hail', 'iceberg', 'infinity', 'knot', 'landslide', 'lava', 'life', 'light', 'magma', 'maze', 'memory', 'mist', 'nightmare', 'noise', 'number', 'oasis', 'order', 'past', 'pattern', 'planet', 'rebirth', 'shape', 'silence', 'spiral', 'square', 'thunder', 'time', 'triangle', 'universe', 'void', 'whirlpool', 'zero'
+
+    // Batch 19 & New Discoveries
+    'asteroid', 'chaos', 'circle', 'color', 'cross', 'dew', 'dream', 'dunes', 'echo', 'eclipse', 'fate', 'frost', 'future', 'galaxy', 'geyser', 'glacier', 'hail', 'iceberg', 'infinity', 'knot', 'landslide', 'lava', 'life', 'light', 'magma', 'maze', 'memory', 'mist', 'nightmare', 'noise', 'number', 'oasis', 'order', 'past', 'pattern', 'planet', 'rebirth', 'shape', 'silence', 'spiral', 'square', 'thunder', 'time', 'triangle', 'universe', 'void', 'whirlpool', 'zero'
 ];
 
 console.log(`Checking ${batchSlugs.length} recent symbols for indexing integrity...`);
