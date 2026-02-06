@@ -1,6 +1,8 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import keywordIndex from '@/scripts/data/keyword_index';
+// @ts-ignore
+import localizedNames from '@/scripts/data/localized_names';
 import { logFailedSearch } from '@/lib/logger';
 
 
@@ -118,23 +120,31 @@ export default async function SearchPage({ params, searchParams }: Props) {
                         </h1>
 
                         <div className="grid gap-4">
-                            {matches.map(({ keyword, slug }) => (
-                                <Link
-                                    key={slug}
-                                    href={`/${locale}/meaning/${slug}`}
-                                    className="block p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-indigo-500/50 transition-all"
-                                >
-                                    <div className="flex items-center justify-between">
-                                        <div>
-                                            <span className="text-indigo-400 text-sm">"{keyword}" →</span>
-                                            <h2 className="text-xl font-semibold text-white capitalize mt-1">
-                                                {keyword}
-                                            </h2>
+                            {matches.map(({ keyword, slug }) => {
+                                // @ts-ignore
+                                const displayName = localizedNames[slug] || slug.replace(/-/g, ' ');
+                                return (
+                                    <Link
+                                        key={slug}
+                                        href={`/${locale}/meaning/${slug}`}
+                                        className="block p-6 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-indigo-500/50 transition-all group"
+                                    >
+                                        <div className="flex items-center justify-between">
+                                            <div>
+                                                <h2 className="text-2xl font-semibold text-white capitalize mb-1 group-hover:text-indigo-300 transition-colors">
+                                                    {displayName}
+                                                </h2>
+                                                <span className="text-sm text-slate-400">
+                                                    Sembol anlamını okumak için dokunun
+                                                </span>
+                                            </div>
+                                            <span className="text-indigo-400 opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0 transform duration-300">
+                                                →
+                                            </span>
                                         </div>
-                                        <span className="text-indigo-400">→</span>
-                                    </div>
-                                </Link>
-                            ))}
+                                    </Link>
+                                );
+                            })}
                         </div>
 
                         <p className="mt-8 text-slate-400 text-center">
