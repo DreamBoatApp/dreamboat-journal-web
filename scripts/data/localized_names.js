@@ -1187,4 +1187,4 @@ const localizedNames = {
     "zombie": "Zombi"
 };
 
-export default localizedNames;
+module.exports = localizedNames;

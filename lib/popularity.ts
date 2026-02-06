@@ -1,4 +1,3 @@
-// @ts-ignore
 import localizedNames from '@/scripts/data/localized_names';
 
 // A curated list of typically "popular" dreams to simulate dynamic trends
@@ -27,8 +26,13 @@ export interface PopularSymbol {
  * we act like we do by shuffling a list of very common dreams.
  */
 export function getPopularSymbols(count: number = 5): PopularSymbol[] {
+    // Cast to Record<string, string> to avoid implicit 'any' error
+    const names = localizedNames as unknown as Record<string, string>;
+
+    if (!names) return [];
+
     // 1. Filter pool to only include ones we actually have names for (safety)
-    const available = POPULAR_POOL.filter(slug => localizedNames[slug]);
+    const available = POPULAR_POOL.filter(slug => names[slug]);
 
     // 2. Shuffle array (Fisher-Yates)
     const shuffled = [...available];
@@ -40,6 +44,6 @@ export function getPopularSymbols(count: number = 5): PopularSymbol[] {
     // 3. Take top N
     return shuffled.slice(0, count).map(slug => ({
         slug,
-        name: localizedNames[slug]
+        name: names[slug]
     }));
 }
