@@ -1456,7 +1456,8 @@ const localizedNames = {
     "yogurt": "Yoğurt",
     "zero": "Zero",
     "zoo": "Zoo",
-    "goal-post": "Kale Direği"
+    "goal-post": "Kale Direği",
+    "fainting": "Bayılmak"
 };
 
 module.exports = localizedNames;
