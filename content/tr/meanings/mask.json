@@ -1,14 +1,19 @@
 {
-  "localizedName": "Mask",
-  "title": "Rüyada Mask Görmek: Anlamı ve Yorumu",
-  "seoDescription": "Rüyada mask görmenin anlamını keşfedin. Bu rüyanın size ne anlatmak istediğini ve hayatınızdaki işaretleri öğrenin.",
-  "introduction": "Bilinçdışının derinliklerinde bir mask ile karşılaşmak nadiren bir tesadüftür. Bu, ruhunuzdan gelen önemli bir mesajdır. Rüyaların dilinde Mask, sadece bir nesne değil; bilinçaltınızın derinliklerinden gelen bir semboldür.",
-  "symbolism": "Psikolojik bir bakış açısıyla, mask bilinçli benliğiniz ile bilinçaltınız arasında bir köprü görevi görür. Bu imgeyi bir ayna olarak kullanın—size iç dünyanız hakkında ne göstermeye çalışıyor? Bu sembol, kişisel gelişiminizde fark etmeniz gereken önemli bir detayı işaret ediyor olabilir.\n\nRüyanızdaki detaylar, bu sembolü kişisel hayatınızla daha da ilişkilendirir.",
-  "cosmicAnalysis": "Mask rüyaları ay döngüsüyle derin bir bağa sahiptir. Büyüyen Ay evresinde görüldüğünde, bu sembol hayatınızda mask enerjisinin artışına ve gelişime işaret eder. Ancak Küçülen Ay sırasında görülürse, bu arketipe dair eski kalıpları serbest bırakmanız gerektiğine dair güçlü bir çağrıdır. Dolunay'da görülen Mask rüyası, bilinçdışının tamamen aydınlandığı bir doruk noktasını ve netliği simgeler.",
+  "localizedName": "Maske",
+  "title": "Rüyada Maske Görmek: Anlamı ve Yorumu",
+  "seoDescription": "Rüyada maske görmenin derin psikolojik anlamını keşfedin. Kimlik, gizlenme ve persona perspektifinden maske rüyalarının yorumu.",
+  "introduction": "Maske, gerçek yüzü gizleyen örtüdür. Kimlik, persona, gizlenme—maske Jung'un persona kavramıyla doğrudan bağlantılıdır. Rüyanızda maskeyle karşılaşmak, toplumsal maskeniz, 'gerçek ben' ve gizleme durumunuz hakkında mesajlar taşır.",
+  "symbolism": "Psikolojik analizde maske, birden fazka anlam taşır. Persona (toplumsal yüz), gizlenme (gerçeği saklama), koruma (savunma), aldatma (görünenden farklı olma), ritüel (maske törenleri).\n\nMaske kimin? Sizin, başkasının, herkesin—sahiplik önemlidir. Maske durumu da kritiktir: Takmak (gizlemek), çıkarmak (açığa çıkmak), düşmek (istemsiz açığa çıkma).\n\nMaskenin arkasında ne var? Gerçek yüz, farklı yüz, boşluk—keşif anlam taşır.",
+  "cosmicAnalysis": "Maske rüyaları, birinci ev ve Pluto ile bağlantılıdır—kimlik, görünüş ve gizli ben. Neptün ile de ilişkilidir—yanılsama.\n\nPluto geçişleri maske düşürme rüyalarını tetikler. Neptün geçişleri yanılsama ve gerçeklik temalarını işler.\n\nAkrep döneminde maske rüyaları gizlilik mesajları taşır.",
   "commonScenarios": [
-    "Mask tarafından kovalanmak: Kendinizin bir yönünden veya bir sorumluluktan kaçtığınızı gösterir.",
-    "Bir mask bulmak: Gizli bir yeteneğin, fırsatın veya kaynağın keşfini temsil eder.",
-    "Mask olmak: Bu özelliğin veya gücün sizin bir parçanız haline geldiğini işaret eder."
+    "Maske takmak: Gizlenme, persona veya 'kendimi saklıyorum'.",
+    "Maske çıkarmak: Açığa çıkma, otantiklik veya 'gerçek beni gösteriyorum'.",
+    "Maskenin düşmesi: İstemsiz açığa çıkma, korku veya 'görüldüm!'.",
+    "Başkasının maskesi: Aldatma, güvensizlik veya 'gerçek yüzü ne?'.",
+    "Maske arkası boşluk: Kimlik krizi, korku veya 'orada ne var?'.",
+    "Güzel maske: Çekici persona, yüzeysellik veya 'güzel ama gerçek mi?'."
   ],
-  "cta": "Mask rüyanız, hayatınızdaki daha büyük bir resmin parçası. Dream Boat uygulamasını indirin ve rüyalarınızın gizli dilini çözün."
+  "cta": "Maske rüyanız, toplumsal kimliğiniz ve gerçek ben hakkında mesajlar taşıyor. Dream Boat uygulamasını indirerek rüyalarınızın kişisel analizini alın."
 }
+</Parameter>
+<parameter name="Complexity">3
