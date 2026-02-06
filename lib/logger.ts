@@ -7,7 +7,9 @@ export type SearchEventCallback = (data: {
 
 // Simple logger that outputs structured JSON to stdout
 // This is captured by Vercel logs and can be filtered/alerted on
-export function logFailedSearch(query: string, locale: string, source: 'web' | 'app') {
+// Async logger that outputs structured JSON to stdout and sends webhook
+// This is captured by Vercel logs and can be filtered/alerted on
+export async function logFailedSearch(query: string, locale: string, source: 'web' | 'app') {
     const event = {
         event: 'failed_search',
         data: {
@@ -23,7 +25,7 @@ export function logFailedSearch(query: string, locale: string, source: 'web' | '
 
     // Notify via Google Sheets Webhook if configured
     if (process.env.GOOGLE_SHEETS_WEBHOOK_URL) {
-        notifyGoogleSheets(query, locale, source).catch(console.error);
+        await notifyGoogleSheets(query, locale, source).catch(console.error);
     }
 }
 

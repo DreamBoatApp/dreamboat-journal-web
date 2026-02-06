@@ -139,7 +139,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
 
     // Log failed search if no matches found
     if (matches.length === 0 && query.length > 2) {
-        logFailedSearch(query, locale, 'web');
+        await logFailedSearch(query, locale, 'web');
     }
 
     // ... (Rest of the component remains largely the same, maybe update the UI to show "Did you mean?" if needed)
