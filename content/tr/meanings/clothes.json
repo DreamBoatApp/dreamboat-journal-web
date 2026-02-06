@@ -1,14 +1,17 @@
 {
-    "localizedName": "Kıyafet",
-    "title": "Rüyada Kıyafet Görmek: Sosyal Maske",
-    "seoDescription": "Rüyada kıyafet görmek veya giymek ne anlama gelir? Persona (maske), statü, imaj, koruma ve kimlik değişiminin analizi.",
-    "introduction": "Kıyafet, bizim ikinci derimizdir ve topluma sunduğumuz yüzümüzü (**Persona**) temsil eder. Rüyada kıyafet görmek, nasıl algılanmak istediğinizle, sosyal statünüzle ve rollerinizle ilgilidir. Kıyafet değiştirmek, fikir, tavır veya rol değiştirmek demektir.",
-    "symbolism": "Kıyafetin durumu:\n\n**Yeni/Şık Kıyafet:** Özgüveninizin arttığını, başarıyı ve toplum içinde saygınlık kazanma isteğinizi simgeler.\n\n**Eski/Yırtık Kıyafet:** Fakirlik korkusunu, itibar kaybını veya kendinizi yetersiz/değersiz hissettiğinizi (özsaygı eksikliği) gösterir.\n\n**Kıyafet Denediğini Görmek:** Kendinize yeni bir kimlik veya rol aradığınızı, 'üzerinize oturan' hayat tarzını bulmaya çalıştığınızı işaret eder.",
-    "cosmicAnalysis": "Kıyafet, güzellik ve estetik gezegeni **Venüs** ve statü gezegeni **Satürn** (Otorite giysisi) ile ilişkilidir.\n\nEğer bu rüyayı **Toplum önüne çıkmadan** önce gördüyseniz, endişenizi yansıtır. Evren size 'Giysilerin seni tanımlamaz ama seni sunar. İçindeki cevher (öz) mi parlıyor yoksa sadece ambalajın (kıyafetin) mı?' sorusunu sorar.",
+    "localizedName": "Elbise/Kıyafet",
+    "title": "Rüyada Elbise Görmek: Anlamı ve Yorumu",
+    "seoDescription": "Rüyada elbise/kıyafet görmenin derin psikolojik anlamını keşfedin. Kimlik, maske ve toplumsal imaj perspektifinden kıyafet rüyalarının yorumu.",
+    "introduction": "Kıyafetler, kimliğimizin dışa yansımasıdır. 'Kıyafet adamı yapar' deyişi, giyimin toplumsal kimlikle bağlantısını gösterir. Jung'un 'persona' kavramı (topluma gösterdiğimiz maske) kıyafetle doğrudan ilişkilidir. Rüyanızda kıyafetlerle karşılaşmak, toplumsal kimliğiniz, 'giydirdiğiniz' roller ve dış görünüşünüz hakkında mesajlar taşır.",
+    "symbolism": "Psikolojik analizde kıyafet, birden fazla anlam taşır. Persona ve toplumsal maske (başkalarına gösterdiğimiz), kimlik ve rol (ne giydiğimiz = kim görünmek istediğimiz), koruma (çıplaklıktan örtünme), statü ve güç (kıyafet = sosyal konum).\n\nKıyafetin durumu kritiktir: Güzel kıyafet olumlu imajı, eski/kirli kıyafet ihmal edilen personayı, yanlış kıyafet uyumsuz rolü simgeler.\n\nKıyafet değişimi kimlik değişimini, soyunmak maske düşürmeyi temsil eder.",
+    "cosmicAnalysis": "Kıyafet rüyaları, birinci ev ve Yükselen burç ile bağlantılıdır—dış görünüş ve ilk izlenim. Venüs ile de ilişkilidir—güzellik ve stil.\n\nVenüs geçişleri kıyafet ve görünüm rüyalarını tetikler. Aslan döneminde (gurur, görünüş) kıyafet rüyaları yoğunlaşır.\n\nSatürn geçişleri 'uygun kıyafet' baskısı ve toplumsal beklenti temalarını işler.",
     "commonScenarios": [
-        "Kıyafetini kaybetmek: Maskenizin düşmesinden, gerçek halinizin (çıplaklığın) görülmesinden duyduğunuz korkuyu simgeler.",
-        "Ters giymek: Bir kuralı bozduğunuzu, asi davrandığınızı veya işlerin ters gideceğini (uyumsuzluk) gösterir.",
-        "Başkasına ait kıyafet giymek: O kişinin rolüne büründüğünüzü veya onu taklit ettiğinizi (özenti) işaret eder."
+        "Güzel elbise giymek: Olumlu imaj, özgüven veya 'iyi görünüyorum'.",
+        "Yanlış kıyafet: Uyumsuzluk, 'yerime ait değilim' veya yanlış rol.",
+        "Çıplak kalmak (kıyafetsiz): Maske düşürme, savunmasızlık veya 'kimse görmesin' (çıplak rüyasına da bakın).",
+        "Kıyafet arama: Doğru kimliği arama, 'kim olmak istiyorum?' sorusu.",
+        "Kıyafet değiştirme: Rol değişimi, dönüşüm veya 'farklı bir ben'.",
+        "Kostüm: Rol yapma, maske takma veya 'gerçek ben değilim'."
     ],
-    "cta": "Kıyafet rüyası, hangi rolü oynadığınızı sorar. Gerçek kimliğinizi bulmak için Dream Boat uygulamasını indirin."
+    "cta": "Kıyafet rüyanız, toplumsal kimliğiniz ve personanız hakkında mesajlar taşıyor. Dream Boat uygulamasını indirerek rüyalarınızın kişisel analizini alın."
 }
