@@ -7,6 +7,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import SmartBanner from '@/components/SmartBanner';
 import LanguageSelector from '@/components/LanguageSelector';
+import Header from '@/components/Header';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -38,6 +39,7 @@ export default async function RootLayout({
             <body className={`${inter.className} bg-slate-950 text-slate-200 antialiased`}>
                 <NextIntlClientProvider messages={messages}>
                     <LanguageSelector />
+                    <Header />
                     {children}
                     <SmartBanner />
                 </NextIntlClientProvider>
