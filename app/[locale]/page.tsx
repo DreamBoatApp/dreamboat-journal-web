@@ -21,10 +21,7 @@ export default async function HomePage({ params }: Props) {
 
             <div className="max-w-4xl w-full flex flex-col items-center z-10 space-y-8">
 
-                {/* Hero Text */}
-                <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-white drop-shadow-lg">
-                    {t('title')}
-                </h1>
+
 
                 <p className="text-xl md:text-2xl text-slate-300 max-w-2xl font-light tracking-wide leading-relaxed">
                     {t('subtitle')}

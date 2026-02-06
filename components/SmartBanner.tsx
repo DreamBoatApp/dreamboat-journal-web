@@ -69,7 +69,7 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
 
                         {/* Text */}
                         <div className="flex-1 min-w-0">
-                            <h4 className="font-semibold text-white text-sm">Dream Boat</h4>
+                            <h4 className="font-semibold text-white text-sm">DreamBoat</h4>
                             <p className="text-xs text-slate-300 line-clamp-2 mt-0.5">
                                 {getCopy()}
                             </p>
@@ -109,7 +109,7 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                         />
                     </div>
                     <div>
-                        <h4 className="font-semibold text-white text-sm">Dream Boat</h4>
+                        <h4 className="font-semibold text-white text-sm">DreamBoat</h4>
                         <div className="flex text-yellow-400 text-[10px] gap-0.5">
                             <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
                         </div>

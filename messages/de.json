@@ -2,7 +2,7 @@
     "HomePage": {
         "title": "Dreamboat Journal",
         "subtitle": "Entdecken Sie die Bedeutung von Symbolen in Ihren Träumen",
-        "searchPlaceholder": "Wovon haben Sie geträumt?",
+        "searchPlaceholder": "Was haben Sie in Ihrem Traum gesehen?",
         "popular": "Beliebt",
         "cta": "App Herunterladen",
         "symbols": {
@@ -23,7 +23,7 @@
         "downloadIOS": "Laden Sie iOS",
         "downloadAndroid": "Laden Sie Android",
         "bannerSymbolCopy": "Entdecken Sie die persönliche Bedeutung von \"{symbol}\" in Ihrem Traum.",
-        "bannerDefaultCopy": "Entdecken Sie die wahre Bedeutung Ihrer Träume.",
+        "bannerDefaultCopy": "Hören Sie auf, verschiedene Quellen für Traumdeutungen zu durchsuchen.",
         "openInApp": "In App öffnen",
         "scanToDownload": "Mit dem Handy scannen"
     }

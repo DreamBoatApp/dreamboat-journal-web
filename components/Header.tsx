@@ -12,6 +12,9 @@ export default function Header() {
                     href={`/${locale}`}
                     className="flex items-center gap-3 group hover:opacity-80 transition-opacity"
                 >
+                    <span className="text-white font-bold text-xl tracking-tight hidden sm:block font-sans drop-shadow-lg">
+                        Dreamboat Journal
+                    </span>
                     <div className="relative w-10 h-10">
                         {/* Using logo.png, forcing it to white for dark background */}
                         <Image
@@ -21,9 +24,6 @@ export default function Header() {
                             className="object-contain filter brightness-0 invert"
                         />
                     </div>
-                    <span className="text-white font-bold text-xl tracking-tight hidden sm:block font-sans drop-shadow-lg">
-                        Dreamboat Journal
-                    </span>
                 </Link>
             </div>
         </header>

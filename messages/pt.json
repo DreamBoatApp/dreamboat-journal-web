@@ -2,7 +2,7 @@
     "HomePage": {
         "title": "Dreamboat Journal",
         "subtitle": "Descubra o significado dos símbolos nos seus sonhos",
-        "searchPlaceholder": "O que você sonhou?",
+        "searchPlaceholder": "O que você viu no seu sonho?",
         "popular": "Popular",
         "cta": "Baixar App",
         "symbols": {
@@ -23,7 +23,7 @@
         "downloadIOS": "Baixar no iOS",
         "downloadAndroid": "Baixar no Android",
         "bannerSymbolCopy": "Descubra o significado pessoal de \"{symbol}\" no seu sonho.",
-        "bannerDefaultCopy": "Descubra o verdadeiro significado dos seus sonhos.",
+        "bannerDefaultCopy": "Pare de procurar interpretações de sonhos em várias fontes.",
         "openInApp": "Abrir no App",
         "scanToDownload": "Escaneie com seu celular"
     }
