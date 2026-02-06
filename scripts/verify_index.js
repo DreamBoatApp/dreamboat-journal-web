@@ -70,7 +70,10 @@ const batchSlugs = [
     'aquarium', 'backyard', 'bar', 'canyon', 'casino', 'cinema', 'circus', 'dam', 'diary', 'disco', 'driveway', 'escalator', 'field', 'fortress', 'fountain', 'garage', 'greenhouse', 'gym', 'hut', 'igloo', 'jungle', 'lighthouse', 'mall', 'meadow', 'playground', 'porch', 'shed', 'spa', 'staircase', 'windmill', 'zoo',
 
     // Batch 19 & New Discoveries
-    'beaver', 'buffalo', 'cheetah', 'chimpanzee', 'clam', 'cricket', 'crow', 'dragonfly', 'duck', 'eel', 'elk', 'falcon', 'flamingo', 'flea', 'goose', 'gorilla', 'grasshopper', 'hawk', 'hippo', 'hummingbird', 'hyena', 'jaguar', 'kangaroo', 'koala', 'ladybug', 'leopard', 'lobster', 'moose', 'mosquito', 'moth', 'ostrich', 'otter', 'oyster', 'panda', 'panther', 'parrot', 'peacock', 'raccoon', 'raven', 'rhino', 'seahorse', 'shrimp', 'skunk', 'starfish', 'swan', 'turkey', 'vulture', 'woodpecker', 'worm'
+    'beaver', 'buffalo', 'cheetah', 'chimpanzee', 'clam', 'cricket', 'crow', 'dragonfly', 'duck', 'eel', 'elk', 'falcon', 'flamingo', 'flea', 'goose', 'gorilla', 'grasshopper', 'hawk', 'hippo', 'hummingbird', 'hyena', 'jaguar', 'kangaroo', 'koala', 'ladybug', 'leopard', 'lobster', 'moose', 'mosquito', 'moth', 'ostrich', 'otter', 'oyster', 'panda', 'panther', 'parrot', 'peacock', 'raccoon', 'raven', 'rhino', 'seahorse', 'shrimp', 'skunk', 'starfish', 'swan', 'turkey', 'vulture', 'woodpecker', 'worm',
+
+    // Batch 19 & New Discoveries
+    'alarm-clock', 'ashtray', 'baking', 'biting', 'blender', 'bowl', 'breathing', 'burning', 'burying', 'chewing', 'choking', 'comb', 'cooking', 'coughing', 'crashing', 'crawling', 'digging', 'drawing', 'driving', 'floating', 'freezer', 'freezing', 'harvesting', 'ironing', 'jumping', 'kneeling', 'knitting', 'learning', 'lighter', 'limping', 'match', 'melting', 'microwave', 'mop', 'mug', 'napkin', 'packing', 'parking', 'paying', 'picture-frame', 'planting', 'plunger', 'remote', 'rowing', 'sailing', 'scale', 'sewing', 'shampoo', 'shopping', 'shouting', 'sink', 'sinking', 'stove', 'tablecloth', 'teaching', 'toaster', 'toilet-paper', 'toothpaste', 'unpacking', 'vaase', 'whispering'
 ];
 
 console.log(`Checking ${batchSlugs.length} recent symbols for indexing integrity...`);
