@@ -201,7 +201,7 @@ export default async function SearchPage({ params, searchParams }: Props) {
                                                 <h2 className="text-2xl font-semibold text-white capitalize mb-1 group-hover:text-indigo-300 transition-colors">
                                                     {displayName}
                                                 </h2>
-                                                {distance && distance > 0 && (
+                                                {!!distance && distance > 0 && (
                                                     <span className="text-xs text-amber-500 block mb-1">
                                                         "{keyword}" olarak düzelttik
                                                     </span>
