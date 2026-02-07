@@ -24,7 +24,15 @@ function extractKeywords(query: string): string[] {
         .replace(/[.,!?;:'"()]/g, '')
         .replace(/\s+/g, ' ')
         .trim();
-    return normalized.split(' ').filter(word => word.length >= 2);
+
+    const words = normalized.split(' ').filter(word => word.length >= 2);
+
+    // If multiple words, add the full phrase as the highest priority keyword
+    if (words.length > 1) {
+        return [normalized, ...words];
+    }
+
+    return words;
 }
 
 // Levenshtein distance for fuzzy matching
