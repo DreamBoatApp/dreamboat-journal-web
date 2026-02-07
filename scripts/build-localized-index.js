@@ -11,6 +11,7 @@ async function buildLocalizedIndex() {
     const jsonFiles = files.filter(f => f.endsWith('.json'));
 
     const localizedKeywords = {};
+    const localizedNamesMap = {};
 
     for (const file of jsonFiles) {
         const slug = file.replace('.json', '');
@@ -25,8 +26,11 @@ async function buildLocalizedIndex() {
                 const normalizedName = localizedName.toLowerCase().trim();
                 if (!localizedKeywords[normalizedName]) {
                     localizedKeywords[normalizedName] = slug;
-                    console.log(`✅ ${normalizedName} → ${slug}`);
+                    // console.log(`✅ ${normalizedName} → ${slug}`);
                 }
+
+                // Add to names map
+                localizedNamesMap[slug] = localizedName;
 
                 // Add individual words for compound names
                 const words = normalizedName.split(/\s+/);
@@ -52,7 +56,8 @@ async function buildLocalizedIndex() {
     }
 
     // Generate output
-    const output = `// Auto-generated: localizedName keywords from content files
+    // Generate localized keywords output
+    const keywordOutput = `// Auto-generated: localizedName keywords from content files
 // Add this to keyword_index.js to enable Turkish name search
 
 const localizedKeywords = ${JSON.stringify(localizedKeywords, null, 4)};
@@ -60,9 +65,21 @@ const localizedKeywords = ${JSON.stringify(localizedKeywords, null, 4)};
 module.exports = localizedKeywords;
 `;
 
-    await fs.writeFile(OUTPUT_FILE, output);
+    await fs.writeFile(OUTPUT_FILE, keywordOutput);
     console.log(`\n📝 Written to ${OUTPUT_FILE}`);
-    console.log(`📊 Total: ${Object.keys(localizedKeywords).length} keywords`);
+    console.log(`📊 Total Keywords: ${Object.keys(localizedKeywords).length}`);
+
+    // Generate localized names output
+    const namesOutput = `// Auto-generated map of slug -> localized name
+// Used for search results to avoid FS access
+const localizedNames = ${JSON.stringify(localizedNamesMap, null, 4)};
+
+module.exports = localizedNames;
+`;
+    const NAMES_FILE = path.join(__dirname, 'data/localized_names.js');
+    await fs.writeFile(NAMES_FILE, namesOutput);
+    console.log(`📝 Written to ${NAMES_FILE}`);
+    console.log(`📊 Total Names: ${Object.keys(localizedNamesMap).length}`);
 }
 
 buildLocalizedIndex();
