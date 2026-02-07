@@ -138,6 +138,7 @@ const localizedKeywords = {
     "çatı": "attic",
     "katı": "attic",
     "çığ": "avalanche",
+    "avokado": "avocado",
     "award": "award",
     "balta": "axe",
     "bebek": "baby",
