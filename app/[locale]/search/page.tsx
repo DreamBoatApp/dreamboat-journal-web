@@ -150,7 +150,22 @@ export default async function SearchPage({ params, searchParams }: Props) {
 
     const matches = findMatches(keywords, combinedIndex as Record<string, string>);
 
-    // If exactly one match (even if fuzzy), redirect directly to that symbol page
+    // 1. Exact Phrase Match Priority (User Request)
+    // If the user's FULL query matches a symbol exactly, redirect immediately.
+    // We look for a match where the keyword equals the normalized query and distance is 0.
+    const normalizedQuery = query.toLowerCase()
+        .replace(/[.,!?;:'"()]/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+    const exactMatch = matches.find(m => m.keyword === normalizedQuery && (m.distance === 0 || m.distance === undefined));
+
+    if (exactMatch) {
+        redirect(`/${locale}/meaning/${exactMatch.slug}`);
+    }
+
+    // 2. Single Result Priority
+    // If exactly one match (even if fuzzy or partial), redirect directly.
     if (matches.length === 1) {
         redirect(`/${locale}/meaning/${matches[0].slug}`);
     }
