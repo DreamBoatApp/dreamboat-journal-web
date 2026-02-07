@@ -17,16 +17,31 @@ export async function GET(
         // Note: In Next.js production, we need to ensure these files are included in the build
         // or accessed via process.cwd() correctly.
         const contentDir = path.join(process.cwd(), 'content', lang, 'meanings');
-        const filePath = path.join(contentDir, `${symbol}.json`);
+        let filePath = path.join(contentDir, `${symbol}.json`);
 
-        // Check if file exists
+        // Check if file exists in the requested language (default 'en')
         try {
             await fs.access(filePath);
         } catch {
-            return NextResponse.json(
-                { error: 'Symbol not found' },
-                { status: 404 }
-            );
+            // FALLBACK: If missing in 'en', check 'tr' as a backup
+            // This handles cases where content exists only in Turkish (e.g. "street.json")
+            if (lang === 'en') {
+                const fallbackPath = path.join(process.cwd(), 'content', 'tr', 'meanings', `${symbol}.json`);
+                try {
+                    await fs.access(fallbackPath);
+                    filePath = fallbackPath;
+                } catch {
+                    return NextResponse.json(
+                        { error: 'Symbol not found' },
+                        { status: 404 }
+                    );
+                }
+            } else {
+                return NextResponse.json(
+                    { error: 'Symbol not found' },
+                    { status: 404 }
+                );
+            }
         }
 
         // Read and parse the file
