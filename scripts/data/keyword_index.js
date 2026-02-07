@@ -4520,6 +4520,14 @@ for (const [symbol, data] of Object.entries(dictionary)) {
     }
 }
 
+// Add localized keywords from content files (e.g., "gergedan" -> "rhino")
+const localizedKeywords = require('./keyword_index_localized');
+for (const [keyword, slug] of Object.entries(localizedKeywords)) {
+    if (!keywordIndex[keyword]) {
+        keywordIndex[keyword] = slug;
+    }
+}
+
 module.exports = keywordIndex;
 
 // Debug
@@ -4527,6 +4535,6 @@ if (require.main === module) {
     console.log('Sample keywords:');
     console.log('yılan ->', keywordIndex['yılan']);
     console.log('snake ->', keywordIndex['snake']);
-    console.log('viper ->', keywordIndex['viper']);
+    console.log('gergedan ->', keywordIndex['gergedan']);
     console.log('Total keywords:', Object.keys(keywordIndex).length);
 }
