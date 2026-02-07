@@ -3,6 +3,8 @@ import Link from 'next/link';
 import keywordIndex from '@/scripts/data/keyword_index';
 // @ts-ignore
 import localizedNames from '@/scripts/data/localized_names';
+// @ts-ignore
+import localizedKeywords from '@/scripts/data/keyword_index_localized';
 import { logFailedSearch } from '@/lib/logger';
 
 
@@ -129,8 +131,16 @@ export default async function SearchPage({ params, searchParams }: Props) {
         redirect(`/${locale}`);
     }
 
+
     const keywords = extractKeywords(query);
-    const matches = findMatches(keywords, keywordIndex as Record<string, string>);
+
+    // Merge indexes: Localized keywords take precedence over general associations
+    const combinedIndex = {
+        ...keywordIndex,
+        ...localizedKeywords
+    };
+
+    const matches = findMatches(keywords, combinedIndex as Record<string, string>);
 
     // If exactly one match (even if fuzzy), redirect directly to that symbol page
     if (matches.length === 1) {

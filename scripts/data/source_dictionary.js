@@ -710,6 +710,18 @@ module.exports = {
     "KNOT": { meaning: "COMPLEX PROBLEM", associations: ["Rope", "Tie", "Tight", "String", "Tangl"] },
     "LUCK": { meaning: "SYNCHRONICITY", associations: ["Good", "Win", "Happy", "Chance", "Lottery"] },
     "FATE": { meaning: "NECCESSITY", associations: ["Time", "Road", "Life", "God", "Plan"] },
+
+    // Batch 26: New Symbols (Manual Addition)
+    "AVOCADO": { meaning: "HIDDEN POTENTIAL", associations: ["Green", "Seed", "Soft", "Tree", "Fruit"] },
+    "BAMBOO": { meaning: "RESILIENCE", associations: ["Green", "Tall", "Wood", "Flexible", "Shoot"] },
+    "FIG": { meaning: "ABUNDANCE", associations: ["Fruit", "Sweet", "Tree", "Seed", "Leaf"] },
+    "HAMMOCK": { meaning: "REST AND RETREAT", associations: ["Sleep", "Swing", "Tree", "Net", "Relax"] },
+    "JUGGLER": { meaning: "BALANCE IN CHAOS", associations: ["Ball", "Circus", "Skill", "Hand", "Trick"] },
+    "LAVENDER": { meaning: "HEALING PEACE", associations: ["Purple", "Smell", "Flower", "Calm", "Herb"] },
+    "LIPSTICK": { meaning: "PERSONA AND MASK", associations: ["Red", "Mouth", "Makeup", "Kiss", "Paint"] },
+    "MUSHROOM": { meaning: "RAPID TRANSFORMATION", associations: ["Fungus", "White", "Forest", "Magic", "Eat"] },
+    "ORCHID": { meaning: "REFINED BEAUTY", associations: ["Flower", "Rare", "Beautiful", "Plant", "Exotic"] },
+    "POMEGRANATE": { meaning: "FERTILITY AND WEALTH", associations: ["Red", "Seed", "Fruit", "Sweet", "Eat"] },
     // -- RESTORED ENTRIES (Recovered from JSONs) --
     "ATTACKING ANGEL": { meaning: "Meaning not found", associations: [] },
     "ATTACKING BABY": { meaning: "Meaning not found", associations: [] },
