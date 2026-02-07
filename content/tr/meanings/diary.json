@@ -1,14 +1,12 @@
 {
-  "localizedName": "Diary",
-  "title": "Rüyada Diary Görmek: Anlamı ve Yorumu",
-  "seoDescription": "Rüyada Diary görmenin psikolojik ve manevi anlamını öğrenin. Diary rüyasının hayatınıza dair mesajları.",
-  "introduction": "Diary, rüya sembolizminde önemli bir yer tutar ve genellikle iç dünyanızdaki gizli kalmış duyguları açığa çıkarır. Bu rüya, dikkatinizi çekmeye çalışan bir mesajdır.",
-  "symbolism": "Günlük sembolü, iç dünyanızın derinliklerinde saklı olan gücünüzü ve potansiyelinizi açığa çıkaran bir aynadır. Kâğıt sayfalarında gizli duygularınız, düşünceleriniz ve arzularınız can bulur. Bu sembol, bazen bastırılmış bir isteğin, hayallerinizin peşinden gitme arzusunun yansımasıdır. Diğer zamanlarda ise, yüzleşmeniz gereken korkuların ve kaygıların habercisi olabilir. \n\nGünlük, yaşam yolculuğunuzda bir rehber gibidir; geçmişin izlerini taşırken, geleceğe dair umutlarınızı da barındırır. Kendi hikayenizi yazma ve içsel sesinizi duyma arzusunu simgeler. Aynı zamanda, kendinizle yüzleşmenin ve içsel keşiflerin ne denli önemli olduğunu hatırlatır. Her sayfa, hayatınızın bir dönemine ışık tutarken, kendinizi anlama yolunda attığınız adımları gözler önüne serer.",
-  "cosmicAnalysis": "Bu rüya, Ay'ın evrelerine göre 4 farklı kozmik mesaj taşır:\n\n**🌑 Yeni Ay:** Yeni Ay evresinde bir günlüğü görmek, hayatınızda yeni başlangıçlar yapma arzusunu simgeler. İçsel düşüncelerinizin ve duygularınızın keşfine çıkmanız, taze bir başlangıç yaratma fırsatını önünüze serer.\n\n**🌓 Büyüyen Ay:** Büyüyen Ay döneminde bir günlüğün ortaya çıkması, büyüme ve eyleme geçme isteğinizi yansıtır. Bastırılmış arzularınızı gün yüzüne çıkararak, içsel gücünüzü harekete geçirmenin ve potansiyelinizi gerçekleştirmek için adım atmanın zamanının geldiğini gösterir.\n\n**🌕 Dolunay:** Dolunay, bir günlüğün açığa çıkmasıyla birlikte, içsel dünyanızdaki derin duyguların aydınlanmasını simgeler. Bu evrede, yazdıklarınızla yüzleşmek, korkularınızı ve arzularınızı anlamak için bir fırsat sunar; böylece, duygusal olarak bir bütünlük sağlarsınız.\n\n**🌗 Küçülen Ay:** Küçülen Ay döneminde bir günlüğün görülmesi, bırakma ve serbest bırakma sürecini temsil eder. Geçmişteki duyguları ve deneyimleri geride bırakma zamanının geldiğini belirtir, böylece yeni bir sayfa açarak ruhsal hafiflik kazanabilirsiniz.",
+  "localizedName": "Günlük",
+  "title": "Rüyada Günlük Görmek",
+  "seoDescription": "Rüyada Günlük görmek ne anlama gelir? Günlük rüyasının psikolojik ve manevi yorumu.",
+  "introduction": "Rüyada günlük görmek, kişinin iç dünyasına dair derin bir keşif ve kendini ifade etme arzusunu simgeler. Günlükler, bireyin en mahrem düşüncelerini, duygularını ve hayallerini yansıtır. Bu rüya, bilinçaltında saklanan duygusal yükler veya ifade edilmemiş düşüncelerle yüzleşme çağrısı olabilir.",
+  "symbolism": "Günlük, kişinin yaşam yolculuğundaki önemli anları, kişisel gelişimi ve kendini tanıma sürecini sembolize eder. Rüyada günlük görmek, bireyin geçmişte yaşadığı olayları değerlendirme, geleceğe dair planlar yapma ve içsel bir denge arayışında olma ihtiyacını gösterebilir. Bu sembol, bireyin kendi hikayesini yazma gücünü ve kontrolünü eline alması gerektiğini hatırlatır.",
+  "cosmicAnalysis": "**🌑 Yeni Ay:** Yeni ay döneminde rüyada günlük görmek, yeni başlangıçlar ve kişisel hedefler belirleme zamanına işaret eder. Bu dönem, geçmişi geride bırakıp, yeni sayfalar açma isteğini simgeler.\n\n**🌓 Büyüyen Ay:** Büyüyen ay evresinde günlük görmek, gelişim ve ilerleme arzusunu yansıtır. Bu rüya, kişinin kişisel projelerine veya ilişkilerine daha fazla odaklanması gerektiğini gösterebilir.\n\n**🌕 Dolunay:** Dolunay sırasında günlük görmek, duygusal doluluk ve aydınlanma anlarını simgeler. Bu dönemde, kişinin içsel dünyasında önemli bir farkındalık veya çözümleme yaşayabileceğine işaret eder.\n\n**🌗 Küçülen Ay:** Küçülen ay evresinde günlük görmek, bırakma ve arınma sürecini temsil eder. Bu rüya, kişinin geçmiş yüklerinden kurtulup, daha hafif ve özgür bir geleceğe doğru adım atma ihtiyacını vurgulayabilir.",
   "commonScenarios": [
-    "Diary tarafından kovalanmak: Kendinizin bir yönünden veya bir sorumluluktan kaçtığınızı gösterir.",
-    "Bir diary bulmak: Gizli bir yeteneğin, fırsatın veya kaynağın keşfini temsil eder.",
-    "Diary olmak: Bu özelliğin veya gücün sizin bir parçanız haline geldiğini işaret eder."
-  ],
-  "cta": "Diary rüyası sizin için ne anlama geliyor? Dream Boat ile kişisel analizinizi hemen yapın."
+    "Rüyada boş bir günlük görmek, kişinin yeni bir başlangıç yapma arzusunu yansıtabilir.",
+    "Günlüğe yazı yazmak, duygusal ifade ihtiyacını ve içsel keşfi simgeler."
+  ]
 }
