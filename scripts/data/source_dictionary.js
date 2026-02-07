@@ -2,6 +2,7 @@
 // 500 items. Jungian Archetypes.
 module.exports = {
     "OCEAN": { meaning: "THE COLLECTIVE UNCONSCIOUS", associations: ["Waves", "Salt", "Abyss", "Horizon", "Tides"] },
+    "CHEST": { meaning: "HIDDEN MEMORIES", associations: ["Box", "Lock", "Wood", "Treasure", "Storage"] },
     "HOUSE": { meaning: "PSYCHIC STRUCTURE (THE SELF)", associations: ["Room", "Roof", "Basement", "Window", "Attic"] },
     "SNAKE": { meaning: "TRANSFORMATION (LIBIDO)", associations: ["Viper", "Shedding", "Venom", "Coil", "Bite"] },
     "TEETH FALLING OUT": { meaning: "LOSS OF PERSONA", associations: ["Blood", "Gaps", "Decay", "Crumbling", "Mirror"] },
@@ -1285,8 +1286,8 @@ module.exports = {
     "BATHROOM": { meaning: "PRIVATE CLEANSING", associations: ["Toilet", "Shower", "Clean", "Wash", "Private"] },
     "BEDROOM": { meaning: "INTIMACY AND REST", associations: ["Bed", "Sleep", "Private", "Room", "Pillow"] },
     "YARD": { meaning: "PERSONAL TERRITORY", associations: ["Grass", "House", "Back", "Fence", "Play"] }
-,
-"DIDGERIDOO": { meaning: "Rüyalarımız, bilinçaltımızın ve ruhsal dünyamızın ...", associations: [] },
+    ,
+    "DIDGERIDOO": { meaning: "Rüyalarımız, bilinçaltımızın ve ruhsal dünyamızın ...", associations: [] },
     "CALIPER": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden yüzeye ç...", associations: [] },
     "PLECTRUM": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
     "QUOKKA": { meaning: "Rüyada quokka görmek, genellikle pozitif duyguları...", associations: [] },
@@ -1886,7 +1887,7 @@ module.exports = {
     "REVISITING A CHILDHOOD MEMORY WITH A SENSE OF DÉJÀ VU": { meaning: "Rüyada bir çocukluk anısını déjà vu hissiyle yenid...", associations: [] },
     "BEING UNABLE TO FIND THE EXIT IN A BUILDING": { meaning: "Rüyada bir binada çıkışı bulamamak, kişinin gerçek...", associations: [] },
     "SUDDENLY REALIZING AN IMPORTANT RESPONSIBILITY": { meaning: "Rüyada aniden önemli bir sorumluluğun farkına varm...", associations: [] },
-"SMARTWATCH": { meaning: "Akıllı saatler, günümüz dünyasında zamanı yönetmek...", associations: [] },
+    "SMARTWATCH": { meaning: "Akıllı saatler, günümüz dünyasında zamanı yönetmek...", associations: [] },
     "SMARTPHONE": { meaning: "Rüyada akıllı telefon görmek, günümüz dünyasında i...", associations: [] },
     "TABLET": { meaning: "Rüyada tablet görmek, modern dünyanın sembollerind...", associations: [] },
     "VR HEADSET": { meaning: "VR kulaklıkları, sanal gerçeklik deneyimlerini müm...", associations: [] },

@@ -475,6 +475,7 @@ const localizedNames = {
     "chef": "Aşçı",
     "chenille": "Şenil",
     "cheongsam": "Çin elbisesi",
+    "chest": "Sandık",
     "chewing": "Çiğneme",
     "chiaroscuro": "Tenebrism",
     "chicken": "Tavuk",

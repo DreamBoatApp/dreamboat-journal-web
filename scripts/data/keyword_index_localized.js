@@ -1174,6 +1174,8 @@ const localizedKeywords = {
     "çin": "cheongsam",
     "elbisesi": "cheongsam",
     "cheongsam": "cheongsam",
+    "sandık": "chest",
+    "chest": "chest",
     "çiğneme": "chewing",
     "chewing": "chewing",
     "tenebrism": "chiaroscuro",
