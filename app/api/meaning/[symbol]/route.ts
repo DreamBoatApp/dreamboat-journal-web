@@ -9,8 +9,9 @@ export async function GET(
     try {
         const symbol = params.symbol.toLowerCase().trim();
 
-        // Default to Turkish for now (as per plan), but structure allows expansion
-        const lang = 'tr';
+        // Default to English (source of truth), but allow override via query param
+        const { searchParams } = new URL(request.url);
+        const lang = searchParams.get('lang') || 'en';
 
         // Construct path to the JSON file
         // Note: In Next.js production, we need to ensure these files are included in the build
