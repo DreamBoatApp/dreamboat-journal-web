@@ -4523,9 +4523,9 @@ for (const [symbol, data] of Object.entries(dictionary)) {
 // Add localized keywords from content files (e.g., "gergedan" -> "rhino")
 const localizedKeywords = require('./keyword_index_localized');
 for (const [keyword, slug] of Object.entries(localizedKeywords)) {
-    if (!keywordIndex[keyword]) {
-        keywordIndex[keyword] = slug;
-    }
+    // We intentionally overwrite here. 
+    // If a content file exists (e.g. "Bamboo"), it takes precedence over a dictionary association (e.g. Panda -> Bamboo).
+    keywordIndex[keyword] = slug;
 }
 
 module.exports = keywordIndex;

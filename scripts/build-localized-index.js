@@ -42,6 +42,10 @@ async function buildLocalizedIndex() {
                     }
                 }
             }
+
+            // Add the ENGLISH slug itself as a keyword
+            // This ensures "Bamboo" -> "bamboo" mapping exists, which will validly overwrite "Panda" -> "bamboo" association.
+            localizedKeywords[slug] = slug;
         } catch (err) {
             console.error(`❌ Error reading ${file}: ${err.message}`);
         }
