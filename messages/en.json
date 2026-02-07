@@ -14,17 +14,37 @@
   },
   "Navigation": {
     "home": "Home",
-    "dictionary": "Dictionary",
+    "dictionary": "Dream Dictionary",
     "blog": "Blog"
+  },
+  "InlineCTA": {
+    "title": "What is DreamBoat?",
+    "description": "Stop searching for dream interpretations from various sources. DreamBoat is your personal assistant that records your dreams with your emotions and interprets them with advanced AI models.\n\nYou can transform your dreams into works of art, use them as backgrounds, or share them with loved ones. You can also favorite dreams, search through past dreams, and track your monthly emotional changes.\n\nWith weekly and monthly analyses, discover prominent themes while understanding the effects of Moon phases and cosmic events on your dreams.",
+    "button": ""
+  },
+  "MeaningPage": {
+    "dictionaryTag": "Dream Dictionary",
+    "symbolismTitle": "Symbolism and Meaning",
+    "cosmicConnectionTitle": "Cosmic Connection",
+    "commonDreamsTitle": "Common Dreams"
   },
   "Common": {
     "moonPhaseTitle": "Current Moon Phase",
+    "phases": {
+      "New": "New Moon",
+      "Waxing": "Waxing Moon",
+      "Full": "Full Moon",
+      "Waning": "Waning Moon",
+      "Dark": "Dark Moon"
+    },
     "moonPhaseDesc": "Your dreams are influenced by the moon cycle.",
-    "downloadIOS": "Download iOS",
-    "downloadAndroid": "Download Android",
+    "moonPhasePrefix": "Moon Phase When You Had This Dream: ",
+    "downloadIOS": "iOS",
+    "downloadAndroid": "Android",
     "bannerSymbolCopy": "Discover the personal meaning of \"{symbol}\" in your dream.",
     "bannerDefaultCopy": "Stop searching for dream interpretations from various sources.",
     "openInApp": "Open in App",
-    "scanToDownload": "Scan with your phone"
+    "scanToDownload": "Scan with your phone",
+    "blurCTA": "Download the app to see the full analysis and get your personal interpretation."
   }
 }

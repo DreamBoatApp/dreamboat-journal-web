@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:content": "node scripts/sync-content.js",
+    "enrich:content": "node scripts/enrich-content.js",
+    "enrich:symbolism": "node scripts/enrich-symbolism.js"
   },
   "dependencies": {
     "clsx": "^2.1.1",
