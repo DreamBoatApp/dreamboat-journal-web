@@ -21,6 +21,14 @@ async function buildLocalizedIndex() {
             const content = JSON.parse(await fs.readFile(filePath, 'utf-8'));
             const localizedName = content.localizedName;
 
+            // Add manual keywords if present (e.g. conjugated verbs)
+            if (content.keywords && Array.isArray(content.keywords)) {
+                content.keywords.forEach(kw => {
+                    const normalizedKw = kw.toLowerCase().trim();
+                    localizedKeywords[normalizedKw] = slug;
+                });
+            }
+
             if (localizedName) {
                 // Add full name
                 const normalizedName = localizedName.toLowerCase().trim();
