@@ -425,7 +425,6 @@ module.exports = {
     "STAMP": { meaning: "VALIDATION", associations: ["Post", "Mail", "Corner", "Stick", "Picture"] },
     "JAR": { meaning: "CONTAINED EMOTION", associations: ["Glass", "Lid", "Clear", "Food", "Preserve"] },
     "MANDALA": { meaning: "TOTALITY OF THE SELF", associations: ["Circle", "Pattern", "Round", "Center", "Whole"] },
-
     // Batch 20: Cosmic Locations & Architecture
     "CINEMA": { meaning: "PROJECTION OF LIFE SCRIPTS", associations: ["Screen", "Movie", "Seat", "Dark", "Watch"] },
     "MALL": { meaning: "MATERIALISTIC CHOICES", associations: ["Shop", "Buy", "Walk", "Crowd", "Bag"] },
@@ -477,7 +476,6 @@ module.exports = {
     "FOREST": { meaning: "THE UNCONSCIOUS REALM", associations: ["Tree", "Dark", "Green", "Lost", "Woods"] },
     "FIELD": { meaning: "POTENTIAL FOR GROWTH", associations: ["Grass", "Green", "Open", "Flower", "Run"] },
     "MEADOW": { meaning: "PEACFUL STATE OF MIND", associations: ["Grass", "Flower", "Sun", "Soft", "Green"] },
-
     // Batch 21: The Animal Kingdom II
     "LADYBUG": { meaning: "SIMPLE LUCK", associations: ["Red", "Spots", "Small", "Fly", "Garden"] },
     "DRAGONFLY": { meaning: "ILLUSION AND CHANGE", associations: ["Wings", "Fast", "Water", "Blue", "Hover"] },
@@ -529,7 +527,6 @@ module.exports = {
     "KANGAROO": { meaning: "MATERNAL PROTECTION", associations: ["Jump", "Pouch", "Baby", "Australia", "Tail"] },
     "GORILLA": { meaning: "PRIMITIVE POWER", associations: ["Ape", "Black", "Big", "Chest", "Jungle"] },
     "CHIMPANZEE": { meaning: "EVOLUTIONARY SHADOW", associations: ["Ape", "Smart", "Face", "Hand", "Tree"] },
-
     // Batch 22: Actions & Verbs
     "BREATHING": { meaning: "SPIRITUAL INSPIRATION", associations: ["Air", "Lungs", "Inhale", "Life", "Deep"] },
     "CHOKING": { meaning: "SUPPRESSED EXPRESSION", associations: ["Neck", "Air", "Food", "Hands", "Panic"] },
@@ -581,7 +578,6 @@ module.exports = {
     "SEARCHING": { meaning: "QUEST FOR SELF", associations: ["Look", "Lost", "Find", "Eye", "Seek"] },
     "FINDING": { meaning: "DISCOVERY OF POTENTIAL", associations: ["Happy", "New", "Look", "Get", "See"] },
     "LOSING": { meaning: "LOSS OF EGO ATTACHMENT", associations: ["Sad", "Gone", "Miss", "Look", "Cant"] },
-
     // Batch 23: Household & Daily Objects
     "FORK": { meaning: "DISCRIMINATING FUNCTION", associations: ["Eat", "Silver", "Sharp", "Food", "Knife"] },
     "SPOON": { meaning: "NURTURING RECEPTIVITY", associations: ["Eat", "Soup", "Silver", "Round", "Bowl"] },
@@ -633,7 +629,6 @@ module.exports = {
     "ASHTRAY": { meaning: "RESIDUE OF PASSION", associations: ["Smoke", "Dirty", "Glass", "Butt", "Grey"] },
     "REMOTE": { meaning: "DISTANT CONTROL", associations: ["TV", "Button", "Click", "Control", "Hand"] },
     "BATTERY": { meaning: "STORED LIBIDO", associations: ["Power", "Energy", "Plus", "Minus", "Small"] },
-
     // Batch 24: Nature & Elements II
     "TORNADO": { meaning: "DESTRUCTIVE EMOTIONAL CHAOS", associations: ["Wind", "Spin", "Storm", "Dark", "Funnel"] },
     "HURRICANE": { meaning: "OVERWHELMING FORCE", associations: ["Wind", "Rain", "Water", "Storm", "Wave"] },
@@ -673,7 +668,6 @@ module.exports = {
     "MOON": { meaning: "THE UNCONSCIOUS", associations: ["Night", "Light", "White", "Sky", "Phase"] },
     "STAR": { meaning: "GUIDING LIGHT", associations: ["Light", "Night", "Sky", "Wish", "Far"] },
     "PLANET": { meaning: "ORBITING ASPECT", associations: ["Space", "Ball", "Round", "Sky", "World"] },
-
     // Batch 25: Abstract Concepts & Shapes
     "TIME": { meaning: "LIMITATION OR CYCLE", associations: ["Clock", "Watch", "Hour", "Fast", "Late"] },
     "ZERO": { meaning: "POTENTIAL VOID", associations: ["Number", "Circle", "Nothing", "Round", "Start"] },
@@ -711,7 +705,6 @@ module.exports = {
     "KNOT": { meaning: "COMPLEX PROBLEM", associations: ["Rope", "Tie", "Tight", "String", "Tangl"] },
     "LUCK": { meaning: "SYNCHRONICITY", associations: ["Good", "Win", "Happy", "Chance", "Lottery"] },
     "FATE": { meaning: "NECCESSITY", associations: ["Time", "Road", "Life", "God", "Plan"] },
-
     // Batch 26: New Symbols (Manual Addition)
     "AVOCADO": { meaning: "HIDDEN POTENTIAL", associations: ["Green", "Seed", "Soft", "Tree", "Fruit"] },
     "BAMBOO": { meaning: "RESILIENCE", associations: ["Green", "Tall", "Wood", "Flexible", "Shoot"] },
@@ -723,458 +716,7 @@ module.exports = {
     "MUSHROOM": { meaning: "RAPID TRANSFORMATION", associations: ["Fungus", "White", "Forest", "Magic", "Eat"] },
     "ORCHID": { meaning: "REFINED BEAUTY", associations: ["Flower", "Rare", "Beautiful", "Plant", "Exotic"] },
     "POMEGRANATE": { meaning: "FERTILITY AND WEALTH", associations: ["Red", "Seed", "Fruit", "Sweet", "Eat"] },
-    // -- RESTORED ENTRIES (Recovered from JSONs) --
-    "ATTACKING ANGEL": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING BABY": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING BEAR": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING BIRD": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING BLOOD": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING CAR": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING CAT": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING CRYING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING DANCING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING DEATH": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING DEMON": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING DOG": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING DOOR": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING DRAGON": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING FIRE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING FISH": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING FLYING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING GHOST": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING HORSE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING HOUSE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING KEY": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING KNIFE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING LION": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING MONEY": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING OCEAN": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING RAIN": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING RUNNING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING SHARK": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING SNAKE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING SNOW": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING SPIDER": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING STAIRS": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING STORM": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING WATER": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING WEDDING": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING WOLF": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING WOUND": { meaning: "Meaning not found", associations: [] },
-    "ATTACKING ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "BLACK ANGEL": { meaning: "Meaning not found", associations: [] },
-    "BLACK BABY": { meaning: "Meaning not found", associations: [] },
-    "BLACK BEAR": { meaning: "Meaning not found", associations: [] },
-    "BLACK BIRD": { meaning: "Meaning not found", associations: [] },
-    "BLACK BLOOD": { meaning: "Meaning not found", associations: [] },
-    "BLACK BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "BLACK CAR": { meaning: "Meaning not found", associations: [] },
-    "BLACK CAT": { meaning: "Meaning not found", associations: [] },
-    "BLACK CRYING": { meaning: "Meaning not found", associations: [] },
-    "BLACK DANCING": { meaning: "Meaning not found", associations: [] },
-    "BLACK DEATH": { meaning: "Meaning not found", associations: [] },
-    "BLACK DEMON": { meaning: "Meaning not found", associations: [] },
-    "BLACK DOG": { meaning: "Meaning not found", associations: [] },
-    "BLACK DOOR": { meaning: "Meaning not found", associations: [] },
-    "BLACK DRAGON": { meaning: "Meaning not found", associations: [] },
-    "BLACK ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "BLACK FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "BLACK FIRE": { meaning: "Meaning not found", associations: [] },
-    "BLACK FISH": { meaning: "Meaning not found", associations: [] },
-    "BLACK FLYING": { meaning: "Meaning not found", associations: [] },
-    "BLACK GHOST": { meaning: "Meaning not found", associations: [] },
-    "BLACK HORSE": { meaning: "Meaning not found", associations: [] },
-    "BLACK HOUSE": { meaning: "Meaning not found", associations: [] },
-    "BLACK KEY": { meaning: "Meaning not found", associations: [] },
-    "BLACK KNIFE": { meaning: "Meaning not found", associations: [] },
-    "BLACK LION": { meaning: "Meaning not found", associations: [] },
-    "BLACK MONEY": { meaning: "Meaning not found", associations: [] },
-    "BLACK MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "BLACK OCEAN": { meaning: "Meaning not found", associations: [] },
-    "BLACK RAIN": { meaning: "Meaning not found", associations: [] },
-    "BLACK RUNNING": { meaning: "Meaning not found", associations: [] },
-    "BLACK SHARK": { meaning: "Meaning not found", associations: [] },
-    "BLACK SNAKE": { meaning: "Meaning not found", associations: [] },
-    "BLACK SNOW": { meaning: "Meaning not found", associations: [] },
-    "BLACK SPIDER": { meaning: "Meaning not found", associations: [] },
-    "BLACK STAIRS": { meaning: "Meaning not found", associations: [] },
-    "BLACK STORM": { meaning: "Meaning not found", associations: [] },
-    "BLACK SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "BLACK TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "BLACK VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "BLACK WATER": { meaning: "Meaning not found", associations: [] },
-    "BLACK WEDDING": { meaning: "Meaning not found", associations: [] },
-    "BLACK WOLF": { meaning: "Meaning not found", associations: [] },
-    "BLACK WOUND": { meaning: "Meaning not found", associations: [] },
-    "BLACK ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "CHASING ANGEL": { meaning: "Meaning not found", associations: [] },
-    "CHASING BABY": { meaning: "Meaning not found", associations: [] },
-    "CHASING BEAR": { meaning: "Meaning not found", associations: [] },
-    "CHASING BIRD": { meaning: "Meaning not found", associations: [] },
-    "CHASING BLOOD": { meaning: "Meaning not found", associations: [] },
-    "CHASING BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "CHASING CAR": { meaning: "Meaning not found", associations: [] },
-    "CHASING CAT": { meaning: "Meaning not found", associations: [] },
-    "CHASING CRYING": { meaning: "Meaning not found", associations: [] },
-    "CHASING DANCING": { meaning: "Meaning not found", associations: [] },
-    "CHASING DEATH": { meaning: "Meaning not found", associations: [] },
-    "CHASING DEMON": { meaning: "Meaning not found", associations: [] },
-    "CHASING DOG": { meaning: "Meaning not found", associations: [] },
-    "CHASING DOOR": { meaning: "Meaning not found", associations: [] },
-    "CHASING DRAGON": { meaning: "Meaning not found", associations: [] },
-    "CHASING ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "CHASING FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "CHASING FIRE": { meaning: "Meaning not found", associations: [] },
-    "CHASING FISH": { meaning: "Meaning not found", associations: [] },
-    "CHASING FLYING": { meaning: "Meaning not found", associations: [] },
-    "CHASING GHOST": { meaning: "Meaning not found", associations: [] },
-    "CHASING HORSE": { meaning: "Meaning not found", associations: [] },
-    "CHASING HOUSE": { meaning: "Meaning not found", associations: [] },
-    "CHASING KEY": { meaning: "Meaning not found", associations: [] },
-    "CHASING KNIFE": { meaning: "Meaning not found", associations: [] },
-    "CHASING LION": { meaning: "Meaning not found", associations: [] },
-    "CHASING MONEY": { meaning: "Meaning not found", associations: [] },
-    "CHASING MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "CHASING OCEAN": { meaning: "Meaning not found", associations: [] },
-    "CHASING RAIN": { meaning: "Meaning not found", associations: [] },
-    "CHASING RUNNING": { meaning: "Meaning not found", associations: [] },
-    "CHASING SHARK": { meaning: "Meaning not found", associations: [] },
-    "CHASING SNAKE": { meaning: "Meaning not found", associations: [] },
-    "CHASING SNOW": { meaning: "Meaning not found", associations: [] },
-    "CHASING SPIDER": { meaning: "Meaning not found", associations: [] },
-    "CHASING STAIRS": { meaning: "Meaning not found", associations: [] },
-    "CHASING STORM": { meaning: "Meaning not found", associations: [] },
-    "CHASING SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "CHASING TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "CHASING VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "CHASING WATER": { meaning: "Meaning not found", associations: [] },
-    "CHASING WEDDING": { meaning: "Meaning not found", associations: [] },
-    "CHASING WOLF": { meaning: "Meaning not found", associations: [] },
-    "CHASING WOUND": { meaning: "Meaning not found", associations: [] },
-    "CHASING ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "DEAD ANGEL": { meaning: "Meaning not found", associations: [] },
-    "DEAD BABY": { meaning: "Meaning not found", associations: [] },
-    "DEAD BEAR": { meaning: "Meaning not found", associations: [] },
-    "DEAD BIRD": { meaning: "Meaning not found", associations: [] },
-    "DEAD BLOOD": { meaning: "Meaning not found", associations: [] },
-    "DEAD BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "DEAD CAR": { meaning: "Meaning not found", associations: [] },
-    "DEAD CAT": { meaning: "Meaning not found", associations: [] },
-    "DEAD CRYING": { meaning: "Meaning not found", associations: [] },
-    "DEAD DANCING": { meaning: "Meaning not found", associations: [] },
-    "DEAD DEATH": { meaning: "Meaning not found", associations: [] },
-    "DEAD DEMON": { meaning: "Meaning not found", associations: [] },
-    "DEAD DOG": { meaning: "Meaning not found", associations: [] },
-    "DEAD DOOR": { meaning: "Meaning not found", associations: [] },
-    "DEAD DRAGON": { meaning: "Meaning not found", associations: [] },
-    "DEAD ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "DEAD FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "DEAD FIRE": { meaning: "Meaning not found", associations: [] },
-    "DEAD FISH": { meaning: "Meaning not found", associations: [] },
-    "DEAD FLYING": { meaning: "Meaning not found", associations: [] },
-    "DEAD GHOST": { meaning: "Meaning not found", associations: [] },
-    "DEAD HORSE": { meaning: "Meaning not found", associations: [] },
-    "DEAD HOUSE": { meaning: "Meaning not found", associations: [] },
-    "DEAD KEY": { meaning: "Meaning not found", associations: [] },
-    "DEAD KNIFE": { meaning: "Meaning not found", associations: [] },
-    "DEAD LION": { meaning: "Meaning not found", associations: [] },
-    "DEAD MONEY": { meaning: "Meaning not found", associations: [] },
-    "DEAD MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "DEAD OCEAN": { meaning: "Meaning not found", associations: [] },
-    "DEAD RAIN": { meaning: "Meaning not found", associations: [] },
-    "DEAD RUNNING": { meaning: "Meaning not found", associations: [] },
-    "DEAD SHARK": { meaning: "Meaning not found", associations: [] },
-    "DEAD SNAKE": { meaning: "Meaning not found", associations: [] },
-    "DEAD SNOW": { meaning: "Meaning not found", associations: [] },
-    "DEAD SPIDER": { meaning: "Meaning not found", associations: [] },
-    "DEAD STAIRS": { meaning: "Meaning not found", associations: [] },
-    "DEAD STORM": { meaning: "Meaning not found", associations: [] },
-    "DEAD SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "DEAD TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "DEAD VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "DEAD WATER": { meaning: "Meaning not found", associations: [] },
-    "DEAD WEDDING": { meaning: "Meaning not found", associations: [] },
-    "DEAD WOLF": { meaning: "Meaning not found", associations: [] },
-    "DEAD WOUND": { meaning: "Meaning not found", associations: [] },
-    "DEAD ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "FLYING ANGEL": { meaning: "Meaning not found", associations: [] },
-    "FLYING BABY": { meaning: "Meaning not found", associations: [] },
-    "FLYING BEAR": { meaning: "Meaning not found", associations: [] },
-    "FLYING BIRD": { meaning: "Meaning not found", associations: [] },
-    "FLYING BLOOD": { meaning: "Meaning not found", associations: [] },
-    "FLYING BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "FLYING CAR": { meaning: "Meaning not found", associations: [] },
-    "FLYING CAT": { meaning: "Meaning not found", associations: [] },
-    "FLYING CRYING": { meaning: "Meaning not found", associations: [] },
-    "FLYING DANCING": { meaning: "Meaning not found", associations: [] },
-    "FLYING DEATH": { meaning: "Meaning not found", associations: [] },
-    "FLYING DEMON": { meaning: "Meaning not found", associations: [] },
-    "FLYING DOG": { meaning: "Meaning not found", associations: [] },
-    "FLYING DOOR": { meaning: "Meaning not found", associations: [] },
-    "FLYING DRAGON": { meaning: "Meaning not found", associations: [] },
-    "FLYING ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "FLYING FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "FLYING FIRE": { meaning: "Meaning not found", associations: [] },
-    "FLYING FISH": { meaning: "Meaning not found", associations: [] },
-    "FLYING FLYING": { meaning: "Meaning not found", associations: [] },
-    "FLYING GHOST": { meaning: "Meaning not found", associations: [] },
-    "FLYING HORSE": { meaning: "Meaning not found", associations: [] },
-    "FLYING HOUSE": { meaning: "Meaning not found", associations: [] },
-    "FLYING KEY": { meaning: "Meaning not found", associations: [] },
-    "FLYING KNIFE": { meaning: "Meaning not found", associations: [] },
-    "FLYING LION": { meaning: "Meaning not found", associations: [] },
-    "FLYING MONEY": { meaning: "Meaning not found", associations: [] },
-    "FLYING MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "FLYING OCEAN": { meaning: "Meaning not found", associations: [] },
-    "FLYING RAIN": { meaning: "Meaning not found", associations: [] },
-    "FLYING RUNNING": { meaning: "Meaning not found", associations: [] },
-    "FLYING SHARK": { meaning: "Meaning not found", associations: [] },
-    "FLYING SNAKE": { meaning: "Meaning not found", associations: [] },
-    "FLYING SNOW": { meaning: "Meaning not found", associations: [] },
-    "FLYING SPIDER": { meaning: "Meaning not found", associations: [] },
-    "FLYING STAIRS": { meaning: "Meaning not found", associations: [] },
-    "FLYING STORM": { meaning: "Meaning not found", associations: [] },
-    "FLYING SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "FLYING TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "FLYING VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "FLYING WATER": { meaning: "Meaning not found", associations: [] },
-    "FLYING WEDDING": { meaning: "Meaning not found", associations: [] },
-    "FLYING WOLF": { meaning: "Meaning not found", associations: [] },
-    "FLYING WOUND": { meaning: "Meaning not found", associations: [] },
-    "FLYING ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "GIANT ANGEL": { meaning: "Meaning not found", associations: [] },
-    "GIANT BABY": { meaning: "Meaning not found", associations: [] },
-    "GIANT BEAR": { meaning: "Meaning not found", associations: [] },
-    "GIANT BIRD": { meaning: "Meaning not found", associations: [] },
-    "GIANT BLOOD": { meaning: "Meaning not found", associations: [] },
-    "GIANT BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "GIANT CAR": { meaning: "Meaning not found", associations: [] },
-    "GIANT CAT": { meaning: "Meaning not found", associations: [] },
-    "GIANT CRYING": { meaning: "Meaning not found", associations: [] },
-    "GIANT DANCING": { meaning: "Meaning not found", associations: [] },
-    "GIANT DEATH": { meaning: "Meaning not found", associations: [] },
-    "GIANT DEMON": { meaning: "Meaning not found", associations: [] },
-    "GIANT DOG": { meaning: "Meaning not found", associations: [] },
-    "GIANT DOOR": { meaning: "Meaning not found", associations: [] },
-    "GIANT DRAGON": { meaning: "Meaning not found", associations: [] },
-    "GIANT ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "GIANT FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "GIANT FIRE": { meaning: "Meaning not found", associations: [] },
-    "GIANT FISH": { meaning: "Meaning not found", associations: [] },
-    "GIANT FLYING": { meaning: "Meaning not found", associations: [] },
-    "GIANT GHOST": { meaning: "Meaning not found", associations: [] },
-    "GIANT HORSE": { meaning: "Meaning not found", associations: [] },
-    "GIANT HOUSE": { meaning: "Meaning not found", associations: [] },
-    "GIANT KEY": { meaning: "Meaning not found", associations: [] },
-    "GIANT KNIFE": { meaning: "Meaning not found", associations: [] },
-    "GIANT LION": { meaning: "Meaning not found", associations: [] },
-    "GIANT MONEY": { meaning: "Meaning not found", associations: [] },
-    "GIANT MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "GIANT OCEAN": { meaning: "Meaning not found", associations: [] },
-    "GIANT RAIN": { meaning: "Meaning not found", associations: [] },
-    "GIANT RUNNING": { meaning: "Meaning not found", associations: [] },
-    "GIANT SHARK": { meaning: "Meaning not found", associations: [] },
-    "GIANT SNAKE": { meaning: "Meaning not found", associations: [] },
-    "GIANT SNOW": { meaning: "Meaning not found", associations: [] },
-    "GIANT SPIDER": { meaning: "Meaning not found", associations: [] },
-    "GIANT STAIRS": { meaning: "Meaning not found", associations: [] },
-    "GIANT STORM": { meaning: "Meaning not found", associations: [] },
-    "GIANT SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "GIANT TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "GIANT VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "GIANT WATER": { meaning: "Meaning not found", associations: [] },
-    "GIANT WEDDING": { meaning: "Meaning not found", associations: [] },
-    "GIANT WOLF": { meaning: "Meaning not found", associations: [] },
-    "GIANT WOUND": { meaning: "Meaning not found", associations: [] },
-    "GIANT ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "RED ANGEL": { meaning: "Meaning not found", associations: [] },
-    "RED BABY": { meaning: "Meaning not found", associations: [] },
-    "RED BEAR": { meaning: "Meaning not found", associations: [] },
-    "RED BIRD": { meaning: "Meaning not found", associations: [] },
-    "RED BLOOD": { meaning: "Meaning not found", associations: [] },
-    "RED BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "RED CAR": { meaning: "Meaning not found", associations: [] },
-    "RED CAT": { meaning: "Meaning not found", associations: [] },
-    "RED CRYING": { meaning: "Meaning not found", associations: [] },
-    "RED DANCING": { meaning: "Meaning not found", associations: [] },
-    "RED DEATH": { meaning: "Meaning not found", associations: [] },
-    "RED DEMON": { meaning: "Meaning not found", associations: [] },
-    "RED DOG": { meaning: "Meaning not found", associations: [] },
-    "RED DOOR": { meaning: "Meaning not found", associations: [] },
-    "RED DRAGON": { meaning: "Meaning not found", associations: [] },
-    "RED ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "RED FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "RED FIRE": { meaning: "Meaning not found", associations: [] },
-    "RED FISH": { meaning: "Meaning not found", associations: [] },
-    "RED FLYING": { meaning: "Meaning not found", associations: [] },
-    "RED GHOST": { meaning: "Meaning not found", associations: [] },
-    "RED HORSE": { meaning: "Meaning not found", associations: [] },
-    "RED HOUSE": { meaning: "Meaning not found", associations: [] },
-    "RED KEY": { meaning: "Meaning not found", associations: [] },
-    "RED KNIFE": { meaning: "Meaning not found", associations: [] },
-    "RED LION": { meaning: "Meaning not found", associations: [] },
-    "RED MONEY": { meaning: "Meaning not found", associations: [] },
-    "RED MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "RED OCEAN": { meaning: "Meaning not found", associations: [] },
-    "RED RAIN": { meaning: "Meaning not found", associations: [] },
-    "RED RUNNING": { meaning: "Meaning not found", associations: [] },
-    "RED SHARK": { meaning: "Meaning not found", associations: [] },
-    "RED SNAKE": { meaning: "Meaning not found", associations: [] },
-    "RED SNOW": { meaning: "Meaning not found", associations: [] },
-    "RED SPIDER": { meaning: "Meaning not found", associations: [] },
-    "RED STAIRS": { meaning: "Meaning not found", associations: [] },
-    "RED STORM": { meaning: "Meaning not found", associations: [] },
-    "RED SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "RED TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "RED VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "RED WATER": { meaning: "Meaning not found", associations: [] },
-    "RED WEDDING": { meaning: "Meaning not found", associations: [] },
-    "RED WOLF": { meaning: "Meaning not found", associations: [] },
-    "RED WOUND": { meaning: "Meaning not found", associations: [] },
-    "RED ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "SMALL ANGEL": { meaning: "Meaning not found", associations: [] },
-    "SMALL BABY": { meaning: "Meaning not found", associations: [] },
-    "SMALL BEAR": { meaning: "Meaning not found", associations: [] },
-    "SMALL BIRD": { meaning: "Meaning not found", associations: [] },
-    "SMALL BLOOD": { meaning: "Meaning not found", associations: [] },
-    "SMALL BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "SMALL CAR": { meaning: "Meaning not found", associations: [] },
-    "SMALL CAT": { meaning: "Meaning not found", associations: [] },
-    "SMALL CRYING": { meaning: "Meaning not found", associations: [] },
-    "SMALL DANCING": { meaning: "Meaning not found", associations: [] },
-    "SMALL DEATH": { meaning: "Meaning not found", associations: [] },
-    "SMALL DEMON": { meaning: "Meaning not found", associations: [] },
-    "SMALL DOG": { meaning: "Meaning not found", associations: [] },
-    "SMALL DOOR": { meaning: "Meaning not found", associations: [] },
-    "SMALL DRAGON": { meaning: "Meaning not found", associations: [] },
-    "SMALL ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "SMALL FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "SMALL FIRE": { meaning: "Meaning not found", associations: [] },
-    "SMALL FISH": { meaning: "Meaning not found", associations: [] },
-    "SMALL FLYING": { meaning: "Meaning not found", associations: [] },
-    "SMALL GHOST": { meaning: "Meaning not found", associations: [] },
-    "SMALL HORSE": { meaning: "Meaning not found", associations: [] },
-    "SMALL HOUSE": { meaning: "Meaning not found", associations: [] },
-    "SMALL KEY": { meaning: "Meaning not found", associations: [] },
-    "SMALL KNIFE": { meaning: "Meaning not found", associations: [] },
-    "SMALL LION": { meaning: "Meaning not found", associations: [] },
-    "SMALL MONEY": { meaning: "Meaning not found", associations: [] },
-    "SMALL MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "SMALL OCEAN": { meaning: "Meaning not found", associations: [] },
-    "SMALL RAIN": { meaning: "Meaning not found", associations: [] },
-    "SMALL RUNNING": { meaning: "Meaning not found", associations: [] },
-    "SMALL SHARK": { meaning: "Meaning not found", associations: [] },
-    "SMALL SNAKE": { meaning: "Meaning not found", associations: [] },
-    "SMALL SNOW": { meaning: "Meaning not found", associations: [] },
-    "SMALL SPIDER": { meaning: "Meaning not found", associations: [] },
-    "SMALL STAIRS": { meaning: "Meaning not found", associations: [] },
-    "SMALL STORM": { meaning: "Meaning not found", associations: [] },
-    "SMALL SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "SMALL TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "SMALL VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "SMALL WATER": { meaning: "Meaning not found", associations: [] },
-    "SMALL WEDDING": { meaning: "Meaning not found", associations: [] },
-    "SMALL WOLF": { meaning: "Meaning not found", associations: [] },
-    "SMALL WOUND": { meaning: "Meaning not found", associations: [] },
-    "SMALL ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "TALKING ANGEL": { meaning: "Meaning not found", associations: [] },
-    "TALKING BABY": { meaning: "Meaning not found", associations: [] },
-    "TALKING BEAR": { meaning: "Meaning not found", associations: [] },
-    "TALKING BIRD": { meaning: "Meaning not found", associations: [] },
-    "TALKING BLOOD": { meaning: "Meaning not found", associations: [] },
-    "TALKING BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "TALKING CAR": { meaning: "Meaning not found", associations: [] },
-    "TALKING CAT": { meaning: "Meaning not found", associations: [] },
-    "TALKING CRYING": { meaning: "Meaning not found", associations: [] },
-    "TALKING DANCING": { meaning: "Meaning not found", associations: [] },
-    "TALKING DEATH": { meaning: "Meaning not found", associations: [] },
-    "TALKING DEMON": { meaning: "Meaning not found", associations: [] },
-    "TALKING DOG": { meaning: "Meaning not found", associations: [] },
-    "TALKING DOOR": { meaning: "Meaning not found", associations: [] },
-    "TALKING DRAGON": { meaning: "Meaning not found", associations: [] },
-    "TALKING ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "TALKING FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "TALKING FIRE": { meaning: "Meaning not found", associations: [] },
-    "TALKING FISH": { meaning: "Meaning not found", associations: [] },
-    "TALKING FLYING": { meaning: "Meaning not found", associations: [] },
-    "TALKING GHOST": { meaning: "Meaning not found", associations: [] },
-    "TALKING HORSE": { meaning: "Meaning not found", associations: [] },
-    "TALKING HOUSE": { meaning: "Meaning not found", associations: [] },
-    "TALKING KEY": { meaning: "Meaning not found", associations: [] },
-    "TALKING KNIFE": { meaning: "Meaning not found", associations: [] },
-    "TALKING LION": { meaning: "Meaning not found", associations: [] },
-    "TALKING MONEY": { meaning: "Meaning not found", associations: [] },
-    "TALKING MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "TALKING OCEAN": { meaning: "Meaning not found", associations: [] },
-    "TALKING RAIN": { meaning: "Meaning not found", associations: [] },
-    "TALKING RUNNING": { meaning: "Meaning not found", associations: [] },
-    "TALKING SHARK": { meaning: "Meaning not found", associations: [] },
-    "TALKING SNAKE": { meaning: "Meaning not found", associations: [] },
-    "TALKING SNOW": { meaning: "Meaning not found", associations: [] },
-    "TALKING SPIDER": { meaning: "Meaning not found", associations: [] },
-    "TALKING STAIRS": { meaning: "Meaning not found", associations: [] },
-    "TALKING STORM": { meaning: "Meaning not found", associations: [] },
-    "TALKING SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "TALKING TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "TALKING VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "TALKING WATER": { meaning: "Meaning not found", associations: [] },
-    "TALKING WEDDING": { meaning: "Meaning not found", associations: [] },
-    "TALKING WOLF": { meaning: "Meaning not found", associations: [] },
-    "TALKING WOUND": { meaning: "Meaning not found", associations: [] },
-    "TALKING ZOMBIE": { meaning: "Meaning not found", associations: [] },
-    "WHITE ANGEL": { meaning: "Meaning not found", associations: [] },
-    "WHITE BABY": { meaning: "Meaning not found", associations: [] },
-    "WHITE BEAR": { meaning: "Meaning not found", associations: [] },
-    "WHITE BIRD": { meaning: "Meaning not found", associations: [] },
-    "WHITE BLOOD": { meaning: "Meaning not found", associations: [] },
-    "WHITE BRIDGE": { meaning: "Meaning not found", associations: [] },
-    "WHITE CAR": { meaning: "Meaning not found", associations: [] },
-    "WHITE CAT": { meaning: "Meaning not found", associations: [] },
-    "WHITE CRYING": { meaning: "Meaning not found", associations: [] },
-    "WHITE DANCING": { meaning: "Meaning not found", associations: [] },
-    "WHITE DEATH": { meaning: "Meaning not found", associations: [] },
-    "WHITE DEMON": { meaning: "Meaning not found", associations: [] },
-    "WHITE DOG": { meaning: "Meaning not found", associations: [] },
-    "WHITE DOOR": { meaning: "Meaning not found", associations: [] },
-    "WHITE DRAGON": { meaning: "Meaning not found", associations: [] },
-    "WHITE ELEPHANT": { meaning: "Meaning not found", associations: [] },
-    "WHITE FIGHTING": { meaning: "Meaning not found", associations: [] },
-    "WHITE FIRE": { meaning: "Meaning not found", associations: [] },
-    "WHITE FISH": { meaning: "Meaning not found", associations: [] },
-    "WHITE FLYING": { meaning: "Meaning not found", associations: [] },
-    "WHITE GHOST": { meaning: "Meaning not found", associations: [] },
-    "WHITE HORSE": { meaning: "Meaning not found", associations: [] },
-    "WHITE HOUSE": { meaning: "Meaning not found", associations: [] },
-    "WHITE KEY": { meaning: "Meaning not found", associations: [] },
-    "WHITE KNIFE": { meaning: "Meaning not found", associations: [] },
-    "WHITE LION": { meaning: "Meaning not found", associations: [] },
-    "WHITE MONEY": { meaning: "Meaning not found", associations: [] },
-    "WHITE MOUNTAIN": { meaning: "Meaning not found", associations: [] },
-    "WHITE OCEAN": { meaning: "Meaning not found", associations: [] },
-    "WHITE RAIN": { meaning: "Meaning not found", associations: [] },
-    "WHITE RUNNING": { meaning: "Meaning not found", associations: [] },
-    "WHITE SHARK": { meaning: "Meaning not found", associations: [] },
-    "WHITE SNAKE": { meaning: "Meaning not found", associations: [] },
-    "WHITE SNOW": { meaning: "Meaning not found", associations: [] },
-    "WHITE SPIDER": { meaning: "Meaning not found", associations: [] },
-    "WHITE STAIRS": { meaning: "Meaning not found", associations: [] },
-    "WHITE STORM": { meaning: "Meaning not found", associations: [] },
-    "WHITE SWIMMING": { meaning: "Meaning not found", associations: [] },
-    "WHITE TEETH FALLING OUT": { meaning: "Meaning not found", associations: [] },
-    "WHITE VAMPIRE": { meaning: "Meaning not found", associations: [] },
-    "WHITE WATER": { meaning: "Meaning not found", associations: [] },
-    "WHITE WEDDING": { meaning: "Meaning not found", associations: [] },
-    "WHITE WOLF": { meaning: "Meaning not found", associations: [] },
-    "WHITE WOUND": { meaning: "Meaning not found", associations: [] },
-    "WHITE ZOMBIE": { meaning: "Meaning not found", associations: [] },
-
+    // -- RESTORED ENTRIES (Recovered from JSONs) --
     // Batch 26: Foods & Drinks
     "PIZZA": { meaning: "INTEGRATION OF PARTS", associations: ["Cheese", "Box", "Slice", "Oven", "Italian"] },
     "BURGER": { meaning: "SATISFACTION OF HUNGER", associations: ["Meat", "Bun", "Cheese", "Fast", "Eat"] },
@@ -1196,7 +738,6 @@ module.exports = {
     "SOUP": { meaning: "EMOTIONAL COMFORT", associations: ["Hot", "Bowl", "Spoon", "Broth", "Sick"] },
     "SANDWICH": { meaning: "LAYERED EXPERIENCE", associations: ["Bread", "Lunch", "Meat", "Eat", "Make"] },
     "NOODLES": { meaning: "COMPLEX ENTANGLEMENTS", associations: ["Long", "Bowl", "Eat", "Pasta", "Soup"] },
-
     // Batch 26: Body Parts
     "EAR": { meaning: "RECEPTIVITY TO MESSAGES", associations: ["Listen", "Hear", "Sound", "Lobe", "Piercing"] },
     "NOSE": { meaning: "INTUITIVE SENSING", associations: ["Smell", "Scent", "Face", "Breathe", "Sneeze"] },
@@ -1213,7 +754,6 @@ module.exports = {
     "KNEE": { meaning: "HUMILITY AND FLEXIBILITY", associations: ["Leg", "Bend", "Pray", "Joint", "Cap"] },
     "ANKLE": { meaning: "SUPPORT AND DIRECTION", associations: ["Foot", "Leg", "Twist", "Sock", "Bone"] },
     "BRAIN": { meaning: "CENTRAL PROCESSING", associations: ["Mind", "Think", "Head", "Grey", "Smart"] },
-
     // Batch 26: Animals & Creatures
     "SQUIRREL": { meaning: "PREPARATION AND HOARDING", associations: ["Nut", "Tree", "Tail", "Fast", "Gather"] },
     "DEER": { meaning: "GENTLE INNOCENCE", associations: ["Forest", "Antlers", "Shy", "Run", "Brown"] },
@@ -1230,7 +770,6 @@ module.exports = {
     "SQUID": { meaning: "HIDDEN EMOTIONS", associations: ["Ink", "Sea", "Deep", "Tentacles", "Giant"] },
     "SEAL": { meaning: "PLAYFUL UNCONSCIOUS", associations: ["Sea", "Bark", "Swim", "Beach", "Ball"] },
     "WALRUS": { meaning: "THICK-SKINNED POWER", associations: ["Tusk", "Fat", "Ice", "Sea", "Big"] },
-
     // Batch 26: Objects & Household
     "SOFA": { meaning: "PASSIVE COMFORT", associations: ["Sit", "Relax", "Living", "Soft", "Couch"] },
     "DOLL": { meaning: "PROJECTED SELF", associations: ["Toy", "Girl", "Play", "Fake", "Dress"] },
@@ -1252,7 +791,6 @@ module.exports = {
     "AWARD": { meaning: "SOCIAL RECOGNITION", associations: ["Win", "Prize", "Gold", "Best", "Give"] },
     "TIARA": { meaning: "LOWER AUTHORITY", associations: ["Princess", "Head", "Sparkle", "Jewel", "Crown"] },
     "WAND": { meaning: "DIRECTED WILL", associations: ["Magic", "Wood", "Spell", "Star", "Hand"] },
-
     // Batch 26: Professions & People
     "DOCTOR": { meaning: "INNER HEALER", associations: ["Hospital", "Sick", "White", "Medicine", "Help"] },
     "NURSE": { meaning: "COMPASSIONATE CARE", associations: ["Hospital", "Care", "Help", "Sick", "White"] },
@@ -1269,7 +807,6 @@ module.exports = {
     "ASTRONAUT": { meaning: "EXPLORER OF UNCONSCIOUS", associations: ["Space", "Moon", "Suit", "Rocket", "Fly"] },
     "DETECTIVE": { meaning: "SEEKER of TRUTH", associations: ["Search", "Look", "Glass", "Solve", "Mystery"] },
     "SPY": { meaning: "HIDDEN OBSERVER", associations: ["Secret", "Hide", "Look", "Agent", "Sneak"] },
-
     // Batch 26: Nature & Places
     "BEACH": { meaning: "LIMINAL ZONE", associations: ["Sand", "Ocean", "Sun", "Water", "Coast"] },
     "HILL": { meaning: "MINOR OBSTACLE", associations: ["Up", "Green", "Climb", "Top", "Grass"] },
@@ -1786,7 +1323,6 @@ module.exports = {
     "QUINCE": { meaning: "Ayva, rüya dünyasında hem olumlu hem de olumsuz an...", associations: [] },
     "DURIAN": { meaning: "Durián, Güneydoğu Asya'nın egzotik ve tartışmalı m...", associations: [] },
     "IRRAWADDY DOLPHIN": { meaning: "Irrawaddy yunusu, tatlı su ve nehir deltalarında y...", associations: [] },
-
     "INVISIBILITY TO OTHERS": { meaning: "Rüyada diğerlerine görünmezlik hissetmek, kişinin ...", associations: [] },
     "FALLING FROM A GREAT HEIGHT": { meaning: "Rüyada büyük bir yükseklikten düşmek, genellikle k...", associations: [] },
     "WALKING THROUGH ENDLESS CORRIDORS": { meaning: "Rüyada sonsuz koridorlarda yürümek, genellikle kiş...", associations: [] },
@@ -2391,7 +1927,6 @@ module.exports = {
     "AUTONOMOUS CAR": { meaning: "Otonom araçlar, teknolojinin geldiği modern noktan...", associations: [] },
     "ORGANIC SALAD": { meaning: "Rüyada organik salata görmek, modern yaşamın getir...", associations: [] },
     "SOCIAL MEDIA FEED": { meaning: "Sosyal medya akışı, günümüzün dijital çağında bilg...", associations: [] },
-
     // --- BATCH 4: HOME & FURNITURE ---
     "ARMCHAIR": { meaning: "DOMESTIC SYMBOL", associations: [] },
     "NIGHTSTAND": { meaning: "DOMESTIC SYMBOL", associations: [] },
@@ -2464,7 +1999,6 @@ module.exports = {
     "CHANDELIER": { meaning: "DOMESTIC SYMBOL", associations: [] },
     "PILLOWCASE": { meaning: "DOMESTIC SYMBOL", associations: [] },
     "QUILT": { meaning: "DOMESTIC SYMBOL", associations: [] },
-
     // --- BATCH 5: POPULAR ACTIONS & SITUATIONS ---
     "ESCAPING": { meaning: "ACTION/SITUATION", associations: [] },
     "WALKING": { meaning: "ACTION/SITUATION", associations: [] },
@@ -2622,4 +2156,4 @@ module.exports = {
     "DEJA_VU": { meaning: "REPETITION / FAMILIARITY", associations: ["Time","Memory","Deja Vu","Bir şeyin “tanıdık” gelmesi ama hatırlayamamak","Repetition"] },
     "BRIGHT_LIGHT": { meaning: "ENLIGHTENMENT / AWARENESS", associations: ["Light","Brightness","Bright Light","Çok parlak bir ışık görmek","Bright light dream"] },
     "DESTINATION_UNKNOWN": { meaning: "UNCERTAINTY / SEARCH", associations: ["Fog","Path","Destination Unknown","Bir yerde “olman gerektiğini” bilmek ama nereye olduğunu bilmemek","Uncertainty"] }
-};
+};
