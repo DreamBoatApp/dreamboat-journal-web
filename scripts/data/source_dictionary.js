@@ -618,7 +618,6 @@ module.exports = {
     "TOILET PAPER": { meaning: "CLEANING UP THE SHADOW", associations: ["Roll", "Soft", "White", "Bathroom", "Wipe"] },
     "PLUNGER": { meaning: "UNBLOCKING EMOTIONS", associations: ["Rubber", "Stick", "Toilet", "Push", "Unclog"] },
     "DOORMAT": { meaning: "WELCOMING OR SUBMISSION", associations: ["Floor", "Step", "Welcome", "Rug", "Feet"] },
-    "VAASE": { meaning: "CONTAINER OF SOUL", associations: ["Flower", "Glass", "Water", "Break", "Hold"] },
     "CLOCK": { meaning: "PRESSURE OF TIME", associations: ["Time", "Tick", "Wall", "Hand", "Round"] },
     "ALARM CLOCK": { meaning: "WAKE UP CALL", associations: ["Time", "Loud", "Bed", "Sleep", "Ring"] },
     "CALENDAR": { meaning: "STRUCTURE OF TIME", associations: ["Date", "Month", "Paper", "Wall", "Day"] },
@@ -716,7 +715,457 @@ module.exports = {
     "MUSHROOM": { meaning: "RAPID TRANSFORMATION", associations: ["Fungus", "White", "Forest", "Magic", "Eat"] },
     "ORCHID": { meaning: "REFINED BEAUTY", associations: ["Flower", "Rare", "Beautiful", "Plant", "Exotic"] },
     "POMEGRANATE": { meaning: "FERTILITY AND WEALTH", associations: ["Red", "Seed", "Fruit", "Sweet", "Eat"] },
-    // -- RESTORED ENTRIES (Recovered from JSONs) --
+    // -- RESTORED ENTRIES (Recovered from JSONs) --
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Batch 26: Foods & Drinks
     "PIZZA": { meaning: "INTEGRATION OF PARTS", associations: ["Cheese", "Box", "Slice", "Oven", "Italian"] },
     "BURGER": { meaning: "SATISFACTION OF HUNGER", associations: ["Meat", "Bun", "Cheese", "Fast", "Eat"] },
@@ -1349,7 +1798,7 @@ module.exports = {
     "WATCHING EVENTS UNFOLD UNABLE TO INTERVENE": { meaning: "Rüyada olayların gelişimini izleyip müdahale edeme...", associations: [] },
     "BEING IN TWO PLACES AT ONCE": { meaning: "Aynı anda iki yerde olmak, hem mistik hem de psiko...", associations: [] },
     "RUNNING IN SLOW MOTION": { meaning: "Rüyada yavaş hareketle koşmak, birçok insanın karş...", associations: [] },
-    "CAN'T MOVE / SLEEP PARALYSIS": { meaning: "Rüyada hareket edememek ya da uyku felci hissetmek...", associations: [] },
+
     "BEING CHASED": { meaning: "Rüyada takip edilmek, sıkça karşılaşılan bir durum...", associations: [] },
     "TRYING TO SCREAM BUT NO SOUND": { meaning: "Rüyada çığlık atmaya çalışmak ama ses çıkmamak, bi...", associations: [] },
     "FALLING ENDLESSLY": { meaning: "Rüyada sonsuzca düşmek, birçok kişi için oldukça y...", associations: [] },
@@ -1359,18 +1808,17 @@ module.exports = {
     "LATE FOR AN EXAM": { meaning: "Rüyada sınava geç kalmak, birçok insanın stres ve ...", associations: [] },
     "DRIVING A CAR WITH NO BRAKES": { meaning: "Rüyada freni olmayan bir araba sürmek, genellikle ...", associations: [] },
     "BREATHING UNDERWATER": { meaning: "Rüyada suda nefes almak, genellikle kişinin bilinç...", associations: [] },
-    "ARGUING WITH SOMEONE BUT CAN'T REMEMBER WHAT ABOUT": { meaning: "Rüyada birisiyle tartışmak ama ne hakkında olduğun...", associations: [] },
+
     "FLYING WITHOUT WINGS": { meaning: "Rüyada kanatsız uçmak, genellikle kişinin yaşamınd...", associations: [] },
     "MEETING A DECEASED RELATIVE": { meaning: "Rüyada vefat etmiş bir akrabayla buluşmak, sıkça k...", associations: [] },
     "OVERSLEEPING AND MISSING AN IMPORTANT EVENT": { meaning: "Rüyada geç kalmak ve önemli bir etkinliği kaçırmak...", associations: [] },
-    "COMPETING IN A RACE WITH NO END": { meaning: "Rüyada sonsuz bir yarışta rekabet etmek, genellikl...", associations: [] },
-    "IN A NEVER-ENDING HALLWAY": { meaning: "Rüyada sonsuz bir koridorda bulunmak, genellikle k...", associations: [] },
+    "COMPETING IN A RACE WITH NO END": { meaning: "Rüyada sonsuz bir yarışta rekabet etmek, genellikl...", associations: [] },
     "LOSING YOUR VOICE IN A CRITICAL CONVERSATION": { meaning: "Rüyada kritik bir konuşmada sesini kaybetmek, gene...", associations: [] },
     "BEING UNABLE TO DIAL A PHONE NUMBER": { meaning: "Rüyada bir telefon numarasını arayamamak, genellik...", associations: [] },
-    "SUDDENLY REALIZING YOU'RE IN THE WRONG PLACE": { meaning: "Rüyada aniden yanlış yerde olduğunuzu fark etmek, ...", associations: [] },
+
     "FEELING OF WEIGHTLESSNESS": { meaning: "Rüyada ağırlıksızlık hissi, genellikle kişinin hay...", associations: [] },
     "BEING STUCK IN QUICKSAND": { meaning: "Rüyada kumda sıkışmak, genellikle kişinin hayatınd...", associations: [] },
-    "SEEING A FAMILIAR FACE YOU CAN’T IDENTIFY": { meaning: "Rüyada tanıdık ama kim olduğunu bilemediğiniz bir ...", associations: [] },
+
     "FORGETTING HOW TO WALK": { meaning: "Rüyada yürümeyi unuttuğunu hissetmek, genellikle k...", associations: [] },
     "RUNNING FROM AN UNKNOWN THREAT": { meaning: "Rüyada bilinmeyen bir tehditten kaçmak, genellikle...", associations: [] },
     "RUNNING WITHOUT MAKING PROGRESS": { meaning: "Rüyada koşmak, genellikle hareket ve dinamizmi sim...", associations: [] },
@@ -1420,7 +1868,7 @@ module.exports = {
     "UNCONTROLLABLY LAUGHING": { meaning: "Rüyada kontrolsüzce gülmek, günlük yaşamda bastırı...", associations: [] },
     "HAVING AN INTENSE CONVERSATION WITHOUT UNDERSTANDING THE LANGUAGE": { meaning: "Rüyada bir konuşmanın yükünü hissetmek fakat dili ...", associations: [] },
     "BEING FORGOTTEN OR IGNORED": { meaning: "Rüyalar, bilincin derinliklerinden gelen mesajlar ...", associations: [] },
-    "REVISITING A CHILDHOOD MEMORY WITH A SENSE OF DÉJÀ VU": { meaning: "Rüyada bir çocukluk anısını déjà vu hissiyle yenid...", associations: [] },
+
     "BEING UNABLE TO FIND THE EXIT IN A BUILDING": { meaning: "Rüyada bir binada çıkışı bulamamak, kişinin gerçek...", associations: [] },
     "SUDDENLY REALIZING AN IMPORTANT RESPONSIBILITY": { meaning: "Rüyada aniden önemli bir sorumluluğun farkına varm...", associations: [] },
     "SMARTWATCH": { meaning: "Akıllı saatler, günümüz dünyasında zamanı yönetmek...", associations: [] },
@@ -1461,8 +1909,7 @@ module.exports = {
     "E-SCOOTER": { meaning: "E-scooter, günümüz modern toplumunda hız ve pratik...", associations: [] },
     "INSTANT MESSAGING APP": { meaning: "Anlık mesajlaşma uygulamaları, günümüzün en yaygın...", associations: [] },
     "STREAMING DEVICE": { meaning: "Rüyada akış cihazı görmek, günümüz dünyasında bilg...", associations: [] },
-    "WIRELESS CHARGER": { meaning: "Teknolojinin hızla ilerlediği çağımızda, kablosuz ...", associations: [] },
-    "RIDE-SHARING APP": { meaning: "Günümüzün hızla değişen dünyasında araç paylaşım u...", associations: [] },
+    "WIRELESS CHARGER": { meaning: "Teknolojinin hızla ilerlediği çağımızda, kablosuz ...", associations: [] },
     "ONLINE DATING APP": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
     "SMART LIGHT": { meaning: "Modern dünyada teknoloji, yaşamlarımızın her yönün...", associations: [] },
     "ACTION CAMERA": { meaning: "Aksiyon kamerası, hızla gelişen teknolojinin bir s...", associations: [] },
@@ -1507,8 +1954,7 @@ module.exports = {
     "TASK LIST": { meaning: "Rüyada görülen görev listesi, modern dünyada sıkça...", associations: [] },
     "OFFICE PARTY": { meaning: "Rüyada ofis partisi görmek, rüya sahibinin iş yaşa...", associations: [] },
     "WEBCAM": { meaning: "Rüyada web kamerası görmek, modern yaşamın bir par...", associations: [] },
-    "SWIPE CARD": { meaning: "Rüyada kartı kaydırmak görmek, modern zamanların g...", associations: [] },
-    "POP-UP NOTIFICATION": { meaning: "Rüyada açılır bildirim görmek, modern dünyada karş...", associations: [] },
+    "SWIPE CARD": { meaning: "Rüyada kartı kaydırmak görmek, modern zamanların g...", associations: [] },
     "NOTEPAD": { meaning: "Rüyada not defteri görmek, modern yaşamın vazgeçil...", associations: [] },
     "BREAK ROOM": { meaning: "Rüyada dinlenme odası görmek, modern hayatın koştu...", associations: [] },
     "DESK ORGANIZER": { meaning: "Rüyada masa düzenleyici görmek, yaşamın çeşitli yö...", associations: [] },
@@ -1526,8 +1972,7 @@ module.exports = {
     "CROSSWALK": { meaning: "Rüyada yaya geçidi görmek, günlük yaşamda sıkça ka...", associations: [] },
     "CONSTRUCTION CRANE": { meaning: "Modern dünyada inşaat vinçleri, büyük yapıların in...", associations: [] },
     "METRO CARD": { meaning: "Metro kart, günümüzde şehir yaşamının ayrılmaz bir...", associations: [] },
-    "BILLBOARD": { meaning: "Afiş panoları, modern şehir yaşamının vazgeçilmez ...", associations: [] },
-    "SELF-DRIVING CAR": { meaning: "Otonom araçlar, kontrolsüz ilerleyiş ve teknolojik...", associations: [] },
+    "BILLBOARD": { meaning: "Afiş panoları, modern şehir yaşamının vazgeçilmez ...", associations: [] },
     "STREET VENDOR": { meaning: "Sokak satıcısı, şehir hayatının dinamik ve renkli ...", associations: [] },
     "SKATEBOARD": { meaning: "Rüyada kaykay görmek, kişinin hayat yolculuğunda d...", associations: [] },
     "SOLAR PANEL": { meaning: "Rüyada güneş paneli görmek, bireyin enerji kaynakl...", associations: [] },
@@ -1558,8 +2003,7 @@ module.exports = {
     "TAXI STAND": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
     "OVERPASS": { meaning: "Rüyalar aracılığıyla bilinçaltımız, semboller yolu...", associations: [] },
     "SNEAKERS": { meaning: "Rüyada spor ayakkabı görmek, günümüzün hızlı ve di...", associations: [] },
-    "BASEBALL CAP": { meaning: "Rüyada şapka görmek, genellikle rüya sahibinin kim...", associations: [] },
-    "GRAPHIC T-SHIRT": { meaning: "Grafik tişörtler, modern dünyada kişisel ifadeyi v...", associations: [] },
+    "BASEBALL CAP": { meaning: "Rüyada şapka görmek, genellikle rüya sahibinin kim...", associations: [] },
     "DENIM JACKET": { meaning: "Kot ceket, modern bir giyim parçası olarak, hem da...", associations: [] },
     "YOGA PANTS": { meaning: "Rüyada yoga pantolonu görmek, modern yaşamın sembo...", associations: [] },
     "LAPTOP BAG": { meaning: "Rüyada dizüstü bilgisayar çantası görmek, genellik...", associations: [] },
@@ -1622,21 +2066,17 @@ module.exports = {
     "BATTERY CHARGER": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
     "NOISE CANCELLING EARBUDS": { meaning: "Rüyalar, bilinçaltımızın derinliklerinde saklanan ...", associations: [] },
     "SMART LOCK": { meaning: "Rüyada akıllı kilit görmek, modern çağın güvenlik ...", associations: [] },
-    "CITY BUS": { meaning: "Rüyada şehir otobüsü görmek, modern yaşamın ritmin...", associations: [] },
-    "BIKE-SHARE BICYCLE": { meaning: "Rüyada bisiklet paylaşımı görmek, bireyin modern d...", associations: [] },
-    "HIGH-SPEED TRAIN": { meaning: "Hızlı tren, modern dünyanın simgesi olarak, rüyala...", associations: [] },
+    "CITY BUS": { meaning: "Rüyada şehir otobüsü görmek, modern yaşamın ritmin...", associations: [] },
     "HOVERBOARD": { meaning: "Hoverboard, modern dünyanın teknolojik yenilikleri...", associations: [] },
     "AUTONOMOUS VEHICLE": { meaning: "Rüyada otonom araç görmek, hayatın modern yönlerin...", associations: [] },
-    "LIGHT RAIL": { meaning: "Rüyada hafif raylı sistem görmek, modern toplumun ...", associations: [] },
-    "RIDE-SHARE APP": { meaning: "Günümüzde paylaşım uygulamaları, teknolojinin topl...", associations: [] },
+    "LIGHT RAIL": { meaning: "Rüyada hafif raylı sistem görmek, modern toplumun ...", associations: [] },
     "ELECTRIC MOTORCYCLE": { meaning: "Elektrikli motosiklet, modern yaşamın hızını, çevi...", associations: [] },
     "CARPOOL": { meaning: "Rüyada araç paylaşımı görmek, kişinin sosyal çevre...", associations: [] },
     "VESPA": { meaning: "Vespa, modern çağın simgelerinden biridir ve genel...", associations: [] },
     "CONVERTIBLE": { meaning: "Dönüşebilir araba, modern yaşamda özgürlüğün ve es...", associations: [] },
     "PICKUP TRUCK": { meaning: "Rüyada kamyonet görmek, modern yaşamın getirdiği s...", associations: [] },
     "BULLET TRAIN": { meaning: "Hızlı tren, günümüz dünyasında hız ve teknolojinin...", associations: [] },
-    "SPEEDBOAT": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
-    "CAR-CHARGING STATION": { meaning: "Şarj istasyonu, modern toplumda araçlarımızı enerj...", associations: [] },
+    "SPEEDBOAT": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
     "LIMOUSINE": { meaning: "Rüyada limuzin görmek, genellikle kişinin içsel ar...", associations: [] },
     "SMART CAR": { meaning: "Akıllı araçlar, teknolojinin modern hayatımıza kat...", associations: [] },
     "SEGWAY": { meaning: "Rüyada Segway görmek, modern dünyanın sembollerind...", associations: [] },
@@ -1675,8 +2115,7 @@ module.exports = {
     "NOTIFICATION": { meaning: "Rüyada bildirim görmek, günümüzün dijital çağında ...", associations: [] },
     "GAMER": { meaning: "Rüyada oyuncu görmek, günümüz dünyasında dijitalle...", associations: [] },
     "VIRTUAL REALITY": { meaning: "Sanal gerçeklik, günümüzde teknoloji ve insan dene...", associations: [] },
-    "HOME OFFICE": { meaning: "Rüyada ev ofisi görmek, modern yaşamın getirdiği k...", associations: [] },
-    "RIDE-SHARING": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
+    "HOME OFFICE": { meaning: "Rüyada ev ofisi görmek, modern yaşamın getirdiği k...", associations: [] },
     "SUBSCRIPTION": { meaning: "Rüyada abonelik görmek, günümüz dünyasında sıkça k...", associations: [] },
     "BLOG": { meaning: "Rüyada blog görmek, modern dünyada iletişim ve ken...", associations: [] },
     "E-BOOK": { meaning: "Rüyada e-kitap görmek, bilgi çağında yaşadığımız b...", associations: [] },
@@ -1703,8 +2142,7 @@ module.exports = {
     "SUSHI": { meaning: "Sushi, modern dünyada popülerleşen ve farklı kültü...", associations: [] },
     "BUBBLE TEA": { meaning: "Modern dünyada popüler bir içecek olan Boba çayı, ...", associations: [] },
     "CRAFT BEER": { meaning: "El yapımı bira, modern dünyada bireysel yaratıcılı...", associations: [] },
-    "ENERGY DRINK": { meaning: "Enerji içeceği, günümüz dünyasında hız, performans...", associations: [] },
-    "GLUTEN-FREE BREAD": { meaning: "Rüyada glutensiz ekmek görmek, günümüz sağlıklı ya...", associations: [] },
+    "ENERGY DRINK": { meaning: "Enerji içeceği, günümüz dünyasında hız, performans...", associations: [] },
     "KALE SALAD": { meaning: "Rüyalar, bilinçaltımızın derinliklerinden gelen me...", associations: [] },
     "VEGAN BURGER": { meaning: "Rüyada vegan burger görmek, modern toplumun ve bir...", associations: [] },
     "TACOS": { meaning: "Tako, modern dünyanın popüler ve çok yönlü bir yiy...", associations: [] },
@@ -1731,8 +2169,7 @@ module.exports = {
     "DIM SUM": { meaning: "Rüyada dim sum görmek, modern yaşamın ve çok kültü...", associations: [] },
     "FALAFEL": { meaning: "Falafel, modern dünyada sağlıklı beslenme ve farkl...", associations: [] },
     "ARTISAN CHOCOLATE": { meaning: "Rüyada sanatçı çikolatası görmek, ince zevkler ve ...", associations: [] },
-    "INSTANT NOODLES": { meaning: "Hızlı makarna, günümüzün hızla akan yaşamında sıkç...", associations: [] },
-    "PLANT-BASED SAUSAGE": { meaning: "Bitki bazlı sosis, günümüzde sağlıklı yaşam ve çev...", associations: [] },
+    "INSTANT NOODLES": { meaning: "Hızlı makarna, günümüzün hızla akan yaşamında sıkç...", associations: [] },
     "TURMERIC LATTE": { meaning: "Zerdeçal latte, günümüzde sağlıklı yaşam trendleri...", associations: [] },
     "RICE PAPER ROLL": { meaning: "Pirinc kağıdı ruloları, modern dünyada özellikle m...", associations: [] },
     "NOODLE SOUP": { meaning: "Erişte çorbası, modern toplumda hem konfor hem de ...", associations: [] },
@@ -1748,8 +2185,7 @@ module.exports = {
     "COLD BREWED COFFEE": { meaning: "Rüyalar, bilinçaltımızın bizlere ilettiği mesajlar...", associations: [] },
     "BLUETOOTH EARBUDS": { meaning: "Bluetooth kulaklıklar, günümüzün vazgeçilmez tekno...", associations: [] },
     "DIGITAL ASSISTANT": { meaning: "Dijital asistanlar, günlük yaşamımızda bilgiye hız...", associations: [] },
-    "CHARGING STATION": { meaning: "Rüyada bir şarj istasyonu görmek, modern dünyada e...", associations: [] },
-    "NOISE-CANCELING HEADPHONES": { meaning: "Gürültü engelleyici kulaklıklar, modern dünyada se...", associations: [] },
+    "CHARGING STATION": { meaning: "Rüyada bir şarj istasyonu görmek, modern dünyada e...", associations: [] },
     "SOCIAL MEDIA": { meaning: "Rüyada sosyal medya görmek, modern dünyanın karmaş...", associations: [] },
     "E-READER": { meaning: "Rüyada E-okuyucu görmek, günümüz dünyasında bilgiy...", associations: [] },
     "HYBRID VEHICLE": { meaning: "Hibrit araçlar, çağdaş dünyanın çevre dostu ve yen...", associations: [] },
@@ -1776,14 +2212,12 @@ module.exports = {
     "POWER STRIP": { meaning: "Rüyada priz uzatma görmek, kişinin hayatındaki ene...", associations: [] },
     "HAND SANITIZER": { meaning: "El dezenfektanı, modern dünyada temizlik ve hijyen...", associations: [] },
     "HIGHLIGHTER": { meaning: "Rüyalarda süper kalem görmek, genellikle kişinin i...", associations: [] },
-    "BRIEFCASE": { meaning: "Rüyada evrak çantası görmek, modern toplumda sıkça...", associations: [] },
-    "CLOCK-IN MACHINE": { meaning: "Rüyada kartlı geçiş makinesi görmek, modern dünyan...", associations: [] },
+    "BRIEFCASE": { meaning: "Rüyada evrak çantası görmek, modern toplumda sıkça...", associations: [] },
     "OFFICE PHONE": { meaning: "Ofis telefonları, modern çalışma hayatının vazgeçi...", associations: [] },
     "TELECONFERENCE": { meaning: "Rüyada telekonferans görmek, kişinin iletişim biçi...", associations: [] },
     "ERGONOMIC MOUSEPAD": { meaning: "Rüyada ergonomik mousepad görmek, günümüz dünyasın...", associations: [] },
     "NAMEPLATE": { meaning: "İsimlik, modern dünyada kimliğimizi ve sosyal rolü...", associations: [] },
-    "HIGHWAY": { meaning: "Rüyada otoyol görmek, modern yaşamın hızlı akışını...", associations: [] },
-    "BUTTON-DOWN SHIRT": { meaning: "Rüyada gömlek görmek, modern yaşamda kimliği ve ki...", associations: [] },
+    "HIGHWAY": { meaning: "Rüyada otoyol görmek, modern yaşamın hızlı akışını...", associations: [] },
     "DOCUMENT SHREDDER": { meaning: "Rüyada belge parçalayıcı görmek, günlük yaşamda ka...", associations: [] },
     "TRAIN STATION": { meaning: "Tren istasyonları, modern yaşamda seyahat ve ulaşı...", associations: [] },
     "FIRE ESCAPE": { meaning: "Rüyalar, bilinçaltımızın derinliklerinde saklı ola...", associations: [] },
@@ -1806,8 +2240,7 @@ module.exports = {
     "WIFI HOTSPOT": { meaning: "Rüyada WiFi noktası görmek, modern dünyanın vazgeç...", associations: [] },
     "DIGITAL BILLBOARD": { meaning: "Rüyada dijital reklam panosu görmek, modern dünyan...", associations: [] },
     "CCTV": { meaning: "Rüyada güvenlik kamerası görmek, modern dünyada sı...", associations: [] },
-    "TRAFFIC CONE": { meaning: "Rüyalarda trafik konisi görmek, genellikle yaşam y...", associations: [] },
-    "GRAPHIC T-SHIRT": { meaning: "Rüyada grafik tişört görmek, modern dünyada kişise...", associations: [] },
+    "TRAFFIC CONE": { meaning: "Rüyalarda trafik konisi görmek, genellikle yaşam y...", associations: [] },
     "WRISTBAND": { meaning: "Bileklik, modern toplumda hem estetik bir aksesuar...", associations: [] },
     "LEATHER WALLET": { meaning: "Deri cüzdan modern dünyada sıkça kullanılan bir eş...", associations: [] },
     "LANYARD": { meaning: "Rüyada sarkıt görmek, modern yaşamın bir parçası o...", associations: [] },
@@ -1847,8 +2280,7 @@ module.exports = {
     "TREADMILL": { meaning: "Rüyada koşu bandı görmek, kişinin hayatında hisset...", associations: [] },
     "ESPRESSO MACHINE": { meaning: "Espresso makinesi, modern yaşamın vazgeçilmez bir ...", associations: [] },
     "WATER FILTER": { meaning: "Rüyada su filtresi görmek, modern yaşamın getirdiğ...", associations: [] },
-    "JUICER": { meaning: "Rüyada sıkacak görmek, bireyin bilinçaltında yatan...", associations: [] },
-    "RIDE-SHARING APP": { meaning: "Rüyada araç paylaşım uygulaması görmek, günümüz te...", associations: [] },
+    "JUICER": { meaning: "Rüyada sıkacak görmek, bireyin bilinçaltında yatan...", associations: [] },
     "SMART PLUG": { meaning: "Rüyada akıllı priz görmek, teknolojinin ve dijital...", associations: [] },
     "SMOKE DETECTOR": { meaning: "Duman dedektörü, modern yaşamın bir güvenlik sembo...", associations: [] },
     "ELECTRIC GRILL": { meaning: "Rüyada elektrikli ızgara görmek, günümüz dünyasınd...", associations: [] },
@@ -1864,15 +2296,11 @@ module.exports = {
     "BICYCLE SHARING": { meaning: "Rüyada bisiklet paylaşımı görmek, şehir yaşamının ...", associations: [] },
     "BIKE LANE": { meaning: "Rüyada bisiklet yolu görmek, modern dünyanın karma...", associations: [] },
     "DIGITAL MAP": { meaning: "Dijital haritalar, teknolojinin bize sunduğu rehbe...", associations: [] },
-    "SUBWAY TURNSTILE": { meaning: "Metro turnikesi, modern yaşamın hızlı temposunda ö...", associations: [] },
-    "RIDE-HAILING SERVICE": { meaning: "Rüyada araç çağırma servisi görmek, teknolojiyle i...", associations: [] },
-    "JETPACK": { meaning: "Jetpack, modern çağın sembollerinden biridir ve rü...", associations: [] },
-    "ONLINE CHECK-IN": { meaning: "Rüyada çevrimiçi kontrol görmek, çağımızın hızlı t...", associations: [] },
-    "AIRPORT SECURITY CHECK": { meaning: "Rüyada havalimanı güvenlik kontrolü görmek, modern...", associations: [] },
-    "IN-FLIGHT ENTERTAINMENT": { meaning: "Rüyada uçuş içi eğlence görmek, bireyin hayat yolc...", associations: [] },
+    "SUBWAY TURNSTILE": { meaning: "Metro turnikesi, modern yaşamın hızlı temposunda ö...", associations: [] },
+    "JETPACK": { meaning: "Jetpack, modern çağın sembollerinden biridir ve rü...", associations: [] },
+    "AIRPORT SECURITY CHECK": { meaning: "Rüyada havalimanı güvenlik kontrolü görmek, modern...", associations: [] },
     "TESLA": { meaning: "Rüyada Tesla görmek, modern dünyanın simgelerinden...", associations: [] },
-    "PARKING APP": { meaning: "Rüyada otopark uygulaması görmek, modern yaşamın g...", associations: [] },
-    "EMISSIONS-FREE ZONE": { meaning: "Rüyada emisyon-free bir bölge görmek, çevreye zara...", associations: [] },
+    "PARKING APP": { meaning: "Rüyada otopark uygulaması görmek, modern yaşamın g...", associations: [] },
     "BIKE SHARE APP": { meaning: "Rüyada bisiklet paylaşım uygulaması görmek, bireys...", associations: [] },
     "ELECTRIC FERRY": { meaning: "Elektrikli feribot, günümüzün sürdürülebilir enerj...", associations: [] },
     "MOBILITY APP": { meaning: "Hareketlilik uygulamaları, modern yaşamın hızını v...", associations: [] },
@@ -1883,8 +2311,7 @@ module.exports = {
     "DIGITAL BOARDING PASS": { meaning: "Rüyada dijital biniş kartı görmek, modern çağın si...", associations: [] },
     "VENDING MACHINE TICKET": { meaning: "Otomat bileti, modern çağın hızlı ve erişilebilir ...", associations: [] },
     "PUSH NOTIFICATION": { meaning: "Rüyada bildirim görmek, günümüz dijital çağıyla öz...", associations: [] },
-    "LIKE BUTTON": { meaning: "Beğen butonu, sosyal medya çağının en belirgin sem...", associations: [] },
-    "WI-FI SIGNAL": { meaning: "Rüyada Wi-Fi sinyali görmek, modern dünyanın ileti...", associations: [] },
+    "LIKE BUTTON": { meaning: "Beğen butonu, sosyal medya çağının en belirgin sem...", associations: [] },
     "STATUS UPDATE": { meaning: "Rüyada durum güncellemesi görmek, modern yaşamın v...", associations: [] },
     "FOLLOW NOTIFICATION": { meaning: "Rüyada takip bildirimi görmek, sosyal medyanın ve ...", associations: [] },
     "CROWDED SUBWAY": { meaning: "Rüyada kalabalık bir metro görmek, günümüzün hızlı...", associations: [] },
@@ -1903,8 +2330,7 @@ module.exports = {
     "STREET ART": { meaning: "Sokak sanatı, modern zamanların en etkileyici ve ö...", associations: [] },
     "RIDE SHARE": { meaning: "Rüyada paylaşımlı araç görmek, modern toplumun kar...", associations: [] },
     "ALMOND MILK": { meaning: "Rüyada badem sütü görmek, hem sağlık hem de ruhsal...", associations: [] },
-    "YOGA STUDIO": { meaning: "Rüyada yoga stüdyosu görmek, modern yaşamın karmaş...", associations: [] },
-    "PLANT-BASED PROTEIN": { meaning: "Rüyada bitki bazlı protein görmek, günümüzde sağlı...", associations: [] },
+    "YOGA STUDIO": { meaning: "Rüyada yoga stüdyosu görmek, modern yaşamın karmaş...", associations: [] },
     "GRANOLA BAR": { meaning: "Rüyada granola bar görmek, modern dünyada sağlıklı...", associations: [] },
     "WORK EMAIL": { meaning: "Rüyada iş e-postası görmek, günümüzün dijital düny...", associations: [] },
     "ESPRESSO": { meaning: "Espresso, günümüz kültüründe enerjiyi ve hızla geç...", associations: [] },
@@ -1912,9 +2338,7 @@ module.exports = {
     "STREET FOOD": { meaning: "Rüyada sokak yemeği görmek, modern yaşamın hızlı t...", associations: [] },
     "ORGANIC JUICE": { meaning: "Organik meyve suyu, modern yaşamda doğallığın ve s...", associations: [] },
     "SELF-CHECKOUT": { meaning: "Kendin checkout, günümüz dünyasında teknolojinin g...", associations: [] },
-    "OFFICE CHAIR": { meaning: "Ofis sandalyesi, modern iş yaşamının simgelerinden...", associations: [] },
-    "E-BOOK READER": { meaning: "Rüyada e-kitap okuyucu görmek, bilgi ve içsel keşi...", associations: [] },
-    "WI-FI ROUTER": { meaning: "Wi-Fi router, günümüzün dijital çağında neredeyse ...", associations: [] },
+    "OFFICE CHAIR": { meaning: "Ofis sandalyesi, modern iş yaşamının simgelerinden...", associations: [] },
     "GYMBAG": { meaning: "Spor çantası, modern yaşam tarzının bir parçası ol...", associations: [] },
     "INSTANT POT": { meaning: "Hızlı tencere, günümüz mutfaklarında sıklıkla kull...", associations: [] },
     "MOTORBIKE": { meaning: "Motosikletler, modern dünyada hız ve özgürlüğün si...", associations: [] },
@@ -2000,160 +2424,456 @@ module.exports = {
     "PILLOWCASE": { meaning: "DOMESTIC SYMBOL", associations: [] },
     "QUILT": { meaning: "DOMESTIC SYMBOL", associations: [] },
     // --- BATCH 5: POPULAR ACTIONS & SITUATIONS ---
-    "ESCAPING": { meaning: "THE FEAR OF CONFRONTATION", associations: ["Running away signifies","Hiding while escaping","Inability to escape"] },
-    "WALKING": { meaning: "PROGRESS AND PERSONAL GROWTH", associations: ["Walking on a busy street","Walking on a","Walking to an"] },
-    "TRAVELING": { meaning: "MEANING AND INTERPRETATION", associations: ["Going to an","Encountering obstacles on","Returning home Expresses"] },
-    "PLAYING": { meaning: "EXPRESSION AND FREEDOM SEEKING", associations: ["Playing a fun","Playing a game","Being unable to"] },
-    "WORKING": { meaning: "MEANING AND INTERPRETATION", associations: ["Being at work","Work stress Pressure","Being fired Insecurity","Promotion Success recognition","Old job Past"] },
-    "HELPING": { meaning: "CONNECTION AND SUPPORT NEED", associations: ["Feeling anxious or","Seeing someone help","Refusing to help"] },
-    "FINDING_MONEY": { meaning: "ABUNDANCE AND OPPORTUNITIES", associations: ["Finding money in","Discovering cash in","Digging and unearthing"] },
-    "LOSING_MONEY": { meaning: "INSECURITY AND SENSE OF LOSS", associations: ["Dreaming of losing","Being unable to","Seeing your wallet"] },
+    "ESCAPING": { meaning: "THE FEAR OF CONFRONTATION", associations: ["Running away signifies", "Hiding while escaping", "Inability to escape"] },
+    "WALKING": { meaning: "PROGRESS AND PERSONAL GROWTH", associations: ["Walking on a busy street", "Walking on a", "Walking to an"] },
+    "TRAVELING": { meaning: "MEANING AND INTERPRETATION", associations: ["Going to an", "Encountering obstacles on", "Returning home Expresses"] },
+    "PLAYING": { meaning: "EXPRESSION AND FREEDOM SEEKING", associations: ["Playing a fun", "Playing a game", "Being unable to"] },
+    "WORKING": { meaning: "MEANING AND INTERPRETATION", associations: ["Being at work", "Work stress Pressure", "Being fired Insecurity", "Promotion Success recognition", "Old job Past"] },
+    "HELPING": { meaning: "CONNECTION AND SUPPORT NEED", associations: ["Feeling anxious or", "Seeing someone help", "Refusing to help"] },
+    "FINDING_MONEY": { meaning: "ABUNDANCE AND OPPORTUNITIES", associations: ["Finding money in", "Discovering cash in", "Digging and unearthing"] },
+    "LOSING_MONEY": { meaning: "INSECURITY AND SENSE OF LOSS", associations: ["Dreaming of losing", "Being unable to", "Seeing your wallet"] },
     "RECEIVING_A_GIFT": { meaning: "ACCEPTANCE AND PERSONAL VALUE", associations: ["Receiving a gift"] },
-    "GIVING_A_GIFT": { meaning: "GENEROSITY AND CONNECTION", associations: ["Giving a gift","Presenting a gift","Offering a gift"] },
-    "WINNING": { meaning: "DESIRE FOR ACHIEVEMENT", associations: ["Winning a race","Overcoming competitors and","Winning in a"] },
-    "WAITING": { meaning: "A TEST OF PATIENCE", associations: ["The expected person","Feeling bored while","Waiting for a"] },
-    "EXPECTING": { meaning: "ANTICIPATION AND AWAITING", associations: ["Dreaming of an","Experiencing stress or","Nothing or no"] },
-    "ORDERING": { meaning: "THE NEED FOR CONTROL AND PLANNING", associations: ["Ordering at a","Placing an online","Ordering wrong items"] },
-    "CELEBRATING": { meaning: "EXPRESSION OF SUCCESS AND JOY", associations: ["Attending a large","Seeing yourself celebrating alone can symbolize recognition of your inner achievements","Celebrating with family"] },
-    "GRADUATING": { meaning: "TRANSITION AND ACHIEVEMENT THEME", associations: ["Seeing yourself graduating","Being at a","Dreaming of graduating"] },
-    "PARACHUTING": { meaning: "ADVENTURE AND SECURITY SEARCH", associations: ["Jumping from a","Parachuting in windy","Parachute not opening"] },
-    "EXPLORING": { meaning: "EMBRACING THE UNKNOWN", associations: ["Exploring a mountain","Exploring in a","Exploring an unknown"] },
-    "MEDITATING": { meaning: "SEARCH FOR INNER PEACE AND AWARENESS", associations: ["Meditating in nature","Meditating in a","Meditating with a"] },
-    "FAINTING": { meaning: "HELPLESSNESS AND ESCAPE", associations: ["Being revived symbolizes","Falling to the","Fainting in a"] },
-    "SWEATING": { meaning: "STRESS AND EMOTIONAL INTENSITY", associations: ["Sweating in a","Sweating while exercising","Sweating before a"] },
-    "SHIVERING": { meaning: "UNEASE OR TRANSFORMATION", associations: ["Shivering from cold","Shivering during an","Uncontrollable shivering implies"] },
-    "SALUTING": { meaning: "RESPECT AND RECOGNITION", associations: ["Saluting a military","Saluting someone in","Saluting a guest"] },
-    "MOCKING": { meaning: "CONFRONTATION AND EXPRESSION", associations: ["Mocking in a","Being mocked in","Mocking a friend"] },
-    "TRAVELING_ABROAD": { meaning: "EXPLORATION AND CHANGE", associations: ["Traveling abroad alone","Traveling abroad with","Traveling to a"] },
-    "SETTLING": { meaning: "SEARCH FOR BALANCE AND PEACE", associations: ["Settling into a","Settling in a"] },
-    "CONFRONTING": { meaning: "FACING INNER STRUGGLES AND REALITIES", associations: ["Confronting an adversary","Confronting a family","Confronting an authority"] },
-    "COMPLAINING": { meaning: "INNER DISSATISFACTION OR EXPRESSION NEEDS", associations: ["Constantly complaining to","Complaining within a","Being complainant to"] },
-    "ORGANIZING": { meaning: "A QUEST FOR ORDER AND CONTROL", associations: ["Organizing an office","Planning an event","Tidying personal spaces"] },
-    "REPAIRING": { meaning: "RESTORATION AND ORDER", associations: ["Being unable to","Having someone else","Patching indicates a"] },
-    "ASSESSING": { meaning: "WEIGHING OPPORTUNITIES AND CHOOSING PATHS", associations: ["Intensely weighing a","Seeing oneself assessing","Watching someone else"] },
-    "PROTESTING": { meaning: "INNER CONFLICTS AND SOCIAL TENSIONS", associations: ["Seeing a large","Protesting alone could","Facing off against"] },
-    "NEGOTIATING": { meaning: "BALANCE OF POWER AND SEEKING AGREEMENT", associations: ["Successfully negotiating a","Reaching a compromise","Coming to terms"] },
-    "MASTERING": { meaning: "A SYMBOL OF CONTROL AND PROFICIENCY", associations: ["Mastering a skill","Passing a mastery","Seeing oneself as"] },
-    "SYNCHRONIZING": { meaning: "ACHIEVING HARMONY", associations: ["Walking in step","Seeing all clocks","Observing an orchestra"] },
-    "WAITING_IN_LINE": { meaning: "PATIENCE AND EXPECTATION", associations: ["Waiting in a","Being in a","Suddenly finding yourself"] },
-    "CROSSING_A_BRIDGE": { meaning: "TRANSITION AND TRANSFORMATION", associations: ["Calmly crossing a","Attempting to cross","Crossing a foggy"] },
-    "FORGETTING": { meaning: "MEMORIES AND SUBCONSCIOUS THEMES", associations: ["Forgetting an important","Misplacing documents or","Forgetting a persons"] },
-    "REMEMBERING": { meaning: "REVISITING THE PAST", associations: ["Remembering a childhood","Recalling a forgotten","Remembering a success"] },
-    "PROPOSING": { meaning: "COMMITMENT AND CHANGE", associations: ["Proposing to a","Proposing to an","Proposal being rejected"] },
-    "BEING_ARRESTED": { meaning: "LOSS OF FREEDOM", associations: ["Being arrested for","Being arrested by an authority figure","Getting arrested in"] },
+    "GIVING_A_GIFT": { meaning: "GENEROSITY AND CONNECTION", associations: ["Giving a gift", "Presenting a gift", "Offering a gift"] },
+    "WINNING": { meaning: "DESIRE FOR ACHIEVEMENT", associations: ["Winning a race", "Overcoming competitors and", "Winning in a"] },
+    "WAITING": { meaning: "A TEST OF PATIENCE", associations: ["The expected person", "Feeling bored while", "Waiting for a"] },
+    "EXPECTING": { meaning: "ANTICIPATION AND AWAITING", associations: ["Dreaming of an", "Experiencing stress or", "Nothing or no"] },
+    "ORDERING": { meaning: "THE NEED FOR CONTROL AND PLANNING", associations: ["Ordering at a", "Placing an online", "Ordering wrong items"] },
+    "CELEBRATING": { meaning: "EXPRESSION OF SUCCESS AND JOY", associations: ["Attending a large", "Seeing yourself celebrating alone can symbolize recognition of your inner achievements", "Celebrating with family"] },
+    "GRADUATING": { meaning: "TRANSITION AND ACHIEVEMENT THEME", associations: ["Seeing yourself graduating", "Being at a", "Dreaming of graduating"] },
+    "PARACHUTING": { meaning: "ADVENTURE AND SECURITY SEARCH", associations: ["Jumping from a", "Parachuting in windy", "Parachute not opening"] },
+    "EXPLORING": { meaning: "EMBRACING THE UNKNOWN", associations: ["Exploring a mountain", "Exploring in a", "Exploring an unknown"] },
+    "MEDITATING": { meaning: "SEARCH FOR INNER PEACE AND AWARENESS", associations: ["Meditating in nature", "Meditating in a", "Meditating with a"] },
+    "FAINTING": { meaning: "HELPLESSNESS AND ESCAPE", associations: ["Being revived symbolizes", "Falling to the", "Fainting in a"] },
+    "SWEATING": { meaning: "STRESS AND EMOTIONAL INTENSITY", associations: ["Sweating in a", "Sweating while exercising", "Sweating before a"] },
+    "SHIVERING": { meaning: "UNEASE OR TRANSFORMATION", associations: ["Shivering from cold", "Shivering during an", "Uncontrollable shivering implies"] },
+    "SALUTING": { meaning: "RESPECT AND RECOGNITION", associations: ["Saluting a military", "Saluting someone in", "Saluting a guest"] },
+    "MOCKING": { meaning: "CONFRONTATION AND EXPRESSION", associations: ["Mocking in a", "Being mocked in", "Mocking a friend"] },
+    "TRAVELING_ABROAD": { meaning: "EXPLORATION AND CHANGE", associations: ["Traveling abroad alone", "Traveling abroad with", "Traveling to a"] },
+    "SETTLING": { meaning: "SEARCH FOR BALANCE AND PEACE", associations: ["Settling into a", "Settling in a"] },
+    "CONFRONTING": { meaning: "FACING INNER STRUGGLES AND REALITIES", associations: ["Confronting an adversary", "Confronting a family", "Confronting an authority"] },
+    "COMPLAINING": { meaning: "INNER DISSATISFACTION OR EXPRESSION NEEDS", associations: ["Constantly complaining to", "Complaining within a", "Being complainant to"] },
+    "ORGANIZING": { meaning: "A QUEST FOR ORDER AND CONTROL", associations: ["Organizing an office", "Planning an event", "Tidying personal spaces"] },
+    "REPAIRING": { meaning: "RESTORATION AND ORDER", associations: ["Being unable to", "Having someone else", "Patching indicates a"] },
+    "ASSESSING": { meaning: "WEIGHING OPPORTUNITIES AND CHOOSING PATHS", associations: ["Intensely weighing a", "Seeing oneself assessing", "Watching someone else"] },
+    "PROTESTING": { meaning: "INNER CONFLICTS AND SOCIAL TENSIONS", associations: ["Seeing a large", "Protesting alone could", "Facing off against"] },
+    "NEGOTIATING": { meaning: "BALANCE OF POWER AND SEEKING AGREEMENT", associations: ["Successfully negotiating a", "Reaching a compromise", "Coming to terms"] },
+    "MASTERING": { meaning: "A SYMBOL OF CONTROL AND PROFICIENCY", associations: ["Mastering a skill", "Passing a mastery", "Seeing oneself as"] },
+    "SYNCHRONIZING": { meaning: "ACHIEVING HARMONY", associations: ["Walking in step", "Seeing all clocks", "Observing an orchestra"] },
+    "WAITING_IN_LINE": { meaning: "PATIENCE AND EXPECTATION", associations: ["Waiting in a", "Being in a", "Suddenly finding yourself"] },
+    "CROSSING_A_BRIDGE": { meaning: "TRANSITION AND TRANSFORMATION", associations: ["Calmly crossing a", "Attempting to cross", "Crossing a foggy"] },
+    "FORGETTING": { meaning: "MEMORIES AND SUBCONSCIOUS THEMES", associations: ["Forgetting an important", "Misplacing documents or", "Forgetting a persons"] },
+    "REMEMBERING": { meaning: "REVISITING THE PAST", associations: ["Remembering a childhood", "Recalling a forgotten", "Remembering a success"] },
+    "PROPOSING": { meaning: "COMMITMENT AND CHANGE", associations: ["Proposing to a", "Proposing to an", "Proposal being rejected"] },
+    "BEING_ARRESTED": { meaning: "LOSS OF FREEDOM", associations: ["Being arrested for", "Being arrested by an authority figure", "Getting arrested in"] },
     "BREAKING_UP": { meaning: "EMOTIONAL SEPARATION OR NEW BEGINNINGS", associations: ["Breaking up with"] },
-    "MAKING_UP": { meaning: "RECONCILIATION AND INNER PEACE", associations: ["Making up with","Reconciling with an"] },
-    "SAVING_SOMEONE": { meaning: "SUPPORT AND PROTECTION NEEDS", associations: ["Saving someones life","Rescuing a loved","Saving a stranger"] },
-    "BEING_ADOPTED": { meaning: "IDENTITY AND BELONGING", associations: ["Seeing yourself being","Being adopted by"] },
-    "FASTING": { meaning: "A QUEST FOR DISCIPLINE AND CLEANSING", associations: ["Dreaming about prolonged","Breaking the fast and feeling guilty could symbolize disruptions in plans and their impact on the dreamers life","Finding emotional peace"] },
-    "BEING_PULLED": { meaning: "RESISTANCE OR REDIRECTION", associations: ["Being pulled to","Being pulled by","Being pulled in"] },
-    "BEING_TICKLED": { meaning: "SENSITIVITY AND JOY", associations: ["Being tickled by","Tickling yourself could indicate a need to explore your inner joy or a tendency to undermine yourself This scenario could symbolize a search for inner peace"] },
-    "TRADING": { meaning: "PURSUIT OF OPPORTUNITIES AND CHANGE", associations: ["Trading with an","Experiencing an unsuccessful","Engaging in mutually"] },
+    "MAKING_UP": { meaning: "RECONCILIATION AND INNER PEACE", associations: ["Making up with", "Reconciling with an"] },
+    "SAVING_SOMEONE": { meaning: "SUPPORT AND PROTECTION NEEDS", associations: ["Saving someones life", "Rescuing a loved", "Saving a stranger"] },
+    "BEING_ADOPTED": { meaning: "IDENTITY AND BELONGING", associations: ["Seeing yourself being", "Being adopted by"] },
+    "FASTING": { meaning: "A QUEST FOR DISCIPLINE AND CLEANSING", associations: ["Dreaming about prolonged", "Breaking the fast and feeling guilty could symbolize disruptions in plans and their impact on the dreamers life", "Finding emotional peace"] },
+    "BEING_PULLED": { meaning: "RESISTANCE OR REDIRECTION", associations: ["Being pulled to", "Being pulled by", "Being pulled in"] },
+    "BEING_TICKLED": { meaning: "SENSITIVITY AND JOY", associations: ["Being tickled by", "Tickling yourself could indicate a need to explore your inner joy or a tendency to undermine yourself This scenario could symbolize a search for inner peace"] },
+    "TRADING": { meaning: "PURSUIT OF OPPORTUNITIES AND CHANGE", associations: ["Trading with an", "Experiencing an unsuccessful", "Engaging in mutually"] },
     "APOLOGIZING": { meaning: "RECONCILIATION AND SELF-ACCEPTANCE", associations: ["Apologizing to a"] },
-    "FORGIVING": { meaning: "RELEASE AND INNER PEACE", associations: ["Releasing repressed emotions","Desiring to forgive","Accomplishing selfforgiveness"] },
-    "STRIKING": { meaning: "POWER AND CONTROL", associations: ["Striking an unknown","Striking someone familiar","Feeling regret after"] },
-    "TUGGING": { meaning: "CONFLICTED EMOTIONS", associations: ["Tugging a rope","Tugging against someone","Tugging at a situation and not breaking free might symbolize feeling stuck in an area of life"] },
-    "FLEEING": { meaning: "AVOIDANCE AND CONFRONTATION", associations: ["Fleeing from danger","If youre fleeing","Fleeing from an"] },
-    "STRUGGLING": { meaning: "INNER CONFLICT AND RESISTANCE THEME", associations: ["Struggling against an","Struggling with a","Struggling within a"] },
-    "ARGUING": { meaning: "INNER CONFLICT AND EXPRESSION", associations: ["Arguing with a","An argument in","Arguing with oneself"] },
-    "DISCONNECTED": { meaning: "LONELINESS AND ISOLATION THEME", associations: ["Feeling ostracized in","Experiencing communication breakdowns","Loss of digital"] },
-    "BEING_ISOLATED": { meaning: "INNER DETACHMENT", associations: ["Being alone on an island might symbolize a need to disconnect from ones environment","Feeling alone in","Walking alone down"] },
-    "INTEGRATING": { meaning: "THEME OF UNITY AND WHOLENESS", associations: ["Bringing together different","Rebuilding or reconstructing","Bringing a group"] },
-    "EXPOSING": { meaning: "FACING THE TRUTH / SELF-EXPRESSION", associations: ["Exposing your true","In a professional","Facing an enemy"] },
-    "TRANSFORMING": { meaning: "CHANGE AND RENEWAL", associations: ["Turning into a","Watching someone you","Willingly undergoing a"] },
-    "EXPERIMENTING": { meaning: "EXPLORATION AND INNOVATION", associations: ["Conducting a scientific","Being part of","Achieving a successful"] },
-    "CELEBRATING_A_BIRTHDAY": { meaning: "NEW BEGINNINGS AND CELEBRATION", associations: ["Attending a large","Forgetting your own","Celebrating a loved"] },
-    "BEING_LOST": { meaning: "DIRECTION AND LIFE'S DISORIENTATIONS", associations: ["Being lost in","Getting lost in","Being lost in a forest might symbolize feeling directionless in the intricate and unknown pathways of ones inner world"] },
-    "EAVESDROPPING": { meaning: "SEARCHING FOR HIDDEN INFORMATION", associations: ["Getting caught eavesdropping","Trying to listen","Witnessing others secrets"] },
-    "ESCAPING_JAIL": { meaning: "QUEST FOR FREEDOM", associations: ["Seeing yourself escaping","Getting caught during","Being aided in"] },
-    "DEFENDING_ONESELF": { meaning: "SELF-PROTECTION AND DEFENSE THEME", associations: ["Defending against an","Verbally defending oneself","Preparing to defend"] },
-    "INVESTIGATING": { meaning: "UNVEILING INSTINCTS", associations: ["Seeing yourself investigating","Solving a complex","Following a treasure"] },
-    "SUMMONING": { meaning: "SEEKING POWER AND CONTROL", associations: ["Summoning someone in","Summoning an entity","Receiving no response"] },
-    "NAVIGATING": { meaning: "PATHFINDING AND INSIGHT", associations: ["Finding it difficult","Planning a journey","Finding your way"] },
-    "CHOREOGRAPHED": { meaning: "CONTROL AND SYNCHRONIZATION", associations: ["Dancing in sync","Attempting choreography alone","Enjoying watching a"] },
-    "TUNNELING": { meaning: "DISCOVERING HIDDEN PATHS", associations: ["A challenging tunneling","Seeing light at","A collapsed or"] },
-    "RECYCLING": { meaning: "RENEWAL AND TRANSFORMATION", associations: ["Throwing items into a recycling bin might symbolize your willingness to leave old habits behind","Working at a","Seeing yourself recycling"] },
-    "OVERHEARING": { meaning: "HIDDEN AWARENESS AND PERCEPTION", associations: ["Overhearing a conversation","Hearing a friend","Being influenced by"] },
-    "COMPETING": { meaning: "AMBITION AND RIVALRY", associations: ["Successfully competing may","Losing in competition","Being in a"] },
-    "COACHING": { meaning: "GUIDANCE AND PERSONAL DEVELOPMENT", associations: ["Feeling comfortable while","Struggling while coaching","Receiving coaching You"] },
-    "HUNTING": { meaning: "QUEST AND ACHIEVEMENT", associations: ["Hunting in a","Finding game in","Hunting with dogs"] },
-    "GUARDING": { meaning: "REFLECTIONS ON SECURITY AND RESPONSIBILITY", associations: ["Guarding someone Emphasizes","Defending oneself A","Protecting your home"] },
-    "HITCHHIKING": { meaning: "SEEKING SUPPORT AND TRANSITION", associations: ["Hitchhiking with a","Hitchhiking in the","Seeing a familiar"] },
-    "CRUSADING": { meaning: "QUEST FOR PURPOSE AND GOAL SETTING", associations: ["Finding yourself in","Dreaming as a","Encountering obstacles during a crusade might symbolize internal conflicts and personal barriers that need overcoming"] },
-    "BEING_KIDNAPPED": { meaning: "THEMES OF CONTROL AND INSECURITY", associations: ["Being kidnapped by","Knowing youre kidnapped","Barely escaping a"] },
-    "BEING_POISONED": { meaning: "INNER POISONS AND INSECURITY", associations: ["Being poisoned by","Finding yourself in a toxic environment","Surviving a poisoning"] },
-    "BEING_DECORATED": { meaning: "RECOGNITION OR SELF-EXPRESSION THEME", associations: ["Seeing yourself being","Decorating others in","Being decorated for"] },
-    "PLEADING": { meaning: "EXPRESSION OF EMOTIONAL NEEDS", associations: ["Pleading unconsciously to","Begging a person","Pleading to a"] },
+    "FORGIVING": { meaning: "RELEASE AND INNER PEACE", associations: ["Releasing repressed emotions", "Desiring to forgive", "Accomplishing selfforgiveness"] },
+    "STRIKING": { meaning: "POWER AND CONTROL", associations: ["Striking an unknown", "Striking someone familiar", "Feeling regret after"] },
+    "TUGGING": { meaning: "CONFLICTED EMOTIONS", associations: ["Tugging a rope", "Tugging against someone", "Tugging at a situation and not breaking free might symbolize feeling stuck in an area of life"] },
+    "FLEEING": { meaning: "AVOIDANCE AND CONFRONTATION", associations: ["Fleeing from danger", "If youre fleeing", "Fleeing from an"] },
+    "STRUGGLING": { meaning: "INNER CONFLICT AND RESISTANCE THEME", associations: ["Struggling against an", "Struggling with a", "Struggling within a"] },
+    "ARGUING": { meaning: "INNER CONFLICT AND EXPRESSION", associations: ["Arguing with a", "An argument in", "Arguing with oneself"] },
+    "DISCONNECTED": { meaning: "LONELINESS AND ISOLATION THEME", associations: ["Feeling ostracized in", "Experiencing communication breakdowns", "Loss of digital"] },
+    "BEING_ISOLATED": { meaning: "INNER DETACHMENT", associations: ["Being alone on an island might symbolize a need to disconnect from ones environment", "Feeling alone in", "Walking alone down"] },
+    "INTEGRATING": { meaning: "THEME OF UNITY AND WHOLENESS", associations: ["Bringing together different", "Rebuilding or reconstructing", "Bringing a group"] },
+    "EXPOSING": { meaning: "FACING THE TRUTH / SELF-EXPRESSION", associations: ["Exposing your true", "In a professional", "Facing an enemy"] },
+    "TRANSFORMING": { meaning: "CHANGE AND RENEWAL", associations: ["Turning into a", "Watching someone you", "Willingly undergoing a"] },
+    "EXPERIMENTING": { meaning: "EXPLORATION AND INNOVATION", associations: ["Conducting a scientific", "Being part of", "Achieving a successful"] },
+    "CELEBRATING_A_BIRTHDAY": { meaning: "NEW BEGINNINGS AND CELEBRATION", associations: ["Attending a large", "Forgetting your own", "Celebrating a loved"] },
+    "BEING_LOST": { meaning: "DIRECTION AND LIFE'S DISORIENTATIONS", associations: ["Being lost in", "Getting lost in", "Being lost in a forest might symbolize feeling directionless in the intricate and unknown pathways of ones inner world"] },
+    "EAVESDROPPING": { meaning: "SEARCHING FOR HIDDEN INFORMATION", associations: ["Getting caught eavesdropping", "Trying to listen", "Witnessing others secrets"] },
+    "ESCAPING_JAIL": { meaning: "QUEST FOR FREEDOM", associations: ["Seeing yourself escaping", "Getting caught during", "Being aided in"] },
+    "DEFENDING_ONESELF": { meaning: "SELF-PROTECTION AND DEFENSE THEME", associations: ["Defending against an", "Verbally defending oneself", "Preparing to defend"] },
+    "INVESTIGATING": { meaning: "UNVEILING INSTINCTS", associations: ["Seeing yourself investigating", "Solving a complex", "Following a treasure"] },
+    "SUMMONING": { meaning: "SEEKING POWER AND CONTROL", associations: ["Summoning someone in", "Summoning an entity", "Receiving no response"] },
+    "NAVIGATING": { meaning: "PATHFINDING AND INSIGHT", associations: ["Finding it difficult", "Planning a journey", "Finding your way"] },
+    "CHOREOGRAPHED": { meaning: "CONTROL AND SYNCHRONIZATION", associations: ["Dancing in sync", "Attempting choreography alone", "Enjoying watching a"] },
+    "TUNNELING": { meaning: "DISCOVERING HIDDEN PATHS", associations: ["A challenging tunneling", "Seeing light at", "A collapsed or"] },
+    "RECYCLING": { meaning: "RENEWAL AND TRANSFORMATION", associations: ["Throwing items into a recycling bin might symbolize your willingness to leave old habits behind", "Working at a", "Seeing yourself recycling"] },
+    "OVERHEARING": { meaning: "HIDDEN AWARENESS AND PERCEPTION", associations: ["Overhearing a conversation", "Hearing a friend", "Being influenced by"] },
+    "COMPETING": { meaning: "AMBITION AND RIVALRY", associations: ["Successfully competing may", "Losing in competition", "Being in a"] },
+    "COACHING": { meaning: "GUIDANCE AND PERSONAL DEVELOPMENT", associations: ["Feeling comfortable while", "Struggling while coaching", "Receiving coaching You"] },
+    "HUNTING": { meaning: "QUEST AND ACHIEVEMENT", associations: ["Hunting in a", "Finding game in", "Hunting with dogs"] },
+    "GUARDING": { meaning: "REFLECTIONS ON SECURITY AND RESPONSIBILITY", associations: ["Guarding someone Emphasizes", "Defending oneself A", "Protecting your home"] },
+    "HITCHHIKING": { meaning: "SEEKING SUPPORT AND TRANSITION", associations: ["Hitchhiking with a", "Hitchhiking in the", "Seeing a familiar"] },
+    "CRUSADING": { meaning: "QUEST FOR PURPOSE AND GOAL SETTING", associations: ["Finding yourself in", "Dreaming as a", "Encountering obstacles during a crusade might symbolize internal conflicts and personal barriers that need overcoming"] },
+    "BEING_KIDNAPPED": { meaning: "THEMES OF CONTROL AND INSECURITY", associations: ["Being kidnapped by", "Knowing youre kidnapped", "Barely escaping a"] },
+    "BEING_POISONED": { meaning: "INNER POISONS AND INSECURITY", associations: ["Being poisoned by", "Finding yourself in a toxic environment", "Surviving a poisoning"] },
+    "BEING_DECORATED": { meaning: "RECOGNITION OR SELF-EXPRESSION THEME", associations: ["Seeing yourself being", "Decorating others in", "Being decorated for"] },
+    "PLEADING": { meaning: "EXPRESSION OF EMOTIONAL NEEDS", associations: ["Pleading unconsciously to", "Begging a person", "Pleading to a"] },
     "BEING_EATEN": { meaning: "EXHAUSTION AND LOSS OF CONTROL", associations: ["Being eaten by"] },
-    "CONCILIATING": { meaning: "HARMONY AND COMMUNICATION", associations: ["Trying to reconcile","Reaching out to","Conciliating with colleagues"] },
-    "RESCUING": { meaning: "COURAGE AND LIBERATION", associations: ["Rescuing someone from","Helping an elderly","Saving an animal"] },
-    "INHERITING": { meaning: "SELF-DISCOVERY AND RESPONSIBILITY", associations: ["Inheriting from a","Receiving an unexpected","Accepting a nonmaterial"] },
-    "WITNESSING": { meaning: "OBSERVATIONAL INSIGHTS", associations: ["Dreaming about witnessing","Witnessing a friend","Testifying in court"] },
-    "WANDERING": { meaning: "A SYMBOL OF INTERNAL QUEST", associations: ["Wandering alone in","Wandering in a","Wandering in familiar"] },
-    "BEING_BETRAYED": { meaning: "TRUST AND LOYALTY", associations: ["Dreaming of being","Being betrayed by","Experiencing betrayal by"] },
-    "HAUNTING": { meaning: "SPIRITUAL TURMOIL AND INNER CONFLICT", associations: ["Having a haunting","Being haunted may","Experiencing a haunting"] },
-    "EXCELLING": { meaning: "ACHIEVING SUCCESS", associations: ["Excelling in a","Celebrating success after","Succeeding unexpectedly suggests"] },
-    "ENROLLING": { meaning: "COMMITMENT AND NEW BEGINNINGS", associations: ["Being accepted into","Signing up for","Being in the"] },
-    "ERASING": { meaning: "STARTING ANEW OR FORGETTING", associations: ["Erasing a paper or document might symbolize the desire to escape unresolved tasks or responsibilities","Erasing a blackboard","Erasing a face or object might symbolize reassessment of personal imprints or identity"] },
-    "REPEATING": { meaning: "CYCLE OF THE SUBCONSCIOUS", associations: ["Being in the","Experiencing similar events","Making choices that"] },
-    "COPYING": { meaning: "QUEST FOR IDENTITY AND CREATIVITY", associations: ["Copying a document","Imitating someone elses","Repeatedly copying something"] },
-    "CRITICIZING": { meaning: "SELF-REFLECTION AND EVALUATION", associations: ["Seeing yourself criticize","Criticizing yourself suggests","Being criticized in"] },
-    "ANALYZING": { meaning: "INTERNAL EXPLORATION", associations: ["Analyzing a problem","Analyzing work or","Constantly analyzing and"] },
-    "RESIGNING": { meaning: "DESIRE FOR CHANGE AND NEW BEGINNINGS", associations: ["Resigning from a","An unexpressed resignation"] },
-    "TELEPORTING": { meaning: "ESCAPES BEYOND CONTROL", associations: ["Teleporting to escape","Teleporting with another","A constantly changing"] },
-    "MESMERIZING": { meaning: "DIRECTION OF ATTENTION AND ILLUSION", associations: ["Seeing a person","Feeling mesmerized and","Experiencing a mesmerizing"] },
-    "CONVINCING": { meaning: "INNER PERSUASION AND MENTAL STRUGGLE", associations: ["Trying to convince","Seeing oneself attempting to persuade a difficult situation","Attempting to convince"] },
-    "BECOMING_FAMOUS": { meaning: "DESIRE FOR RECOGNITION AND EXPRESSION", associations: ["Dreaming of being","Imagining walking on","Visualizing oneself in"] },
-    "BEING_DEPOSED": { meaning: "LOSS OF POWER AND CHANGE", associations: ["Being ousted from","Losing authority within","Loss of status"] },
-    "CONTEMPLATING": { meaning: "INTERNAL DEEP DIVE", associations: ["Contemplating in a peaceful setting","Thinking in a","Contemplating in a"] },
-    "SKETCHING": { meaning: "CREATIVE EXPRESSION", associations: ["A desire to","The urge to","The need to"] },
-    "CLAPPING": { meaning: "SEEKING APPROVAL AND RECOGNITION", associations: ["A dream where","Clapping for a","Not being applauded"] },
-    "SNORING": { meaning: "HIDDEN ANXIETIES", associations: ["Hearing yourself snore","Seeing someone else","Snoring and struggling"] },
-    "EMPTY_ROOM": { meaning: "LONELINESS / LACK", associations: ["Void","Structure","Empty Room","Boş bir oda","Lonely space"] },
-    "FACELESS_PERSON": { meaning: "AMBIGUITY / UNCERTAINTY", associations: ["Shadows","Mist","Faceless Person","Yüzü olmayan insan","Undefined face"] },
-    "DIFFERENT_REFLECTION": { meaning: "IDENTITY / SELF-DISCOVERY", associations: ["Mirror","Reflection","Different Reflection","Aynada kendini farklı görmek","Self-discovery"] },
-    "MIRROR_BREAKING": { meaning: "CHANGE / PERCEPTION", associations: ["Glass","Reflection","Mirror Breaking","Aynanın kırılması","Mirror cracking"] },
-    "DOOR_AJAR": { meaning: "UNCERTAINTY / OPPORTUNITY", associations: ["Wood","Metal","Door Ajar","Kapının aralık kalması","Dream"] },
-    "CANNOT_OPEN_DOOR": { meaning: "OBSTRUCTION / LIMITATION", associations: ["Door","Lock","Cannot Open Door","Kapıyı açamamak","Closed door"] },
-    "KEY_NOT_WORKING": { meaning: "OBSTRUCTION / FAILURE", associations: ["Key","Door","Key Not Working","Dream of key","Key problem"] },
-    "LOCKED_DRAWER": { meaning: "SECRECY / SUBCONSCIOUS", associations: ["Lock","Drawer","Locked Drawer","Kilitli çekmece","Hidden issues"] },
-    "ENDLESS_TUNNEL": { meaning: "UNCERTAINTY / ENTRAPMENT", associations: ["Darkness","Infinity","Endless Tunnel","Tünelin sonunu görememek","Uncertainty"] },
-    "NARROW_CORRIDOR": { meaning: "CONFINEMENT / DECISION-MAKING", associations: ["Narrow space","Small area","Narrow Corridor","Dar koridor","Confinement"] },
-    "DARK_STAIRS": { meaning: "SUBCONSCIOUS / UNCERTAINTY", associations: ["Darkness","Stairs","Dark Stairs","Karanlık merdiven","Uncertainty"] },
-    "ENDLESS_LOOP": { meaning: "VICIOUS CYCLE / REPETITION", associations: ["Time","Continuity","Endless Loop","Sürekli aynı yere dönmek","Cycle"] },
-    "CLOCK_STOPPING": { meaning: "TIME / STAGNATION", associations: ["Clock","Stopping","Clock Stopping","Saatin durması","Time stopping"] },
-    "PHONE_NOT_WORKING": { meaning: "CONNECTION ISSUE / COMMUNICATION", associations: ["Electromagnetic","Technology","Phone Not Working","Telefonun çalışmaması","Broken phone"] },
-    "CANNOT_SEND_MESSAGE": { meaning: "COMMUNICATION ISSUES / LACK OF EXPRESSION", associations: ["Barrier","Silence","Cannot Send Message","Mesaj yazıp gönderememek","Communication"] },
-    "NO_INTERNET": { meaning: "COMMUNICATION BREAKDOWN / DISCONNECTION", associations: ["Technology","Isolation","No Internet","İnternetin çekmemesi","Connection loss"] },
-    "CAMERA_NOT_OPENING": { meaning: "OBSTRUCTION / LACK OF EXPRESSION", associations: ["Camera","Visual","Camera Not Opening","Kamera açılmaması","Camera malfunction"] },
-    "LOST_SHOE": { meaning: "LOSS / IMBALANCE", associations: ["Shoe","Travel","Lost Shoe","Kaybolan ayakkabı (tek)","Losing a single shoe"] },
-    "MISMATCHED_SHOES": { meaning: "SENSE OF BELONGING / IDENTITY SEARCH", associations: ["Shoes","Mismatch","Mismatched Shoes","Ayağında farklı ayakkabı olması","Variation1"] },
-    "OVERSIZED_CLOTHES": { meaning: "IDENTITY / MISALIGNMENT", associations: ["Clothing","Body","Oversized Clothes","Üzerine büyük gelen kıyafet","Large clothing"] },
-    "CANNOT_FIND_CLOTHES": { meaning: "IDENTITY / BELONGING", associations: ["Clothing","Subconscious","Cannot Find Clothes","Kıyafet bulamamak","Lost clothes"] },
-    "NAKED_UNNOTICED": { meaning: "INVISIBILITY / VULNERABILITY", associations: ["Silence","Loneliness","Naked, Unnoticed","Çıplak yakalanmak ama kimsenin umursamaması","Invisibility"] },
-    "NAKED_OBSERVED": { meaning: "VULNERABILITY / PRIVACY", associations: ["Nakedness","Stares","Naked, Observed","Çıplak yakalanmak ve herkesin bakması","Nakedness"] },
-    "TEETH_FALLING_OUT": { meaning: "Specific Scenario", associations: [] },
-    "TEETH_CRUMBLING": { meaning: "Specific Scenario", associations: [] },
-    "HAIR_FALLING_OUT": { meaning: "LOSS / SELF-ESTEEM", associations: ["Fear","Change","Hair Falling Out","Saçın dökülmesi","Hair loss"] },
-    "FACE_DISTORTING": { meaning: "IDENTITY / MASKS", associations: ["Face","Change","Face Distorting","Yüzünün bozulması","Change"] },
-    "CANNOT_HEAR_VOICE": { meaning: "EXPRESSION / SUPPRESSION", associations: ["Silence","Isolation","Cannot Hear Voice","Kendi sesini duyamamak","Expression difficulty"] },
-    "CANNOT_SPEAK": { meaning: "COMMUNICATION / REPRESSED EMOTIONS", associations: ["Silence","Barrier","Cannot Speak","Konuşmak isteyip konuşamamak","Inexpressiveness"] },
-    "UNHEARD_WORDS": { meaning: "EXPRESSION / CONNECTION", associations: ["Silence","Communication","Unheard Words","Bir şey söyleyince kimsenin duymaması","Communication issues"] },
-    "VOICE_FADING": { meaning: "EXPRESSION / BEING UNHEARD", associations: ["Air","Silence","Voice Fading","Bağırdıkça sesin kısılması","Unable to speak"] },
-    "NOT_RECOGNIZED": { meaning: "RECOGNITION / BELONGING", associations: ["Face","Alienation","Not Recognized","Birinin seni tanımaması","Unrecognized"] },
-    "BEING_IGNORED": { meaning: "REJECTION / LONELINESS", associations: ["Darkness","Silence","Being Ignored","Birinin seni görmezden gelmesi","Neglect"] },
-    "ALONE_IN_CROWD": { meaning: "LONELINESS / MISUNDERSTANDING", associations: ["Crowd","Isolation","Alone in Crowd","Kalabalığın içinde yalnız hissetmek","Variation1"] },
-    "BEING_STARED_AT": { meaning: "SOCIAL ANXIETY / FEAR OF EXPOSURE", associations: ["Eyes","Society","Being Stared At","Herkesin sana bakması","Center of attention"] },
-    "PEOPLE_WHISPERING": { meaning: "INSECURITY / GOSSIP", associations: ["Sound","Environment","People Whispering","Herkesin fısıldaşması","Whispering"] },
-    "CANNOT_REMEMBER_NAME": { meaning: "IDENTITY / CONNECTION", associations: ["Communication","Forgetfulness","Cannot Remember Name","Birinin adını hatırlayamamak","Name forgetfulness"] },
-    "SLOW_ESCAPE": { meaning: "STAGNATION / OBSTACLE", associations: ["Slowness","Escape","Slow Escape","Sürekli kaçmak ama yavaşlamak","Escape dream"] },
-    "IMMOBILIZED_RUNNING": { meaning: "IMPEDIMENT / LIMITATION", associations: ["Earth","Weight","Immobilized Running","Koşmak isteyip koşamayacak kadar ağırlaşmak","Restricted movement"] },
-    "UNSEEN_PURSUER": { meaning: "FEAR / ANXIETY", associations: ["Mystery","Threat","Unseen Pursuer","Takip edilmek ama kimin takip ettiğini görememek","Fear of pursuit"] },
-    "EXPOSED_HIDING": { meaning: "CONCEALMENT / FEAR OF EXPOSURE", associations: ["Secrecy","Fear","Exposed Hiding","Saklanmak ama saklandığın yerin açıkta kalması","Fear"] },
-    "FALLING_NO_IMPACT": { meaning: "LOSS OF CONTROL / RESOLUTION", associations: ["Air","Wind","Falling, No Impact","Düşmek ama yere çarpmamak","Loss of control"] },
-    "UNCONTROLLED_FLYING": { meaning: "FREEDOM / LOSS OF CONTROL", associations: ["Air","Wind","Uncontrolled Flying","Uçmak ama kontrol edememek","Unmanaged flight"] },
-    "NEUTRAL_WATER": { meaning: "EMOTIONAL BALANCE / OBJECTIVITY", associations: ["Water","Neutrality","Neutral Water","Suya girmek ama suyun sıcak/soğuk olmaması","Neutral temperature"] },
-    "DEJA_VU": { meaning: "REPETITION / FAMILIARITY", associations: ["Time","Memory","Deja Vu","Bir şeyin “tanıdık” gelmesi ama hatırlayamamak","Repetition"] },
-    "BRIGHT_LIGHT": { meaning: "ENLIGHTENMENT / AWARENESS", associations: ["Light","Brightness","Bright Light","Çok parlak bir ışık görmek","Bright light dream"] },
-    "DESTINATION_UNKNOWN": { meaning: "UNCERTAINTY / SEARCH", associations: ["Fog","Path","Destination Unknown","Bir yerde “olman gerektiğini” bilmek ama nereye olduğunu bilmemek","Uncertainty"] }
-};
+    "CONCILIATING": { meaning: "HARMONY AND COMMUNICATION", associations: ["Trying to reconcile", "Reaching out to", "Conciliating with colleagues"] },
+    "RESCUING": { meaning: "COURAGE AND LIBERATION", associations: ["Rescuing someone from", "Helping an elderly", "Saving an animal"] },
+    "INHERITING": { meaning: "SELF-DISCOVERY AND RESPONSIBILITY", associations: ["Inheriting from a", "Receiving an unexpected", "Accepting a nonmaterial"] },
+    "WITNESSING": { meaning: "OBSERVATIONAL INSIGHTS", associations: ["Dreaming about witnessing", "Witnessing a friend", "Testifying in court"] },
+    "WANDERING": { meaning: "A SYMBOL OF INTERNAL QUEST", associations: ["Wandering alone in", "Wandering in a", "Wandering in familiar"] },
+    "BEING_BETRAYED": { meaning: "TRUST AND LOYALTY", associations: ["Dreaming of being", "Being betrayed by", "Experiencing betrayal by"] },
+    "HAUNTING": { meaning: "SPIRITUAL TURMOIL AND INNER CONFLICT", associations: ["Having a haunting", "Being haunted may", "Experiencing a haunting"] },
+    "EXCELLING": { meaning: "ACHIEVING SUCCESS", associations: ["Excelling in a", "Celebrating success after", "Succeeding unexpectedly suggests"] },
+    "ENROLLING": { meaning: "COMMITMENT AND NEW BEGINNINGS", associations: ["Being accepted into", "Signing up for", "Being in the"] },
+    "ERASING": { meaning: "STARTING ANEW OR FORGETTING", associations: ["Erasing a paper or document might symbolize the desire to escape unresolved tasks or responsibilities", "Erasing a blackboard", "Erasing a face or object might symbolize reassessment of personal imprints or identity"] },
+    "REPEATING": { meaning: "CYCLE OF THE SUBCONSCIOUS", associations: ["Being in the", "Experiencing similar events", "Making choices that"] },
+    "COPYING": { meaning: "QUEST FOR IDENTITY AND CREATIVITY", associations: ["Copying a document", "Imitating someone elses", "Repeatedly copying something"] },
+    "CRITICIZING": { meaning: "SELF-REFLECTION AND EVALUATION", associations: ["Seeing yourself criticize", "Criticizing yourself suggests", "Being criticized in"] },
+    "ANALYZING": { meaning: "INTERNAL EXPLORATION", associations: ["Analyzing a problem", "Analyzing work or", "Constantly analyzing and"] },
+    "RESIGNING": { meaning: "DESIRE FOR CHANGE AND NEW BEGINNINGS", associations: ["Resigning from a", "An unexpressed resignation"] },
+    "TELEPORTING": { meaning: "ESCAPES BEYOND CONTROL", associations: ["Teleporting to escape", "Teleporting with another", "A constantly changing"] },
+    "MESMERIZING": { meaning: "DIRECTION OF ATTENTION AND ILLUSION", associations: ["Seeing a person", "Feeling mesmerized and", "Experiencing a mesmerizing"] },
+    "CONVINCING": { meaning: "INNER PERSUASION AND MENTAL STRUGGLE", associations: ["Trying to convince", "Seeing oneself attempting to persuade a difficult situation", "Attempting to convince"] },
+    "BECOMING_FAMOUS": { meaning: "DESIRE FOR RECOGNITION AND EXPRESSION", associations: ["Dreaming of being", "Imagining walking on", "Visualizing oneself in"] },
+    "BEING_DEPOSED": { meaning: "LOSS OF POWER AND CHANGE", associations: ["Being ousted from", "Losing authority within", "Loss of status"] },
+    "CONTEMPLATING": { meaning: "INTERNAL DEEP DIVE", associations: ["Contemplating in a peaceful setting", "Thinking in a", "Contemplating in a"] },
+    "SKETCHING": { meaning: "CREATIVE EXPRESSION", associations: ["A desire to", "The urge to", "The need to"] },
+    "CLAPPING": { meaning: "SEEKING APPROVAL AND RECOGNITION", associations: ["A dream where", "Clapping for a", "Not being applauded"] },
+    "SNORING": { meaning: "HIDDEN ANXIETIES", associations: ["Hearing yourself snore", "Seeing someone else", "Snoring and struggling"] },
+    "EMPTY_ROOM": { meaning: "LONELINESS / LACK", associations: ["Void", "Structure", "Empty Room", "Boş bir oda", "Lonely space"] },
+    "FACELESS_PERSON": { meaning: "AMBIGUITY / UNCERTAINTY", associations: ["Shadows", "Mist", "Faceless Person", "Yüzü olmayan insan", "Undefined face"] },
+    "DIFFERENT_REFLECTION": { meaning: "IDENTITY / SELF-DISCOVERY", associations: ["Mirror", "Reflection", "Different Reflection", "Aynada kendini farklı görmek", "Self-discovery"] },
+    "MIRROR_BREAKING": { meaning: "CHANGE / PERCEPTION", associations: ["Glass", "Reflection", "Mirror Breaking", "Aynanın kırılması", "Mirror cracking"] },
+    "DOOR_AJAR": { meaning: "UNCERTAINTY / OPPORTUNITY", associations: ["Wood", "Metal", "Door Ajar", "Kapının aralık kalması", "Dream"] },
+    "CANNOT_OPEN_DOOR": { meaning: "OBSTRUCTION / LIMITATION", associations: ["Door", "Lock", "Cannot Open Door", "Kapıyı açamamak", "Closed door"] },
+    "KEY_NOT_WORKING": { meaning: "OBSTRUCTION / FAILURE", associations: ["Key", "Door", "Key Not Working", "Dream of key", "Key problem"] },
+    "LOCKED_DRAWER": { meaning: "SECRECY / SUBCONSCIOUS", associations: ["Lock", "Drawer", "Locked Drawer", "Kilitli çekmece", "Hidden issues"] },
+    "ENDLESS_TUNNEL": { meaning: "UNCERTAINTY / ENTRAPMENT", associations: ["Darkness", "Infinity", "Endless Tunnel", "Tünelin sonunu görememek", "Uncertainty"] },
+    "NARROW_CORRIDOR": { meaning: "CONFINEMENT / DECISION-MAKING", associations: ["Narrow space", "Small area", "Narrow Corridor", "Dar koridor", "Confinement"] },
+    "DARK_STAIRS": { meaning: "SUBCONSCIOUS / UNCERTAINTY", associations: ["Darkness", "Stairs", "Dark Stairs", "Karanlık merdiven", "Uncertainty"] },
+    "ENDLESS_LOOP": { meaning: "VICIOUS CYCLE / REPETITION", associations: ["Time", "Continuity", "Endless Loop", "Sürekli aynı yere dönmek", "Cycle"] },
+    "CLOCK_STOPPING": { meaning: "TIME / STAGNATION", associations: ["Clock", "Stopping", "Clock Stopping", "Saatin durması", "Time stopping"] },
+    "PHONE_NOT_WORKING": { meaning: "CONNECTION ISSUE / COMMUNICATION", associations: ["Electromagnetic", "Technology", "Phone Not Working", "Telefonun çalışmaması", "Broken phone"] },
+    "CANNOT_SEND_MESSAGE": { meaning: "COMMUNICATION ISSUES / LACK OF EXPRESSION", associations: ["Barrier", "Silence", "Cannot Send Message", "Mesaj yazıp gönderememek", "Communication"] },
+    "NO_INTERNET": { meaning: "COMMUNICATION BREAKDOWN / DISCONNECTION", associations: ["Technology", "Isolation", "No Internet", "İnternetin çekmemesi", "Connection loss"] },
+    "CAMERA_NOT_OPENING": { meaning: "OBSTRUCTION / LACK OF EXPRESSION", associations: ["Camera", "Visual", "Camera Not Opening", "Kamera açılmaması", "Camera malfunction"] },
+    "LOST_SHOE": { meaning: "LOSS / IMBALANCE", associations: ["Shoe", "Travel", "Lost Shoe", "Kaybolan ayakkabı (tek)", "Losing a single shoe"] },
+    "MISMATCHED_SHOES": { meaning: "SENSE OF BELONGING / IDENTITY SEARCH", associations: ["Shoes", "Mismatch", "Mismatched Shoes", "Ayağında farklı ayakkabı olması", "Variation1"] },
+    "OVERSIZED_CLOTHES": { meaning: "IDENTITY / MISALIGNMENT", associations: ["Clothing", "Body", "Oversized Clothes", "Üzerine büyük gelen kıyafet", "Large clothing"] },
+    "CANNOT_FIND_CLOTHES": { meaning: "IDENTITY / BELONGING", associations: ["Clothing", "Subconscious", "Cannot Find Clothes", "Kıyafet bulamamak", "Lost clothes"] },
+    "NAKED_UNNOTICED": { meaning: "INVISIBILITY / VULNERABILITY", associations: ["Silence", "Loneliness", "Naked, Unnoticed", "Çıplak yakalanmak ama kimsenin umursamaması", "Invisibility"] },
+    "NAKED_OBSERVED": { meaning: "VULNERABILITY / PRIVACY", associations: ["Nakedness", "Stares", "Naked, Observed", "Çıplak yakalanmak ve herkesin bakması", "Nakedness"] },
+
+
+    "HAIR_FALLING_OUT": { meaning: "LOSS / SELF-ESTEEM", associations: ["Fear", "Change", "Hair Falling Out", "Saçın dökülmesi", "Hair loss"] },
+    "FACE_DISTORTING": { meaning: "IDENTITY / MASKS", associations: ["Face", "Change", "Face Distorting", "Yüzünün bozulması", "Change"] },
+    "CANNOT_HEAR_VOICE": { meaning: "EXPRESSION / SUPPRESSION", associations: ["Silence", "Isolation", "Cannot Hear Voice", "Kendi sesini duyamamak", "Expression difficulty"] },
+    "CANNOT_SPEAK": { meaning: "COMMUNICATION / REPRESSED EMOTIONS", associations: ["Silence", "Barrier", "Cannot Speak", "Konuşmak isteyip konuşamamak", "Inexpressiveness"] },
+    "UNHEARD_WORDS": { meaning: "EXPRESSION / CONNECTION", associations: ["Silence", "Communication", "Unheard Words", "Bir şey söyleyince kimsenin duymaması", "Communication issues"] },
+    "VOICE_FADING": { meaning: "EXPRESSION / BEING UNHEARD", associations: ["Air", "Silence", "Voice Fading", "Bağırdıkça sesin kısılması", "Unable to speak"] },
+    "NOT_RECOGNIZED": { meaning: "RECOGNITION / BELONGING", associations: ["Face", "Alienation", "Not Recognized", "Birinin seni tanımaması", "Unrecognized"] },
+    "BEING_IGNORED": { meaning: "REJECTION / LONELINESS", associations: ["Darkness", "Silence", "Being Ignored", "Birinin seni görmezden gelmesi", "Neglect"] },
+    "ALONE_IN_CROWD": { meaning: "LONELINESS / MISUNDERSTANDING", associations: ["Crowd", "Isolation", "Alone in Crowd", "Kalabalığın içinde yalnız hissetmek", "Variation1"] },
+    "BEING_STARED_AT": { meaning: "SOCIAL ANXIETY / FEAR OF EXPOSURE", associations: ["Eyes", "Society", "Being Stared At", "Herkesin sana bakması", "Center of attention"] },
+    "PEOPLE_WHISPERING": { meaning: "INSECURITY / GOSSIP", associations: ["Sound", "Environment", "People Whispering", "Herkesin fısıldaşması", "Whispering"] },
+    "CANNOT_REMEMBER_NAME": { meaning: "IDENTITY / CONNECTION", associations: ["Communication", "Forgetfulness", "Cannot Remember Name", "Birinin adını hatırlayamamak", "Name forgetfulness"] },
+    "SLOW_ESCAPE": { meaning: "STAGNATION / OBSTACLE", associations: ["Slowness", "Escape", "Slow Escape", "Sürekli kaçmak ama yavaşlamak", "Escape dream"] },
+    "IMMOBILIZED_RUNNING": { meaning: "IMPEDIMENT / LIMITATION", associations: ["Earth", "Weight", "Immobilized Running", "Koşmak isteyip koşamayacak kadar ağırlaşmak", "Restricted movement"] },
+    "UNSEEN_PURSUER": { meaning: "FEAR / ANXIETY", associations: ["Mystery", "Threat", "Unseen Pursuer", "Takip edilmek ama kimin takip ettiğini görememek", "Fear of pursuit"] },
+    "EXPOSED_HIDING": { meaning: "CONCEALMENT / FEAR OF EXPOSURE", associations: ["Secrecy", "Fear", "Exposed Hiding", "Saklanmak ama saklandığın yerin açıkta kalması", "Fear"] },
+    "FALLING_NO_IMPACT": { meaning: "LOSS OF CONTROL / RESOLUTION", associations: ["Air", "Wind", "Falling, No Impact", "Düşmek ama yere çarpmamak", "Loss of control"] },
+    "UNCONTROLLED_FLYING": { meaning: "FREEDOM / LOSS OF CONTROL", associations: ["Air", "Wind", "Uncontrolled Flying", "Uçmak ama kontrol edememek", "Unmanaged flight"] },
+    "NEUTRAL_WATER": { meaning: "EMOTIONAL BALANCE / OBJECTIVITY", associations: ["Water", "Neutrality", "Neutral Water", "Suya girmek ama suyun sıcak/soğuk olmaması", "Neutral temperature"] },
+    "DEJA_VU": { meaning: "REPETITION / FAMILIARITY", associations: ["Time", "Memory", "Deja Vu", "Bir şeyin “tanıdık” gelmesi ama hatırlayamamak", "Repetition"] },
+    "BRIGHT_LIGHT": { meaning: "ENLIGHTENMENT / AWARENESS", associations: ["Light", "Brightness", "Bright Light", "Çok parlak bir ışık görmek", "Bright light dream"] },
+    "DESTINATION_UNKNOWN": { meaning: "UNCERTAINTY / SEARCH", associations: ["Fog", "Path", "Destination Unknown", "Bir yerde “olman gerektiğini” bilmek ama nereye olduğunu bilmemek", "Uncertainty"] },
+    // -- MERGED ORPHANS --
+    "ACCIDENT": { meaning: "ANLAMI VE YORUMU", associations: ["Kaza"] },
+    "ALCOHOL": { meaning: "ANLAMI VE YORUMU", associations: ["Alkolki"] },
+    "ANGER": { meaning: "ANLAMI VE YORUMU", associations: ["fke"] },
+    "ANTENNA": { meaning: "SEZGI VE HABER", associations: ["Anten"] },
+    "ARCHERY": { meaning: "TAM İSABET", associations: ["Okuluk"] },
+    "ARCHITECT": { meaning: "ANLAMI VE YORUMU", associations: ["Mimar"] },
+
+    "BACK_BODY": { meaning: "DESTEK VE YÜK", associations: ["Srt"] },
+    "BALL": { meaning: "FIRSAT VE DÖNGÜ", associations: ["Top"] },
+    "BAND_AID": { meaning: "GEÇICI ÇÖZÜM", associations: ["Yara Band"] },
+    "BANDAGE": { meaning: "ONARIM", associations: ["Sarg Bezi"] },
+    "BARBER": { meaning: "YÜKTEN KURTULMAK", associations: ["Berber"] },
+    "BASKETBALL": { meaning: "YÜKSEK HEDEFLER", associations: ["Basketbol"] },
+    "BEARD": { meaning: "BILGELIK VE OTORITE", associations: ["Sakal"] },
+    "BED_SHEET": { meaning: "TEMIZLIK VE MAHREMIYET", associations: ["araf"] },
+    "BEER": { meaning: "RAHATLAMA VE GEVŞEME", associations: ["Bira"] },
+    "BLEEDING": { meaning: "HAYAT ENERJISI", associations: ["Kanama"] },
+    "BOSS": { meaning: "ANLAMI VE YORUMU", associations: ["Patron"] },
+    "BOXING": { meaning: "HAYAT MÜCADELESI", associations: ["Boks"] },
+    "BRIDE": { meaning: "YENI BAŞLANGIÇ VE MASUMIYET", associations: ["Gelin"] },
+    "BUS_TERMINAL": { meaning: "AYRILIK VE KAVUŞMA", associations: ["Otogar"] },
+    "BUTCHER": { meaning: "GÜÇ VE TEHLIKE", associations: ["Kasap"] },
+    "BUYING": { meaning: "BEDEL VE ARZU", associations: ["Satn Almak"] },
+    "CABLE": { meaning: "KARMAŞIK BAĞLAR", associations: ["Kablo"] },
+    "CACTUS": { meaning: "DAYANIKLILIK VE MESAFE", associations: ["Kakts"] },
+    "CALCULATOR": { meaning: "MANTIK VE KAZANÇ", associations: ["Hesap Makinesi"] },
+
+    "CARBON_PAPER": { meaning: "KOPYA VE TEKRAR", associations: ["Karbon Kad"] },
+    "CARPENTER": { meaning: "ŞEKIL VERMEK", associations: ["Marangoz"] },
+    "CELEBRITY": { meaning: "ANLAMI VE YORUMU", associations: ["nl Kii"] },
+    "CELLAR": { meaning: "GEÇMIŞ VE DEPO", associations: ["Mahzen"] },
+    "CHASE": { meaning: "ANLAMI VE YORUMU", associations: ["KovalamakKovalanmak"] },
+    "CHASED": { meaning: "GEÇMIŞIN TAKIBI", associations: ["Kovalanmak"] },
+    "CHICKEN": { meaning: "ANLAMI VE YORUMU", associations: ["Tavuk"] },
+    "CHOIR": { meaning: "BIRLIK VE UYUM", associations: ["Koro"] },
+    "CITY": { meaning: "ANLAMI VE YORUMU", associations: ["ehir"] },
+    "CLOTHES": { meaning: "ANLAMI VE YORUMU", associations: ["ElbiseKyafet"] },
+    "CLOUD": { meaning: "ANLAMI VE YORUMU", associations: ["Bulut"] },
+    "COCKROACH": { meaning: "ANLAMI VE YORUMU", associations: ["Hamambcei"] },
+    "COFFIN": { meaning: "SINIRLANMA VE MUHAFAZA", associations: ["Tabut"] },
+    "COMPASS_DRAWING": { meaning: "MERKEZ VE ÇEVRE", associations: ["Pergel"] },
+    "CONSOLE": { meaning: "SANAL REKABET", associations: ["Oyun Konsolu"] },
+    "CORRIDOR": { meaning: "ANLAMI VE YORUMU", associations: ["Koridor"] },
+    "COUCH": { meaning: "SOSYAL ALAN", associations: ["Kanepe"] },
+    "COUGH": { meaning: "ŞIKAYET VE İTIRAF", associations: ["ksrk"] },
+    "CRATER": { meaning: "GEÇMIŞIN İZLERI", associations: ["Krater"] },
+    "CROCODILE": { meaning: "ANLAMI VE YORUMU", associations: ["Timsah"] },
+    "CRUTCH": { meaning: "DESTEK", associations: ["Koltuk Denei"] },
+    "DAISY": { meaning: "SAF NIYET", associations: ["Papatya"] },
+    "DEAD_PERSON": { meaning: "GEÇMIŞIN REHBERLIĞI", associations: ["l"] },
+    "DENTIST": { meaning: "ANLAMI VE YORUMU", associations: ["Di Hekimi"] },
+    "DEVIL": { meaning: "ANLAMI VE YORUMU", associations: ["eytanblis"] },
+    "DIARY_BOOK": { meaning: "MAHREM SIRLAR", associations: ["Gnlk"] },
+    "DIVING": { meaning: "DERINLERE YOLCULUK", associations: ["Dalmak"] },
+    "DIVORCE": { meaning: "ANLAMI VE YORUMU", associations: ["BoanmaAyrlk"] },
+    "DONKEY": { meaning: "İNAT VE HIZMET", associations: ["Eek"] },
+    "DRIVER": { meaning: "KONTROL VE YÖN", associations: ["ofr"] },
+    "EATING": { meaning: "ANLAMI VE YORUMU", associations: ["Yemek Yemek"] },
+    "ENEMY": { meaning: "İÇSEL ÇATIŞMA", associations: ["Dman"] },
+    "ENGINEER": { meaning: "ANLAMI VE YORUMU", associations: ["Mhendis"] },
+    "ERASER": { meaning: "HATA DÜZELTMEK", associations: ["Silgi"] },
+    "EX_PARTNER": { meaning: "ANLAMI VE YORUMU", associations: ["Eski Sevgili"] },
+    "FACE": { meaning: "KIMLIK VE MASKE", associations: ["Yz"] },
+    "FAILURE": { meaning: "DERS VE UYARI", associations: ["Baarszlk"] },
+    "FALLING": { meaning: "ANLAMI VE YORUMU", associations: ["Dmek"] },
+    "FATHER": { meaning: "ANLAMI VE YORUMU", associations: ["Baba"] },
+    "FEAR": { meaning: "ANLAMI VE YORUMU", associations: ["Korku"] },
+    "FESTIVAL": { meaning: "NEŞE VE BARIŞ", associations: ["Bayram"] },
+    "FIGHT": { meaning: "ANLAMI VE YORUMU", associations: ["Kavga"] },
+    "FILE_FOLDER": { meaning: "GEÇMIŞ VE GELECEK", associations: ["Dosya"] },
+    "FIRE_TRUCK": { meaning: "KRIZ ANI", associations: ["tfaiye Arabas"] },
+    "FLOUR": { meaning: "ASIL SERMAYE", associations: ["Un"] },
+    "FLOWER_GARDEN": { meaning: "CENNET BAHÇESI", associations: ["iek Bahesi"] },
+    "FLY": { meaning: "CAN SIKICI PÜRÜZLER", associations: ["Sinek"] },
+    "FOOD": { meaning: "RUHSAL VE BEDENSEL DOYUM", associations: ["Yemek"] },
+    "FOOTBALL": { meaning: "MÜCADELE VE TAKIM", associations: ["Futbol"] },
+    "FRIEND": { meaning: "ANLAMI VE YORUMU", associations: ["Arkada"] },
+    "FUNERAL": { meaning: "ANLAMI VE YORUMU", associations: ["Cenaze"] },
+    "GAS_STATION": { meaning: "ENERJI İKMALI", associations: ["Benzinlik"] },
+    "GETTING_LOST": { meaning: "YÖN ARAYIŞI", associations: ["Kaybolmak"] },
+    "GIFT": { meaning: "ANLAMI VE YORUMU", associations: ["Hediye"] },
+    "GIVING": { meaning: "CÖMERTLIK VE ARINMA", associations: ["Vermek"] },
+    "GOAL_POST": { meaning: "SON SINIR", associations: ["Kale Direi"] },
+    "GOAT": { meaning: "ANLAMI VE YORUMU", associations: ["Kei"] },
+    "GOLF": { meaning: "RÜYADA GOLF GÖRMEK NE ANLAMA GELIR? GOLF RÜYASI...", associations: ["Golf"] },
+    "GRANDPARENT": { meaning: "ANLAMI VE YORUMU", associations: ["BykanneBykbaba"] },
+    "GRAVE": { meaning: "BILINÇDIŞININ DERINLIĞI", associations: ["Mezar"] },
+    "GREY": { meaning: "BELIRSIZLIK VE DENGE", associations: ["Gri"] },
+    "GROOM": { meaning: "GÜVEN VE ONAY", associations: ["Damat"] },
+    "GUN": { meaning: "ANLAMI VE YORUMU", associations: ["Silah"] },
+    "HAMBURGER": { meaning: "RÜYADA HAMBURGER GÖRMEK NE ANLAMA GELIR? HAMBUR...", associations: ["Hamburger"] },
+    "HAPPINESS": { meaning: "ANLAMI VE YORUMU", associations: ["Mutluluk"] },
+    "HATE": { meaning: "ZEHIRLI BAĞ", associations: ["Nefret"] },
+    "HEAD": { meaning: "YÖNETIM VE AKIL", associations: ["Ba"] },
+    "HEALING": { meaning: "YENIDEN DOĞUŞ", associations: ["ifa"] },
+    "HEAVEN": { meaning: "ANLAMI VE YORUMU", associations: ["Cennet"] },
+    "HEDGEHOG": { meaning: "SAVUNMA VE DIKEN", associations: ["Kirpi"] },
+    "HELL": { meaning: "ANLAMI VE YORUMU", associations: ["Cehennem"] },
+    "HOLIDAY": { meaning: "ANLAMI VE YORUMU", associations: ["KurbanBayram"] },
+    "HOSE": { meaning: "ENERJI AKIŞI", associations: ["Hortum"] },
+    "INK": { meaning: "KALICI İZ", associations: ["Mrekkep"] },
+    "INTESTINES": { meaning: "İÇ DÜNYA VE RIZIK", associations: ["Barsak"] },
+    "IRON_APPLIANCE": { meaning: "DÜZELTME ÇABASI", associations: ["t"] },
+    "JEALOUSY": { meaning: "ANLAMI VE YORUMU", associations: ["Kskanlk"] },
+    "JOY": { meaning: "HÜZÜN VE UMUT", associations: ["Sevin"] },
+    "KEYCHAIN": { meaning: "YETKILER VE DOSTLAR", associations: ["Anahtarlk"] },
+    "KIDNEY": { meaning: "DENGE VE İLIŞKI", associations: ["Bbrek"] },
+    "KISSING": { meaning: "SEVGI VE ANLAŞMA", associations: ["pmek"] },
+    "LASER": { meaning: "ODAKLANMIŞ GÜÇ", associations: ["Lazer"] },
+    "LATE": { meaning: "ANLAMI VE YORUMU", associations: ["Ge Kalmak"] },
+    "LAWYER": { meaning: "ANLAMI VE YORUMU", associations: ["Avukat"] },
+    "LEAF": { meaning: "DEĞIŞIM VE DÖNGÜ", associations: ["Yaprak"] },
+    "LEG": { meaning: "ANLAMI VE YORUMU", associations: ["Bacak"] },
+    "LONELINESS": { meaning: "KENDINE DÖNÜŞ", associations: ["Yalnzlk"] },
+    "LONGING": { meaning: "RUHUN SIZISI", associations: ["zlem"] },
+    "LOST": { meaning: "ANLAMI VE YORUMU", associations: ["Kaybolmak"] },
+    "LOTTERY": { meaning: "ANLAMI VE YORUMU", associations: ["Piyangoans Oyunu"] },
+    "LOVE": { meaning: "ANLAMI VE YORUMU", associations: ["Ak"] },
+    "LUNAR_ECLIPSE": { meaning: "DUYGUSAL DÖNÜŞÜM", associations: ["Ay Tutulmas"] },
+    "LUNGS": { meaning: "NEFES VE ÖZGÜRLÜK", associations: ["Akcier"] },
+    "MAID": { meaning: "DESTEK VE ARINMA", associations: ["Hizmeti"] },
+    "MEAT": { meaning: "ANLAMI VE YORUMU", associations: ["Et"] },
+    "MEDICINE": { meaning: "ANLAMI VE YORUMU", associations: ["la"] },
+    "MONKEY": { meaning: "ANLAMI VE YORUMU", associations: ["Maymun"] },
+    "MOSQUE": { meaning: "MANEVI HUZUR", associations: ["Cami"] },
+    "MOTHER": { meaning: "ANLAMI VE YORUMU", associations: ["Anne"] },
+    "MOTHER_IN_LAW": { meaning: "ELEŞTIRI VE DENEYIM", associations: ["Kaynana"] },
+    "MOUSE_COMPUTER": { meaning: "KONTROL VE SEÇIM", associations: ["Fare"] },
+    "MOVING": { meaning: "ANLAMI VE YORUMU", associations: ["TanmaEv Deitirme"] },
+    "MUSICAL_NOTE": { meaning: "HAYATIN PLANI", associations: ["Nota"] },
+    "NAIL_BODY": { meaning: "SAVUNMA VE YETENEK", associations: ["Trnak"] },
+    "NAIL_HARDWARE": { meaning: "SABITLEME", associations: ["ivi"] },
+    "NEIGHBOR": { meaning: "SOSYAL ÇEVRE VE HABER", associations: ["Komu"] },
+    "NORTHERN_LIGHTS": { meaning: "BÜYÜLEYICI UMUT", associations: ["Kuzey Iklar"] },
+    "NOTEBOOK": { meaning: "HAYAT KAYDI", associations: ["Defter"] },
+    "OBESITY": { meaning: "BOLLUK VE İTIBAR", associations: ["imanlk"] },
+    "OLIVE": { meaning: "BARIŞ VE BEREKET", associations: ["Zeytin"] },
+    "ORANGE_COLOR": { meaning: "NEŞE VE YARATICILIK", associations: ["Turuncu"] },
+    "PAINT_BRUSH": { meaning: "RENK VE DEĞIŞIM", associations: ["Boya Fras"] },
+    "PAPER": { meaning: "BEYAZ SAYFA", associations: ["Kat"] },
+    "PAPERCLIP": { meaning: "GEÇICI DÜZEN", associations: ["Ata"] },
+    "PARACHUTE": { meaning: "GÜVENLI İNIŞ", associations: ["Parat"] },
+    "PARTNER": { meaning: "AŞK VE ÖZLEM", associations: ["Sevgili"] },
+    "PASTA": { meaning: "PRATIK ÇÖZÜM", associations: ["Makarna"] },
+    "PENCIL_SHARPENER": { meaning: "ZIHNI BILEMEK", associations: ["Kalemtra"] },
+    "PHARMACY": { meaning: "ÇÖZÜM MERKEZI", associations: ["Eczane"] },
+    "PIT": { meaning: "ENGEL VE TUZAK", associations: ["ukur"] },
+    "PITCHER": { meaning: "BILGI VE KAYNAK", associations: ["Srahi"] },
+    "PLIERS": { meaning: "GÜÇLÜ TUTUŞ", associations: ["Pense"] },
+    "PLUG": { meaning: "BAĞLANTI NOKTASI", associations: ["Fi"] },
+    "POOL": { meaning: "DUYGU SINIRI", associations: ["Havuz"] },
+    "PORT": { meaning: "GÜVENLI SIĞINAK", associations: ["Liman"] },
+    "POSTCARD": { meaning: "UZAKTAN SELAM", associations: ["Kartpostal"] },
+    "POSTMAN": { meaning: "HABERCI", associations: ["Postac"] },
+    "POVERTY": { meaning: "MANEVI DURUŞ", associations: ["Fakirlik"] },
+    "PRAYING": { meaning: "ANLAMI VE YORUMU", associations: ["Dua Etmek"] },
+    "PRIDE": { meaning: "EGO VE ONUR", associations: ["Gurur"] },
+    "PUPPET": { meaning: "İRADESIZLIK", associations: ["Kukla"] },
+    "RACKET": { meaning: "SAVUNMA ARACI", associations: ["Raket"] },
+    "RAKE": { meaning: "AYIKLAMA VE DÜZEN", associations: ["Trmk"] },
+    "RECEIVING": { meaning: "KABUL VE KISMET", associations: ["Almak"] },
+    "REFEREE": { meaning: "ADALET VE KARAR", associations: ["Hakem"] },
+
+    "RICE": { meaning: "BOLLUK VE TANE TANE RIZIK", associations: ["Pirin"] },
+    "ROOSTER": { meaning: "ANLAMI VE YORUMU", associations: ["Horoz"] },
+    "ROSE": { meaning: "AŞKIN DIKENLI YOLU", associations: ["Gl"] },
+    "ROYALTY": { meaning: "ANLAMI VE YORUMU", associations: ["KralKralie"] },
+    "RUINS": { meaning: "ANLAMI VE YORUMU", associations: ["Harabe  Kalntlar"] },
+    "RULER": { meaning: "DOĞRULUK VE KURAL", associations: ["Cetvel"] },
+    "SAFE_BOX": { meaning: "GIZLI SERVET", associations: ["elik Kasa"] },
+    "SAND": { meaning: "ZAMAN VE GEÇICILIK", associations: ["Kum"] },
+    "SATELLITE": { meaning: "GLOBAL BAKIŞ", associations: ["Uydu"] },
+    "SCORPION": { meaning: "GIZLI TEHLIKE", associations: ["Akrep"] },
+    "SCREW": { meaning: "YAVAŞ İLERLEME", associations: ["Vida"] },
+    "SCULPTURE": { meaning: "DONMUŞ DUYGU", associations: ["Heykel"] },
+    "SECRETARY": { meaning: "DÜZEN VE SIR", associations: ["Sekreter"] },
+
+    "SHAME": { meaning: "VICDAN VE İTIBAR", associations: ["Utan"] },
+    "SHEEP": { meaning: "ANLAMI VE YORUMU", associations: ["Koyun"] },
+    "SHIP": { meaning: "ANLAMI VE YORUMU", associations: ["Gemi"] },
+    "SHOP": { meaning: "KAZANÇ KAPISI", associations: ["Dkkan"] },
+    "SIBLING": { meaning: "ANLAMI VE YORUMU", associations: ["Karde"] },
+    "SICKNESS": { meaning: "GÜNAH VE İHMAL", associations: ["Hastalk"] },
+    "SKATES": { meaning: "AKIŞ VE UYUM", associations: ["Paten"] },
+    "SKIING": { meaning: "ZIRVEDEN İNIŞ", associations: ["Kayak"] },
+    "SKY": { meaning: "ANLAMI VE YORUMU", associations: ["Gkyz"] },
+    "SLEEPING": { meaning: "ANLAMI VE YORUMU", associations: ["Uyumak"] },
+
+    "SNAIL": { meaning: "İÇINE DÖNÜŞ", associations: ["Salyangoz"] },
+    "SOCKET": { meaning: "POTANSIYEL GÜÇ", associations: ["Priz"] },
+    "SOLAR_ECLIPSE": { meaning: "YENI BAŞLANGIÇ", associations: ["Gne Tutulmas"] },
+    "SPACE": { meaning: "SONSUZ POTANSIYEL VE YALNIZLIK", associations: ["Uzay"] },
+    "SPACESHIP": { meaning: "KEŞIF VE TEKNOLOJI", associations: ["Uzay Gemisi"] },
+    "SPEAKER": { meaning: "DUYURU VE YANKI", associations: ["Hoparlr"] },
+    "SPIRIT": { meaning: "ÖZE DÖNÜŞ", associations: ["Ruh"] },
+    "SPOUSE": { meaning: "ANLAMI VE YORUMU", associations: ["E KocaKar"] },
+    "STAMP_POSTAGE": { meaning: "ONAY VE BEDEL", associations: ["Pul"] },
+    "STATION": { meaning: "MOLA VE KARAR", associations: ["stasyon"] },
+    "STEERING_WHEEL": { meaning: "KONTROL VE YÖNETIM", associations: ["Direksiyon"] },
+    "STREET": { meaning: "ANLAMI VE YORUMU", associations: ["Sokak  Cadde"] },
+    "STUDENT": { meaning: "GELIŞIM VE ACEMILIK", associations: ["renci"] },
+    "STUDYING": { meaning: "ANLAMI VE YORUMU", associations: ["Ders almakrenmek"] },
+    "SUCCESS": { meaning: "ZAFER VE YÜKSELIŞ", associations: ["Baar"] },
+    "SURFING": { meaning: "DALGAYA HÜKMETMEK", associations: ["Srf"] },
+    "SURGERY": { meaning: "KÖKTEN ÇÖZÜM", associations: ["Ameliyat"] },
+    "SWEAT": { meaning: "ÇABA VE ATILIM", associations: ["Ter"] },
+    "SYRINGE": { meaning: "AŞILAMA VE ETKI", associations: ["rnga"] },
+    "TABLE_FURNITURE": { meaning: "HAYAT PLANI", associations: ["Masa"] },
+    "TAILOR": { meaning: "DÜZENI KURMAK", associations: ["Terzi"] },
+    "TAPE_MEASURE": { meaning: "ÖLÇÜ VE BIÇKI", associations: ["Mezura"] },
+    "TENNIS": { meaning: "BIREBIR DÜELLO", associations: ["Tenis"] },
+    "THINNESS": { meaning: "EKSILME VE ZARIFLIK", associations: ["Zayflk"] },
+    "TIGER": { meaning: "ANLAMI VE YORUMU", associations: ["Kaplan"] },
+    "TOWN": { meaning: "SADELIK VE DEDIKODU", associations: ["Kasaba"] },
+    "TRACTOR": { meaning: "EMEK VE VERIM", associations: ["Traktr"] },
+    "TRAFFIC": { meaning: "YAŞAM STRESI", associations: ["Trafik"] },
+    "TRAM": { meaning: "NOSTALJIK YOL", associations: ["Tramvay"] },
+    "TRAY": { meaning: "SUNUM VE KISMET", associations: ["Tepsi"] },
+    "TREASURE": { meaning: "ANLAMI VE YORUMU", associations: ["Hazine"] },
+    "TREE_ROOTS": { meaning: "TEMEL VE AIDIYET", associations: ["Aa Kk"] },
+    "TULIP": { meaning: "ZARIF VE ASIL", associations: ["Lale"] },
+    "USB": { meaning: "GIZLI BILGI", associations: ["USB Bellek"] },
+    "VILLAGE": { meaning: "ANLAMI VE YORUMU", associations: ["Ky"] },
+    "VOLLEYBALL": { meaning: "PASLAŞMA VE DENGE", associations: ["Voleybol"] },
+    "WAGON": { meaning: "YÜK VE TAKIP", associations: ["Vagon"] },
+    "WAITER": { meaning: "HIZMET VE SUNUM", associations: ["Garson"] },
+    "WAKING_UP": { meaning: "FARKINDALIK", associations: ["Uyanmak"] },
+    "WAR": { meaning: "ANLAMI VE YORUMU", associations: ["Sava"] },
+    "WEALTH": { meaning: "BOLLUK VE SINAV", associations: ["Zenginlik"] },
+    "WEAPON": { meaning: "GÜÇ VE SALDIRGANLIK", associations: ["Silah"] },
+    "WEDDING_DRESS": { meaning: "SAFLIK VE DÖNÜŞÜM", associations: ["Gelinlik"] },
+    "WHEELBARROW": { meaning: "YÜK VE EMEK", associations: ["El Arabas"] },
+    "WHEELCHAIR": { meaning: "KISITLI İMKAN", associations: ["Tekerlekli Sandalye"] },
+    "WHISTLE": { meaning: "UYARI VE BITIŞ", associations: ["Ddk"] },
+    "WIND": { meaning: "ANLAMI VE YORUMU", associations: ["Rzgar"] },
+    "WINGS": { meaning: "ÖZGÜRLEŞME", associations: ["Kanat"] },
+    "WRESTLING": { meaning: "GÜÇ VE BILEK", associations: ["Gre"] },
+    // -- MERGED ORPHANS --
+    "ARGUING_WITH_SOMEONE_BUT_CAN_T_REMEMBER_WHAT_ABOUT": { meaning: "RÜYADA BIRISIYLE TARTIŞMAK AMA NE HAKKINDA OLDU...", associations: ["Birisiyle tartmak ama ne hakknda olduunu hatrlamamak"] },
+    "CAN_T_MOVE_SLEEP_PARALYSIS": { meaning: "RÜYADA HAREKET EDEMEMEK YA DA UYKU FELCI HISSET...", associations: ["Hareket Edememek  Uyku Felci"] },
+    "MOTHER_IN_LAW": { meaning: "ELEŞTIRI VE DENEYIM", associations: ["Kaynana"] },
+    "REVISITING_A_CHILDHOOD_MEMORY_WITH_A_SENSE_OF_D_J_VU": { meaning: "RÜYADA ÇOCUKLUK ANISINI DÉJÀ VU HISSIYLE YENIDE...", associations: ["ocukluk ansn dj vu hissiyle yeniden yaamak"] },
+    "SEEING_A_FAMILIAR_FACE_YOU_CAN_T_IDENTIFY": { meaning: "RÜYANIZDA TANIDIK AMA KIM OLDUĞUNU BILEMEDIĞINI...", associations: ["Tandk ama kim olduunu bilemediin bir yz grmek"] },
+    "SUDDENLY_REALIZING_YOU_RE_IN_THE_WRONG_PLACE": { meaning: "RÜYADA ANIDEN YANLIŞ YERDE OLDUĞUNUZU FARK ETME...", associations: ["Aniden yanl yerde olduunuzu fark etmek"] },
+    // -- MERGED BATCH 7 --
+    "BIKE_SHARE_BICYCLE": { meaning: "RÜYADA BISIKLET PAYLAŞIMI GÖRMEK, MODERN YAŞAMI...", associations: ["Bisiklet paylaşımı"] },
+    "BUTTON_DOWN_SHIRT": { meaning: "RÜYADA GÖMLEK GÖRMEK, KIMLIK VE SOSYAL STATÜYLE...", associations: ["Gömlek"] },
+    "CAR_CHARGING_STATION": { meaning: "RÜYADA ŞARJ ISTASYONU GÖRMEK, ENERJI VE YENILEN...", associations: ["Şarj İstasyonu"] },
+    "CLOCK_IN_MACHINE": { meaning: "RÜYADA KARTLI GEÇIŞ MAKINESI GÖRMEK, MODERN YAŞ...", associations: ["Kartlı geçiş makinesi"] },
+    "DISORIENTATION": { meaning: "YÖNSÜZLÜK VE KAYBOLUŞ SEMBOLÜ, KIŞININ HAYATIND...", associations: ["yönsüzlük","kayboluş","belirsizlik","ruhsal rehberlik","içsel pusula"] },
+    "E_BOOK_READER": { meaning: "RÜYADA E-KITAP OKUYUCU GÖRMEK, BILGIYE ERIŞIM, ...", associations: ["EKitap Okuyucu"] },
+    "EMISSIONS_FREE_ZONE": { meaning: "RÜYADA EMISYON-FREE BÖLGE GÖRMEK, MODERN DÜNYAD...", associations: ["Emisyonfree Bölge"] },
+    "FREEZING_IN_FEAR": { meaning: "KORKUDAN DONAKALMAK, RÜYA ALEMINDE DERIN BIR KÖ...", associations: ["korku","donakalmak","bilinçaltı","travma","spiritüel uyanış"] },
+    "GLUTEN_FREE_BREAD": { meaning: "RÜYADA GLUTENSIZ EKMEK GÖRMEK, MODERN YAŞAMIN S...", associations: ["Glutensiz Ekmek"] },
+    "GRAPHIC_T_SHIRT": { meaning: "RÜYADA GRAFIK TIŞÖRT GÖRMEK, BIREYSEL IFADE, ÖZ...", associations: ["Grafik tişört"] },
+    "HIGH_SPEED_TRAIN": { meaning: "RÜYADA HIZLI TREN GÖRMEK, MODERN YAŞAMIN HIZINA...", associations: ["Hızlı tren"] },
+    "IN_A_NEVER_ENDING_HALLWAY": { meaning: "RÜYADA SONSUZ BIR KORIDORDA HISSETMEK, KIŞININ ...", associations: ["Sonsuz bir koridorda"] },
+    "IN_FLIGHT_ENTERTAINMENT": { meaning: "RÜYADA UÇUŞ IÇI EĞLENCE GÖRMEK, MODERN YAŞAMIN ...", associations: ["Uçuş İçi Eğlence"] },
+    "NO_EXIT": { meaning: "BULUNAMAYAN ÇIKIŞ, RÜYALARIN LABIRENTINDE KAYBO...", associations: ["bulunamayan çıkış","rüya tabiri","psikolojik sembolizm","spiritüel rehberlik","labirent"] },
+    "NOISE_CANCELING_HEADPHONES": { meaning: "RÜYADA GÜRÜLTÜ ENGELLEYICI KULAKLIKLAR GÖRMEK, ...", associations: ["Gürültü Engelleyici Kulaklıklar"] },
+    "ONLINE_CHECK_IN": { meaning: "RÜYADA ÇEVRIMIÇI KONTROL GÖRMEK, MODERN YAŞAMIN...", associations: ["Çevrimiçi Kontrol"] },
+    "PLANT_BASED_PROTEIN": { meaning: "RÜYADA BITKI BAZLI PROTEIN GÖRMEK, MODERN YAŞAM...", associations: ["Bitki bazlı protein"] },
+    "PLANT_BASED_SAUSAGE": { meaning: "RÜYADA BITKI BAZLI SOSIS GÖRMEK, MODERN YAŞAMIN...", associations: ["Bitki Bazlı Sosis"] },
+    "POP_UP_NOTIFICATION": { meaning: "RÜYADA AÇILIR BILDIRIM GÖRMEK, MODERN HAYATIN H...", associations: ["Açılır Bildirim"] },
+    "RIDE_HAILING_SERVICE": { meaning: "RÜYADA ARAÇ ÇAĞIRMA SERVISI GÖRMEK, MODERN YAŞA...", associations: ["Araç çağırma servisi"] },
+    "RIDE_SHARE_APP": { meaning: "RÜYADA PAYLAŞIM UYGULAMASI GÖRMEK, MODERN YAŞAM...", associations: ["Paylaşım Uygulaması"] },
+    "RIDE_SHARING_APP": { meaning: "RÜYADA ARAÇ PAYLAŞIM UYGULAMASI GÖRMEK, MODERN ...", associations: ["Araç paylaşım uygulaması"] },
+    "SELF_DRIVING_CAR": { meaning: "RÜYADA OTONOM ARAÇ GÖRMEK, MODERN YAŞAMIN KONTR...", associations: ["Otonom Araç"] },
+    "SMART_WATCH": { meaning: "ZAMAN VE TAKIP", associations: ["Akıllı Saat"] },
+    "UNABLE_TO_ESCAPE": { meaning: "KAÇAMAMAK SEMBOLÜ, RÜYA ALEMINDE SIKÇA KARŞILAŞ...", associations: ["kaçamamak","rüya","psikolojik","spiritüel","baskı"] },
+    "WHISPERING_VOICE": { meaning: "FISILTI VE KISIK SES, BILINÇALTININ DERIN, GIZE...", associations: ["fısıltı","kısık ses","bilinçaltı","ruh","içsel ses"] },
+    "WI_FI_ROUTER": { meaning: "RÜYADA WI-FI ROUTER GÖRMEK, MODERN ILETIŞIM VE ...", associations: ["WiFi Router"] },
+    "WI_FI_SIGNAL": { meaning: "RÜYADA WI-FI SINYALI GÖRMEK, MODERN ÇAĞIN ILETI...", associations: ["WiFi Sinyali"] },
+    "WRONG_DOOR": { meaning: "YANLIŞ KAPI, HAYATIMIZDA KARŞILAŞTIĞIMIZ BEKLEN...", associations: ["yanlış kapı","kararsızlık","mistik semboller","rüya analizi","psikolojik yorum"] },
+    // -- MERGED BATCH 7 --
+    "DRIFTING_AWAY": { meaning: "RÜYALARDA SÜRÜKLENMEK, HAYATIN AKIŞINA KARŞI KO...", associations: ["kontrol kaybı","teslimiyet","akış","kader","bilinçaltı"] },
+    "ERASED_MEMORY": { meaning: "SILINMIŞ ANI SEMBOLÜ, BILINÇALTININ DERINLIKLER...", associations: ["silinmiş anı","unutulmuş anılar","bilinçaltı","ruhsal uyanış","psikolojik anlam"] },
+    "FALSE_MEMORY": { meaning: "YANLIŞ HATIRA, ZIHNIN KARMAŞIK LABIRENTLERINDE ...", associations: ["yanlış","hatıra","bilinçaltı","gerçeklik","rüya"] },
+    "FLOATING__GLIDING": { meaning: "SÜZÜLMEK, RÜYALAR ALEMINDE HAFIFLIK VE ÖZGÜRLÜK...", associations: ["süzülmek","özgürlük","hafiflik","manevi yükseliş","ruhsal aydınlanma"] },
+    "LOCKED_IN": { meaning: "RÜYADA KILITLI KALMAK, KIŞININ IÇSEL DÜNYASINDA...", associations: ["kilit","özgürlük","duygusal engeller","ruhsal dönüşüm","içsel keşif"] },
+    "LOOPING_SCENE": { meaning: "TEKRARLAYAN SAHNE, RÜYALARIN DERINLIKLERINE DAL...", associations: ["tekrarlayan rüya","bilinçaltı","ruhsal mesaj","döngü","psikolojik çözümleme"] },
+    "MIXED_MEMORIES": { meaning: "KARIŞAN ANILAR SEMBOLÜ, KIŞININ BILINÇALTINDA Ç...", associations: ["karışan anılar","geçmiş","bilinçaltı","travma","ruh"] },
+    "SLIPPING_AND_SLIDING": { meaning: "RÜYADA KAYMAK VE DÜŞMEK, DENGEMIZI KAYBETTIĞIMI...", associations: ["rüya","kaymak","düşmek","mistik","psikolojik"] },
+    "UNCONTROLLED_FLIGHT": { meaning: "KONTROLSÜZ UÇUŞ, BILINÇALTININ DERINLIKLERINDEN...", associations: ["uçuş","kontrol","özgürlük","bilinç","ruh"] },
+    // -- MERGED BATCH 7 --
+    "BROKEN_SCREEN": { meaning: "KIRIK EKRAN SEMBOLÜ, ALGILARIMIZIN VE IÇSEL DÜN...", associations: ["kırık ekran","rüya tabiri","bilinçaltı","psikolojik analiz","spiritüel mesaj"] },
+    "DEAD_BATTERY": { meaning: "ŞARJI BITEN TELEFON SEMBOLÜ, MODERN DÜNYADA BIR...", associations: ["rüya","telefon","enerji","tükenmişlik","içsel rehberlik"] },
+    "FROZEN_CAMERA": { meaning: "DONAN KAMERA, HAYATIN BELIRLI ANLARINI YAKALAMA...", associations: ["rüya","donan kamera","geçmiş","anı","zihin"] },
+    "WEAK_SIGNAL__NO_WI_FI": { meaning: "ÇEKMEYEN INTERNET, MODERN DÜNYANIN KARMAŞASINDA...", associations: ["internet","bağlantı","iletişim","kesinti","izolasyon"] },
+    // -- MERGED BATCH 7 --
+    "APP_CRASHING": { meaning: "AÇILMAYAN UYGULAMA SEMBOLÜ, MODERN HAYATIN KARM...", associations: ["rüya","açılmayan uygulama","psikoloji","spiritüellik","engeller"] },
+    "FORGOT_PASSWORD": { meaning: "RÜYANIZDA BIR ŞIFREYI UNUTMAK, BILINÇALTINIZIN ...", associations: ["şifre","unutmak","rüya","bilinçaltı","farkındalık"] },
+    "LOCKED_SCREEN__PASSWORD": { meaning: "KILITLI EKRAN VE ŞIFRE, BILINÇALTININ DERINLERI...", associations: ["kilitli ekran","şifre","bilinçaltı","ruhsal uyanış","kişisel keşif"] },
+    "LOST_MESSAGE": { meaning: "KAYBOLAN MESAJ SEMBOLÜ, BILINÇALTININ DERINLIKL...", associations: ["rüya","kaybolan mesaj","bilinçaltı","iletişim","ruh"] },
+    "SENT_TO_WRONG_PERSON": { meaning: "YANLIŞ KIŞIYE MESAJ GÖNDERMEK, DERINLERDE BASTI...", associations: ["yanlış mesaj","bilinçaltı","iletişim hatası","rüya anlamı","duygusal yüzleşme"] }
+};
