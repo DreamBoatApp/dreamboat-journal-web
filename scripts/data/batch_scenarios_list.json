@@ -1,0 +1,237 @@
+[
+  {
+    "tr": "Boş bir oda",
+    "en": "Empty Room",
+    "key": "EMPTY_ROOM"
+  },
+  {
+    "tr": "Yüzü olmayan insan",
+    "en": "Faceless Person",
+    "key": "FACELESS_PERSON"
+  },
+  {
+    "tr": "Aynada kendini farklı görmek",
+    "en": "Different Reflection",
+    "key": "DIFFERENT_REFLECTION"
+  },
+  {
+    "tr": "Aynanın kırılması",
+    "en": "Mirror Breaking",
+    "key": "MIRROR_BREAKING"
+  },
+  {
+    "tr": "Kapının aralık kalması",
+    "en": "Door Ajar",
+    "key": "DOOR_AJAR"
+  },
+  {
+    "tr": "Kapıyı açamamak",
+    "en": "Cannot Open Door",
+    "key": "CANNOT_OPEN_DOOR"
+  },
+  {
+    "tr": "Anahtarın çalışmaması",
+    "en": "Key Not Working",
+    "key": "KEY_NOT_WORKING"
+  },
+  {
+    "tr": "Kilitli çekmece",
+    "en": "Locked Drawer",
+    "key": "LOCKED_DRAWER"
+  },
+  {
+    "tr": "Tünelin sonunu görememek",
+    "en": "Endless Tunnel",
+    "key": "ENDLESS_TUNNEL"
+  },
+  {
+    "tr": "Dar koridor",
+    "en": "Narrow Corridor",
+    "key": "NARROW_CORRIDOR"
+  },
+  {
+    "tr": "Karanlık merdiven",
+    "en": "Dark Stairs",
+    "key": "DARK_STAIRS"
+  },
+  {
+    "tr": "Sürekli aynı yere dönmek",
+    "en": "Endless Loop",
+    "key": "ENDLESS_LOOP"
+  },
+  {
+    "tr": "Saatin durması",
+    "en": "Clock Stopping",
+    "key": "CLOCK_STOPPING"
+  },
+  {
+    "tr": "Telefonun çalışmaması",
+    "en": "Phone Not Working",
+    "key": "PHONE_NOT_WORKING"
+  },
+  {
+    "tr": "Mesaj yazıp gönderememek",
+    "en": "Cannot Send Message",
+    "key": "CANNOT_SEND_MESSAGE"
+  },
+  {
+    "tr": "İnternetin çekmemesi",
+    "en": "No Internet",
+    "key": "NO_INTERNET"
+  },
+  {
+    "tr": "Kamera açılmaması",
+    "en": "Camera Not Opening",
+    "key": "CAMERA_NOT_OPENING"
+  },
+  {
+    "tr": "Kaybolan ayakkabı (tek)",
+    "en": "Lost Shoe",
+    "key": "LOST_SHOE"
+  },
+  {
+    "tr": "Ayağında farklı ayakkabı olması",
+    "en": "Mismatched Shoes",
+    "key": "MISMATCHED_SHOES"
+  },
+  {
+    "tr": "Üzerine büyük gelen kıyafet",
+    "en": "Oversized Clothes",
+    "key": "OVERSIZED_CLOTHES"
+  },
+  {
+    "tr": "Kıyafet bulamamak",
+    "en": "Cannot Find Clothes",
+    "key": "CANNOT_FIND_CLOTHES"
+  },
+  {
+    "tr": "Çıplak yakalanmak ama kimsenin umursamaması",
+    "en": "Naked, Unnoticed",
+    "key": "NAKED_UNNOTICED"
+  },
+  {
+    "tr": "Çıplak yakalanmak ve herkesin bakması",
+    "en": "Naked, Observed",
+    "key": "NAKED_OBSERVED"
+  },
+  {
+    "tr": "Dişlerin dökülmesi",
+    "en": "Teeth Falling Out",
+    "key": "TEETH_FALLING_OUT"
+  },
+  {
+    "tr": "Dişlerin ufalanması",
+    "en": "Teeth Crumbling",
+    "key": "TEETH_CRUMBLING"
+  },
+  {
+    "tr": "Saçın dökülmesi",
+    "en": "Hair Falling Out",
+    "key": "HAIR_FALLING_OUT"
+  },
+  {
+    "tr": "Yüzünün bozulması",
+    "en": "Face Distorting",
+    "key": "FACE_DISTORTING"
+  },
+  {
+    "tr": "Kendi sesini duyamamak",
+    "en": "Cannot Hear Voice",
+    "key": "CANNOT_HEAR_VOICE"
+  },
+  {
+    "tr": "Konuşmak isteyip konuşamamak",
+    "en": "Cannot Speak",
+    "key": "CANNOT_SPEAK"
+  },
+  {
+    "tr": "Bir şey söyleyince kimsenin duymaması",
+    "en": "Unheard Words",
+    "key": "UNHEARD_WORDS"
+  },
+  {
+    "tr": "Bağırdıkça sesin kısılması",
+    "en": "Voice Fading",
+    "key": "VOICE_FADING"
+  },
+  {
+    "tr": "Birinin seni tanımaması",
+    "en": "Not Recognized",
+    "key": "NOT_RECOGNIZED"
+  },
+  {
+    "tr": "Birinin seni görmezden gelmesi",
+    "en": "Being Ignored",
+    "key": "BEING_IGNORED"
+  },
+  {
+    "tr": "Kalabalığın içinde yalnız hissetmek",
+    "en": "Alone in Crowd",
+    "key": "ALONE_IN_CROWD"
+  },
+  {
+    "tr": "Herkesin sana bakması",
+    "en": "Being Stared At",
+    "key": "BEING_STARED_AT"
+  },
+  {
+    "tr": "Herkesin fısıldaşması",
+    "en": "People Whispering",
+    "key": "PEOPLE_WHISPERING"
+  },
+  {
+    "tr": "Birinin adını hatırlayamamak",
+    "en": "Cannot Remember Name",
+    "key": "CANNOT_REMEMBER_NAME"
+  },
+  {
+    "tr": "Sürekli kaçmak ama yavaşlamak",
+    "en": "Slow Escape",
+    "key": "SLOW_ESCAPE"
+  },
+  {
+    "tr": "Koşmak isteyip koşamayacak kadar ağırlaşmak",
+    "en": "Immobilized Running",
+    "key": "IMMOBILIZED_RUNNING"
+  },
+  {
+    "tr": "Takip edilmek ama kimin takip ettiğini görememek",
+    "en": "Unseen Pursuer",
+    "key": "UNSEEN_PURSUER"
+  },
+  {
+    "tr": "Saklanmak ama saklandığın yerin açıkta kalması",
+    "en": "Exposed Hiding",
+    "key": "EXPOSED_HIDING"
+  },
+  {
+    "tr": "Düşmek ama yere çarpmamak",
+    "en": "Falling, No Impact",
+    "key": "FALLING_NO_IMPACT"
+  },
+  {
+    "tr": "Uçmak ama kontrol edememek",
+    "en": "Uncontrolled Flying",
+    "key": "UNCONTROLLED_FLYING"
+  },
+  {
+    "tr": "Suya girmek ama suyun sıcak/soğuk olmaması",
+    "en": "Neutral Water",
+    "key": "NEUTRAL_WATER"
+  },
+  {
+    "tr": "Bir şeyin “tanıdık” gelmesi ama hatırlayamamak",
+    "en": "Deja Vu",
+    "key": "DEJA_VU"
+  },
+  {
+    "tr": "Çok parlak bir ışık görmek",
+    "en": "Bright Light",
+    "key": "BRIGHT_LIGHT"
+  },
+  {
+    "tr": "Bir yerde “olman gerektiğini” bilmek ama nereye olduğunu bilmemek",
+    "en": "Destination Unknown",
+    "key": "DESTINATION_UNKNOWN"
+  }
+]

@@ -1,4 +1,5 @@
 const fs = require('fs');
+const fsp = require('fs').promises; // Use fs.promises for async file ops
 const path = require('path');
 // Manual env parsing
 function getEnv(key) {
@@ -7,162 +8,143 @@ function getEnv(key) {
         const content = fs.readFileSync(envPath, 'utf8');
         const match = content.match(new RegExp(`^${key}=(.*)$`, 'm'));
         if (match) {
-            const val = match[1].trim();
-            if (val) return val;
+            return match[1].trim();
         }
     }
-    if (process.env[key]) return process.env[key];
-    return null;
+    return process.env[key];
 }
-const apiKey = getEnv('OPENAI_API_KEY');
+
 const OpenAI = require('openai');
-const openai = new OpenAI({ apiKey });
-
-const BATCH_FILE = path.join(__dirname, 'data', 'scenarios_batch.json');
-const PROGRESS_FILE = path.join(__dirname, 'data', 'scenarios_progress.json');
-const TR_DIR = path.join(__dirname, '..', 'content', 'tr', 'meanings');
-const EN_DIR = path.join(__dirname, '..', 'content', 'en', 'meanings');
-const LOG_FILE = path.join(__dirname, 'data', 'new_scenarios_log.txt');
-
-process.on('uncaughtException', (err) => {
-    console.error('UNCAUGHT EXCEPTION:', err);
+const openai = new OpenAI({
+    apiKey: getEnv('OPENAI_API_KEY')
 });
 
-process.on('unhandledRejection', (reason, p) => {
-    console.error('UNHANDLED REJECTION:', reason);
-});
+const INPUT_FILE = path.join(__dirname, 'data', 'batch_scenarios_list.json');
+const CONTENT_DIR_TR = path.join(__dirname, '../content/tr/meanings');
+const CONTENT_DIR_EN = path.join(__dirname, '../content/en/meanings');
 
-async function main() {
-    if (!fs.existsSync(BATCH_FILE)) {
-        console.error("Batch file not found:", BATCH_FILE);
-        return;
-    }
-
-    const allSymbols = JSON.parse(fs.readFileSync(BATCH_FILE, 'utf8'));
-    let progress = [];
-    if (fs.existsSync(PROGRESS_FILE)) {
-        progress = JSON.parse(fs.readFileSync(PROGRESS_FILE, 'utf8'));
-    }
-
-    const processedSet = new Set(progress);
-    const symbolsToProcess = allSymbols.filter(s => !processedSet.has(s));
-
-    console.log(`Found ${allSymbols.length} total scenarios.`);
-    console.log(`${progress.length} already processed.`);
-    console.log(`${symbolsToProcess.length} remaining.`);
-
-    // Process in small batches
-    const BATCH_SIZE = 5;
-    for (let i = 0; i < symbolsToProcess.length; i += BATCH_SIZE) {
-        const chunk = symbolsToProcess.slice(i, i + BATCH_SIZE);
-        await Promise.all(chunk.map(s => processScenario(s)));
-
-        // Save progress
-        progress = [...progress, ...chunk];
-        fs.writeFileSync(PROGRESS_FILE, JSON.stringify(progress, null, 2));
-        console.log(`Saved progress. ${progress.length}/${allSymbols.length} complete.`);
+// Helper to ensure directory exists
+async function ensureDir(dir) {
+    try {
+        await fsp.access(dir);
+    } catch {
+        await fsp.mkdir(dir, { recursive: true });
     }
 }
 
-async function processScenario(englishScenario) {
-    const slug = englishScenario.toLowerCase()
-        .replace(/[^a-z0-9]+/g, '-') // Replace non-alphanumeric with hyphen
-        .replace(/^-+|-+$/g, '');   // Trim hyphens
+async function generateContentForScenario(item, maxRetries = 3) {
+    const { tr, en, key } = item;
+    const slug = en.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
-    const trPath = path.join(TR_DIR, `${slug}.json`);
-    const enPath = path.join(EN_DIR, `${slug}.json`);
+    // Check if files exist to avoid cost
+    const fileTr = path.join(CONTENT_DIR_TR, `${slug}.json`);
+    const fileEn = path.join(CONTENT_DIR_EN, `${slug}.json`);
 
     try {
-        console.log(`\n🔮 Processing: ${englishScenario}...`);
-
-        // 1. Translate Concept to Turkish (Phrase translation)
-        const trName = await translateToTurkish(englishScenario);
-        console.log(`   🇹🇷 TR Concept: ${trName}`);
-
-        // 2. Generate Turkish Content (Adapted for Scenarios)
-        const trContent = await generateTurkishContent(englishScenario, trName);
-        fs.mkdirSync(TR_DIR, { recursive: true });
-        fs.writeFileSync(trPath, JSON.stringify(trContent, null, 2));
-
-        // 3. Translate to English Content
-        const enContent = await translateToEnglish(trContent);
-        fs.mkdirSync(EN_DIR, { recursive: true });
-        fs.writeFileSync(enPath, JSON.stringify(enContent, null, 2));
-
-        // 4. Log for Dictionary
-        appendToDictionaryLog(englishScenario, trContent);
-
-        console.log(`   ✅ Completed: ${englishScenario}`);
-
-    } catch (error) {
-        console.error(`   ❌ Failed: ${englishScenario} - ${error.message}`);
+        await fsp.access(fileTr);
+        await fsp.access(fileEn);
+        console.log(`Skipping existing: ${slug}`);
+        return;
+    } catch (e) {
+        // Proceed if either missing
     }
-}
 
-async function translateToTurkish(phrase) {
-    const completion = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-            { role: "system", content: "Translate this Dream Scenario/Sensation to Turkish. Keep it natural. Example: 'Falling endlessly' -> 'Sürekli Düşmek'. Return ONLY the Turkish phrase." },
-            { role: "user", content: phrase }
-        ],
-        temperature: 0.3
-    });
-    return completion.choices[0].message.content.trim().replace(/\.$/, '');
-}
+    console.log(`Generating content for: ${en} (${tr}) -> ${slug}`);
 
-async function generateTurkishContent(englishName, turkishName) {
-    const prompt = `Create a DETAILED dream interpretation JSON for the scenario: "${turkishName}" (English: ${englishName}) in Turkish.
+    const prompt = `
+    Create a bilingual Dream Dictionary entry for a SPECIFIC DREAM SCENARIO.
     
-    This is a SITUATION or FEELING, not an object. Adjust the title accordingly.
+    Scenario (English): "${en}"
+    Scenario (Turkish): "${tr}"
+    Slug: "${slug}"
     
-    MATCH THIS SCHEMA EXACTLY:
+    This is NOT just a generic symbol. It is a specific SITUATION. 
+    The interpretation must focus on the *action* or *feeling* described.
+
+    Return a JSON object with this EXACT schema:
     {
-      "localizedName": "${turkishName}",
-      "title": "Generate a natural title here. Ex: 'Rüyada [Scenario] Görmek' or 'Rüyada [Scenario] Hissetmek'",
-      "seoDescription": "...",
-      "introduction": "...",
-      "symbolism": "...",
-      "cosmicAnalysis": "**🌑 Yeni Ay:** ...\\n\\n**🌓 Büyüyen Ay:** ...\\n\\n**🌕 Dolunay:** ...\\n\\n**🌗 Küçülen Ay:** ...",
-      "commonScenarios": [
-        "Scenario 1: Interpretation",
-        "Scenario 2: Interpretation"
-      ]
+      "tr": {
+        "slug": "${slug}",
+        "localizedName": "${tr}",
+        "title": "Rüyada ${tr}",
+        "description": "Short summary (1-2 sentences) of what this specific scenario means psychologically.",
+        "meanings": [
+          { "title": "Main Interpretation", "description": "Detailed psychological meaning (Freud/Jung)." },
+          { "title": "Subconscious Warning", "description": "What is the subconscious trying to say?" },
+          { "title": "Life Context", "description": "How this relates to daily life stress or anxiety." }
+        ],
+        "symbolism": {
+          "concepts": ["Tag1", "Tag2"],
+          "elements": ["Element1", "Element2"]
+        },
+        "interpretation": "A direct, personal interpretation paragraph.",
+        "context": {
+            "positive": "Positive aspect",
+            "negative": "Negative aspect"
+        },
+        "keywords": ["${tr}", "${en}", "variation1", "variation2"]
+      },
+      "en": {
+        "slug": "${slug}",
+        "localizedName": "${en}",
+        "title": "Dreaming of ${en}",
+        "description": "Short summary (1-2 sentences) of what this specific scenario means psychologically.",
+        "meanings": [
+          { "title": "Main Interpretation", "description": "Detailed psychological meaning (Freud/Jung)." },
+          { "title": "Subconscious Warning", "description": "What is the subconscious trying to say?" },
+          { "title": "Life Context", "description": "How this relates to daily life stress or anxiety." }
+        ],
+        "symbolism": {
+          "concepts": ["Tag1", "Tag2"],
+          "elements": ["Element1", "Element2"]
+        },
+        "interpretation": "A direct, personal interpretation paragraph.",
+        "context": {
+            "positive": "Positive aspect",
+            "negative": "Negative aspect"
+        },
+        "keywords": ["${en}", "${tr}", "variation1", "variation2"]
+      }
     }
-    Rules:
-    - Jungian depth. Focus on the PSYCHOLOGICAL STATE and EMOTION.
-    - cosmicAnalysis MUST have bold headers for moon phases.
-    - commonScenarios MUST be an array of strings.
-    - Return JSON only.`;
+    `;
 
-    const completion = await openai.chat.completions.create({
-        model: "gpt-4o",
-        messages: [{ role: "user", content: prompt }],
-        temperature: 0.7,
-        response_format: { type: "json_object" }
-    });
+    for (let i = 0; i < maxRetries; i++) {
+        try {
+            const completion = await openai.chat.completions.create({
+                model: "gpt-4o",
+                messages: [{ role: "user", content: prompt }],
+                response_format: { type: "json_object" }
+            });
 
-    return JSON.parse(completion.choices[0].message.content);
+            const content = JSON.parse(completion.choices[0].message.content);
+
+            // Write files
+            await fsp.writeFile(fileTr, JSON.stringify(content.tr, null, 2));
+            await fsp.writeFile(fileEn, JSON.stringify(content.en, null, 2));
+
+            console.log(`✅ Generated: ${slug}`);
+            return; // Success
+        } catch (err) {
+            console.error(`❌ Error generating ${slug} (Attempt ${i + 1}/${maxRetries}):`, err.message);
+            if (i === maxRetries - 1) throw err;
+            await new Promise(res => setTimeout(res, 2000));
+        }
+    }
 }
 
-async function translateToEnglish(trContent) {
-    const prompt = `Translate this JSON to English. Keep structure identical.
-    localizedName = English name.
-    cosmicAnalysis keys = New Moon, Waxing Moon, Full Moon, Waning Moon.
-    JSON: ${JSON.stringify(trContent)}`;
+async function runBatch() {
+    await ensureDir(CONTENT_DIR_TR);
+    await ensureDir(CONTENT_DIR_EN);
 
-    const completion = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [{ role: "user", content: prompt }],
-        temperature: 0.3,
-        response_format: { type: "json_object" }
-    });
-    return JSON.parse(completion.choices[0].message.content);
+    const list = require(INPUT_FILE);
+    console.log(`Found ${list.length} scenarios to process.`);
+
+    // Process in chunks to avoid rate limits, but sequential is safer for now
+    for (const item of list) {
+        await generateContentForScenario(item);
+    }
+
+    console.log("Batch generation complete!");
 }
 
-function appendToDictionaryLog(englishName, trContent) {
-    const entry = `    "${englishName.toUpperCase()}": { meaning: "${trContent.introduction.substring(0, 50)}...", associations: [] },\n`;
-    fs.appendFileSync(LOG_FILE, entry);
-}
-
-main();
+runBatch();

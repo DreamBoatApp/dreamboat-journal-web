@@ -1,0 +1,103 @@
+Walking|Yürümek|{"meaning":"ACTION/SITUATION","associations":[]}
+Playing|Oyun Oynamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Helping|Yardım Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Finding Money|Para Bulmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Losing Money|Para Kaybetmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Receiving a Gift|Hediye Almak|{"meaning":"ACTION/SITUATION","associations":[]}
+Giving a Gift|Hediye Vermek|{"meaning":"ACTION/SITUATION","associations":[]}
+Winning|Kazanmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Expecting|Beklemek|{"meaning":"ACTION/SITUATION","associations":[]}
+Ordering|Sipariş Vermek|{"meaning":"ACTION/SITUATION","associations":[]}
+Celebrating|Kutlamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Graduating|Mezun Olmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Parachuting|Paraşütle Atlamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Exploring|Keşfetmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Meditating|Meditasyon Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Sweating|Terlemek|{"meaning":"ACTION/SITUATION","associations":[]}
+Shivering|Titremek|{"meaning":"ACTION/SITUATION","associations":[]}
+Saluting|Selamlamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Mocking|Alay Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Traveling Abroad|Yurtdışına Seyahat Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Settling|Yerleşmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Confronting|Yüzleşmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Complaining|Şikayet Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Organizing|Organizasyon Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Assessing|Değerlendirme|{"meaning":"ACTION/SITUATION","associations":[]}
+Protesting|Protesto Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Negotiating|Müzakere Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Mastering|Ustalaşmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Synchronizing|Senkronizasyon|{"meaning":"ACTION/SITUATION","associations":[]}
+Waiting in Line|Sırada Beklemek|{"meaning":"ACTION/SITUATION","associations":[]}
+Crossing a Bridge|Köprüden Geçmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Forgetting|Unutmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Remembering|Hatırlamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Proposing|Teklif Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Arrested|Tutuklanmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Breaking Up|Ayrılmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Making Up|Barışmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Saving Someone|Birini Kurtarmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Adopted|Evlat Edinilmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Fasting|Oruç Tutmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Pulled|Çekilmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Tickled|Gıdıklanmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Trading|Ticaret Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Apologizing|Özür Dilemek|{"meaning":"ACTION/SITUATION","associations":[]}
+Forgiving|Affetmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Striking|Vurmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Tugging|Çekiştirmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Fleeing|Kaçmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Struggling|Mücadele Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Arguing|Tartışmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Disconnected|Bağlantısız Kalmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Isolated|Yalnız Kalmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Integrating|Birleştirme|{"meaning":"ACTION/SITUATION","associations":[]}
+Exposing|Açığa Çıkarmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Transforming|Dönüşmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Experimenting|Deney Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Celebrating a Birthday|Doğum Günü Kutlamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Lost|Kaybolmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Eavesdropping|Kulak Misafiri Olmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Escaping Jail|Hapisten Kaçmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Defending Oneself|Kendini Savunmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Investigating|Araştırmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Summoning|Çağırmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Navigating|Yön Bulmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Choreographed|Koreografik|{"meaning":"ACTION/SITUATION","associations":[]}
+Tunneling|Tünel Kazmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Recycling|Geri Dönüşüm|{"meaning":"ACTION/SITUATION","associations":[]}
+Overhearing|Duymak|{"meaning":"ACTION/SITUATION","associations":[]}
+Competing|Yarışmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Coaching|Koçluk Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Hunting|Avlanmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Guarding|Koruma|{"meaning":"ACTION/SITUATION","associations":[]}
+Hitchhiking|Otostop Çekmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Crusading|Haçlı Seferi Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Kidnapped|Kaçırılmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Poisoned|Zehirlenmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Decorated|Süslemek|{"meaning":"ACTION/SITUATION","associations":[]}
+Pleading|Yalvarmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Eaten|Yenilmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Conciliating|Uzlaşma|{"meaning":"ACTION/SITUATION","associations":[]}
+Rescuing|Kurtarmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Inheriting|Miras Almak|{"meaning":"ACTION/SITUATION","associations":[]}
+Witnessing|Tanık Olmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Wandering|Dolaşmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Betrayed|İhanete Uğramak|{"meaning":"ACTION/SITUATION","associations":[]}
+Haunting|Lanetlenmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Excelling|Üstün Başarı|{"meaning":"ACTION/SITUATION","associations":[]}
+Enrolling|Kayıt Olmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Erasing|Silmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Repeating|Tekrarlama|{"meaning":"ACTION/SITUATION","associations":[]}
+Copying|Kopyalamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Criticizing|Eleştirmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Analyzing|Analiz Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Resigning|İstifa Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Teleporting|Işınlanmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Mesmerizing|Büyülenmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Convincing|İkna Etmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Becoming Famous|Ünlü Olmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Being Deposed|Tahttan İndirilmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Contemplating|Düşünmek|{"meaning":"ACTION/SITUATION","associations":[]}
+Sketching|Çizim Yapmak|{"meaning":"ACTION/SITUATION","associations":[]}
+Clapping|Alkışlamak|{"meaning":"ACTION/SITUATION","associations":[]}
+Snoring|Horlamak|{"meaning":"ACTION/SITUATION","associations":[]}

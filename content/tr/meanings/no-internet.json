@@ -1,0 +1,41 @@
+{
+  "slug": "no-internet",
+  "localizedName": "İnternetin çekmemesi",
+  "title": "Rüyada İnternetin çekmemesi",
+  "description": "Rüyada internetin çekmediğini görmek, iletişim kurmakta zorlanma veya bağlı hissetmeme duygularını temsil eder.",
+  "meanings": [
+    {
+      "title": "Ana Yorum",
+      "description": "Freud'a göre, bağlantının kaybolması, kişinin kendisini dış dünyadan izole ettiğini ya da kopuk hissettiğini gösterebilir. Jung'cu yaklaşımla, bu rüya, bireyin ortak bilinçten uzaklaşma arzusunu veya içe kapanma ihtiyacını simgeliyor olabilir."
+    },
+    {
+      "title": "Bilinçaltı Uyarısı",
+      "description": "Bilinçaltınız, sosyal ilişkilerden kaçınma ya da iletişim eksikliği yüzünden izole edilmiş hissediyor olabileceğinizi söylüyor olabilir."
+    },
+    {
+      "title": "Hayat Bağlamı",
+      "description": "Günlük hayatta, bu rüya iş yerinde veya sosyal çevrede yeterli etkileşimi sağlamadığınızı düşündüğünüzde ortaya çıkabilir."
+    }
+  ],
+  "symbolism": {
+    "concepts": [
+      "İletişim kopukluğu",
+      "Bağlantısızlık"
+    ],
+    "elements": [
+      "Teknoloji",
+      "İzole olma"
+    ]
+  },
+  "interpretation": "Rüyada internetin olmaması, şu anda karşılaştığınız iletişimsel zorlukları vurguluyor olabilir. Bu, kendinizi topluluktan ya da önemli bir sosyal çevreden uzaklaştığınız bir dönemin habercisi olabilir.",
+  "context": {
+    "positive": "Kendi iç sesinizi dinlemeye ve bir süre kendi içinizde huzur bulmaya teşvik edebilir.",
+    "negative": "Sosyal hayattan yalıtılmış hissetmenize ve yalnızlık duygularına yol açabilir."
+  },
+  "keywords": [
+    "İnternetin çekmemesi",
+    "No Internet",
+    "bağlantı kaybı",
+    "iletişimsizlik"
+  ]
+}

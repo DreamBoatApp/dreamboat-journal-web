@@ -1,0 +1,60 @@
+Armchair|Koltuk|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Nightstand|Komodin|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Shelf|Raf|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Hanger|Askı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Sheet|Çarşaf|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Detergent|Deterjan|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Kettle|Çaydanlık|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Candlestick|Şamdan|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Flowerpot|Saksı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Cabinet|Dolap|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Bookcase|Kitaplık|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Heater|Isıtıcı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Radiator|Radyatör|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Pantry|Kiler|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Laundry Basket|Çamaşır Sepeti|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Drying Rack|Çamaşır Askılığı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Dish Rack|Tabaklık|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Tea Towel|Çay Bezi|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Cutting Board|Kesme Tahtası|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Knife Block|Bıçak Seti|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Colander|Süzgeç|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Can Opener|Konserve Açacağı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Rolling Pin|Oklava|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Peeler|Soyucu|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Whisk|Çırpıcı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Spatula|Spatula|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Sieve|Eleğe|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Toilet Brush|Tuvalet Fırçası|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Rubbish Bin|Çöp Kutusu|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Dustpan|Farş|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Pencil Holder|Kalemlik|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Coaster|Bardak Altlığı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Placemat|Amerikan Servis|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Curtain Rod|Perde Çubuğu|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Doorbell|Kapı Zili|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Light Switch|Işık Anahtarı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Outlet|Priz|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Sink Tap|Musluk|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Shower Curtain|Duş Perdesi|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Bath Mat|Banyo Halısı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Storage Box|Depolama Kutusu|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Footstool|Tabure|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Bean Bag|Puf Koltuk|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Duvet|Yorgan|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Dresser|Şifonyer|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Sideboard|Yan Sehpa|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Shoerack|Ayakkabılık|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Hatstand|Askılık|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Key Hook|Anahtarlık Askısı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Bread Bin|Ekmek Kutusu|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Fruit Bowl|Meyve Kasesi|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Salt Shaker|Tuzluk|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Pepper Grinder|Karabiber Değirmeni|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Flower Vase|Çiçek Vazosu|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Wine Rack|Şarap Rafı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Wood Burner|Odun Sobası|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Mantlepiece|Şömine Rafı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Shutters|Panjur|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Blinds|Jaluzi|{"meaning":"DOMESTIC SYMBOL","associations":[]}
+Pillowcase|Yastık Kılıfı|{"meaning":"DOMESTIC SYMBOL","associations":[]}
