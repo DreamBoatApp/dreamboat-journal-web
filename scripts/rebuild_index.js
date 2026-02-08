@@ -46,30 +46,28 @@ try {
         // Check if lowerName exists as a key
         // 'lowerName': 'slug'
         // Need to be careful with Regex escaping
-        const lowerKeyPattern = new RegExp(`'${lowerName}':`);
+        const lowerKeyPattern = new RegExp(`'${lowerName.replace(/'/g, "\\'")}'`);
         if (!lowerKeyPattern.test(keywordIndexContent)) {
-            newKeywordEntries.push(`    '${lowerName}': '${slug}'`);
+            newKeywordEntries.push(`    '${lowerName.replace(/'/g, "\\'")}': '${slug}'`);
         }
 
         // CASE SENSITIVITY FIX:
         // Also add the Capitalized Version if it's different
         if (localizedName !== lowerName) {
-            const capKeyPattern = new RegExp(`'${localizedName}':`);
+            const capKeyPattern = new RegExp(`'${localizedName.replace(/'/g, "\\'")}'`);
             if (!capKeyPattern.test(keywordIndexContent)) {
-                newKeywordEntries.push(`    '${localizedName}': '${slug}' // Case fix`);
+                newKeywordEntries.push(`    '${localizedName.replace(/'/g, "\\'")}': '${slug}' /* Case fix */`);
             }
         }
 
         // SPECIAL FIX FOR "Ayı" (Uppercase I issues)
         if (localizedName.includes('ı') || localizedName.includes('i')) {
             // Add UPPERCASE version for Turkish chars
-            const upperName = localizedName.toUpperCase(); // using default locale, might be issue 
-            // node default might not be TR.
-            // But let's try to add the exact LocalizedName if different.
+            const upperName = localizedName.toUpperCase();
             if (upperName !== localizedName && upperName !== lowerName) {
-                const upperKeyPattern = new RegExp(`'${upperName}':`);
+                const upperKeyPattern = new RegExp(`'${upperName.replace(/'/g, "\\'")}'`);
                 if (!upperKeyPattern.test(keywordIndexContent)) {
-                    newKeywordEntries.push(`    '${upperName}': '${slug}' // Case fix`);
+                    newKeywordEntries.push(`    '${upperName.replace(/'/g, "\\'")}': '${slug}' /* Case fix */`);
                 }
             }
         }
