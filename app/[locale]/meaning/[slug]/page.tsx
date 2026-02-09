@@ -7,6 +7,7 @@ import MoonPhaseWidget from '@/components/MoonPhaseWidget';
 import InlineCTA from '@/components/InlineCTA';
 import dictionary from '@/scripts/data/source_dictionary';
 import aliasMap from '@/scripts/data/alias_map';
+import SearchBar from '@/components/SearchBar';
 
 // --- Types ---
 type Props = {
@@ -112,6 +113,7 @@ export default async function MeaningPage({ params }: Props) {
 
     const t = content!; // Content is guaranteed here
     const t_page = await getTranslations('MeaningPage');
+    const t_home = await getTranslations('HomePage');
     const CosmicConnectionSection = (await import('@/components/CosmicConnectionSection')).default;
 
     // Helper to fix capitalization title (e.g. SNAKE -> Snake)
@@ -153,6 +155,11 @@ export default async function MeaningPage({ params }: Props) {
             />
 
             <main className="relative z-10 container mx-auto px-4 py-12 md:py-24 max-w-3xl">
+
+                {/* Search Bar (Top) */}
+                <div className="mb-16 max-w-xl mx-auto">
+                    <SearchBar locale={locale} placeholder={t_home('searchPlaceholder')} />
+                </div>
 
                 {/* Header */}
                 <header className="mb-12 text-center relative">

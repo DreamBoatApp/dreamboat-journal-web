@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getPopularSymbols } from '@/lib/popularity';
+import SearchBar from '@/components/SearchBar';
 
 type Props = {
     params: Promise<{ locale: string }>;
@@ -28,15 +29,9 @@ export default async function HomePage({ params }: Props) {
                 </p>
 
                 {/* Premium Search Bar */}
-                <form action={`/${locale}/search`} className="w-full max-w-lg mt-8 relative group">
-                    <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-pink-600 rounded-full opacity-30 group-hover:opacity-70 blur transition duration-500"></div>
-                    <input
-                        name="q"
-                        type="text"
-                        placeholder={t('searchPlaceholder')}
-                        className="relative w-full px-8 py-5 rounded-full bg-[#0a0a16] border border-white/10 text-white placeholder:text-slate-500 focus:outline-none focus:ring-0 focus:border-white/20 transition-all text-lg shadow-xl"
-                    />
-                </form>
+                <div className="w-full max-w-lg mt-8 relative">
+                    <SearchBar locale={locale} placeholder={t('searchPlaceholder')} />
+                </div>
 
                 {/* Categories */}
                 <div className="flex flex-wrap justify-center gap-3 text-sm text-indigo-200/70">
