@@ -1,5 +1,5 @@
-// Auto-generated keyword index (Localized Index)
-// Cleaned up broken links
+// Auto-generated keyword index
+// Underscore slugs normalized to hyphens
 
 const localizedKeywords = {
     "1": "one",
@@ -3555,8 +3555,8 @@ const localizedKeywords = {
     "moth": "moth",
     "anne": "mother",
     "mother": "mother",
-    "kaynana": "mother_in_law",
-    "mother_in_law": "mother_in_law",
+    "kaynana": "mother-in-law",
+    "mother_in_law": "mother-in-law",
     "motorbike": "motorbike",
     "motorcycle": "motorcycle",
     "motorized-scooter": "motorized-scooter",
@@ -5782,7 +5782,7 @@ const localizedKeywords = {
     "web kamerası": "webcam",
     "web": "webcam",
     "webcam": "webcam",
-    "gelinlik": "wedding",
+    "gelinlik": "wedding-dress",
     "wedding-dress": "wedding",
     "wedding": "wedding",
     "kuyu": "well",

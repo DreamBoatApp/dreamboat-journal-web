@@ -56,7 +56,7 @@ export async function generateStaticParams() {
 
     // We need to slugify keys here to match file names
     // Simple helper matching the script's logic
-    const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+    const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, '-').replace(/_/g, '-').replace(/[^\w\-]+/g, '');
 
     // DEBUG: Limit removed - Generate ALL pages
     const limitedKeys = keys; // keys.slice(0, 10);

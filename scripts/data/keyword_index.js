@@ -1,5 +1,5 @@
-// Auto-generated keyword index (English Index)
-// Cleaned up broken links
+// Auto-generated keyword index
+// Underscore slugs normalized to hyphens
 
 const keywordIndex = {
     "1": "one",
@@ -63,7 +63,7 @@ const keywordIndex = {
     "öldürmek": "killing",
     "cinayet": "killing",
     "katil": "killing",
-    "gelinlik": "wedding",
+    "gelinlik": "wedding-dress",
     "gelin": "bride",
     "evlilik": "wedding",
     "gebe": "pregnancy",
@@ -287,7 +287,7 @@ const keywordIndex = {
     "abla": "sibling",
     "aşk": "partner",
     "damat": "groom",
-    "kaynana": "mother_in_law",
+    "kaynana": "mother-in-law",
     "komşu": "neighbor",
     "patron": "boss",
     "gülmek": "laughing",
@@ -4984,7 +4984,7 @@ const keywordIndex = {
     "Gündüz kelebeği": "moth",
     "GÜNDÜZ KELEBEĞI": "moth",
     "Anne": "mother",
-    "Kaynana": "mother_in_law",
+    "Kaynana": "mother-in-law",
     "motosiklet": "motorcycle",
     "MOTOSIKLET": "motorcycle",
     "Dağ": "mountain",
