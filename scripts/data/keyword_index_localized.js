@@ -1202,7 +1202,7 @@ const localizedKeywords = {
     "örümcek kovalamak": "chasing-spider",
     "chasing-spider": "chasing-spider",
     "merdiven kovalamak": "chasing-stairs",
-    "merdiven": "chasing-stairs",
+    "merdiven": "stairs",
     "chasing-stairs": "chasing-stairs",
     "fırtına kovalamak": "chasing-storm",
     "chasing-storm": "chasing-storm",
