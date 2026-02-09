@@ -13,11 +13,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Dreamboat Journal",
     description: "Unlock the secrets of your subconscious",
-    icons: {
-        icon: '/images/logo.png',
-        shortcut: '/images/logo.png',
-        apple: '/images/logo.png',
-    }
 };
 
 export default async function RootLayout({
