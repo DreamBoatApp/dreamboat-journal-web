@@ -185,8 +185,14 @@ export default async function SearchPage({ params, searchParams }: Props) {
         return a.keyword.length - b.keyword.length;
     });
 
-    // Only auto-redirect if there's exactly ONE match total.
-    // If findMatches found multiple related results, show disambiguation.
+    // 1. Exact Phrase Match Priority
+    // If the user's FULL query matches an index key exactly, redirect immediately.
+    const exactMatch = matches.find(m => m.keyword === normalizedQuery && (m.distance === 0 || m.distance === undefined));
+    if (exactMatch) {
+        redirect(`/${locale}/meaning/${exactMatch.slug}`);
+    }
+
+    // 2. Single Result — redirect directly
     if (matches.length === 1) {
         redirect(`/${locale}/meaning/${matches[0].slug}`);
     }
