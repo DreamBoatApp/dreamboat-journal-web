@@ -65,6 +65,8 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
     const indexKeys = Object.keys(index);
 
     for (const keyword of keywords) {
+        let foundAny = false;
+
         // 1. Direct Match (Fast & Exact)
         const exactSlug = index[keyword];
         if (exactSlug) {
@@ -72,36 +74,54 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
                 matches.push({ keyword, slug: exactSlug, distance: 0 });
                 seenSlugs.add(exactSlug);
             }
-            continue;
+            foundAny = true;
         }
 
-        // 2. Prefix Match (Agglutinative Support - e.g. "okulda" -> matches "okul")
-        const prefixMatch = indexKeys
-            .filter(k => k.length >= 3 && keyword.startsWith(k))
-            .sort((a, b) => b.length - a.length)[0];
-
-        if (prefixMatch) {
-            const slug = index[prefixMatch];
-            if (!seenSlugs.has(slug)) {
-                matches.push({ keyword: prefixMatch, slug, distance: 0 });
-                seenSlugs.add(slug);
+        // 2. Containing Match — find ALL index keys that contain this keyword
+        // e.g. "gelinlik" also matches "gelinlik giymek", "rüyada gelinlik görmek"
+        // Only for keywords >= 3 chars to avoid noise from short words
+        if (keyword.length >= 3) {
+            for (const key of indexKeys) {
+                if (key === keyword) continue; // already handled above
+                // Check if keyword appears as a whole word/segment in the key
+                if (key.includes(keyword)) {
+                    const slug = index[key];
+                    if (!seenSlugs.has(slug)) {
+                        matches.push({ keyword: key, slug, distance: 0 });
+                        seenSlugs.add(slug);
+                        foundAny = true;
+                    }
+                }
             }
-            continue;
         }
 
-        // 3. Fuzzy Match (Typo Tolerance)
-        // Check for words with small edit distance (e.g. "öğrrtmen" -> "öğretmen")
-        if (keyword.length >= 4) { // Only fuzzy search if word is long enough
+        // 3. Prefix Match (Agglutinative Support - e.g. "okulda" -> matches "okul")
+        // Only if we haven't found any matches yet
+        if (!foundAny) {
+            const prefixMatches = indexKeys
+                .filter(k => k.length >= 3 && keyword.startsWith(k))
+                .sort((a, b) => b.length - a.length);
+
+            for (const pm of prefixMatches) {
+                const slug = index[pm];
+                if (!seenSlugs.has(slug)) {
+                    matches.push({ keyword: pm, slug, distance: 0 });
+                    seenSlugs.add(slug);
+                    foundAny = true;
+                }
+                if (matches.length >= 10) break; // Limit prefix matches
+            }
+        }
+
+        // 4. Fuzzy Match (Typo Tolerance) — only if nothing found
+        if (!foundAny && keyword.length >= 4) {
             let bestMatchKey = '';
             let minDistance = Infinity;
 
             for (const key of indexKeys) {
-                // Optimization: Skip keys with large length difference
                 if (Math.abs(key.length - keyword.length) > 2) continue;
 
                 const dist = levenshtein(keyword, key);
-
-                // Allow distance of 1 for words < 6 chars, 2 for longer words
                 const maxDist = keyword.length < 6 ? 1 : 2;
 
                 if (dist <= maxDist && dist < minDistance) {
@@ -113,15 +133,15 @@ function findMatches(keywords: string[], index: Record<string, string>): { keywo
             if (bestMatchKey) {
                 const slug = index[bestMatchKey];
                 if (!seenSlugs.has(slug)) {
-                    // Add a small penalty or indicator for fuzzy matches if needed, 
-                    // but for now we treat them as valid find.
                     matches.push({ keyword: bestMatchKey, slug, distance: minDistance });
                     seenSlugs.add(slug);
                 }
             }
         }
     }
-    return matches;
+
+    // Limit total results to avoid overwhelming the user
+    return matches.slice(0, 15);
 }
 
 import { getPopularSymbols } from '@/lib/popularity';
@@ -150,22 +170,23 @@ export default async function SearchPage({ params, searchParams }: Props) {
 
     const matches = findMatches(keywords, combinedIndex as Record<string, string>);
 
-    // 1. Exact Phrase Match Priority (User Request)
-    // If the user's FULL query matches a symbol exactly, redirect immediately.
-    // We look for a match where the keyword equals the normalized query and distance is 0.
+    // Sort matches: exact keyword matches first, then containing matches
+    // "Direct" matches are those where the keyword equals the search term itself
     const normalizedQuery = query.toLowerCase()
         .replace(/[.,!?;:'"()]/g, '')
         .replace(/\s+/g, ' ')
         .trim();
 
-    const exactMatch = matches.find(m => m.keyword === normalizedQuery && (m.distance === 0 || m.distance === undefined));
+    matches.sort((a, b) => {
+        const aExact = a.keyword === normalizedQuery ? 0 : 1;
+        const bExact = b.keyword === normalizedQuery ? 0 : 1;
+        if (aExact !== bExact) return aExact - bExact;
+        // Then by keyword length (shorter = more relevant)
+        return a.keyword.length - b.keyword.length;
+    });
 
-    if (exactMatch) {
-        redirect(`/${locale}/meaning/${exactMatch.slug}`);
-    }
-
-    // 2. Single Result Priority
-    // If exactly one match (even if fuzzy or partial), redirect directly.
+    // Only auto-redirect if there's exactly ONE match total.
+    // If findMatches found multiple related results, show disambiguation.
     if (matches.length === 1) {
         redirect(`/${locale}/meaning/${matches[0].slug}`);
     }
