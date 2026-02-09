@@ -8390,3 +8390,5 @@ const keywordIndex = {
     'avlu (bahçe)': 'yard',
     'Avlu (Bahçe)': 'yard' /* Case fix */
 };
+
+module.exports = keywordIndex;
