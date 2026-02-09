@@ -1,0 +1,8 @@
+
+CHASED|Kovalanmak|{"meaning":"THE PURSUIT OF THE PAST","associations":["Run","Fear","Escape","Behind","Shadow"]}
+CAR ACCIDENT|Araba Kazası|{"meaning":"LOSS OF CONTROL","associations":["Crash","Speed","Brake","Glass","Road"]}
+CHEATING|Aldatılmak|{"meaning":"BETRAYAL OF TRUST","associations":["Partner","Lie","Secret","Cry","Affair"]}
+GOD|Tanrı|{"meaning":"THE HIGHER SELF","associations":["Light","Power","Sky","Voice","Pray"]}
+NAKED|Çıplak|{"meaning":"VULNERABILITY AND TRUTH","associations":["Shame","Body","Clothes","Exposed","Skin"]}
+LATE|Geç Kalmak|{"meaning":"MISSED OPPORTUNITY","associations":["Time","Clock","Rush","Run","Miss"]}
+DIVORCE|Boşanmak|{"meaning":"SEPARATION OF PSYCHIC ASPECTS","associations":["End","Paper","Cry","Apart","Ring"]}

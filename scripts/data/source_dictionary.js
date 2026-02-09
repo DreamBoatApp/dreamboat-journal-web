@@ -15267,5 +15267,15 @@ module.exports = {
             "Voice",
             "Pray"
         ]
+    },
+    "CHASING-STAIRS": {
+        "meaning": "PURSUIT OF ASCENSION",
+        "associations": [
+            "Climb",
+            "Run",
+            "Steps",
+            "High",
+            "Fall"
+        ]
     }
 };
