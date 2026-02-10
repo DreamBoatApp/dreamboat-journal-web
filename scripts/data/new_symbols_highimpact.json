@@ -1,0 +1,1760 @@
+[
+  {
+    "category": "En Sık Rüya Görülen Hayvanlar (eksikler)",
+    "symbols": [
+      {
+        "en": "FISHERMAN",
+        "tr": "Balıkçı"
+      },
+      {
+        "en": "LIZARD",
+        "tr": "Kertenkele"
+      },
+      {
+        "en": "BISON",
+        "tr": "Bizon"
+      },
+      {
+        "en": "HARE",
+        "tr": "Yeşil"
+      },
+      {
+        "en": "WEASEL",
+        "tr": "Gelincik"
+      },
+      {
+        "en": "LAMB",
+        "tr": "Kuzu"
+      },
+      {
+        "en": "MANTIS",
+        "tr": "Mantis"
+      },
+      {
+        "en": "NEWT",
+        "tr": "Salamandra"
+      },
+      {
+        "en": "STINGRAY",
+        "tr": "Vatoz"
+      }
+    ]
+  },
+  {
+    "category": "Korku & Kabus Temaları",
+    "symbols": [
+      {
+        "en": "TRAPPED",
+        "tr": "Sıkışma"
+      },
+      {
+        "en": "PARALYSIS",
+        "tr": "Felç"
+      },
+      {
+        "en": "ATTACK",
+        "tr": "Saldırı"
+      },
+      {
+        "en": "SCREAM",
+        "tr": "Çığlık"
+      },
+      {
+        "en": "HURT",
+        "tr": "Zarar"
+      },
+      {
+        "en": "ABANDON",
+        "tr": "Terk"
+      },
+      {
+        "en": "CROWD",
+        "tr": "Kalabalık"
+      },
+      {
+        "en": "FALL",
+        "tr": "Düş"
+      },
+      {
+        "en": "DARK",
+        "tr": "Karanlık"
+      },
+      {
+        "en": "SMOKE",
+        "tr": "Duman"
+      },
+      {
+        "en": "HIDE",
+        "tr": "Saklan"
+      },
+      {
+        "en": "BARRICADE",
+        "tr": "Engel"
+      },
+      {
+        "en": "EDGE",
+        "tr": "Kenar"
+      },
+      {
+        "en": "CRASH",
+        "tr": "Çarpma"
+      },
+      {
+        "en": "AMPUTATION",
+        "tr": "Kesme"
+      },
+      {
+        "en": "TRAIL",
+        "tr": "İz"
+      },
+      {
+        "en": "POISON",
+        "tr": "Zehir"
+      }
+    ]
+  },
+  {
+    "category": "Ev İçi Eşyalar & Günlük Objeler",
+    "symbols": [
+      {
+        "en": "VACUUM",
+        "tr": "ELEKTRİKLİ"
+      },
+      {
+        "en": "TV",
+        "tr": "TELEVİZYON"
+      },
+      {
+        "en": "HEADPHONE",
+        "tr": "KULAKLIK"
+      },
+      {
+        "en": "GARBAGE",
+        "tr": "ÇÖP"
+      },
+      {
+        "en": "STORAGE",
+        "tr": "DEPOLAMA"
+      }
+    ]
+  },
+  {
+    "category": "Yiyecek & İçecek (eksikler)",
+    "symbols": [
+      {
+        "en": "COOKIES",
+        "tr": "KURABİYE"
+      },
+      {
+        "en": "SALAD",
+        "tr": "SALATA"
+      },
+      {
+        "en": "NUTS",
+        "tr": "KURU"
+      },
+      {
+        "en": "OLIVES",
+        "tr": "ZEYTIN"
+      },
+      {
+        "en": "JUICE",
+        "tr": "MEYVE"
+      },
+      {
+        "en": "TURKISHDELIGHT",
+        "tr": "LOKUM"
+      },
+      {
+        "en": "APPLES",
+        "tr": "ELMA"
+      },
+      {
+        "en": "PICKLES",
+        "tr": "TURŞU"
+      },
+      {
+        "en": "CHILI",
+        "tr": "BİBER"
+      }
+    ]
+  },
+  {
+    "category": "Aile & Yakınlar (spesifik roller)",
+    "symbols": [
+      {
+        "en": "EXBOYFRIEND",
+        "tr": "ESKİERMEN"
+      },
+      {
+        "en": "EXGIRLFRIEND",
+        "tr": "ESKİKIZARKADAŞ"
+      },
+      {
+        "en": "CRUSH",
+        "tr": "AŞIK"
+      },
+      {
+        "en": "SITTER",
+        "tr": "BAKICI"
+      },
+      {
+        "en": "EXPARTNER",
+        "tr": "ESKİORTAK"
+      },
+      {
+        "en": "LOVER",
+        "tr": "AŞIK"
+      },
+      {
+        "en": "TWIN",
+        "tr": "İKİZ"
+      },
+      {
+        "en": "PREGNANT",
+        "tr": "HAMİLE"
+      },
+      {
+        "en": "OLDFRIEND",
+        "tr": "ESKİARKADAŞ"
+      },
+      {
+        "en": "BUDDY",
+        "tr": "DOST"
+      },
+      {
+        "en": "ACCOMPANY",
+        "tr": "EŞLİK"
+      }
+    ]
+  },
+  {
+    "category": "Doğa & Hava Durumu",
+    "symbols": [
+      {
+        "en": "SUNSET",
+        "tr": "Günbatımı"
+      },
+      {
+        "en": "EARTH",
+        "tr": "Dünya"
+      },
+      {
+        "en": "GRAIN",
+        "tr": "Tahıl"
+      },
+      {
+        "en": "PEAK",
+        "tr": "Zirve"
+      },
+      {
+        "en": "DAWN",
+        "tr": "Şafak"
+      },
+      {
+        "en": "SUMMER",
+        "tr": "Yaz"
+      },
+      {
+        "en": "WINTER",
+        "tr": "Kış"
+      },
+      {
+        "en": "AUTUMN",
+        "tr": "Sonbahar"
+      },
+      {
+        "en": "SPRING",
+        "tr": "İlkbahar"
+      },
+      {
+        "en": "STALACTITE",
+        "tr": "Sarkıt"
+      },
+      {
+        "en": "HORIZON",
+        "tr": "Ufuk"
+      },
+      {
+        "en": "MOUNTAINS",
+        "tr": "Dağlar"
+      }
+    ]
+  },
+  {
+    "category": "Beden & Fiziksel Deneyimler",
+    "symbols": [
+      {
+        "en": "BLEED",
+        "tr": "Kanama"
+      },
+      {
+        "en": "ILLNESS",
+        "tr": "Hastalık"
+      },
+      {
+        "en": "INJURY",
+        "tr": "Yaralanma"
+      },
+      {
+        "en": "SUFFOCATING",
+        "tr": "Boğulma"
+      },
+      {
+        "en": "DROWN",
+        "tr": "Boğulmak"
+      },
+      {
+        "en": "RACE",
+        "tr": "Yarış"
+      },
+      {
+        "en": "HUNGRY",
+        "tr": "Açlık"
+      },
+      {
+        "en": "BATH",
+        "tr": "Banyo"
+      },
+      {
+        "en": "SLEEP",
+        "tr": "Uyku"
+      },
+      {
+        "en": "RUSHING",
+        "tr": "Acele"
+      },
+      {
+        "en": "FATIGUE",
+        "tr": "Yorgunluk"
+      },
+      {
+        "en": "SPIN",
+        "tr": "Dönmek"
+      },
+      {
+        "en": "WEIGHT",
+        "tr": "Ağırlık"
+      }
+    ]
+  },
+  {
+    "category": "Ulaşım & Araçlar",
+    "symbols": [
+      {
+        "en": "CRUISE",
+        "tr": "Kruvaziyer"
+      },
+      {
+        "en": "RAIL",
+        "tr": "Ray"
+      },
+      {
+        "en": "RICKSHAW",
+        "tr": "Tekerlekli"
+      },
+      {
+        "en": "FOSSIL",
+        "tr": "Fosil"
+      },
+      {
+        "en": "CARAVAN",
+        "tr": "Karavan"
+      },
+      {
+        "en": "PARAGLIDER",
+        "tr": "Paraşüt"
+      },
+      {
+        "en": "TAXICAB",
+        "tr": "Taksicilik"
+      }
+    ]
+  },
+  {
+    "category": "Mekan & Yapılar",
+    "symbols": [
+      {
+        "en": "CEMETERY",
+        "tr": "MEZARLIK"
+      },
+      {
+        "en": "TRAINSTATION",
+        "tr": "GAR"
+      },
+      {
+        "en": "FAIR",
+        "tr": "PANAYIR"
+      },
+      {
+        "en": "HARBOR",
+        "tr": "LİMAN"
+      },
+      {
+        "en": "LAB",
+        "tr": "LABORATUVAR"
+      },
+      {
+        "en": "BUNGALOW",
+        "tr": "BUNGALOV"
+      },
+      {
+        "en": "RANCH",
+        "tr": "ÇİFTLİK"
+      },
+      {
+        "en": "DUNGEON",
+        "tr": "ZINDAN"
+      },
+      {
+        "en": "MONASTERY",
+        "tr": "MANASTIR"
+      },
+      {
+        "en": "VENUE",
+        "tr": "MEKAN"
+      },
+      {
+        "en": "FAÇADE",
+        "tr": "CEPHESİ"
+      },
+      {
+        "en": "CAVERN",
+        "tr": "MAĞARA"
+      },
+      {
+        "en": "APARTMENT",
+        "tr": "DAİRE"
+      }
+    ]
+  },
+  {
+    "category": "Giyim & Aksesuar",
+    "symbols": [
+      {
+        "en": "BOWTIE",
+        "tr": "Papyon"
+      },
+      {
+        "en": "SKIRT",
+        "tr": "Etek"
+      },
+      {
+        "en": "PANTIES",
+        "tr": "Döşeme"
+      },
+      {
+        "en": "SUSPENDERS",
+        "tr": "Askı"
+      },
+      {
+        "en": "ANORAK",
+        "tr": "Anorak"
+      },
+      {
+        "en": "BOOT",
+        "tr": "Bot"
+      },
+      {
+        "en": "SLIPPER",
+        "tr": "Terlik"
+      },
+      {
+        "en": "BILLOW",
+        "tr": "Yastık"
+      },
+      {
+        "en": "PINAFORE",
+        "tr": "Önlük"
+      }
+    ]
+  },
+  {
+    "category": "İş & Okul Durumları",
+    "symbols": [
+      {
+        "en": "DEADLINE",
+        "tr": "SonTarih"
+      },
+      {
+        "en": "HOMEWORK",
+        "tr": "Ödev"
+      },
+      {
+        "en": "FIRED",
+        "tr": "İştenÇıkarma"
+      },
+      {
+        "en": "SCHOOLMATE",
+        "tr": "SınıfArkadaşı"
+      },
+      {
+        "en": "SUPERVISOR",
+        "tr": "Gözetmen"
+      },
+      {
+        "en": "REPORT",
+        "tr": "Rapor"
+      },
+      {
+        "en": "RETREAT",
+        "tr": "GeriÇekilme"
+      },
+      {
+        "en": "WORKSHOP",
+        "tr": "Atölye"
+      },
+      {
+        "en": "FEEDBACK",
+        "tr": "GeriBildirim"
+      },
+      {
+        "en": "TASK",
+        "tr": "Görev"
+      },
+      {
+        "en": "PROFESSOR",
+        "tr": "Profesör"
+      },
+      {
+        "en": "ORIENTATION",
+        "tr": "Yönlendirme"
+      },
+      {
+        "en": "TRUANCY",
+        "tr": "Devamsızlık"
+      },
+      {
+        "en": "EQUIVALENT",
+        "tr": "Eşdeğer"
+      },
+      {
+        "en": "EXPERIENCE",
+        "tr": "Deneyim"
+      },
+      {
+        "en": "INTERNSHIP",
+        "tr": "Staj"
+      }
+    ]
+  },
+  {
+    "category": "Soyut Kavramlar & Durumlar",
+    "symbols": [
+      {
+        "en": "INVISIBILITY",
+        "tr": "Görünmezlik"
+      },
+      {
+        "en": "PARALLEL",
+        "tr": "Paralel"
+      },
+      {
+        "en": "TELEPORTATION",
+        "tr": "Telekinezi"
+      },
+      {
+        "en": "GETTINGLOST",
+        "tr": "Kaybolma"
+      },
+      {
+        "en": "PARADISE",
+        "tr": "Cennet"
+      },
+      {
+        "en": "SPEECH",
+        "tr": "Konuşma"
+      },
+      {
+        "en": "HIDDEN",
+        "tr": "Gizli"
+      },
+      {
+        "en": "WEIGHTLESS",
+        "tr": "Ağırsız"
+      },
+      {
+        "en": "ALTER",
+        "tr": "Değiştirme"
+      },
+      {
+        "en": "BEACON",
+        "tr": "Işık"
+      },
+      {
+        "en": "SURREAL",
+        "tr": "Gerçeküstü"
+      },
+      {
+        "en": "OMEN",
+        "tr": "Belirti"
+      }
+    ]
+  },
+  {
+    "category": "Bitkiler & Çiçekler (yaygın)",
+    "symbols": [
+      {
+        "en": "SUNFLOWER",
+        "tr": "Ayçiçeği"
+      },
+      {
+        "en": "LILY",
+        "tr": "Zambak"
+      },
+      {
+        "en": "IVY",
+        "tr": "Sarmal"
+      },
+      {
+        "en": "CARNATION",
+        "tr": "Karanfile"
+      },
+      {
+        "en": "FERN",
+        "tr": "Eğrelti"
+      },
+      {
+        "en": "SAGE",
+        "tr": "Adaçayı"
+      },
+      {
+        "en": "BASIL",
+        "tr": "Fesleğen"
+      },
+      {
+        "en": "ROSEMARY",
+        "tr": "Kekik"
+      }
+    ]
+  },
+  {
+    "category": "Renkler & Işık Durumları",
+    "symbols": [
+      {
+        "en": "GOLDEN",
+        "tr": "Altın"
+      },
+      {
+        "en": "DUSK",
+        "tr": "Alacakaranlık"
+      },
+      {
+        "en": "TWILIGHT",
+        "tr": "İkindi"
+      },
+      {
+        "en": "FLASH",
+        "tr": "Flaş"
+      },
+      {
+        "en": "Flicker",
+        "tr": "Titrek"
+      },
+      {
+        "en": "GLARE",
+        "tr": "Parıltı"
+      },
+      {
+        "en": "LUMINOUS",
+        "tr": "Işıltılı"
+      },
+      {
+        "en": "BLAZE",
+        "tr": "Alev"
+      },
+      {
+        "en": "GLOW",
+        "tr": "Parlaklık"
+      },
+      {
+        "en": "DIM",
+        "tr": "Loş"
+      },
+      {
+        "en": "SHIMMER",
+        "tr": "Parıldama"
+      }
+    ]
+  },
+  {
+    "category": "Dini & Spiritüel Semboller",
+    "symbols": [
+      {
+        "en": "PRAYER",
+        "tr": "Dua"
+      },
+      {
+        "en": "QURAN",
+        "tr": "Kuran"
+      },
+      {
+        "en": "ROSARY",
+        "tr": "Tespih"
+      },
+      {
+        "en": "PROPHET",
+        "tr": "Peygamber"
+      },
+      {
+        "en": "SAINT",
+        "tr": "Aziz"
+      },
+      {
+        "en": "SOUL",
+        "tr": "Ruh"
+      },
+      {
+        "en": "MIRACLE",
+        "tr": "Mucize"
+      },
+      {
+        "en": "OATH",
+        "tr": "Yemin"
+      },
+      {
+        "en": "GUIDE",
+        "tr": "Rehber"
+      },
+      {
+        "en": "BIBLE",
+        "tr": "İncil"
+      },
+      {
+        "en": "CHANT",
+        "tr": "İlah"
+      }
+    ]
+  },
+  {
+    "category": "Teknoloji & Modern Yaşam",
+    "symbols": [
+      {
+        "en": "WIFI",
+        "tr": "WiFi"
+      },
+      {
+        "en": "SOCIAL",
+        "tr": "Sosyal"
+      },
+      {
+        "en": "CHAT",
+        "tr": "Sohbet"
+      },
+      {
+        "en": "GAMING",
+        "tr": "Oyun"
+      },
+      {
+        "en": "HACKER",
+        "tr": "Hacker"
+      },
+      {
+        "en": "DEVICE",
+        "tr": "Cihaz"
+      },
+      {
+        "en": "CODE",
+        "tr": "Kod"
+      },
+      {
+        "en": "PROFILE",
+        "tr": "Profil"
+      },
+      {
+        "en": "ANALYTICS",
+        "tr": "Analiz"
+      },
+      {
+        "en": "TROJAN",
+        "tr": "Truva"
+      },
+      {
+        "en": "SITE",
+        "tr": "Site"
+      }
+    ]
+  },
+  {
+    "category": "Çocukluk & Nostalji",
+    "symbols": [
+      {
+        "en": "BLOCKS",
+        "tr": "Küpler"
+      },
+      {
+        "en": "BICYCLES",
+        "tr": "Bisikletler"
+      },
+      {
+        "en": "PUPPETS",
+        "tr": "Puppetler"
+      },
+      {
+        "en": "SLIDE",
+        "tr": "Kaydırak"
+      },
+      {
+        "en": "TRAMPOLINE",
+        "tr": "Trambolin"
+      },
+      {
+        "en": "HIDEANDSEEK",
+        "tr": "Saklambaç"
+      },
+      {
+        "en": "STICKER",
+        "tr": "Çıkartma"
+      },
+      {
+        "en": "TREES",
+        "tr": "Ağaçlar"
+      },
+      {
+        "en": "MEMORIES",
+        "tr": "Anılar"
+      },
+      {
+        "en": "ANIMALS",
+        "tr": "Hayvanlar"
+      },
+      {
+        "en": "SNACKS",
+        "tr": "Atıştırmalıklar"
+      },
+      {
+        "en": "POSE",
+        "tr": "Poz"
+      },
+      {
+        "en": "DREAMS",
+        "tr": "Hayaller"
+      }
+    ]
+  },
+  {
+    "category": "Suç & Yasak",
+    "symbols": [
+      {
+        "en": "THEFT",
+        "tr": "Hırsızlık"
+      },
+      {
+        "en": "TRAFFICKING",
+        "tr": "Kaçakçılık"
+      },
+      {
+        "en": "FRAUD",
+        "tr": "Aldatma"
+      },
+      {
+        "en": "CONCEALMENT",
+        "tr": "Gizleme"
+      },
+      {
+        "en": "CONSPIRACY",
+        "tr": "Komplo"
+      },
+      {
+        "en": "FORGERY",
+        "tr": "Sahtecilik"
+      },
+      {
+        "en": "VANDALISM",
+        "tr": "Vandalizm"
+      },
+      {
+        "en": "BRIBERY",
+        "tr": "Rüşvet"
+      },
+      {
+        "en": "MURDER",
+        "tr": "Cinayet"
+      },
+      {
+        "en": "STALKING",
+        "tr": "Taciz"
+      },
+      {
+        "en": "HOSTAGE",
+        "tr": "Rehine"
+      },
+      {
+        "en": "COVERUP",
+        "tr": "Kapatma"
+      },
+      {
+        "en": "SPYING",
+        "tr": "Casusluk"
+      },
+      {
+        "en": "SMUGGLING",
+        "tr": "Kaçakçılık"
+      },
+      {
+        "en": "BLACKMAIL",
+        "tr": "Şantaj"
+      },
+      {
+        "en": "TERRORISM",
+        "tr": "Terörizm"
+      },
+      {
+        "en": "EXTRACTION",
+        "tr": "Çıkarma"
+      },
+      {
+        "en": "RACKETEERING",
+        "tr": "Teşkilatçılık"
+      },
+      {
+        "en": "MALICE",
+        "tr": "Kötülük"
+      },
+      {
+        "en": "ASSAULT",
+        "tr": "Saldırı"
+      },
+      {
+        "en": "PIRACY",
+        "tr": "Korsanlık"
+      },
+      {
+        "en": "VIOLATION",
+        "tr": "İhlal"
+      },
+      {
+        "en": "INSIDER",
+        "tr": "İçerden"
+      },
+      {
+        "en": "PROSECUTION",
+        "tr": "Dava"
+      },
+      {
+        "en": "SENTENCE",
+        "tr": "Cezalandırma"
+      },
+      {
+        "en": "BANDITRY",
+        "tr": "Haydutluk"
+      },
+      {
+        "en": "DELINQUENCY",
+        "tr": "Suçluluk"
+      },
+      {
+        "en": "CORRUPTION",
+        "tr": "Yolsuzluk"
+      },
+      {
+        "en": "IMPERSONATION",
+        "tr": "Taklit"
+      },
+      {
+        "en": "CARTEL",
+        "tr": "Kartel"
+      },
+      {
+        "en": "EVIDENCE",
+        "tr": "Delil"
+      }
+    ]
+  },
+  {
+    "category": "Su & Deniz",
+    "symbols": [
+      {
+        "en": "CURRENT",
+        "tr": "Akıntı"
+      },
+      {
+        "en": "GULF",
+        "tr": "Körfez"
+      },
+      {
+        "en": "DRIFT",
+        "tr": "Sürüklenme"
+      },
+      {
+        "en": "SNAP",
+        "tr": "Patlama"
+      },
+      {
+        "en": "FISHING",
+        "tr": "Balıkçılık"
+      },
+      {
+        "en": "NARROW",
+        "tr": "Dar"
+      },
+      {
+        "en": "RIPPLE",
+        "tr": "Dalga"
+      },
+      {
+        "en": "SLOPE",
+        "tr": "Eğim"
+      },
+      {
+        "en": "SQUALL",
+        "tr": "Fırtına"
+      },
+      {
+        "en": "WHARF",
+        "tr": "İskelen"
+      },
+      {
+        "en": "SURGE",
+        "tr": "Patlama"
+      },
+      {
+        "en": "FOAM",
+        "tr": "Köpük"
+      },
+      {
+        "en": "AQUA",
+        "tr": "Aqua"
+      },
+      {
+        "en": "SAIL",
+        "tr": "Yelken"
+      }
+    ]
+  },
+  {
+    "category": "Yolculuk & Macera",
+    "symbols": [
+      {
+        "en": "TRIP",
+        "tr": "Seyahat"
+      },
+      {
+        "en": "ROUTE",
+        "tr": "Rota"
+      },
+      {
+        "en": "EXPLORE",
+        "tr": "Keşfet"
+      },
+      {
+        "en": "VIAJE",
+        "tr": "Seyahat"
+      },
+      {
+        "en": "SIGHTSEEING",
+        "tr": "Görmek"
+      },
+      {
+        "en": "NOMAD",
+        "tr": "Göçebe"
+      },
+      {
+        "en": "GETAWAY",
+        "tr": "Kaçamak"
+      },
+      {
+        "en": "ODYSSEY",
+        "tr": "Yolculuk"
+      },
+      {
+        "en": "WAYFARER",
+        "tr": "Yolcu"
+      },
+      {
+        "en": "EXPEDITION",
+        "tr": "Keşif"
+      },
+      {
+        "en": "TROTTING",
+        "tr": "Koşma"
+      },
+      {
+        "en": "ESCAPADE",
+        "tr": "Macera"
+      },
+      {
+        "en": "TREK",
+        "tr": "Yürüyüş"
+      },
+      {
+        "en": "VOYAGE",
+        "tr": "Sefer"
+      },
+      {
+        "en": "PILGRIM",
+        "tr": "Hac"
+      },
+      {
+        "en": "SOJOURN",
+        "tr": "Süre"
+      },
+      {
+        "en": "CHARTER",
+        "tr": "Kiralamak"
+      },
+      {
+        "en": "META",
+        "tr": "Meta"
+      }
+    ]
+  },
+  {
+    "category": "Müzik & Ses",
+    "symbols": [
+      {
+        "en": "CHORD",
+        "tr": "Akor"
+      },
+      {
+        "en": "RHYTHM",
+        "tr": "Ritim"
+      },
+      {
+        "en": "BEAT",
+        "tr": "Vurgu"
+      },
+      {
+        "en": "TUNE",
+        "tr": "Melodi"
+      },
+      {
+        "en": "SONG",
+        "tr": "Şarkı"
+      },
+      {
+        "en": "LYRICS",
+        "tr": "Sözler"
+      },
+      {
+        "en": "CRESCENDO",
+        "tr": "Artan"
+      },
+      {
+        "en": "SCALES",
+        "tr": "Diziler"
+      },
+      {
+        "en": "FRET",
+        "tr": "Perde"
+      },
+      {
+        "en": "MELODY",
+        "tr": "Melodi"
+      },
+      {
+        "en": "REVERB",
+        "tr": "Yankı"
+      },
+      {
+        "en": "ORCHESTRA",
+        "tr": "Orkestra"
+      },
+      {
+        "en": "SYNTH",
+        "tr": "Sentetik"
+      },
+      {
+        "en": "JAM",
+        "tr": "Jem"
+      },
+      {
+        "en": "RAP",
+        "tr": "Rap"
+      },
+      {
+        "en": "FOLK",
+        "tr": "Halk"
+      },
+      {
+        "en": "GENRE",
+        "tr": "Tür"
+      },
+      {
+        "en": "VIBRATION",
+        "tr": "Titreşim"
+      }
+    ]
+  },
+  {
+    "category": "Zaman & Değişim",
+    "symbols": [
+      {
+        "en": "TODAY",
+        "tr": "Bugün"
+      },
+      {
+        "en": "YESTERDAY",
+        "tr": "Dün"
+      },
+      {
+        "en": "TOMORROW",
+        "tr": "Yarın"
+      },
+      {
+        "en": "MINUTE",
+        "tr": "Dakika"
+      },
+      {
+        "en": "SECOND",
+        "tr": "Saniye"
+      },
+      {
+        "en": "MOMENT",
+        "tr": "An"
+      },
+      {
+        "en": "EPOCH",
+        "tr": "Dönem"
+      },
+      {
+        "en": "AGE",
+        "tr": "Yaş"
+      },
+      {
+        "en": "MINUTES",
+        "tr": "Dakikalar"
+      },
+      {
+        "en": "MONTH",
+        "tr": "Ay"
+      },
+      {
+        "en": "YEAR",
+        "tr": "Yıl"
+      },
+      {
+        "en": "ANNIVERSARY",
+        "tr": "Yıldönümü"
+      },
+      {
+        "en": "FLEETING",
+        "tr": "Geçici"
+      },
+      {
+        "en": "ETERNAL",
+        "tr": "Sonsuz"
+      },
+      {
+        "en": "NOW",
+        "tr": "Şimdi"
+      },
+      {
+        "en": "WHILE",
+        "tr": "Esnasında"
+      },
+      {
+        "en": "FLESH",
+        "tr": "Et"
+      },
+      {
+        "en": "WASTED",
+        "tr": "Ziyan"
+      },
+      {
+        "en": "SUSPENDED",
+        "tr": "Askıda"
+      },
+      {
+        "en": "SEASON",
+        "tr": "Mevsim"
+      }
+    ]
+  },
+  {
+    "category": "Spor & Oyun",
+    "symbols": [
+      {
+        "en": "RUN",
+        "tr": "Koşu"
+      },
+      {
+        "en": "LOSE",
+        "tr": "Kaybetme"
+      },
+      {
+        "en": "PLAYOFF",
+        "tr": "Playoff"
+      },
+      {
+        "en": "JERSEY",
+        "tr": "Forması"
+      },
+      {
+        "en": "PASS",
+        "tr": "Pas"
+      },
+      {
+        "en": "BLOCK",
+        "tr": "Engel"
+      },
+      {
+        "en": "DRIBBLE",
+        "tr": "Dribbling"
+      },
+      {
+        "en": "SERVE",
+        "tr": "Servis"
+      },
+      {
+        "en": "DIVE",
+        "tr": "Dalış"
+      },
+      {
+        "en": "SQUAD",
+        "tr": "Kadrosu"
+      },
+      {
+        "en": "MATCHUP",
+        "tr": "Eşleşme"
+      },
+      {
+        "en": "PODIUM",
+        "tr": "Podyum"
+      },
+      {
+        "en": "TRAINING",
+        "tr": "Antrenman"
+      },
+      {
+        "en": "FREQUENCY",
+        "tr": "Frekans"
+      }
+    ]
+  },
+  {
+    "category": "Doğaüstü & Paranormal",
+    "symbols": [
+      {
+        "en": "HAUNTED",
+        "tr": "Perili"
+      },
+      {
+        "en": "PSYCHIC",
+        "tr": "Psikik"
+      },
+      {
+        "en": "PORTAL",
+        "tr": "Portal"
+      },
+      {
+        "en": "DIMENSION",
+        "tr": "Boyut"
+      },
+      {
+        "en": "RESURRECTION",
+        "tr": "Diriliş"
+      },
+      {
+        "en": "FAMILIAR",
+        "tr": "Aşina"
+      },
+      {
+        "en": "PHANTOM",
+        "tr": "Hayalet"
+      },
+      {
+        "en": "GOBLIN",
+        "tr": "Cüce"
+      },
+      {
+        "en": "SPECTER",
+        "tr": "Hayalet"
+      },
+      {
+        "en": "PREDICTION",
+        "tr": "Tahmin"
+      },
+      {
+        "en": "EXORCISM",
+        "tr": "İkmal"
+      },
+      {
+        "en": "APPEARANCE",
+        "tr": "Görünüş"
+      },
+      {
+        "en": "RELIC",
+        "tr": "Eser"
+      },
+      {
+        "en": "INCANTATION",
+        "tr": "Büyü"
+      },
+      {
+        "en": "DIVINATION",
+        "tr": "Kehanet"
+      },
+      {
+        "en": "ALCHEMY",
+        "tr": "Simya"
+      },
+      {
+        "en": "AURA",
+        "tr": "Aura"
+      },
+      {
+        "en": "SPECTRAL",
+        "tr": "Hayaletimsi"
+      },
+      {
+        "en": "POTION",
+        "tr": "İksir"
+      },
+      {
+        "en": "BINDING",
+        "tr": "Bağlama"
+      },
+      {
+        "en": "TOMB",
+        "tr": "Mezar"
+      }
+    ]
+  },
+  {
+    "category": "Para & Alışveriş Detayları",
+    "symbols": [
+      {
+        "en": "DISCOUNT",
+        "tr": "İndirim"
+      },
+      {
+        "en": "CHECKOUT",
+        "tr": "Kasada"
+      },
+      {
+        "en": "CASHIER",
+        "tr": "Kasiyer"
+      },
+      {
+        "en": "MARKETPLACE",
+        "tr": "Pazar"
+      },
+      {
+        "en": "BARTER",
+        "tr": "Değişim"
+      },
+      {
+        "en": "COUPON",
+        "tr": "Kupon"
+      },
+      {
+        "en": "REFUND",
+        "tr": "İade"
+      },
+      {
+        "en": "EXPENSE",
+        "tr": "Gider"
+      },
+      {
+        "en": "STORES",
+        "tr": "Dükkanlar"
+      },
+      {
+        "en": "INVOICE",
+        "tr": "Fatura"
+      },
+      {
+        "en": "VOUCHER",
+        "tr": "Çek"
+      },
+      {
+        "en": "TRADERS",
+        "tr": "Tüccarlar"
+      },
+      {
+        "en": "ITEMS",
+        "tr": "Ürünler"
+      },
+      {
+        "en": "MERCHANT",
+        "tr": "Tüccar"
+      },
+      {
+        "en": "RETAIL",
+        "tr": "Perakende"
+      }
+    ]
+  },
+  {
+    "category": "İletişim & Teknoloji Detay",
+    "symbols": [
+      {
+        "en": "CONNECT",
+        "tr": "Bağlan"
+      },
+      {
+        "en": "MESSAGE",
+        "tr": "Mesaj"
+      },
+      {
+        "en": "ALERT",
+        "tr": "Uyarı"
+      },
+      {
+        "en": "BUFFER",
+        "tr": "Tampon"
+      },
+      {
+        "en": "SYNC",
+        "tr": "Eşitle"
+      },
+      {
+        "en": "UPDATE",
+        "tr": "Güncelle"
+      },
+      {
+        "en": "PLUGIN",
+        "tr": "Eklenti"
+      },
+      {
+        "en": "APPLICATION",
+        "tr": "Uygulama"
+      },
+      {
+        "en": "MUTE",
+        "tr": "Sustur"
+      },
+      {
+        "en": "VIBRATE",
+        "tr": "Titre"
+      },
+      {
+        "en": "PLAYBACK",
+        "tr": "Oynatma"
+      },
+      {
+        "en": "ARCHIVE",
+        "tr": "Arşiv"
+      }
+    ]
+  },
+  {
+    "category": "Tıbbi & Hastane",
+    "symbols": [
+      {
+        "en": "OPERATING",
+        "tr": "Ameliyat"
+      },
+      {
+        "en": "PRESCRIPTION",
+        "tr": "Reçete"
+      },
+      {
+        "en": "INJECTION",
+        "tr": "Enjeksiyon"
+      },
+      {
+        "en": "XRAY",
+        "tr": "Röntgen"
+      },
+      {
+        "en": "ECG",
+        "tr": "EKG"
+      },
+      {
+        "en": "CLINIC",
+        "tr": "Klinik"
+      },
+      {
+        "en": "MENTAL",
+        "tr": "Zihinsel"
+      },
+      {
+        "en": "CHART",
+        "tr": "Grafik"
+      },
+      {
+        "en": "ANESTHESIA",
+        "tr": "Anestezi"
+      },
+      {
+        "en": "PROCEDURE",
+        "tr": "Prosedür"
+      },
+      {
+        "en": "INFECTION",
+        "tr": "Enfeksiyon"
+      },
+      {
+        "en": "VITALS",
+        "tr": "HayatiBelirtiler"
+      },
+      {
+        "en": "REHAB",
+        "tr": "Rehabilitasyon"
+      },
+      {
+        "en": "SCAN",
+        "tr": "Tarama"
+      },
+      {
+        "en": "NUTRITION",
+        "tr": "Beslenme"
+      },
+      {
+        "en": "EMERGENCY",
+        "tr": "Acil"
+      },
+      {
+        "en": "CONSULTATION",
+        "tr": "Danışmanlık"
+      }
+    ]
+  },
+  {
+    "category": "Mutfak & Pişirme",
+    "symbols": [
+      {
+        "en": "GRILL",
+        "tr": "Izgara"
+      },
+      {
+        "en": "CUTTINGBOARD",
+        "tr": "KesmeTahtası"
+      },
+      {
+        "en": "MEASURINGCUP",
+        "tr": "ÖlçüKabı"
+      },
+      {
+        "en": "STEAMER",
+        "tr": "BuhardaPişirici"
+      },
+      {
+        "en": "CANISTER",
+        "tr": "Kavanoz"
+      },
+      {
+        "en": "KITCHENAID",
+        "tr": "MutfakAleti"
+      },
+      {
+        "en": "APRON",
+        "tr": "Önlük"
+      },
+      {
+        "en": "CASSEROLE",
+        "tr": "SaklamaKabı"
+      },
+      {
+        "en": "CUTLERY",
+        "tr": "ÇatalBıçak"
+      },
+      {
+        "en": "FROSTING",
+        "tr": "Krema"
+      },
+      {
+        "en": "COOKBOOK",
+        "tr": "YemekTarifleri"
+      }
+    ]
+  },
+  {
+    "category": "Savunma & Silah",
+    "symbols": [
+      {
+        "en": "MISSILE",
+        "tr": "Füze"
+      },
+      {
+        "en": "DAGGER",
+        "tr": "Süreli"
+      },
+      {
+        "en": "SLING",
+        "tr": "Sapan"
+      },
+      {
+        "en": "CATAPULT",
+        "tr": "Mancınık"
+      },
+      {
+        "en": "TRENCH",
+        "tr": "Siper"
+      },
+      {
+        "en": "BAYONET",
+        "tr": "Bayonet"
+      },
+      {
+        "en": "FLAIL",
+        "tr": "Sopa"
+      },
+      {
+        "en": "PICKAXE",
+        "tr": "Kazma"
+      },
+      {
+        "en": "SHURIKEN",
+        "tr": "Shuriken"
+      },
+      {
+        "en": "LANCE",
+        "tr": "Lança"
+      },
+      {
+        "en": "SABER",
+        "tr": "Saber"
+      },
+      {
+        "en": "WHIP",
+        "tr": "Kırbaç"
+      },
+      {
+        "en": "FLINTLOCK",
+        "tr": "Tüfek"
+      }
+    ]
+  },
+  {
+    "category": "Hata & Başarısızlık",
+    "symbols": [
+      {
+        "en": "FLIGHT",
+        "tr": "Uçuş"
+      },
+      {
+        "en": "TRAP",
+        "tr": "Tuzağa"
+      },
+      {
+        "en": "SNARE",
+        "tr": "Ağa"
+      },
+      {
+        "en": "BURN",
+        "tr": "Yanma"
+      },
+      {
+        "en": "RIFT",
+        "tr": "Yarık"
+      },
+      {
+        "en": "PAUSE",
+        "tr": "Duraklama"
+      },
+      {
+        "en": "SLIP",
+        "tr": "Kayma"
+      },
+      {
+        "en": "STUCK",
+        "tr": "Sıkışma"
+      },
+      {
+        "en": "SPILL",
+        "tr": "Dökmek"
+      },
+      {
+        "en": "FRAIL",
+        "tr": "Zayıf"
+      },
+      {
+        "en": "FADE",
+        "tr": "Solma"
+      }
+    ]
+  }
+]
