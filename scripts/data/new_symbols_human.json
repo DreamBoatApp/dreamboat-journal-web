@@ -1,0 +1,2136 @@
+[
+  {
+    "category": "Aile & Akrabalık",
+    "symbols": [
+      {
+        "en": "FAMILY",
+        "tr": "Aile"
+      },
+      {
+        "en": "BOND",
+        "tr": "Bağ"
+      },
+      {
+        "en": "PARENT",
+        "tr": "Ebeveyn"
+      },
+      {
+        "en": "CONFLICT",
+        "tr": "Çatışma"
+      },
+      {
+        "en": "TRUST",
+        "tr": "Güven"
+      },
+      {
+        "en": "REUNION",
+        "tr": "Buluşma"
+      },
+      {
+        "en": "HERITAGE",
+        "tr": "Miras"
+      },
+      {
+        "en": "SUPPORT",
+        "tr": "Destek"
+      },
+      {
+        "en": "REJECTION",
+        "tr": "Reddetme"
+      },
+      {
+        "en": "SACRIFICE",
+        "tr": "Fedakarlık"
+      },
+      {
+        "en": "NOSTALGIA",
+        "tr": "Nostalji"
+      },
+      {
+        "en": "FORGIVENESS",
+        "tr": "Bağışlama"
+      },
+      {
+        "en": "ISOLATION",
+        "tr": "Yalnızlık"
+      },
+      {
+        "en": "ANXIETY",
+        "tr": "Kaygı"
+      },
+      {
+        "en": "LOSS",
+        "tr": "Kayıp"
+      },
+      {
+        "en": "GRIEF",
+        "tr": "Üzüntü"
+      },
+      {
+        "en": "SEPARATION",
+        "tr": "Ayrılma"
+      },
+      {
+        "en": "AFFECTION",
+        "tr": "Şefkat"
+      },
+      {
+        "en": "CONNECTION",
+        "tr": "Bağlantı"
+      },
+      {
+        "en": "RIVALRY",
+        "tr": "Rekabet"
+      },
+      {
+        "en": "COMPASSION",
+        "tr": "Merhamet"
+      },
+      {
+        "en": "ENGAGEMENT",
+        "tr": "Nişan"
+      },
+      {
+        "en": "LEGACY",
+        "tr": "Miras"
+      },
+      {
+        "en": "RECONCILIATION",
+        "tr": "Barışma"
+      },
+      {
+        "en": "TENSION",
+        "tr": "Gerginlik"
+      },
+      {
+        "en": "DEPTH",
+        "tr": "Derinlik"
+      },
+      {
+        "en": "FAMILIARITY",
+        "tr": "Tanıdıklık"
+      },
+      {
+        "en": "FOSTERING",
+        "tr": "Geliştirme"
+      },
+      {
+        "en": "NURTURE",
+        "tr": "Besleme"
+      }
+    ]
+  },
+  {
+    "category": "İlişki & Romantizm",
+    "symbols": [
+      {
+        "en": "PASSION",
+        "tr": "Tutku"
+      },
+      {
+        "en": "DESIRE",
+        "tr": "İstek"
+      },
+      {
+        "en": "BETRAYAL",
+        "tr": "İhanet"
+      },
+      {
+        "en": "INTIMACY",
+        "tr": "Samimiyet"
+      },
+      {
+        "en": "FLIRTATION",
+        "tr": "Flört"
+      },
+      {
+        "en": "COMMITMENT",
+        "tr": "Bağlılık"
+      },
+      {
+        "en": "COMPANIONSHIP",
+        "tr": "Arkadaşlık"
+      },
+      {
+        "en": "ROMANCE",
+        "tr": "Romantizm"
+      },
+      {
+        "en": "EMBRACE",
+        "tr": "Sarıldı"
+      },
+      {
+        "en": "VULNERABILITY",
+        "tr": "Savunmasızlık"
+      },
+      {
+        "en": "CLOSENESS",
+        "tr": "Yakınlık"
+      },
+      {
+        "en": "DESPAIR",
+        "tr": "Umutsuzluk"
+      },
+      {
+        "en": "EUPHORIA",
+        "tr": "Coşku"
+      },
+      {
+        "en": "GUILT",
+        "tr": "Suçluluk"
+      },
+      {
+        "en": "HARMONY",
+        "tr": "Uyum"
+      },
+      {
+        "en": "FANTASY",
+        "tr": "Hayal"
+      },
+      {
+        "en": "SENSATION",
+        "tr": "Duygu"
+      },
+      {
+        "en": "SECURITY",
+        "tr": "Güvenlik"
+      },
+      {
+        "en": "FREEDOM",
+        "tr": "Özgürlük"
+      },
+      {
+        "en": "STRENGTH",
+        "tr": "Güç"
+      },
+      {
+        "en": "BONDING",
+        "tr": "Bağlanma"
+      },
+      {
+        "en": "REGRET",
+        "tr": "Pişmanlık"
+      },
+      {
+        "en": "EXCITEMENT",
+        "tr": "Heyecan"
+      }
+    ]
+  },
+  {
+    "category": "İş & Kariyer",
+    "symbols": [
+      {
+        "en": "PROMOTION",
+        "tr": "Terfi"
+      },
+      {
+        "en": "COLLABORATION",
+        "tr": "İşbirliği"
+      },
+      {
+        "en": "NETWORKING",
+        "tr": "Ağ"
+      },
+      {
+        "en": "RESPONSIBILITY",
+        "tr": "Sorumluluk"
+      },
+      {
+        "en": "AMBITION",
+        "tr": "Hırs"
+      },
+      {
+        "en": "STRESS",
+        "tr": "Stres"
+      },
+      {
+        "en": "CHANGE",
+        "tr": "Değişim"
+      },
+      {
+        "en": "EXHAUSTION",
+        "tr": "Tükenmişlik"
+      },
+      {
+        "en": "UNCERTAINTY",
+        "tr": "Belirsizlik"
+      },
+      {
+        "en": "HIERARCHY",
+        "tr": "Hiyerarşi"
+      },
+      {
+        "en": "LEADERSHIP",
+        "tr": "Liderlik"
+      },
+      {
+        "en": "POTENTIAL",
+        "tr": "Potansiyel"
+      },
+      {
+        "en": "CREDENTIALS",
+        "tr": "Kimlik"
+      },
+      {
+        "en": "PROGRESS",
+        "tr": "İlerleme"
+      },
+      {
+        "en": "MENTORSHIP",
+        "tr": "Danışmanlık"
+      },
+      {
+        "en": "STABILITY",
+        "tr": "İstikrar"
+      },
+      {
+        "en": "IDENTITY",
+        "tr": "Kimlik"
+      },
+      {
+        "en": "REWARD",
+        "tr": "Ödül"
+      },
+      {
+        "en": "BALANCE",
+        "tr": "Denge"
+      },
+      {
+        "en": "INDEPENDENCE",
+        "tr": "Bağımsızlık"
+      },
+      {
+        "en": "PRIORITY",
+        "tr": "Öncelik"
+      },
+      {
+        "en": "VISION",
+        "tr": "Vizyon"
+      },
+      {
+        "en": "INSECURITY",
+        "tr": "Güvensizlik"
+      },
+      {
+        "en": "EVALUATION",
+        "tr": "Değerlendirme"
+      },
+      {
+        "en": "INITIATIVE",
+        "tr": "Girişim"
+      },
+      {
+        "en": "CHALLENGE",
+        "tr": "Zorluk"
+      },
+      {
+        "en": "PROFESSION",
+        "tr": "Meslek"
+      },
+      {
+        "en": "ROLE",
+        "tr": "Rol"
+      },
+      {
+        "en": "CLARITY",
+        "tr": "Açıklık"
+      },
+      {
+        "en": "FOCUS",
+        "tr": "Odak"
+      },
+      {
+        "en": "ADAPTATION",
+        "tr": "Uyum"
+      },
+      {
+        "en": "REPUTATION",
+        "tr": "İtibar"
+      },
+      {
+        "en": "PATH",
+        "tr": "Yol"
+      },
+      {
+        "en": "GROWTH",
+        "tr": "Büyüme"
+      },
+      {
+        "en": "OBJECTIVE",
+        "tr": "Hedef"
+      },
+      {
+        "en": "PERSISTENCE",
+        "tr": "Süreklilik"
+      },
+      {
+        "en": "FAITH",
+        "tr": "İnanç"
+      }
+    ]
+  },
+  {
+    "category": "Eğitim & Bilgi",
+    "symbols": [
+      {
+        "en": "GRADUATION",
+        "tr": "Mezuniyet"
+      },
+      {
+        "en": "KNOWLEDGE",
+        "tr": "Bilgi"
+      },
+      {
+        "en": "CONFUSION",
+        "tr": "Karışıklık"
+      },
+      {
+        "en": "OBLIGATION",
+        "tr": "Zorunluluk"
+      },
+      {
+        "en": "PRESSURE",
+        "tr": "Baskı"
+      },
+      {
+        "en": "MENTOR",
+        "tr": "Rehber"
+      },
+      {
+        "en": "ACCEPTANCE",
+        "tr": "Kabul"
+      },
+      {
+        "en": "COMPETITION",
+        "tr": "Rekabet"
+      },
+      {
+        "en": "EXPECTATION",
+        "tr": "Beklenti"
+      },
+      {
+        "en": "EXPLORATION",
+        "tr": "Keşif"
+      },
+      {
+        "en": "DISCOVERY",
+        "tr": "Keşif"
+      },
+      {
+        "en": "TRANSITION",
+        "tr": "Geçiş"
+      },
+      {
+        "en": "DISSATISFACTION",
+        "tr": "Memnuniyetsizlik"
+      },
+      {
+        "en": "MOTIVATION",
+        "tr": "Motivasyon"
+      },
+      {
+        "en": "ASPIRATION",
+        "tr": "Hedef"
+      },
+      {
+        "en": "REALIZATION",
+        "tr": "Farkındalık"
+      },
+      {
+        "en": "LIMITATION",
+        "tr": "Sınırlama"
+      }
+    ]
+  },
+  {
+    "category": "Din & İnanç",
+    "symbols": [
+      {
+        "en": "HOPE",
+        "tr": "Umut"
+      },
+      {
+        "en": "GRACE",
+        "tr": "Lütuf"
+      },
+      {
+        "en": "TRUTH",
+        "tr": "Gerçek"
+      },
+      {
+        "en": "PEACE",
+        "tr": "Barış"
+      },
+      {
+        "en": "COMMUNITY",
+        "tr": "Topluluk"
+      },
+      {
+        "en": "SACRED",
+        "tr": "Kutsal"
+      },
+      {
+        "en": "MORAL",
+        "tr": "Ahlak"
+      },
+      {
+        "en": "WISDOM",
+        "tr": "Bilgelik"
+      },
+      {
+        "en": "COMMUNICATION",
+        "tr": "İletişim"
+      },
+      {
+        "en": "REDEMPTION",
+        "tr": "Kurtuluş"
+      },
+      {
+        "en": "COURAGE",
+        "tr": "Cesaret"
+      },
+      {
+        "en": "FAIRNESS",
+        "tr": "Adalet"
+      },
+      {
+        "en": "SURRENDER",
+        "tr": "Teslimiyet"
+      },
+      {
+        "en": "REVELATION",
+        "tr": "Açıkça"
+      },
+      {
+        "en": "BELONGING",
+        "tr": "Aidiyet"
+      },
+      {
+        "en": "ABUNDANCE",
+        "tr": "Boluluk"
+      }
+    ]
+  },
+  {
+    "category": "Toplum & Sosyal Yapı",
+    "symbols": [
+      {
+        "en": "EQUALITY",
+        "tr": "Eşitlik"
+      },
+      {
+        "en": "CULTURE",
+        "tr": "Kültür"
+      },
+      {
+        "en": "SOLITUDE",
+        "tr": "Yalnızlık"
+      },
+      {
+        "en": "PARENTING",
+        "tr": "Ebeveynlik"
+      },
+      {
+        "en": "REVOLUTION",
+        "tr": "Devrim"
+      },
+      {
+        "en": "SOCIETY",
+        "tr": "Toplum"
+      },
+      {
+        "en": "JUSTICE",
+        "tr": "Adalet"
+      },
+      {
+        "en": "INCLUSION",
+        "tr": "Kapsayıcılık"
+      },
+      {
+        "en": "STIGMA",
+        "tr": "Damgalama"
+      },
+      {
+        "en": "RESILIENCE",
+        "tr": "Dayanıklılık"
+      },
+      {
+        "en": "POWER",
+        "tr": "Güç"
+      },
+      {
+        "en": "HOPELESSNESS",
+        "tr": "Umutsuzluk"
+      },
+      {
+        "en": "WITNESS",
+        "tr": "Tanık"
+      },
+      {
+        "en": "EMPATHY",
+        "tr": "Empati"
+      },
+      {
+        "en": "INJUSTICE",
+        "tr": "Adaletsizlik"
+      }
+    ]
+  },
+  {
+    "category": "Şehir & Kent Yaşamı",
+    "symbols": [
+      {
+        "en": "PARTY",
+        "tr": "Parti"
+      },
+      {
+        "en": "STRUGGLE",
+        "tr": "Mücadele"
+      },
+      {
+        "en": "EXPRESSION",
+        "tr": "İfade"
+      },
+      {
+        "en": "RISK",
+        "tr": "Risk"
+      },
+      {
+        "en": "PERSPECTIVE",
+        "tr": "Perspektif"
+      }
+    ]
+  },
+  {
+    "category": "Duygusal Durumlar",
+    "symbols": [
+      {
+        "en": "DISAPPOINTMENT",
+        "tr": "HayalKırıklığı"
+      },
+      {
+        "en": "ADVENTURE",
+        "tr": "Maceraperestlik"
+      },
+      {
+        "en": "AMBIVALENCE",
+        "tr": "Çelişki"
+      },
+      {
+        "en": "CURIOUSITY",
+        "tr": "Merak"
+      },
+      {
+        "en": "MOURNING",
+        "tr": "Yas"
+      },
+      {
+        "en": "FRUSTRATION",
+        "tr": "Sinirlenme"
+      },
+      {
+        "en": "LUST",
+        "tr": "Şehvet"
+      },
+      {
+        "en": "EMPOWERMENT",
+        "tr": "Güçlenme"
+      },
+      {
+        "en": "DREAMING",
+        "tr": "HayalKurma"
+      }
+    ]
+  },
+  {
+    "category": "Yaşam Döngüsü & Geçiş",
+    "symbols": [
+      {
+        "en": "AGING",
+        "tr": "Yaşlanma"
+      },
+      {
+        "en": "CRISIS",
+        "tr": "Kriz"
+      },
+      {
+        "en": "MATURITY",
+        "tr": "Olgunluk"
+      },
+      {
+        "en": "CONFESSION",
+        "tr": "İtiraf"
+      },
+      {
+        "en": "AWAKENING",
+        "tr": "Uyanış"
+      },
+      {
+        "en": "SERVITUDE",
+        "tr": "Kölelik"
+      }
+    ]
+  },
+  {
+    "category": "Sağlık & Psikoloji",
+    "symbols": [
+      {
+        "en": "THERAPY",
+        "tr": "Terapi"
+      },
+      {
+        "en": "MEDICATION",
+        "tr": "İlaç"
+      },
+      {
+        "en": "ADDICTION",
+        "tr": "Bağımlılık"
+      },
+      {
+        "en": "PANIC",
+        "tr": "Panik"
+      },
+      {
+        "en": "PHOBIA",
+        "tr": "Fobi"
+      },
+      {
+        "en": "TRAUMA",
+        "tr": "Travma"
+      },
+      {
+        "en": "REHABILITATION",
+        "tr": "Rehabilitasyon"
+      },
+      {
+        "en": "LIBERATION",
+        "tr": "Kurtuluş"
+      },
+      {
+        "en": "RENEWAL",
+        "tr": "Yenilenme"
+      },
+      {
+        "en": "PURPOSE",
+        "tr": "Amaç"
+      }
+    ]
+  },
+  {
+    "category": "Ekonomi & Para",
+    "symbols": [
+      {
+        "en": "INHERITANCE",
+        "tr": "Miras"
+      },
+      {
+        "en": "TAXATION",
+        "tr": "Vergi"
+      },
+      {
+        "en": "RENT",
+        "tr": "Kira"
+      },
+      {
+        "en": "MORTGAGE",
+        "tr": "İpotek"
+      },
+      {
+        "en": "BANKRUPTCY",
+        "tr": "İflas"
+      },
+      {
+        "en": "SAVINGS",
+        "tr": "Tasarruf"
+      },
+      {
+        "en": "INVESTMENT",
+        "tr": "Yatırım"
+      },
+      {
+        "en": "CREDIT",
+        "tr": "Kredi"
+      },
+      {
+        "en": "ECONOMY",
+        "tr": "Ekonomi"
+      },
+      {
+        "en": "SPENDING",
+        "tr": "Harcamak"
+      },
+      {
+        "en": "PROSPERITY",
+        "tr": "Refah"
+      },
+      {
+        "en": "OPPORTUNITY",
+        "tr": "Fırsat"
+      },
+      {
+        "en": "DEPRESSION",
+        "tr": "Depresyon"
+      },
+      {
+        "en": "NEGOTIATION",
+        "tr": "Müzakere"
+      }
+    ]
+  },
+  {
+    "category": "Hukuk & Adalet",
+    "symbols": [
+      {
+        "en": "RIGHTS",
+        "tr": "Haklar"
+      },
+      {
+        "en": "PUNISHMENT",
+        "tr": "Cezalandırma"
+      },
+      {
+        "en": "ACCUSED",
+        "tr": "Sanık"
+      },
+      {
+        "en": "DELIBERATION",
+        "tr": "Müzakere"
+      },
+      {
+        "en": "DEFENSE",
+        "tr": "Savunma"
+      },
+      {
+        "en": "RETRIBUTION",
+        "tr": "İntikam"
+      },
+      {
+        "en": "ACCOUNTABILITY",
+        "tr": "Sorumluluk"
+      },
+      {
+        "en": "BARGAIN",
+        "tr": "Pazarlık"
+      },
+      {
+        "en": "REPARATION",
+        "tr": "Tazminat"
+      },
+      {
+        "en": "COMPROMISE",
+        "tr": "Uzlaşma"
+      },
+      {
+        "en": "DISPUTE",
+        "tr": "Uyuşmazlık"
+      },
+      {
+        "en": "CIVIL",
+        "tr": "Sivil"
+      },
+      {
+        "en": "NARRATIVE",
+        "tr": "Hikaye"
+      },
+      {
+        "en": "RESOLUTION",
+        "tr": "Karar"
+      },
+      {
+        "en": "TRIAL",
+        "tr": "Dava"
+      }
+    ]
+  },
+  {
+    "category": "Savaş & Çatışma",
+    "symbols": [
+      {
+        "en": "RESISTANCE",
+        "tr": "Direniş"
+      },
+      {
+        "en": "FRACTURE",
+        "tr": "Kırılma"
+      },
+      {
+        "en": "UPHEAVAL",
+        "tr": "Kargaşa"
+      },
+      {
+        "en": "DISSENT",
+        "tr": "Aleyhinde"
+      },
+      {
+        "en": "TURMOIL",
+        "tr": "Kargaşa"
+      },
+      {
+        "en": "ESCAPE",
+        "tr": "Kaçış"
+      },
+      {
+        "en": "ABANDONMENT",
+        "tr": "Terk"
+      },
+      {
+        "en": "REBELLION",
+        "tr": "İsyan"
+      },
+      {
+        "en": "HATRED",
+        "tr": "Nefret"
+      },
+      {
+        "en": "TRAGEDY",
+        "tr": "Trajedi"
+      },
+      {
+        "en": "DECEIT",
+        "tr": "Aldatma"
+      }
+    ]
+  },
+  {
+    "category": "İletişim & İlişki Durumları",
+    "symbols": [
+      {
+        "en": "LIE",
+        "tr": "Yalan"
+      },
+      {
+        "en": "RUPTURE",
+        "tr": "Kopma"
+      },
+      {
+        "en": "APOLOGY",
+        "tr": "Özür"
+      },
+      {
+        "en": "DEPENDENCE",
+        "tr": "Bağımlılık"
+      },
+      {
+        "en": "FRIENDSHIP",
+        "tr": "Arkadaşlık"
+      },
+      {
+        "en": "CLOSURE",
+        "tr": "Tamamlanma"
+      },
+      {
+        "en": "SECRECY",
+        "tr": "Sır"
+      },
+      {
+        "en": "DISCOURSE",
+        "tr": "Tartışma"
+      },
+      {
+        "en": "REFLECTION",
+        "tr": "Yansıma"
+      }
+    ]
+  },
+  {
+    "category": "Statü & Kimlik",
+    "symbols": [
+      {
+        "en": "LEADER",
+        "tr": "Lider"
+      },
+      {
+        "en": "SLAVE",
+        "tr": "Köle"
+      },
+      {
+        "en": "FOREIGNER",
+        "tr": "Yabancı"
+      },
+      {
+        "en": "REFUGEE",
+        "tr": "Sığınmacı"
+      },
+      {
+        "en": "MIGRANT",
+        "tr": "Göçmen"
+      },
+      {
+        "en": "FUGITIVE",
+        "tr": "Kaçak"
+      },
+      {
+        "en": "VICTIM",
+        "tr": "Kurban"
+      },
+      {
+        "en": "HERO",
+        "tr": "Kahraman"
+      },
+      {
+        "en": "OUTCAST",
+        "tr": "Dışlanan"
+      },
+      {
+        "en": "BYSTANDER",
+        "tr": "Şahit"
+      },
+      {
+        "en": "ADVOCATE",
+        "tr": "Savunucu"
+      },
+      {
+        "en": "CHAMPION",
+        "tr": "Şampiyon"
+      },
+      {
+        "en": "FAME",
+        "tr": "Şöhret"
+      }
+    ]
+  },
+  {
+    "category": "Gelenek & Kültür",
+    "symbols": [
+      {
+        "en": "CELEBRATION",
+        "tr": "Kutlama"
+      },
+      {
+        "en": "HOMECOMING",
+        "tr": "Dönüş"
+      },
+      {
+        "en": "SWITCH",
+        "tr": "Değişim"
+      },
+      {
+        "en": "FESTIVITY",
+        "tr": "Şenlik"
+      },
+      {
+        "en": "AUTHENTICITY",
+        "tr": "Özgünlük"
+      }
+    ]
+  },
+  {
+    "category": "Ruhsal & Mistik Deneyimler",
+    "symbols": [
+      {
+        "en": "MEDITATION",
+        "tr": "Meditasyon"
+      },
+      {
+        "en": "PROPHECY",
+        "tr": "Kehanet"
+      },
+      {
+        "en": "SPELL",
+        "tr": "Büyü"
+      },
+      {
+        "en": "CURSE",
+        "tr": "Lanet"
+      },
+      {
+        "en": "TALISMAN",
+        "tr": "Tılsım"
+      },
+      {
+        "en": "AMULET",
+        "tr": "Muska"
+      },
+      {
+        "en": "FORTUNE",
+        "tr": "Fal"
+      },
+      {
+        "en": "GENIE",
+        "tr": "Cin"
+      },
+      {
+        "en": "TRANSFORMATION",
+        "tr": "Dönüşüm"
+      },
+      {
+        "en": "CHOICE",
+        "tr": "Seçim"
+      },
+      {
+        "en": "PARADOX",
+        "tr": "Çelişki"
+      },
+      {
+        "en": "INTENTION",
+        "tr": "Niyet"
+      },
+      {
+        "en": "SERENITY",
+        "tr": "Sakinlik"
+      },
+      {
+        "en": "INTROSPECTION",
+        "tr": "İçgörü"
+      },
+      {
+        "en": "EGO",
+        "tr": "Ego"
+      },
+      {
+        "en": "TRIBAL",
+        "tr": "Kabile"
+      },
+      {
+        "en": "MISSION",
+        "tr": "Görev"
+      },
+      {
+        "en": "MIRAGE",
+        "tr": "Serap"
+      },
+      {
+        "en": "MAGIC",
+        "tr": "Sihir"
+      }
+    ]
+  },
+  {
+    "category": "Akademi & Entelektüel",
+    "symbols": [
+      {
+        "en": "PHILOSOPHY",
+        "tr": "Felsefe"
+      },
+      {
+        "en": "ART",
+        "tr": "Sanat"
+      },
+      {
+        "en": "LITERATURE",
+        "tr": "Edebiyat"
+      },
+      {
+        "en": "POETRY",
+        "tr": "Şiir"
+      },
+      {
+        "en": "CREATIVITY",
+        "tr": "Yaratıcılık"
+      },
+      {
+        "en": "INTELLECT",
+        "tr": "Zeka"
+      },
+      {
+        "en": "CURIOSITY",
+        "tr": "Merak"
+      }
+    ]
+  },
+  {
+    "category": "Günlük Rutinler & Alışkanlıklar",
+    "symbols": [
+      {
+        "en": "RELATIONSHIP",
+        "tr": "İlişki"
+      },
+      {
+        "en": "EXAMINATION",
+        "tr": "Sınav"
+      },
+      {
+        "en": "DECEPTION",
+        "tr": "Aldanış"
+      },
+      {
+        "en": "CONFIDENCE",
+        "tr": "Güven"
+      },
+      {
+        "en": "SADNESS",
+        "tr": "Üzüntü"
+      },
+      {
+        "en": "DETERMINATION",
+        "tr": "Kararlılık"
+      },
+      {
+        "en": "COMFORT",
+        "tr": "Rahatlık"
+      },
+      {
+        "en": "FRIENDLINESS",
+        "tr": "Samimiyet"
+      }
+    ]
+  },
+  {
+    "category": "Aile Rolleri & Aile İçi Dinamikler",
+    "symbols": [
+      {
+        "en": "STEPSON",
+        "tr": "ÜveyOğul"
+      },
+      {
+        "en": "SISTER",
+        "tr": "KızKardeş"
+      },
+      {
+        "en": "BROTHER",
+        "tr": "ErkekKardeş"
+      },
+      {
+        "en": "COUSIN",
+        "tr": "Kuzen"
+      },
+      {
+        "en": "GRANDMOTHER",
+        "tr": "Büyükanne"
+      },
+      {
+        "en": "GRANDFATHER",
+        "tr": "Büyükbaba"
+      },
+      {
+        "en": "AUNT",
+        "tr": "Teyze"
+      },
+      {
+        "en": "UNCLE",
+        "tr": "Amca"
+      },
+      {
+        "en": "NIECE",
+        "tr": "Yeğen"
+      },
+      {
+        "en": "NEPHEW",
+        "tr": "Yeğen"
+      },
+      {
+        "en": "SISTERINLAW",
+        "tr": "Baldız"
+      },
+      {
+        "en": "BROTHERINLAW",
+        "tr": "Kayınbirader"
+      },
+      {
+        "en": "MOTHERINLAW",
+        "tr": "Kayınvalide"
+      },
+      {
+        "en": "FATHERINLAW",
+        "tr": "Kayınpeder"
+      },
+      {
+        "en": "DAUGHTER",
+        "tr": "Kız"
+      },
+      {
+        "en": "SON",
+        "tr": "Oğul"
+      },
+      {
+        "en": "WIFE",
+        "tr": "Eş"
+      },
+      {
+        "en": "HUSBAND",
+        "tr": "Koca"
+      },
+      {
+        "en": "YOUNGER",
+        "tr": "Küçüğüm"
+      },
+      {
+        "en": "STEPMOTHER",
+        "tr": "ÜveyAnne"
+      },
+      {
+        "en": "STEPMOTHERINLAW",
+        "tr": "ÜveyKayınvalide"
+      },
+      {
+        "en": "RIVAL",
+        "tr": "Rekabetçi"
+      },
+      {
+        "en": "ACQUAINTANCE",
+        "tr": "Tanıdık"
+      },
+      {
+        "en": "MATE",
+        "tr": "Yoldaş"
+      },
+      {
+        "en": "SURVIVOR",
+        "tr": "HayattaKalan"
+      },
+      {
+        "en": "DISCIPLE",
+        "tr": "Öğrenci"
+      },
+      {
+        "en": "SUPPORTER",
+        "tr": "Destekleyici"
+      },
+      {
+        "en": "CHEERLEADER",
+        "tr": "Destekçi"
+      },
+      {
+        "en": "BENEFACTOR",
+        "tr": "Yardımcı"
+      },
+      {
+        "en": "CRITIC",
+        "tr": "Eleştirmen"
+      },
+      {
+        "en": "COLLEAGUE",
+        "tr": "Meslektaş"
+      },
+      {
+        "en": "SUBORDINATE",
+        "tr": "Ast"
+      },
+      {
+        "en": "CUSTOMER",
+        "tr": "Müşteri"
+      },
+      {
+        "en": "EMPLOYEE",
+        "tr": "Çalışan"
+      },
+      {
+        "en": "VOLUNTEER",
+        "tr": "Gönüllü"
+      },
+      {
+        "en": "SPECTATOR",
+        "tr": "Seyirci"
+      },
+      {
+        "en": "PRACTITIONER",
+        "tr": "Uygulayıcı"
+      },
+      {
+        "en": "AUTHOR",
+        "tr": "Yazar"
+      }
+    ]
+  },
+  {
+    "category": "Meslek Unvanları",
+    "symbols": [
+      {
+        "en": "FIREMAN",
+        "tr": "İtfaiyeci"
+      },
+      {
+        "en": "PHARMACIST",
+        "tr": "Eczacı"
+      },
+      {
+        "en": "VETERINARIAN",
+        "tr": "Veteriner"
+      },
+      {
+        "en": "EXECUTIVE",
+        "tr": "İcra"
+      },
+      {
+        "en": "SOCIOLOGIST",
+        "tr": "Sosyolog"
+      },
+      {
+        "en": "PSYCHOLOGIST",
+        "tr": "Psikolog"
+      },
+      {
+        "en": "OPTOMETRIST",
+        "tr": "Gözlükçü"
+      },
+      {
+        "en": "WEBMASTER",
+        "tr": "Webmaster"
+      },
+      {
+        "en": "PAINTER",
+        "tr": "Boyacı"
+      },
+      {
+        "en": "GRAPHICARTIST",
+        "tr": "Grafiker"
+      },
+      {
+        "en": "COUNSELOR",
+        "tr": "Danışman"
+      },
+      {
+        "en": "ANALYST",
+        "tr": "Analist"
+      },
+      {
+        "en": "EDITOR",
+        "tr": "Editör"
+      },
+      {
+        "en": "CLERK",
+        "tr": "Memur"
+      },
+      {
+        "en": "RESEARCHER",
+        "tr": "Araştırmacı"
+      },
+      {
+        "en": "ADMINISTRATOR",
+        "tr": "Yönetici"
+      },
+      {
+        "en": "EDUCATOR",
+        "tr": "Eğitmen"
+      },
+      {
+        "en": "SYNDICATE",
+        "tr": "Sendika"
+      },
+      {
+        "en": "CONSULTANT",
+        "tr": "Danışman"
+      },
+      {
+        "en": "ANIMATOR",
+        "tr": "Animatör"
+      },
+      {
+        "en": "DEVELOPER",
+        "tr": "Geliştirici"
+      }
+    ]
+  },
+  {
+    "category": "Sosyal Mekanlar",
+    "symbols": [
+      {
+        "en": "DORMITORY",
+        "tr": "Yurt"
+      },
+      {
+        "en": "HOSTEL",
+        "tr": "Pansiyon"
+      },
+      {
+        "en": "BATHHOUSE",
+        "tr": "Hamam"
+      },
+      {
+        "en": "CAFETERIA",
+        "tr": "Kafeterya"
+      },
+      {
+        "en": "ROOFTOP",
+        "tr": "Çatı"
+      },
+      {
+        "en": "PLAZA",
+        "tr": "Plaza"
+      },
+      {
+        "en": "LABORATORY",
+        "tr": "Laboratuvar"
+      },
+      {
+        "en": "CLUB",
+        "tr": "Kulüp"
+      },
+      {
+        "en": "NURSERY",
+        "tr": "Anaokulu"
+      },
+      {
+        "en": "CONFERENCE",
+        "tr": "Konferans"
+      },
+      {
+        "en": "EXHIBITION",
+        "tr": "Sergi"
+      },
+      {
+        "en": "CONVENTION",
+        "tr": "Kongre"
+      }
+    ]
+  },
+  {
+    "category": "Duygusal Eylemler",
+    "symbols": [
+      {
+        "en": "CRY",
+        "tr": "Ağlamak"
+      },
+      {
+        "en": "LAUGH",
+        "tr": "Gülmek"
+      },
+      {
+        "en": "SHOUT",
+        "tr": "Bağırmak"
+      },
+      {
+        "en": "WHISPER",
+        "tr": "Fısıldamak"
+      },
+      {
+        "en": "HUG",
+        "tr": "Kucaklamak"
+      },
+      {
+        "en": "SLAP",
+        "tr": "Tokatlama"
+      },
+      {
+        "en": "CRYOUT",
+        "tr": "Haykırmak"
+      },
+      {
+        "en": "SMILE",
+        "tr": "Gülümsemek"
+      },
+      {
+        "en": "SHARE",
+        "tr": "Paylaşmak"
+      },
+      {
+        "en": "REJECT",
+        "tr": "Reddetmek"
+      },
+      {
+        "en": "COMPANION",
+        "tr": "Yoldaşlık"
+      },
+      {
+        "en": "FIRST",
+        "tr": "İlk"
+      },
+      {
+        "en": "REUNITE",
+        "tr": "Birleşmek"
+      },
+      {
+        "en": "PART",
+        "tr": "Ayrılmak"
+      },
+      {
+        "en": "WORRY",
+        "tr": "Endişelenmek"
+      },
+      {
+        "en": "PROTECT",
+        "tr": "Koruma"
+      },
+      {
+        "en": "FORGIVE",
+        "tr": "Bağışlamak"
+      },
+      {
+        "en": "ADORE",
+        "tr": "Tapmak"
+      }
+    ]
+  },
+  {
+    "category": "Sosyal Olaylar & Durumlar",
+    "symbols": [
+      {
+        "en": "MARRIAGE",
+        "tr": "Evlilik"
+      },
+      {
+        "en": "FIRING",
+        "tr": "Kovulma"
+      },
+      {
+        "en": "TRAVEL",
+        "tr": "Seyahat"
+      },
+      {
+        "en": "AFFAIR",
+        "tr": "İlişki"
+      },
+      {
+        "en": "BIRTHDAY",
+        "tr": "DoğumGünü"
+      },
+      {
+        "en": "CHILDHOOD",
+        "tr": "Çocukluk"
+      },
+      {
+        "en": "CONFRONTATION",
+        "tr": "Yüzleşme"
+      },
+      {
+        "en": "EXPULSION",
+        "tr": "Sürgün"
+      },
+      {
+        "en": "INTERVIEW",
+        "tr": "Mülakat"
+      },
+      {
+        "en": "VICITORY",
+        "tr": "Zafer"
+      },
+      {
+        "en": "LITIGATION",
+        "tr": "Dava"
+      },
+      {
+        "en": "FORECLOSURE",
+        "tr": "İpotek"
+      },
+      {
+        "en": "ENCOUNTER",
+        "tr": "Karşılaşma"
+      },
+      {
+        "en": "DEPOSIT",
+        "tr": "Depozito"
+      }
+    ]
+  },
+  {
+    "category": "İnsan Vücudu & Organlar (ek)",
+    "symbols": [
+      {
+        "en": "LIVER",
+        "tr": "Karaciğer"
+      },
+      {
+        "en": "PANCREAS",
+        "tr": "Pankreas"
+      },
+      {
+        "en": "GALLBLADDER",
+        "tr": "Safra"
+      },
+      {
+        "en": "VEIN",
+        "tr": "Damar"
+      },
+      {
+        "en": "NERVE",
+        "tr": "Sinir"
+      },
+      {
+        "en": "TENDON",
+        "tr": "Tendon"
+      },
+      {
+        "en": "CARTILAGE",
+        "tr": "Kıkırdak"
+      },
+      {
+        "en": "TONSIL",
+        "tr": "Bademcik"
+      },
+      {
+        "en": "SPLEEN",
+        "tr": "Dalak"
+      },
+      {
+        "en": "MUSCLE",
+        "tr": "Kas"
+      },
+      {
+        "en": "JOINT",
+        "tr": "Eklem"
+      },
+      {
+        "en": "HIP",
+        "tr": "Kalça"
+      },
+      {
+        "en": "FOREHEAD",
+        "tr": "Alın"
+      },
+      {
+        "en": "CHIN",
+        "tr": "Çene"
+      },
+      {
+        "en": "STERNUM",
+        "tr": "Sternum"
+      },
+      {
+        "en": "CALF",
+        "tr": "Baldır"
+      },
+      {
+        "en": "HEEL",
+        "tr": "Topuk"
+      },
+      {
+        "en": "FEMALE",
+        "tr": "Dişi"
+      },
+      {
+        "en": "MALE",
+        "tr": "Erkek"
+      },
+      {
+        "en": "GENE",
+        "tr": "Gen"
+      }
+    ]
+  },
+  {
+    "category": "Psikolojik Kavramlar",
+    "symbols": [
+      {
+        "en": "UNCONSCIOUS",
+        "tr": "Bilinçaltı"
+      },
+      {
+        "en": "SUPEREGO",
+        "tr": "Süperego"
+      },
+      {
+        "en": "LIBIDO",
+        "tr": "Libido"
+      },
+      {
+        "en": "ARCHETYPE",
+        "tr": "Arketip"
+      },
+      {
+        "en": "COMPLEX",
+        "tr": "Kompleks"
+      },
+      {
+        "en": "PROJECTION",
+        "tr": "Projeksiyon"
+      },
+      {
+        "en": "SUBLIMATION",
+        "tr": "Sublimasyon"
+      },
+      {
+        "en": "REPRESSION",
+        "tr": "Bastırma"
+      },
+      {
+        "en": "PARANOIA",
+        "tr": "Paranoia"
+      },
+      {
+        "en": "NEUROSIS",
+        "tr": "Nevroz"
+      },
+      {
+        "en": "SELF",
+        "tr": "Öz"
+      },
+      {
+        "en": "PERCEPTION",
+        "tr": "Algı"
+      },
+      {
+        "en": "CATHARSIS",
+        "tr": "Katarsis"
+      },
+      {
+        "en": "ALTEREGO",
+        "tr": "Alterego"
+      },
+      {
+        "en": "CONDITIONING",
+        "tr": "Koşullama"
+      },
+      {
+        "en": "INSIGHT",
+        "tr": "İçgörü"
+      },
+      {
+        "en": "BISYCHOSIS",
+        "tr": "Psikoza"
+      },
+      {
+        "en": "INTUITION",
+        "tr": "Sezgi"
+      },
+      {
+        "en": "EMOTION",
+        "tr": "Duygu"
+      },
+      {
+        "en": "CONSCIOUSNESS",
+        "tr": "Bilinç"
+      }
+    ]
+  },
+  {
+    "category": "Yaşam Evreleri & Halleri",
+    "symbols": [
+      {
+        "en": "ADOLESCENCE",
+        "tr": "Gençlik"
+      },
+      {
+        "en": "ADULTHOOD",
+        "tr": "Olgunluk"
+      },
+      {
+        "en": "OLDAGE",
+        "tr": "Yaşlılık"
+      },
+      {
+        "en": "MATERNITY",
+        "tr": "Lohusalık"
+      },
+      {
+        "en": "MENOPAUSE",
+        "tr": "Menopoz"
+      },
+      {
+        "en": "RETIRED",
+        "tr": "Emekli"
+      },
+      {
+        "en": "HEALTH",
+        "tr": "Sağlık"
+      },
+      {
+        "en": "JOURNEY",
+        "tr": "Seyahat"
+      },
+      {
+        "en": "CAREER",
+        "tr": "Kariyer"
+      },
+      {
+        "en": "BEREAVEMENT",
+        "tr": "Kaybetme"
+      },
+      {
+        "en": "WIN",
+        "tr": "Kazanma"
+      },
+      {
+        "en": "DISCONTENT",
+        "tr": "Memnuniyetsizlik"
+      }
+    ]
+  },
+  {
+    "category": "Karakter Özellikleri & Erdemler",
+    "symbols": [
+      {
+        "en": "GENEROSITY",
+        "tr": "Cömertlik"
+      },
+      {
+        "en": "HUMILITY",
+        "tr": "Alçakgönüllülük"
+      },
+      {
+        "en": "PATIENCE",
+        "tr": "Sabır"
+      },
+      {
+        "en": "CRUELTY",
+        "tr": "Zalimlik"
+      },
+      {
+        "en": "HONESTY",
+        "tr": "Dürüstlük"
+      },
+      {
+        "en": "LOYALTY",
+        "tr": "Sadakat"
+      },
+      {
+        "en": "RESPECT",
+        "tr": "Saygı"
+      },
+      {
+        "en": "OPTIMISM",
+        "tr": "İyimserlik"
+      },
+      {
+        "en": "PERSEVERANCE",
+        "tr": "Azim"
+      },
+      {
+        "en": "SINCERITY",
+        "tr": "Samimiyet"
+      },
+      {
+        "en": "DIGNITY",
+        "tr": "Onur"
+      },
+      {
+        "en": "BOLDNESS",
+        "tr": "Cüret"
+      },
+      {
+        "en": "MODERATION",
+        "tr": "Ilımlılık"
+      },
+      {
+        "en": "SACREDNESS",
+        "tr": "Kutsallık"
+      },
+      {
+        "en": "INTEGRITY",
+        "tr": "Bütünlük"
+      },
+      {
+        "en": "COMPETENCE",
+        "tr": "Yeterlilik"
+      },
+      {
+        "en": "PERSUASION",
+        "tr": "İkna"
+      },
+      {
+        "en": "INNOVATION",
+        "tr": "Yenilikçilik"
+      },
+      {
+        "en": "VIGOR",
+        "tr": "Güç"
+      },
+      {
+        "en": "SOPHISTICATION",
+        "tr": "Sofistike"
+      },
+      {
+        "en": "TENACITY",
+        "tr": "İnat"
+      },
+      {
+        "en": "ELAN",
+        "tr": "Şevk"
+      },
+      {
+        "en": "CHARITABLE",
+        "tr": "Hayırseverlik"
+      },
+      {
+        "en": "SIMPLICITY",
+        "tr": "Sadelik"
+      },
+      {
+        "en": "EXCELLENCE",
+        "tr": "Mükemmellik"
+      },
+      {
+        "en": "DELIGENCE",
+        "tr": "Çalışkanlık"
+      },
+      {
+        "en": "FELICITY",
+        "tr": "Mutluluk"
+      }
+    ]
+  },
+  {
+    "category": "Mitolojik & Fantastik Varlıklar",
+    "symbols": [
+      {
+        "en": "GRIFFIN",
+        "tr": "Grifon"
+      },
+      {
+        "en": "MINOTAUR",
+        "tr": "Minotaur"
+      },
+      {
+        "en": "SERAPHIM",
+        "tr": "Seraphim"
+      },
+      {
+        "en": "TITAN",
+        "tr": "Titan"
+      },
+      {
+        "en": "NYMPH",
+        "tr": "Nymfa"
+      },
+      {
+        "en": "HARPY",
+        "tr": "Harpiya"
+      },
+      {
+        "en": "VAMPYRE",
+        "tr": "Vampir"
+      },
+      {
+        "en": "CYCLOPS",
+        "tr": "Kiklop"
+      },
+      {
+        "en": "NAGA",
+        "tr": "Naga"
+      },
+      {
+        "en": "SELKIE",
+        "tr": "Selkie"
+      },
+      {
+        "en": "FAE",
+        "tr": "Peri"
+      },
+      {
+        "en": "ELEMENTAL",
+        "tr": "Elemental"
+      },
+      {
+        "en": "TROLL",
+        "tr": "Troll"
+      },
+      {
+        "en": "GREMLIN",
+        "tr": "Gremlin"
+      },
+      {
+        "en": "PHANTASM",
+        "tr": "Hayalet"
+      },
+      {
+        "en": "DRUID",
+        "tr": "Druid"
+      },
+      {
+        "en": "HOBGOBLIN",
+        "tr": "Hobgoblin"
+      },
+      {
+        "en": "JINN",
+        "tr": "Cin"
+      },
+      {
+        "en": "IMP",
+        "tr": "İblis"
+      },
+      {
+        "en": "OGRE",
+        "tr": "Ogre"
+      },
+      {
+        "en": "DJINN",
+        "tr": "Cin"
+      },
+      {
+        "en": "LAMIA",
+        "tr": "Lamia"
+      },
+      {
+        "en": "BULLET",
+        "tr": "Mermi"
+      }
+    ]
+  },
+  {
+    "category": "Tarihsel & Politik Kavramlar",
+    "symbols": [
+      {
+        "en": "EMPIRE",
+        "tr": "İmparatorluk"
+      },
+      {
+        "en": "REPUBLIC",
+        "tr": "Cumhuriyet"
+      },
+      {
+        "en": "MONARCHY",
+        "tr": "Monarşi"
+      },
+      {
+        "en": "DEMOCRACY",
+        "tr": "Demokrasi"
+      },
+      {
+        "en": "DICTATORSHIP",
+        "tr": "Diktatörlük"
+      },
+      {
+        "en": "COLONY",
+        "tr": "Koloni"
+      },
+      {
+        "en": "FEUDALISM",
+        "tr": "Feodalizm"
+      },
+      {
+        "en": "NATION",
+        "tr": "Ulus"
+      },
+      {
+        "en": "SOVEREIGNTY",
+        "tr": "Egemenlik"
+      },
+      {
+        "en": "CITIZENSHIP",
+        "tr": "Vatandaşlık"
+      },
+      {
+        "en": "CAPITALISM",
+        "tr": "Kapitalizm"
+      },
+      {
+        "en": "SOCIALISM",
+        "tr": "Sosyalizm"
+      },
+      {
+        "en": "IMPERIALISM",
+        "tr": "Sömürgecilik"
+      },
+      {
+        "en": "PROTEST",
+        "tr": "Protesto"
+      },
+      {
+        "en": "DIPLOMACY",
+        "tr": "Diplomasi"
+      },
+      {
+        "en": "TREATY",
+        "tr": "Antlaşma"
+      },
+      {
+        "en": "NATIONALISM",
+        "tr": "Milliyetçilik"
+      },
+      {
+        "en": "HISTORY",
+        "tr": "Tarih"
+      },
+      {
+        "en": "LEGISLATION",
+        "tr": "Yasa"
+      },
+      {
+        "en": "ANARCHY",
+        "tr": "Anarşizm"
+      },
+      {
+        "en": "ETHNICITY",
+        "tr": "Etniklik"
+      },
+      {
+        "en": "SOVIET",
+        "tr": "Sovyet"
+      },
+      {
+        "en": "MANIFESTO",
+        "tr": "Bildirge"
+      }
+    ]
+  }
+]
