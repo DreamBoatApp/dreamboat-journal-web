@@ -1,0 +1,2149 @@
+[
+  {
+    "category": "Mutfak & Yiyecek-İçecek",
+    "symbols": [
+      {
+        "en": "VEGETABLE",
+        "tr": "Sebze"
+      },
+      {
+        "en": "CRACKER",
+        "tr": "Kraker"
+      },
+      {
+        "en": "CEREAL",
+        "tr": "Geval"
+      },
+      {
+        "en": "NUT",
+        "tr": "Kuru"
+      },
+      {
+        "en": "PICKLE",
+        "tr": "Turşu"
+      },
+      {
+        "en": "SAUCE",
+        "tr": "Sos"
+      },
+      {
+        "en": "TORTILLA",
+        "tr": "Tortilla"
+      },
+      {
+        "en": "LUNCH",
+        "tr": "Öğle"
+      },
+      {
+        "en": "DINNER",
+        "tr": "Akşam"
+      },
+      {
+        "en": "DESSERT",
+        "tr": "Tatlı"
+      },
+      {
+        "en": "SIRUP",
+        "tr": "Şurup"
+      },
+      {
+        "en": "SPICE",
+        "tr": "Baharat"
+      },
+      {
+        "en": "SNACK",
+        "tr": "Atıştırmalık"
+      },
+      {
+        "en": "SODA",
+        "tr": "Gazoz"
+      },
+      {
+        "en": "JELLY",
+        "tr": "Jöle"
+      },
+      {
+        "en": "CUPCAKE",
+        "tr": "Kek"
+      },
+      {
+        "en": "BISCUIT",
+        "tr": "Bisküvi"
+      },
+      {
+        "en": "PIE",
+        "tr": "Pasta"
+      },
+      {
+        "en": "LIME",
+        "tr": "Limon"
+      },
+      {
+        "en": "GINGER",
+        "tr": "Zencefil"
+      },
+      {
+        "en": "CABBAGE",
+        "tr": "Lahana"
+      },
+      {
+        "en": "CARROT",
+        "tr": "Havuç"
+      },
+      {
+        "en": "BEAN",
+        "tr": "Fasulye"
+      },
+      {
+        "en": "CORN",
+        "tr": "Mısır"
+      },
+      {
+        "en": "PUMPKIN",
+        "tr": "Balkabağı"
+      }
+    ]
+  },
+  {
+    "category": "Sağlık & Vücut",
+    "symbols": [
+      {
+        "en": "VACCINE",
+        "tr": "Aşı"
+      },
+      {
+        "en": "PILL",
+        "tr": "Hap"
+      },
+      {
+        "en": "THERMOMETER",
+        "tr": "Termometre"
+      },
+      {
+        "en": "PLASTER",
+        "tr": "Sargı"
+      },
+      {
+        "en": "COTTON",
+        "tr": "Pamuk"
+      },
+      {
+        "en": "TELEPHONE",
+        "tr": "Telefon"
+      },
+      {
+        "en": "CLIP",
+        "tr": "Maket"
+      },
+      {
+        "en": "GAUZE",
+        "tr": "Gazlı"
+      },
+      {
+        "en": "HEARTBEAT",
+        "tr": "KalpAtışı"
+      },
+      {
+        "en": "ULTRASOUND",
+        "tr": "Ultrason"
+      },
+      {
+        "en": "SPHERE",
+        "tr": "Küre"
+      },
+      {
+        "en": "STETHOSCOPE",
+        "tr": "Steteskop"
+      },
+      {
+        "en": "SPINE",
+        "tr": "Omurga"
+      },
+      {
+        "en": "LUNG",
+        "tr": "Akciğer"
+      },
+      {
+        "en": "CELL",
+        "tr": "Hücre"
+      },
+      {
+        "en": "VIRUS",
+        "tr": "Virüs"
+      },
+      {
+        "en": "TOOTH",
+        "tr": "Diş"
+      },
+      {
+        "en": "EQUIPMENT",
+        "tr": "Ekipman"
+      },
+      {
+        "en": "CANCER",
+        "tr": "Kanser"
+      },
+      {
+        "en": "PAIN",
+        "tr": "Ağrı"
+      },
+      {
+        "en": "DISORDER",
+        "tr": "Bozukluk"
+      },
+      {
+        "en": "DIAGNOSIS",
+        "tr": "Teşhis"
+      },
+      {
+        "en": "TREATMENT",
+        "tr": "Tedavi"
+      },
+      {
+        "en": "SYMPTOM",
+        "tr": "Belirti"
+      }
+    ]
+  },
+  {
+    "category": "Giyim & Aksesuar",
+    "symbols": [
+      {
+        "en": "JACKET",
+        "tr": "Ceket"
+      },
+      {
+        "en": "TROUSERS",
+        "tr": "Pantolon"
+      },
+      {
+        "en": "DRESS",
+        "tr": "Elbise"
+      },
+      {
+        "en": "SHIRT",
+        "tr": "Gömlek"
+      },
+      {
+        "en": "JEANS",
+        "tr": "Kot"
+      },
+      {
+        "en": "SWIMSUIT",
+        "tr": "Mayokini"
+      },
+      {
+        "en": "ANKLET",
+        "tr": "Bilezik"
+      },
+      {
+        "en": "PANTS",
+        "tr": "Şort"
+      },
+      {
+        "en": "BLOUSE",
+        "tr": "Bluz"
+      },
+      {
+        "en": "CLOAK",
+        "tr": "Pelerin"
+      },
+      {
+        "en": "FOOTWEAR",
+        "tr": "Ayakkabı"
+      },
+      {
+        "en": "HEADBAND",
+        "tr": "Saçbandı"
+      },
+      {
+        "en": "SANDALS",
+        "tr": "Terlik"
+      },
+      {
+        "en": "VEST",
+        "tr": "Yelek"
+      },
+      {
+        "en": "PULLOVER",
+        "tr": "Kazak"
+      },
+      {
+        "en": "CAP",
+        "tr": "Şapka"
+      },
+      {
+        "en": "SWEATER",
+        "tr": "Örgü"
+      },
+      {
+        "en": "KIMONO",
+        "tr": "Kimono"
+      },
+      {
+        "en": "PARASOL",
+        "tr": "Şemsiye"
+      },
+      {
+        "en": "OVERALLS",
+        "tr": "Tulum"
+      }
+    ]
+  },
+  {
+    "category": "Silah & Savaş",
+    "symbols": [
+      {
+        "en": "BOW",
+        "tr": "Ok"
+      },
+      {
+        "en": "SPEAR",
+        "tr": "Mızrak"
+      },
+      {
+        "en": "MACE",
+        "tr": "Sopa"
+      },
+      {
+        "en": "BOMB",
+        "tr": "Bomba"
+      },
+      {
+        "en": "TANK",
+        "tr": "Tank"
+      },
+      {
+        "en": "CANNON",
+        "tr": "Top"
+      },
+      {
+        "en": "BARRACK",
+        "tr": "Kışla"
+      },
+      {
+        "en": "PLATFORM",
+        "tr": "Platform"
+      },
+      {
+        "en": "CAVALRY",
+        "tr": "Süvari"
+      },
+      {
+        "en": "BATTALION",
+        "tr": "Tabur"
+      },
+      {
+        "en": "SUPPLY",
+        "tr": "Tedavi"
+      },
+      {
+        "en": "DEPLOY",
+        "tr": "Dağıtım"
+      },
+      {
+        "en": "RIFLE",
+        "tr": "Tüfek"
+      },
+      {
+        "en": "BRIGADE",
+        "tr": "Bölük"
+      },
+      {
+        "en": "SIEGE",
+        "tr": "Kușatma"
+      },
+      {
+        "en": "FORCE",
+        "tr": "Güç"
+      },
+      {
+        "en": "COMMAND",
+        "tr": "Komut"
+      },
+      {
+        "en": "GUARDIAN",
+        "tr": "Koruyucu"
+      },
+      {
+        "en": "SKIRMISH",
+        "tr": "Çatışma"
+      },
+      {
+        "en": "VICTORY",
+        "tr": "Zafer"
+      },
+      {
+        "en": "RAMPART",
+        "tr": "Sur"
+      },
+      {
+        "en": "TROOP",
+        "tr": "Asker"
+      },
+      {
+        "en": "STRATEGY",
+        "tr": "Strateji"
+      },
+      {
+        "en": "REINFORCE",
+        "tr": "Takviye"
+      }
+    ]
+  },
+  {
+    "category": "Mobilya & Ev Eşyası",
+    "symbols": [
+      {
+        "en": "CUPBOARD",
+        "tr": "Dolap"
+      },
+      {
+        "en": "BASIN",
+        "tr": "Lavabo"
+      },
+      {
+        "en": "STOOL",
+        "tr": "Sandalyeye"
+      },
+      {
+        "en": "BASKET",
+        "tr": "Sepet"
+      },
+      {
+        "en": "FURNACE",
+        "tr": "Ocak"
+      },
+      {
+        "en": "TISSUE",
+        "tr": "Peçete"
+      },
+      {
+        "en": "PALLET",
+        "tr": "Palet"
+      }
+    ]
+  },
+  {
+    "category": "Müzik Aletleri",
+    "symbols": [
+      {
+        "en": "HARMONICA",
+        "tr": "Ağızlık"
+      },
+      {
+        "en": "CLARINET",
+        "tr": "Saksafon"
+      },
+      {
+        "en": "TROMBONE",
+        "tr": "Trombon"
+      },
+      {
+        "en": "CELLO",
+        "tr": "Çello"
+      },
+      {
+        "en": "OBOE",
+        "tr": "Obua"
+      },
+      {
+        "en": "BONGOS",
+        "tr": "Bongo"
+      },
+      {
+        "en": "SAXOPHONE",
+        "tr": "Saksafon"
+      },
+      {
+        "en": "BANJO",
+        "tr": "Banjo"
+      },
+      {
+        "en": "KOTO",
+        "tr": "Koto"
+      },
+      {
+        "en": "SHAMISEN",
+        "tr": "Şamisen"
+      },
+      {
+        "en": "REED",
+        "tr": "Kamış"
+      },
+      {
+        "en": "BASS",
+        "tr": "Bas"
+      },
+      {
+        "en": "TAMBORINE",
+        "tr": "Zil"
+      }
+    ]
+  },
+  {
+    "category": "Alet & Donanım",
+    "symbols": [
+      {
+        "en": "SAUCEPAN",
+        "tr": "Tencere"
+      },
+      {
+        "en": "STRAINER",
+        "tr": "Süzgeç"
+      },
+      {
+        "en": "TIMER",
+        "tr": "Zamanlayıcı"
+      },
+      {
+        "en": "ROLLER",
+        "tr": "Rulo"
+      },
+      {
+        "en": "TONGS",
+        "tr": "Maşalı"
+      },
+      {
+        "en": "BINDER",
+        "tr": "Klasör"
+      },
+      {
+        "en": "CONTROL",
+        "tr": "Kontrol"
+      },
+      {
+        "en": "TROWEL",
+        "tr": "Sondaj"
+      },
+      {
+        "en": "LEVEL",
+        "tr": "Seviye"
+      },
+      {
+        "en": "SAFETY",
+        "tr": "Güvenlik"
+      }
+    ]
+  },
+  {
+    "category": "Duygu & Durum",
+    "symbols": [
+      {
+        "en": "CLOTH",
+        "tr": "Kumaş"
+      },
+      {
+        "en": "PLANT",
+        "tr": "Bitki"
+      },
+      {
+        "en": "SCOOTER",
+        "tr": "Tekerlek"
+      },
+      {
+        "en": "CLOTHING",
+        "tr": "Giysi"
+      },
+      {
+        "en": "JOURNAL",
+        "tr": "Günlük"
+      },
+      {
+        "en": "RECORD",
+        "tr": "Plak"
+      },
+      {
+        "en": "PENCIL",
+        "tr": "Kalem"
+      },
+      {
+        "en": "FUR",
+        "tr": "Kürk"
+      },
+      {
+        "en": "BUBBLE",
+        "tr": "Baloncuk"
+      }
+    ]
+  },
+  {
+    "category": "Doğa & Hava Durumu",
+    "symbols": [
+      {
+        "en": "BREEZE",
+        "tr": "Esinti"
+      },
+      {
+        "en": "TWISTER",
+        "tr": "Tüfek"
+      },
+      {
+        "en": "GUST",
+        "tr": "Rüzgar"
+      },
+      {
+        "en": "MARSH",
+        "tr": "Sazlık"
+      },
+      {
+        "en": "BAY",
+        "tr": "Körfez"
+      },
+      {
+        "en": "ISLE",
+        "tr": "Ada"
+      },
+      {
+        "en": "TIDE",
+        "tr": "Gelgit"
+      },
+      {
+        "en": "EQUINOX",
+        "tr": "Ekinoks"
+      },
+      {
+        "en": "CREEK",
+        "tr": "Çay"
+      },
+      {
+        "en": "RAVINE",
+        "tr": "Kanyon"
+      },
+      {
+        "en": "BLADE",
+        "tr": "Bıçak"
+      },
+      {
+        "en": "DUNE",
+        "tr": "Dünen"
+      }
+    ]
+  },
+  {
+    "category": "Taşıtlar & Ulaşım",
+    "symbols": [
+      {
+        "en": "FERRY",
+        "tr": "Feribot"
+      },
+      {
+        "en": "JEEP",
+        "tr": "Jeep"
+      },
+      {
+        "en": "CART",
+        "tr": "Araba"
+      },
+      {
+        "en": "COACH",
+        "tr": "Otobüs"
+      },
+      {
+        "en": "CRUISER",
+        "tr": "Yat"
+      },
+      {
+        "en": "PLANE",
+        "tr": "Uçak"
+      },
+      {
+        "en": "VAN",
+        "tr": "Van"
+      },
+      {
+        "en": "FREIGHT",
+        "tr": "Yük"
+      },
+      {
+        "en": "TROLLEY",
+        "tr": "Tekerlek"
+      },
+      {
+        "en": "SLED",
+        "tr": "Kayağı"
+      },
+      {
+        "en": "RAFT",
+        "tr": "Sal"
+      },
+      {
+        "en": "PICKUP",
+        "tr": "Kamyonet"
+      },
+      {
+        "en": "SEDAN",
+        "tr": "Sedan"
+      },
+      {
+        "en": "BARGE",
+        "tr": "Barge"
+      },
+      {
+        "en": "BULLDOZER",
+        "tr": "Buldozer"
+      },
+      {
+        "en": "CYCLE",
+        "tr": "Çevir"
+      },
+      {
+        "en": "PONTOON",
+        "tr": "Pontoon"
+      },
+      {
+        "en": "CANOES",
+        "tr": "Kayık"
+      },
+      {
+        "en": "STRETCH",
+        "tr": "Uzun"
+      },
+      {
+        "en": "FLEET",
+        "tr": "Filoya"
+      },
+      {
+        "en": "HOVERCRAFT",
+        "tr": "Havada"
+      },
+      {
+        "en": "DINGHY",
+        "tr": "Dinghy"
+      },
+      {
+        "en": "TANKER",
+        "tr": "Tank"
+      }
+    ]
+  },
+  {
+    "category": "Meslekler & Kişiler",
+    "symbols": [
+      {
+        "en": "WAITRESS",
+        "tr": "Garson"
+      },
+      {
+        "en": "MECHANIC",
+        "tr": "Tamirci"
+      },
+      {
+        "en": "SCULPTOR",
+        "tr": "Heykeltıraş"
+      },
+      {
+        "en": "PROGRAMMER",
+        "tr": "Programcı"
+      },
+      {
+        "en": "CHEMIST",
+        "tr": "Kimyager"
+      },
+      {
+        "en": "PLUMBER",
+        "tr": "Tesisatçı"
+      },
+      {
+        "en": "HAIRDRESSER",
+        "tr": "Kuaför"
+      },
+      {
+        "en": "PHOTOGRAPHER",
+        "tr": "Fotoğrafçı"
+      },
+      {
+        "en": "ACCOUNTANT",
+        "tr": "Muhasebeci"
+      },
+      {
+        "en": "DIRECTOR",
+        "tr": "Yönetmen"
+      },
+      {
+        "en": "SINGER",
+        "tr": "Şarkıcı"
+      },
+      {
+        "en": "JOURNALIST",
+        "tr": "Gazeteci"
+      },
+      {
+        "en": "POLITICIAN",
+        "tr": "Siyasetçi"
+      },
+      {
+        "en": "REALTOR",
+        "tr": "Emlakçı"
+      },
+      {
+        "en": "COOK",
+        "tr": "Aşçı"
+      },
+      {
+        "en": "TUTOR",
+        "tr": "Eğitmen"
+      },
+      {
+        "en": "VET",
+        "tr": "Veteriner"
+      },
+      {
+        "en": "CLEANER",
+        "tr": "Temizlikçi"
+      },
+      {
+        "en": "OPTICIAN",
+        "tr": "Gözlükçü"
+      },
+      {
+        "en": "FASHIONER",
+        "tr": "Moda"
+      },
+      {
+        "en": "BARTENDER",
+        "tr": "Barmen"
+      },
+      {
+        "en": "MASON",
+        "tr": "Duvarcı"
+      },
+      {
+        "en": "NUTRITIONIST",
+        "tr": "Beslenme"
+      }
+    ]
+  },
+  {
+    "category": "Spor & Oyun",
+    "symbols": [
+      {
+        "en": "GOAL",
+        "tr": "Kale"
+      },
+      {
+        "en": "COURT",
+        "tr": "Saha"
+      },
+      {
+        "en": "DART",
+        "tr": "Ok"
+      },
+      {
+        "en": "PUCK",
+        "tr": "Disk"
+      },
+      {
+        "en": "SWIM",
+        "tr": "Yüzme"
+      },
+      {
+        "en": "SKATE",
+        "tr": "Paten"
+      },
+      {
+        "en": "ARENA",
+        "tr": "Arena"
+      },
+      {
+        "en": "SCORE",
+        "tr": "Skor"
+      },
+      {
+        "en": "TEAM",
+        "tr": "Takım"
+      },
+      {
+        "en": "LEAGUE",
+        "tr": "Lig"
+      },
+      {
+        "en": "WRESTLE",
+        "tr": "Güreş"
+      },
+      {
+        "en": "JUMP",
+        "tr": "Sıçrama"
+      },
+      {
+        "en": "TRACK",
+        "tr": "Pist"
+      }
+    ]
+  },
+  {
+    "category": "Din & Maneviyat",
+    "symbols": [
+      {
+        "en": "PRAYERS",
+        "tr": "Dualar"
+      },
+      {
+        "en": "STATUE",
+        "tr": "Heykel"
+      },
+      {
+        "en": "TEMPLE",
+        "tr": "Tapınak"
+      },
+      {
+        "en": "GOSPEL",
+        "tr": "İncil"
+      },
+      {
+        "en": "CHALICE",
+        "tr": "Kupa"
+      },
+      {
+        "en": "INCENSE",
+        "tr": "Tütsü"
+      },
+      {
+        "en": "TABERNACLE",
+        "tr": "Tezgah"
+      },
+      {
+        "en": "VOW",
+        "tr": "Yemin"
+      },
+      {
+        "en": "SACRAMENT",
+        "tr": "Sakrament"
+      },
+      {
+        "en": "RITUAL",
+        "tr": "Ritüel"
+      },
+      {
+        "en": "VIGIL",
+        "tr": "Nöbet"
+      },
+      {
+        "en": "PURIFICATION",
+        "tr": "Arındırma"
+      },
+      {
+        "en": "MEDALLION",
+        "tr": "Madalyon"
+      },
+      {
+        "en": "UNITY",
+        "tr": "Birlik"
+      },
+      {
+        "en": "GRATITUDE",
+        "tr": "Şükran"
+      },
+      {
+        "en": "REFUGE",
+        "tr": "Sığınak"
+      },
+      {
+        "en": "REVERENCE",
+        "tr": "Saygı"
+      },
+      {
+        "en": "TRADITION",
+        "tr": "Gelenek"
+      },
+      {
+        "en": "GUIDANCE",
+        "tr": "Rehberlik"
+      }
+    ]
+  },
+  {
+    "category": "Teknoloji & Modern Yaşam",
+    "symbols": [
+      {
+        "en": "CIRCUIT",
+        "tr": "Devre"
+      },
+      {
+        "en": "SERVER",
+        "tr": "Sunucu"
+      },
+      {
+        "en": "GADGET",
+        "tr": "Alet"
+      },
+      {
+        "en": "NETWORK",
+        "tr": "Ağ"
+      },
+      {
+        "en": "SCREEN",
+        "tr": "Ekran"
+      },
+      {
+        "en": "WEARABLE",
+        "tr": "Giyilebilir"
+      },
+      {
+        "en": "SOFTWARE",
+        "tr": "Yazılım"
+      },
+      {
+        "en": "HARDWARE",
+        "tr": "Donanım"
+      },
+      {
+        "en": "FINGERPRINT",
+        "tr": "Parmak"
+      },
+      {
+        "en": "UPLOAD",
+        "tr": "Yükleme"
+      },
+      {
+        "en": "ALGORITHM",
+        "tr": "Algoritma"
+      },
+      {
+        "en": "VIRTUAL",
+        "tr": "Sanal"
+      },
+      {
+        "en": "BYTE",
+        "tr": "Bayt"
+      },
+      {
+        "en": "DATABASE",
+        "tr": "Veritabanı"
+      },
+      {
+        "en": "INTERFACE",
+        "tr": "Arayüz"
+      },
+      {
+        "en": "LOGIN",
+        "tr": "Giriş"
+      },
+      {
+        "en": "FILTER",
+        "tr": "Filtre"
+      },
+      {
+        "en": "SIMULATION",
+        "tr": "Simülasyon"
+      },
+      {
+        "en": "PROTOCOL",
+        "tr": "Protokol"
+      },
+      {
+        "en": "WEB",
+        "tr": "Ağ"
+      },
+      {
+        "en": "STREAM",
+        "tr": "Akış"
+      },
+      {
+        "en": "BROWSER",
+        "tr": "Tarayıcı"
+      }
+    ]
+  },
+  {
+    "category": "Tören & Kutlama",
+    "symbols": [
+      {
+        "en": "BANQUET",
+        "tr": "Şölen"
+      },
+      {
+        "en": "DANCE",
+        "tr": "Dans"
+      },
+      {
+        "en": "FEAST",
+        "tr": "Ziyafet"
+      },
+      {
+        "en": "PARADE",
+        "tr": "Geçit"
+      },
+      {
+        "en": "COSTUME",
+        "tr": "Kıyafet"
+      },
+      {
+        "en": "SPARKLER",
+        "tr": "Kıvılcım"
+      },
+      {
+        "en": "CONFETTI",
+        "tr": "Konfeti"
+      },
+      {
+        "en": "TOAST",
+        "tr": "Kadeh"
+      },
+      {
+        "en": "RIBBON",
+        "tr": "Şerit"
+      },
+      {
+        "en": "FIREWORK",
+        "tr": "Havai"
+      },
+      {
+        "en": "SESSION",
+        "tr": "Toplantı"
+      },
+      {
+        "en": "RECEPTION",
+        "tr": "Resepsiyon"
+      },
+      {
+        "en": "GATHERING",
+        "tr": "Toplanma"
+      }
+    ]
+  },
+  {
+    "category": "Kimyasal & Madde",
+    "symbols": [
+      {
+        "en": "VINEGAR",
+        "tr": "Sirke"
+      },
+      {
+        "en": "FUEL",
+        "tr": "Yakıt"
+      },
+      {
+        "en": "CEMENT",
+        "tr": "Çimento"
+      },
+      {
+        "en": "GAS",
+        "tr": "Gaz"
+      },
+      {
+        "en": "MELT",
+        "tr": "Erime"
+      },
+      {
+        "en": "FERTILIZER",
+        "tr": "Gübre"
+      },
+      {
+        "en": "CANDY",
+        "tr": "Şekerleme"
+      },
+      {
+        "en": "CHARCOAL",
+        "tr": "Kömür"
+      },
+      {
+        "en": "GRAVEL",
+        "tr": "Çakıl"
+      },
+      {
+        "en": "CRYSTAL",
+        "tr": "Kristal"
+      },
+      {
+        "en": "PASTE",
+        "tr": "Hamur"
+      },
+      {
+        "en": "LACQUER",
+        "tr": "Cila"
+      },
+      {
+        "en": "FIBER",
+        "tr": "Lif"
+      },
+      {
+        "en": "PULP",
+        "tr": "Posa"
+      },
+      {
+        "en": "RESIN",
+        "tr": "Reçine"
+      },
+      {
+        "en": "GEL",
+        "tr": "Jel"
+      }
+    ]
+  },
+  {
+    "category": "Sebze & Meyve",
+    "symbols": [
+      {
+        "en": "PEPPER",
+        "tr": "Biber"
+      },
+      {
+        "en": "ZUCCHINI",
+        "tr": "Kabak"
+      },
+      {
+        "en": "PEAR",
+        "tr": "Armut"
+      },
+      {
+        "en": "GRAPE",
+        "tr": "Üzüm"
+      },
+      {
+        "en": "CUCUMBER",
+        "tr": "Salatalık"
+      },
+      {
+        "en": "RADISH",
+        "tr": "Turp"
+      },
+      {
+        "en": "CHERRY",
+        "tr": "Kiraz"
+      },
+      {
+        "en": "PLUM",
+        "tr": "Muşmula"
+      },
+      {
+        "en": "PEACH",
+        "tr": "Şeftali"
+      },
+      {
+        "en": "MELON",
+        "tr": "Kavun"
+      },
+      {
+        "en": "BROCCOLI",
+        "tr": "Brokoli"
+      },
+      {
+        "en": "SPINACH",
+        "tr": "Ispanak"
+      },
+      {
+        "en": "BERRY",
+        "tr": "Meyve"
+      },
+      {
+        "en": "SQUASH",
+        "tr": "Kabak"
+      },
+      {
+        "en": "FENNEL",
+        "tr": "Fenugrek"
+      },
+      {
+        "en": "TART",
+        "tr": "Turta"
+      },
+      {
+        "en": "COCONUT",
+        "tr": "HindistanCevizi"
+      },
+      {
+        "en": "CASSAVA",
+        "tr": "Manyok"
+      },
+      {
+        "en": "BOKCHOY",
+        "tr": "BokChoy"
+      },
+      {
+        "en": "MOVIE",
+        "tr": "Film"
+      },
+      {
+        "en": "DATE",
+        "tr": "Hurma"
+      },
+      {
+        "en": "PASSIONFRUIT",
+        "tr": "Çarkıfelek"
+      },
+      {
+        "en": "SOUR",
+        "tr": "Ekşi"
+      }
+    ]
+  },
+  {
+    "category": "Deniz & Su Yaşamı",
+    "symbols": [
+      {
+        "en": "SEAWEED",
+        "tr": "Yosun"
+      },
+      {
+        "en": "SHELL",
+        "tr": "Kabuk"
+      },
+      {
+        "en": "MANTA",
+        "tr": "Manta"
+      },
+      {
+        "en": "ANGLER",
+        "tr": "Balıkçı"
+      },
+      {
+        "en": "KELP",
+        "tr": "Sünger"
+      },
+      {
+        "en": "GUPPY",
+        "tr": "Guppy"
+      },
+      {
+        "en": "BARRACUDA",
+        "tr": "Barrakuda"
+      },
+      {
+        "en": "SARDINE",
+        "tr": "Sardalya"
+      },
+      {
+        "en": "REEF",
+        "tr": "Resif"
+      },
+      {
+        "en": "COVE",
+        "tr": "Koy"
+      },
+      {
+        "en": "LAGOON",
+        "tr": "Lagün"
+      },
+      {
+        "en": "WAVE",
+        "tr": "Dalga"
+      },
+      {
+        "en": "POOLS",
+        "tr": "Havuz"
+      }
+    ]
+  },
+  {
+    "category": "Takı & Süs",
+    "symbols": [
+      {
+        "en": "BROOCH",
+        "tr": "Broş"
+      },
+      {
+        "en": "EARRING",
+        "tr": "Küpe"
+      },
+      {
+        "en": "PIN",
+        "tr": "Rivet"
+      },
+      {
+        "en": "CHARM",
+        "tr": "Sembol"
+      },
+      {
+        "en": "GEM",
+        "tr": "Mücevher"
+      },
+      {
+        "en": "STUD",
+        "tr": "Çivi"
+      },
+      {
+        "en": "PENDANT",
+        "tr": "Sarkıt"
+      },
+      {
+        "en": "LAPEL",
+        "tr": "Yaka"
+      },
+      {
+        "en": "TASSEL",
+        "tr": "Püskül"
+      },
+      {
+        "en": "SASH",
+        "tr": "Sargı"
+      },
+      {
+        "en": "CUFFLINK",
+        "tr": "Manset"
+      },
+      {
+        "en": "BAND",
+        "tr": "Bant"
+      }
+    ]
+  },
+  {
+    "category": "Bina & Yapı",
+    "symbols": [
+      {
+        "en": "PATIO",
+        "tr": "Terasta"
+      },
+      {
+        "en": "SWIMMINGPOOL",
+        "tr": "Havuz"
+      },
+      {
+        "en": "HALL",
+        "tr": "Salon"
+      },
+      {
+        "en": "STAGE",
+        "tr": "Sahne"
+      },
+      {
+        "en": "COURTYARD",
+        "tr": "Avlu"
+      },
+      {
+        "en": "CHAPEL",
+        "tr": "Şapel"
+      },
+      {
+        "en": "MONUMENT",
+        "tr": "Anıt"
+      },
+      {
+        "en": "GROVE",
+        "tr": "Koruluk"
+      },
+      {
+        "en": "STUDIO",
+        "tr": "Stüdyo"
+      },
+      {
+        "en": "SHRINE",
+        "tr": "Tapınak"
+      }
+    ]
+  },
+  {
+    "category": "Yiyecek & Hamur İşi",
+    "symbols": [
+      {
+        "en": "CROISSANT",
+        "tr": "Açma"
+      },
+      {
+        "en": "DUMPLING",
+        "tr": "Köfte"
+      },
+      {
+        "en": "COOKIE",
+        "tr": "Kurabiye"
+      },
+      {
+        "en": "MUFFIN",
+        "tr": "Mafın"
+      },
+      {
+        "en": "PANCAKE",
+        "tr": "Krep"
+      },
+      {
+        "en": "WAFER",
+        "tr": "Wafıl"
+      },
+      {
+        "en": "BUN",
+        "tr": "Bun"
+      },
+      {
+        "en": "CANNOLI",
+        "tr": "Kanon"
+      },
+      {
+        "en": "SCONES",
+        "tr": "Scone"
+      },
+      {
+        "en": "RISOTTO",
+        "tr": "Risotto"
+      },
+      {
+        "en": "PANINI",
+        "tr": "Panini"
+      },
+      {
+        "en": "FOCACCIA",
+        "tr": "Fokasya"
+      },
+      {
+        "en": "PUDDING",
+        "tr": "Puding"
+      },
+      {
+        "en": "STRUDEL",
+        "tr": "Strudel"
+      },
+      {
+        "en": "GNOCCHI",
+        "tr": "Gnocchi"
+      },
+      {
+        "en": "TANKA",
+        "tr": "Tanka"
+      },
+      {
+        "en": "FONDANT",
+        "tr": "Fondan"
+      },
+      {
+        "en": "GRAHAM",
+        "tr": "Graham"
+      },
+      {
+        "en": "TAPIODA",
+        "tr": "Tapioka"
+      },
+      {
+        "en": "MUESLI",
+        "tr": "Müsli"
+      },
+      {
+        "en": "MARGARINE",
+        "tr": "Margarine"
+      }
+    ]
+  },
+  {
+    "category": "Bitki & Ağaç",
+    "symbols": [
+      {
+        "en": "OAK",
+        "tr": "Meşe"
+      },
+      {
+        "en": "WILLOW",
+        "tr": "Söğüt"
+      },
+      {
+        "en": "POPLAR",
+        "tr": "Kavak"
+      },
+      {
+        "en": "PINE",
+        "tr": "Çam"
+      },
+      {
+        "en": "CEDAR",
+        "tr": "Sedir"
+      },
+      {
+        "en": "ELM",
+        "tr": "Çınar"
+      },
+      {
+        "en": "ASH",
+        "tr": "Kalkana"
+      },
+      {
+        "en": "ROOT",
+        "tr": "Kök"
+      },
+      {
+        "en": "BLOSSOM",
+        "tr": "Çiçek"
+      },
+      {
+        "en": "HERB",
+        "tr": "Ot"
+      },
+      {
+        "en": "CLOVER",
+        "tr": "Yonca"
+      },
+      {
+        "en": "THORN",
+        "tr": "Diken"
+      },
+      {
+        "en": "SHRUB",
+        "tr": "Çalı"
+      },
+      {
+        "en": "STEM",
+        "tr": "Sap"
+      },
+      {
+        "en": "SEED",
+        "tr": "Tohum"
+      },
+      {
+        "en": "BARK",
+        "tr": "Kabuğu"
+      },
+      {
+        "en": "MOSS",
+        "tr": "Siyan"
+      },
+      {
+        "en": "LILAC",
+        "tr": "Leylak"
+      },
+      {
+        "en": "VINE",
+        "tr": "Asma"
+      },
+      {
+        "en": "MAPLE",
+        "tr": "Akçaağaç"
+      },
+      {
+        "en": "HEDGE",
+        "tr": "Çit"
+      }
+    ]
+  },
+  {
+    "category": "Kumaş & Tekstil",
+    "symbols": [
+      {
+        "en": "SILK",
+        "tr": "İpek"
+      },
+      {
+        "en": "VELVET",
+        "tr": "Kadife"
+      },
+      {
+        "en": "DENIM",
+        "tr": "Denim"
+      },
+      {
+        "en": "LINEN",
+        "tr": "Keten"
+      },
+      {
+        "en": "WOOL",
+        "tr": "Yün"
+      },
+      {
+        "en": "SATIN",
+        "tr": "Saten"
+      },
+      {
+        "en": "LACE",
+        "tr": "Dantel"
+      },
+      {
+        "en": "FLEECE",
+        "tr": "Polar"
+      },
+      {
+        "en": "BURLAP",
+        "tr": "Keten"
+      },
+      {
+        "en": "TWEED",
+        "tr": "Tweed"
+      },
+      {
+        "en": "SATEEN",
+        "tr": "Saten"
+      },
+      {
+        "en": "CHIFFON",
+        "tr": "Şifon"
+      },
+      {
+        "en": "TARTAN",
+        "tr": "Ekose"
+      },
+      {
+        "en": "SUEDE",
+        "tr": "Süet"
+      },
+      {
+        "en": "ORGANDY",
+        "tr": "Organdi"
+      },
+      {
+        "en": "DENIM",
+        "tr": "Kot"
+      },
+      {
+        "en": "TERRY",
+        "tr": "Havlu"
+      },
+      {
+        "en": "GABARDINE",
+        "tr": "Gabardin"
+      },
+      {
+        "en": "CANVAS",
+        "tr": "Tuval"
+      }
+    ]
+  },
+  {
+    "category": "Oyuncak & Çocukluk",
+    "symbols": [
+      {
+        "en": "DOLLS",
+        "tr": "Bebekler"
+      },
+      {
+        "en": "PUZZLE",
+        "tr": "Bulmaca"
+      },
+      {
+        "en": "TEDDIES",
+        "tr": "Ayıcıklar"
+      },
+      {
+        "en": "MARBLES",
+        "tr": "Mermerler"
+      },
+      {
+        "en": "CRAYONS",
+        "tr": "Mürekkepler"
+      },
+      {
+        "en": "HULAHOOP",
+        "tr": "Hulahop"
+      },
+      {
+        "en": "FIDGET",
+        "tr": "Fidget"
+      },
+      {
+        "en": "SLIDER",
+        "tr": "Kaydırak"
+      },
+      {
+        "en": "KITES",
+        "tr": "Uçurtmalar"
+      },
+      {
+        "en": "CAMP",
+        "tr": "Kamp"
+      },
+      {
+        "en": "CARDS",
+        "tr": "Kartlar"
+      },
+      {
+        "en": "DICE",
+        "tr": "Zar"
+      },
+      {
+        "en": "GAMES",
+        "tr": "Oyunlar"
+      },
+      {
+        "en": "SWINGS",
+        "tr": "Salıncaklar"
+      },
+      {
+        "en": "LOCKER",
+        "tr": "Dolap"
+      },
+      {
+        "en": "SLIDES",
+        "tr": "Kaydıraklar"
+      },
+      {
+        "en": "NINJA",
+        "tr": "Ninja"
+      }
+    ]
+  },
+  {
+    "category": "Antik & Tarihi",
+    "symbols": [
+      {
+        "en": "TUNIC",
+        "tr": "Tunik"
+      },
+      {
+        "en": "COLUMN",
+        "tr": "Sütun"
+      },
+      {
+        "en": "PARCHMENT",
+        "tr": "Parşömen"
+      },
+      {
+        "en": "BATTLE",
+        "tr": "Savaş"
+      },
+      {
+        "en": "PYRAMID",
+        "tr": "Piramit"
+      },
+      {
+        "en": "ROBE",
+        "tr": "Gömlek"
+      },
+      {
+        "en": "ADOBE",
+        "tr": "Kerpiç"
+      },
+      {
+        "en": "ARCH",
+        "tr": "Kemer"
+      },
+      {
+        "en": "RUCHE",
+        "tr": "Volan"
+      },
+      {
+        "en": "RONDAVELLE",
+        "tr": "Daire"
+      },
+      {
+        "en": "CARAVANSARY",
+        "tr": "Kervansaray"
+      }
+    ]
+  },
+  {
+    "category": "İletişim & Medya",
+    "symbols": [
+      {
+        "en": "TELEGRAM",
+        "tr": "Telgraf"
+      },
+      {
+        "en": "MAGAZINE",
+        "tr": "Dergi"
+      },
+      {
+        "en": "BROADCAST",
+        "tr": "Yayın"
+      },
+      {
+        "en": "CARTOON",
+        "tr": "Çizgi"
+      },
+      {
+        "en": "GALLERY",
+        "tr": "Galeri"
+      },
+      {
+        "en": "CHANNEL",
+        "tr": "Kanal"
+      },
+      {
+        "en": "FORUM",
+        "tr": "Forum"
+      },
+      {
+        "en": "SIGNAL",
+        "tr": "Sinyal"
+      },
+      {
+        "en": "COMMENT",
+        "tr": "Yorum"
+      },
+      {
+        "en": "LINK",
+        "tr": "Bağlantı"
+      },
+      {
+        "en": "POSTER",
+        "tr": "Afiş"
+      },
+      {
+        "en": "FANPAGE",
+        "tr": "Hayran"
+      },
+      {
+        "en": "CONTENT",
+        "tr": "İçerik"
+      },
+      {
+        "en": "ADVERT",
+        "tr": "Reklam"
+      },
+      {
+        "en": "TWEET",
+        "tr": "Tweet"
+      },
+      {
+        "en": "SCRIPT",
+        "tr": "Senaryo"
+      }
+    ]
+  },
+  {
+    "category": "Finans & Ticaret",
+    "symbols": [
+      {
+        "en": "COIN",
+        "tr": "Madeni"
+      },
+      {
+        "en": "LOAN",
+        "tr": "Kredi"
+      },
+      {
+        "en": "DEBT",
+        "tr": "Borç"
+      },
+      {
+        "en": "STOCK",
+        "tr": "Hisse"
+      },
+      {
+        "en": "BANK",
+        "tr": "Banka"
+      },
+      {
+        "en": "CASH",
+        "tr": "Nakit"
+      },
+      {
+        "en": "PRICE",
+        "tr": "Fiyat"
+      },
+      {
+        "en": "ASSET",
+        "tr": "Varlık"
+      },
+      {
+        "en": "PURCHASE",
+        "tr": "Alım"
+      },
+      {
+        "en": "VAULT",
+        "tr": "Kasa"
+      },
+      {
+        "en": "TRADE",
+        "tr": "Ticaret"
+      },
+      {
+        "en": "SYSTEM",
+        "tr": "Sistem"
+      },
+      {
+        "en": "VALUE",
+        "tr": "Değer"
+      },
+      {
+        "en": "SALE",
+        "tr": "Satış"
+      },
+      {
+        "en": "LEDGER",
+        "tr": "Defter"
+      },
+      {
+        "en": "CLIENT",
+        "tr": "Müşteri"
+      },
+      {
+        "en": "FUND",
+        "tr": "Fon"
+      },
+      {
+        "en": "ACCOUNT",
+        "tr": "Hesap"
+      },
+      {
+        "en": "BUDGET",
+        "tr": "Bütçe"
+      },
+      {
+        "en": "BONUS",
+        "tr": "Prim"
+      }
+    ]
+  },
+  {
+    "category": "Coğrafya & Arazi",
+    "symbols": [
+      {
+        "en": "PLAIN",
+        "tr": "Düzlük"
+      },
+      {
+        "en": "COAST",
+        "tr": "Sahil"
+      },
+      {
+        "en": "LANDFILL",
+        "tr": "Çöp"
+      },
+      {
+        "en": "PLATEAU",
+        "tr": "Plato"
+      },
+      {
+        "en": "TUNDRA",
+        "tr": "Tundra"
+      },
+      {
+        "en": "RIDGE",
+        "tr": "Sırt"
+      },
+      {
+        "en": "MARINA",
+        "tr": "Marina"
+      }
+    ]
+  },
+  {
+    "category": "Böcek & Zararlı",
+    "symbols": [
+      {
+        "en": "MIDGE",
+        "tr": "KüçükSinek"
+      },
+      {
+        "en": "TICK",
+        "tr": "Kene"
+      },
+      {
+        "en": "APHID",
+        "tr": "Bit"
+      },
+      {
+        "en": "BEETLE",
+        "tr": "Böcek"
+      },
+      {
+        "en": "MITE",
+        "tr": "Akar"
+      },
+      {
+        "en": "LOCUST",
+        "tr": "ÇölSıçanı"
+      },
+      {
+        "en": "GNAT",
+        "tr": "KüçükSinek"
+      },
+      {
+        "en": "CATERPILLAR",
+        "tr": "Tırtıl"
+      },
+      {
+        "en": "SLUG",
+        "tr": "Salyangoz"
+      }
+    ]
+  },
+  {
+    "category": "Tatlı & Şekerleme",
+    "symbols": [
+      {
+        "en": "ICECREAM",
+        "tr": "Dondurma"
+      },
+      {
+        "en": "BAKLAVA",
+        "tr": "Baklava"
+      },
+      {
+        "en": "HALVA",
+        "tr": "Helva"
+      },
+      {
+        "en": "MARSHMALLOW",
+        "tr": "Marmelat"
+      },
+      {
+        "en": "GINGERBREAD",
+        "tr": "Zencefilli"
+      },
+      {
+        "en": "LOKUM",
+        "tr": "Lokum"
+      },
+      {
+        "en": "CARAMEL",
+        "tr": "Karamel"
+      },
+      {
+        "en": "FUDGE",
+        "tr": "Fıstık"
+      },
+      {
+        "en": "TOFFEE",
+        "tr": "Karamel"
+      },
+      {
+        "en": "GUMMY",
+        "tr": "Jöle"
+      },
+      {
+        "en": "SORBET",
+        "tr": "Sorbe"
+      },
+      {
+        "en": "DONUT",
+        "tr": "Kruvasan"
+      },
+      {
+        "en": "PAMPLEMOUSSE",
+        "tr": "Greyfurt"
+      },
+      {
+        "en": "TREATS",
+        "tr": "İkramlar"
+      },
+      {
+        "en": "SWEETS",
+        "tr": "Tatlılar"
+      }
+    ]
+  },
+  {
+    "category": "Eğitim & Okul",
+    "symbols": [
+      {
+        "en": "ASSIGNMENT",
+        "tr": "Ödev"
+      },
+      {
+        "en": "BOARD",
+        "tr": "Tahta"
+      },
+      {
+        "en": "CHALK",
+        "tr": "Tebeşir"
+      },
+      {
+        "en": "CLASSROOM",
+        "tr": "Sınıf"
+      },
+      {
+        "en": "TEXTBOOK",
+        "tr": "Kitap"
+      },
+      {
+        "en": "GRADES",
+        "tr": "Notlar"
+      },
+      {
+        "en": "STUDY",
+        "tr": "Çalışmak"
+      },
+      {
+        "en": "SCHEDULE",
+        "tr": "Program"
+      },
+      {
+        "en": "PROJECT",
+        "tr": "Proje"
+      },
+      {
+        "en": "CERTIFICATE",
+        "tr": "Belge"
+      },
+      {
+        "en": "PRESENTATION",
+        "tr": "Sunum"
+      }
+    ]
+  }
+]
