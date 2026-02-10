@@ -1,27 +1,15 @@
 {
-  "slug": "disorientation",
-  "title": "Yönsüzlük ve Kayboluş",
-  "meaning": "Yönsüzlük ve kayboluş sembolü, kişinin hayatında bir belirsizlik veya kararsızlık dönemine işaret eder. Bu sembol, içsel rehberliğe olan ihtiyacı ve kişinin yolunu bulma arzusunu temsil eder. Jungian bakış açısına göre, bilinçaltında gizlenmiş olan korkular ve çözülememiş duygular da bu rüya aracılığıyla yüzeye çıkabilir.",
-  "interpretations": {
-    "psychological": "Psikolojik açıdan bu sembol, bireyin kendi kimliğini aradığı veya hayatında bir yön duygusunu kaybettiği anları ifade eder. Bu, kişinin içsel pusulasını bulma sürecinde yaşadığı çatışmalara ve içsel sorgulamalara işaret edebilir.",
-    "spiritual": "Spiritüel olarak, yönsüzlük ve kayboluş sembolü, ruhun evrensel bilgelikle yeniden bağlantı kurma ihtiyacını simgeler. Bu, kişinin manevi rehberlik arayışı içinde olduğu bir dönemi temsil eder ve ruhsal uyanışın eşiğinde olduğunu gösterir.",
-    "messengers": "Bu rüya, yaşamınızdaki belirsizliklerle yüzleşmeniz ve içsel rehberliğinize güvenmeniz gerektiğini hatırlatır. Hayat yolculuğunuzda doğru yöne ilerlemenize yardımcı olacak işaretleri fark etmeniz için bir çağrıdır."
-  },
-  "scenarios": [
-    {
-      "title": "Sisli Bir Ormanda Kaybolmak",
-      "description": "Rüyada sisli bir ormanda kaybolmak, kişinin hayatında netlik arayışında olduğunu ve bilinmeyen korkularıyla yüzleşmesi gerektiğini gösterir."
-    },
-    {
-      "title": "Bir Şehirde Yönünü Kaybetmek",
-      "description": "Kalabalık bir şehirde yönünü kaybetmek, bireyin toplumsal beklentiler ve kişisel arayışlar arasında sıkışmış hissettiği bir durumu simgeler."
-    }
-  ],
-  "keywords": [
-    "yönsüzlük",
-    "kayboluş",
-    "belirsizlik",
-    "ruhsal rehberlik",
-    "içsel pusula"
+  "localizedName": "Yön Kaybı",
+  "title": "Rüyada Yön Kaybı Görmek: Anlamı ve Yorumu",
+  "seoDescription": "Rüyada yön kaybı görmek, içsel karmaşayı ve belirsizliği simgeler.",
+  "introduction": "Rüyada yön kaybı, bireyin psikolojik durumu hakkında derin ipuçları sunar. Jung'un rüya yorumları bağlamında, bu tür rüyalar genellikle kişinin bilinçdışındaki çatışmaların ve içsel karmaşaların dışavurumu olarak görülür. Yön kaybı, yalnızca fiziksel bir kayboluş değil, aynı zamanda ruhsal bir arayışın sembolüdür. Rüyayı gören kişi, yaşam yolculuğunda kaybolmuş hissettiği, hedeflerini ve yönünü bulmakta zorlandığı anları temsil eder.\n\nBu rüya, aynı zamanda bireyin kendini keşfetme yolculuğunda karşılaştığı belirsizliklere de işaret eder. Kültürel olarak, yön kaybı, rehberliğin, aidiyetin ve kimlik arayışının bir yansımasıdır. Rüyalar, bireylerin içsel dünyasını aydınlatan birer harita gibi işlev görür ve yön kaybı, bu haritanın bulanıklaştığı anları simgeler.",
+  "symbolism": "Jungian bakış açısıyla yön kaybı, bireyin içsel çatışmalarını, bastırılmış duygularını ve bilinçdışındaki gölgeleri ortaya çıkaran bir semboldür. Rüyada kaybolmak, bireyin kendi iç dünyasındaki karmaşanın bir yansımasıdır. Bu durum, kişinin kendi kimliğini ve yaşam amacını sorgulamasına neden olabilir. Yön kaybı, kişinin içsel rehberliğini kaybettiği, dışsal etkilerle yönlendirildiği ve bunun sonucunda kendi öz benliğinden uzaklaştığı anları ifade eder.\n\nBu rüya, aynı zamanda kişinin anima ve animus arketiplerinin etkileşimde olduğu durumlarda da ortaya çıkabilir. Birey, içsel cinsellik, duygular ve ruhsal denge konularında kaybolmuş hissedebilir. Bu tür bir kayboluş, insanın kendini yeniden bulma arayışında önemli bir dönüm noktası olabilir. Yön kaybı, kişinin kendine dönmesi, içsel huzurunu bulması ve gerçek hedeflerine ulaşması için bir çağrı niteliği taşıyabilir.",
+  "cosmicAnalysis": "**🌑 Yeni Ay:** Bu evrede, yön kaybı rüyası, kişinin yeni başlangıçlar için hazırlandığını gösterir. Yenilik ve değişim arayışı, içsel bir dönüşüm sürecini simgeler.\n\n**🌓 Büyüyen Ay:** Büyüyen ay, yön kaybının aşamalı olarak çözülmeye başladığını ifade eder. Kişi, kaybolmuş hissettiği alanlarda yeni fırsatlar ve yollar keşfetmeye başlar.\n\n**🌕 Dolunay:** Dolunay, yön kaybının zirveye ulaştığı ve kişinin kendi içsel gerilimleriyle yüzleşmek zorunda kaldığı bir dönemi temsil eder. Bu, içsel aydınlanma ve dönüşüm için kritik bir zamandır.\n\n**🌗 Küçülen Ay:** Küçülen ay evresinde, yön kaybı rüyası, kişinin geçmişteki karmaşaları geride bırakıp yeni bir bakış açısıyla ilerlemeye başladığını simgeler. Kendi içsel rehberliğini bulma yolunda önemli adımlar atılır.",
+  "commonScenarios": [
+    "Rüyada kaybolmuş bir ormanda dolaşmak, bilinçdışındaki korkularla yüzleşme ve bireysel gelişim arayışını simgeler.",
+    "Bir şehirde kaybolmak, sosyal çevredeki belirsizlikler ve aidiyet arayışını yansıtır.",
+    "Bir yolculuk sırasında yön kaybetmek, yaşam yolculuğunda kararsızlık ve hedeflere ulaşma konusundaki belirsizlikleri temsil eder.",
+    "Eski bir mekanda kaybolmak, geçmişle yüzleşme ve eski hatıraların yeniden değerlendirilmesi anlamına gelir.",
+    "Bir grup insan arasında kaybolmak, kimlik arayışı ve toplumsal baskılara karşı duyulan yabancılaşmayı gösterir."
   ]
 }
