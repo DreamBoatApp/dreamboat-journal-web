@@ -187,7 +187,7 @@ export default async function BlogPostPage({ params }: Props) {
                             href={`/${locale}/blog`}
                             className="inline-block px-6 py-3 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-white text-sm font-medium transition-colors"
                         >
-                            ← Back to Blog
+                            ← {locale === 'tr' ? "Blog'a Dön" : 'Back to Blog'}
                         </Link>
                     </div>
                 </article>

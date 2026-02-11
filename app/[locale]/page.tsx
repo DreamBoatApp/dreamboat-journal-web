@@ -12,7 +12,7 @@ export default async function HomePage({ params }: Props) {
     const t = await getTranslations('HomePage');
 
     // Get dynamic popular symbols (randomized subset per request)
-    const popularSymbols = getPopularSymbols(5);
+    const popularSymbols = getPopularSymbols(5, locale);
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-center p-8 text-center relative overflow-hidden">

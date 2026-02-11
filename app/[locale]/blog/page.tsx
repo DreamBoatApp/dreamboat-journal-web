@@ -79,9 +79,9 @@ export default async function BlogListPage({ params }: Props) {
 
                 <header className="mb-12 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-100 to-indigo-200 mb-4">
-                        Dream Journal Blog
+                        {locale === 'tr' ? 'Rüya Günlüğü Blog' : 'Dream Journal Blog'}
                     </h1>
-                    <p className="text-lg text-slate-400">Articles on dream psychology, meanings, and cosmic connections</p>
+                    <p className="text-lg text-slate-400">{locale === 'tr' ? 'Rüya psikolojisi, anlamları ve kozmik bağlantılar üzerine yazılar' : 'Articles on dream psychology, meanings, and cosmic connections'}</p>
                     <div className="w-24 h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full mt-6"></div>
                 </header>
 

@@ -1,4 +1,5 @@
-import localizedNames from '@/scripts/data/localized_names';
+import fs from 'fs';
+import path from 'path';
 
 // A curated list of typically "popular" dreams to simulate dynamic trends
 // These are chosen because they are universally common dream themes.
@@ -21,29 +22,36 @@ export interface PopularSymbol {
 }
 
 /**
- * Returns a randomized list of "popular" symbols.
- * Since we don't have a real database of user views yet, 
- * we act like we do by shuffling a list of very common dreams.
+ * Returns a randomized list of "popular" symbols with locale-aware names.
+ * Reads localizedName from the content JSON files for the given locale.
  */
-export function getPopularSymbols(count: number = 5): PopularSymbol[] {
-    // Cast to Record<string, string> to avoid implicit 'any' error
-    const names = localizedNames as unknown as Record<string, string>;
+export function getPopularSymbols(count: number = 5, locale: string = 'en'): PopularSymbol[] {
+    const contentDir = path.join(process.cwd(), 'content', locale, 'meanings');
+    const enDir = path.join(process.cwd(), 'content', 'en', 'meanings');
 
-    if (!names) return [];
+    // Build name map for the pool
+    const available: PopularSymbol[] = [];
+    for (const slug of POPULAR_POOL) {
+        try {
+            const localePath = path.join(contentDir, `${slug}.json`);
+            const enPath = path.join(enDir, `${slug}.json`);
+            const filePath = fs.existsSync(localePath) ? localePath : (fs.existsSync(enPath) ? enPath : null);
+            if (!filePath) continue;
 
-    // 1. Filter pool to only include ones we actually have names for (safety)
-    const available = POPULAR_POOL.filter(slug => names[slug]);
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+            const name = data.localizedName || slug.charAt(0).toUpperCase() + slug.slice(1);
+            available.push({ slug, name });
+        } catch {
+            // skip
+        }
+    }
 
-    // 2. Shuffle array (Fisher-Yates)
+    // Shuffle (Fisher-Yates)
     const shuffled = [...available];
     for (let i = shuffled.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
     }
 
-    // 3. Take top N
-    return shuffled.slice(0, count).map(slug => ({
-        slug,
-        name: names[slug]
-    }));
+    return shuffled.slice(0, count);
 }

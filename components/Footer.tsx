@@ -58,7 +58,7 @@ export default function Footer() {
 
                     {/* Column 3: About & Legal */}
                     <div>
-                        <h3 className="text-white font-semibold text-lg mb-4">Dreamboat Journal</h3>
+                        <h3 className="text-white font-semibold text-lg mb-4">DreamBoat Journal</h3>
                         <ul className="space-y-2 mb-4">
                             <li>
                                 <Link href={`/${locale}`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
@@ -76,7 +76,7 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link href={`/${locale}/blog/why-you-dream-about-snakes`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
+                                <Link href={`/${locale}/blog`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
                                     Blog
                                 </Link>
                             </li>
