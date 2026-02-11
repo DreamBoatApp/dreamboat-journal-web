@@ -11,6 +11,7 @@ import RelatedSymbols from '@/components/RelatedSymbols';
 import dictionary from '@/scripts/data/source_dictionary';
 import relatedSymbolsIndex from '@/scripts/data/related_symbols.json';
 import publishDates from '@/scripts/data/publish_dates.json';
+import seoIndex from '@/scripts/data/seo_index.json';
 import aliasMap from '@/scripts/data/alias_map';
 import SearchBar from '@/components/SearchBar';
 
@@ -79,9 +80,14 @@ export async function generateMetadata({ params }: Props) {
 
     const canonicalUrl = `https://dreamboatjournal.com/${locale}/meaning/${slug}`;
 
+    // Check SEO index — noindex thin content to prevent index bloat
+    const seoKey = `${locale}/${slug}`;
+    const shouldIndex = (seoIndex as Record<string, boolean>)[seoKey] !== false;
+
     return {
         title: content.title,
         description: content.seoDescription,
+        ...(shouldIndex ? {} : { robots: { index: false, follow: true } }),
         alternates: {
             canonical: canonicalUrl,
             languages: {
