@@ -6,9 +6,7 @@ import { usePathname, useRouter } from 'next/navigation';
 const locales = [
     { code: 'en', label: '🇬🇧 EN' },
     { code: 'tr', label: '🇹🇷 TR' },
-    { code: 'de', label: '🇩🇪 DE' },
-    { code: 'es', label: '🇪🇸 ES' },
-    { code: 'pt', label: '🇧🇷 PT' },
+    // DE, ES, PT hidden until fully localized
 ];
 
 export default function LanguageSelector() {
