@@ -208,7 +208,7 @@ export default async function GuidePage({ params }: Props) {
                     {/* FAQ */}
                     {guide.faqs.length > 0 && (
                         <FAQSection
-                            title="Frequently Asked Questions"
+                            title={locale === 'tr' ? 'Sıkça Sorulan Sorular' : 'Frequently Asked Questions'}
                             faqs={guide.faqs}
                         />
                     )}

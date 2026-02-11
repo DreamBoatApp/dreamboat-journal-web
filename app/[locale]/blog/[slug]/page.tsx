@@ -170,13 +170,13 @@ export default async function BlogPostPage({ params }: Props) {
                         <RelatedSymbols
                             symbols={relatedSymbolsData}
                             locale={locale}
-                            title="Related Dream Symbols"
+                            title={locale === 'tr' ? 'İlgili Rüya Sembolleri' : 'Related Dream Symbols'}
                         />
                     )}
 
                     {post.faqs && post.faqs.length > 0 && (
                         <FAQSection
-                            title="Frequently Asked Questions"
+                            title={locale === 'tr' ? 'Sıkça Sorulan Sorular' : 'Frequently Asked Questions'}
                             faqs={post.faqs}
                         />
                     )}

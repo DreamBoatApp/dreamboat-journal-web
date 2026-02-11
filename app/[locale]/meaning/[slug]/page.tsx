@@ -209,7 +209,7 @@ export default async function MeaningPage({ params }: Props) {
                 }}
             />
 
-            <main className="relative z-10 container mx-auto px-4 py-12 md:py-24 max-w-3xl">
+            <main className="relative z-10 container mx-auto px-4 pt-4 pb-12 md:pt-6 md:pb-24 max-w-3xl">
 
                 {/* Search Bar (Top) */}
                 <div className="mb-8 max-w-xl mx-auto">
