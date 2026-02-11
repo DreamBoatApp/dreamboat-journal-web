@@ -63,9 +63,6 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
         }
     };
 
-    // Truncate text to first ~120 chars to tease, rest is hidden
-    const teaser = analysisText.substring(0, 120) + '...';
-
     return (
         <section className="mb-12 relative group rounded-2xl overflow-hidden border border-white/5 bg-[#030014]">
             {/* Ambient Glow */}
@@ -76,25 +73,31 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
                     {title} <span className="text-amber-200/60 text-lg font-normal">({t('moonPhasePrefix')}{t(`phases.${phase}`)} {getPhaseIcon()})</span>
                 </h2>
 
-                <div className="relative" style={{ maxHeight: '200px', overflow: 'hidden' }}>
-                    {/* Only render the teaser text - actual content is NOT in DOM */}
-                    <p
-                        className="text-slate-300 italic leading-loose text-lg whitespace-pre-line pb-4 opacity-90"
-                        style={{ userSelect: 'none', WebkitUserSelect: 'none' }}
-                    >
-                        &quot;{teaser}&quot;
+                <div className="relative" style={{ userSelect: 'none', WebkitUserSelect: 'none' }}>
+                    {/* Text Content - Rendered fully but masked */}
+                    <p className="text-slate-300 italic leading-loose text-lg whitespace-pre-line pb-4 opacity-90">
+                        &quot;
+                        {analysisText.split(/(\*\*.*?\*\*|\*[^*]+?\*)/g).map((part, i) => {
+                            if (part.startsWith('**') && part.endsWith('**')) {
+                                return <strong key={i} className="text-indigo-200 font-semibold not-italic">{part.slice(2, -2)}</strong>;
+                            }
+                            if (part.startsWith('*') && part.endsWith('*')) {
+                                return <span key={i} className="text-white not-italic font-medium">{part.slice(1, -1)}</span>;
+                            }
+                            return part;
+                        })}
+                        {'\n\n'}
+                        Bu evrede rüyalarınızın size fısıldadığı sırlar, sadece bilinçaltınızın derinliklerinde değil, aynı zamanda kozmik bir hizalanmanın da işaretidir. Ay&apos;ın bu konumu, içsel rehberliğinizin en güçlü olduğu...&quot;
                     </p>
 
-                    {/* Heavy fade overlay - content is genuinely hidden */}
+                    {/* Stronger Fade Out Overlay — heavier blur, less readable */}
                     <div
                         className="absolute inset-0 z-20 flex flex-col items-center justify-end pb-8"
                         style={{
-                            background: 'linear-gradient(to top, #030014 40%, #030014e6 60%, #03001480 80%, transparent 100%)',
-                            userSelect: 'none',
-                            WebkitUserSelect: 'none',
+                            background: 'linear-gradient(to top, #030014 35%, rgba(3,0,20,0.95) 50%, rgba(3,0,20,0.8) 65%, rgba(3,0,20,0.5) 80%, transparent 100%)',
                         }}
                     >
-                        {/* CTA Container */}
+                        {/* CTA Container - Floating in the fade */}
                         <div className="text-center transform translate-y-2">
                             <p className="text-indigo-200 font-medium mb-6 px-4 drop-shadow-lg text-lg">
                                 {t('blurCTA')}

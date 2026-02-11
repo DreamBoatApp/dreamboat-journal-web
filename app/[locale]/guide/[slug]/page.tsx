@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import RelatedSymbols from '@/components/RelatedSymbols';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600;
 
 type GuideSection = {
     id: string;

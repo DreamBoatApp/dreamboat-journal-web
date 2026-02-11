@@ -62,7 +62,7 @@ const getPublishDate = (slug: string): { published: string; modified: string } =
 };
 
 // Force dynamic rendering — this page uses getTranslations (dynamic API)
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600; // ISR: revalidate every 1 hour
 
 // --- SSG PARAM GENERATION ---
 // This enables static generation for ALL valid paths at build time
