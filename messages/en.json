@@ -1,4 +1,4 @@
-{
+﻿{
   "HomePage": {
     "title": "Dreamboat Journal",
     "subtitle": "Discover the meaning of symbols in your dreams",
@@ -41,7 +41,7 @@
     "popularSymbols": "Popular Symbols",
     "about": "About Us",
     "privacy": "Privacy Policy",
-    "copyright": "© {year} Dreamboat Journal. All rights reserved.",
+    "copyright": "© {year} NovaBloom Studio. All rights reserved.",
     "disclaimer": "Dream interpretations are for informational purposes only and do not replace professional advice.",
     "downloadApp": "Download Dream Boat"
   },

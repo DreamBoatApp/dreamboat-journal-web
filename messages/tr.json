@@ -1,4 +1,4 @@
-{
+﻿{
     "HomePage": {
         "title": "Dreamboat Journal",
         "subtitle": "Rüyanızdaki sembollerin anlamını keşfedin",
@@ -41,7 +41,7 @@
         "popularSymbols": "Popüler Semboller",
         "about": "Hakkımızda",
         "privacy": "Gizlilik Politikası",
-        "copyright": "© {year} Dreamboat Journal. Tüm hakları saklıdır.",
+        "copyright": "© {year} NovaBloom Studio. Tüm hakları saklıdır.",
         "disclaimer": "Rüya tabirleri yalnızca bilgilendirme amaçlıdır ve profesyonel tavsiye yerine geçmez.",
         "downloadApp": "Dream Boat'u İndir"
     },

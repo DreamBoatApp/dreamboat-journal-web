@@ -67,17 +67,17 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link href={`/${locale}/guide/dream-interpretation-guide`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
-                                    📖 {locale === 'tr' ? 'Rüya Tabiri Rehberi' : 'Dream Interpretation Guide'}
+                                    {locale === 'tr' ? 'Rüya Tabiri Rehberi' : 'Dream Interpretation Guide'}
                                 </Link>
                             </li>
                             <li>
                                 <Link href={`/${locale}/guide/lucid-dreaming-guide`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
-                                    🌙 {locale === 'tr' ? 'Lüsid Rüya Rehberi' : 'Lucid Dreaming Guide'}
+                                    {locale === 'tr' ? 'Lucid Rüya Rehberi' : 'Lucid Dreaming Guide'}
                                 </Link>
                             </li>
                             <li>
                                 <Link href={`/${locale}/blog/why-you-dream-about-snakes`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
-                                    📝 Blog
+                                    Blog
                                 </Link>
                             </li>
                             <li>
@@ -97,7 +97,12 @@ export default function Footer() {
                             rel="noopener noreferrer"
                             className="inline-block px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full text-white text-sm font-medium hover:from-indigo-500 hover:to-purple-500 transition-all"
                         >
-                            📱 {t('downloadApp')}
+                            <span className="flex items-center gap-2">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="white" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                                </svg>
+                                {t('downloadApp')}
+                            </span>
                         </a>
                     </div>
                 </div>

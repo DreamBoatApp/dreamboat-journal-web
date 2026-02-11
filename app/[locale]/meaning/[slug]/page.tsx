@@ -308,8 +308,8 @@ export default async function MeaningPage({ params }: Props) {
                         </ul>
                     </section>
 
-                    {/* Inline CTA (About DreamBoat) - Moved to bottom */}
-                    <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
+
+
 
                     {/* FAQ Section — symbol-specific if available, boilerplate fallback */}
                     <FAQSection

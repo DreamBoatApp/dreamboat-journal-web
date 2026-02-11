@@ -1,4 +1,4 @@
-{
+﻿{
     "HomePage": {
         "title": "Dreamboat Journal",
         "subtitle": "Descubra o significado dos símbolos nos seus sonhos",
@@ -36,7 +36,7 @@
         "popularSymbols": "Símbolos Populares",
         "about": "Sobre Nós",
         "privacy": "Política de Privacidade",
-        "copyright": "© {year} Dreamboat Journal. Todos os direitos reservados.",
+        "copyright": "© {year} NovaBloom Studio. Todos os direitos reservados.",
         "disclaimer": "As interpretações de sonhos são apenas para fins informativos e não substituem aconselhamento profissional.",
         "downloadApp": "Baixar Dream Boat"
     },
