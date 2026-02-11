@@ -2260,5 +2260,1517 @@
     "celebration",
     "culture",
     "expression"
+  ],
+  "bonobo": [
+    "social",
+    "chimpanzee",
+    "communication",
+    "community",
+    "bonding",
+    "family"
+  ],
+  "bonsai": [
+    "tree",
+    "art",
+    "patience",
+    "harmony",
+    "balance",
+    "growth"
+  ],
+  "bonus": [
+    "reward",
+    "gift",
+    "value"
+  ],
+  "book": [
+    "reading",
+    "knowledge",
+    "literature",
+    "narrative",
+    "wisdom",
+    "binding"
+  ],
+  "bookcase": [
+    "shelf",
+    "storage",
+    "library",
+    "reading",
+    "space"
+  ],
+  "bookshelf": [
+    "shelf",
+    "storage",
+    "library",
+    "reading",
+    "space"
+  ],
+  "boot": [
+    "footwear",
+    "comfort",
+    "support",
+    "travel",
+    "safety"
+  ],
+  "boots": [
+    "footwear",
+    "comfort",
+    "support",
+    "travel",
+    "safety"
+  ],
+  "boss": [
+    "leader",
+    "supervisor",
+    "power",
+    "control",
+    "responsibility",
+    "guidance"
+  ],
+  "bottle": [
+    "glass",
+    "plastic",
+    "storage",
+    "seal",
+    "cap",
+    "recycling"
+  ],
+  "bougainvillea": [
+    "flower",
+    "plant",
+    "garden",
+    "growth",
+    "climbing",
+    "season"
+  ],
+  "boulder": [
+    "stone",
+    "earth",
+    "weight",
+    "strength",
+    "mountain",
+    "stability"
+  ],
+  "bow": [
+    "arch",
+    "weapon",
+    "grace",
+    "presentation",
+    "gift",
+    "art"
+  ],
+  "bowl": [
+    "food",
+    "serve",
+    "shape",
+    "glass",
+    "cooking",
+    "presentation"
+  ],
+  "bowtie": [
+    "celebration",
+    "appearance",
+    "sophistication",
+    "trend"
+  ],
+  "box": [
+    "storage",
+    "package",
+    "shape",
+    "gift",
+    "square",
+    "closure"
+  ],
+  "boxing": [
+    "competition",
+    "training",
+    "ring",
+    "strategy",
+    "match",
+    "defense"
+  ],
+  "bracelet": [
+    "jewelry",
+    "wrist",
+    "gift",
+    "expression",
+    "color",
+    "trend"
+  ],
+  "brain": [
+    "intellect",
+    "emotion",
+    "memory",
+    "consciousness",
+    "learning",
+    "creativity"
+  ],
+  "bread": [
+    "food",
+    "grain",
+    "baking",
+    "comfort",
+    "tradition",
+    "culture"
+  ],
+  "breathing": [
+    "life",
+    "meditation",
+    "rhythm",
+    "control",
+    "health",
+    "focus"
+  ],
+  "breeze": [
+    "wind",
+    "whisper",
+    "season",
+    "change",
+    "serenity",
+    "freedom"
+  ],
+  "bribery": [
+    "corruption",
+    "deception",
+    "money",
+    "power",
+    "trust",
+    "moral"
+  ],
+  "bride": [
+    "wedding",
+    "marriage",
+    "love",
+    "celebration",
+    "relationship",
+    "commitment"
+  ],
+  "bridge": [
+    "connection",
+    "link",
+    "transition",
+    "journey",
+    "support",
+    "travel"
+  ],
+  "briefcase": [
+    "storage",
+    "travel",
+    "laptop",
+    "appearance",
+    "presentation"
+  ],
+  "brigade": [
+    "team",
+    "task",
+    "strategy",
+    "leadership",
+    "mission",
+    "support"
+  ],
+  "briseis": [
+    "literature",
+    "love",
+    "trojan",
+    "war",
+    "conflict",
+    "fate"
+  ],
+  "broadcast": [
+    "communication",
+    "signal",
+    "audience",
+    "content",
+    "radio",
+    "television"
+  ],
+  "brocade": [
+    "pattern",
+    "gold",
+    "silver",
+    "tradition"
+  ],
+  "broccoli": [
+    "vegetable",
+    "nutrition",
+    "green",
+    "food",
+    "cooking",
+    "fiber"
+  ],
+  "broken": [
+    "loss",
+    "failure",
+    "vulnerability",
+    "hurt",
+    "separation",
+    "pain"
+  ],
+  "bronze": [
+    "color",
+    "sculpture",
+    "art",
+    "history",
+    "statue",
+    "trophy"
+  ],
+  "brooch": [
+    "jewelry",
+    "pin",
+    "gift",
+    "wearable",
+    "appearance"
+  ],
+  "broom": [
+    "cleaning",
+    "order",
+    "dust",
+    "floor",
+    "task",
+    "tradition"
+  ],
+  "brother": [
+    "sibling",
+    "family",
+    "relationship",
+    "bond",
+    "support",
+    "childhood"
+  ],
+  "brotherinlaw": [
+    "family",
+    "relationship",
+    "connection",
+    "marriage",
+    "support",
+    "bond"
+  ],
+  "brown": [
+    "color",
+    "earth",
+    "stability",
+    "comfort",
+    "wood",
+    "autumn"
+  ],
+  "browser": [
+    "internet",
+    "web",
+    "software",
+    "interface",
+    "application",
+    "experience"
+  ],
+  "brush": [
+    "paint",
+    "art",
+    "creativity",
+    "application",
+    "color",
+    "expression"
+  ],
+  "bubble": [
+    "sphere",
+    "childhood",
+    "joy",
+    "moment",
+    "dream",
+    "escape"
+  ],
+  "bucket": [
+    "storage",
+    "water",
+    "cleaning",
+    "shape",
+    "depth",
+    "task"
+  ],
+  "buddy": [
+    "friend",
+    "companion",
+    "relationship",
+    "support",
+    "trust",
+    "connection"
+  ],
+  "budget": [
+    "money",
+    "strategy",
+    "savings",
+    "investment",
+    "control",
+    "spending"
+  ],
+  "buffalo": [
+    "strength",
+    "power",
+    "bison",
+    "culture",
+    "sacred",
+    "spirit"
+  ],
+  "buffer": [
+    "cushion",
+    "space",
+    "separation",
+    "safety",
+    "support",
+    "control"
+  ],
+  "bull": [
+    "strength",
+    "power",
+    "tradition",
+    "force",
+    "spirit",
+    "courage"
+  ],
+  "bulldozer": [
+    "heavy",
+    "equipment",
+    "power",
+    "force",
+    "digging",
+    "task"
+  ],
+  "bullet": [
+    "weapon",
+    "defense",
+    "force",
+    "power",
+    "risk",
+    "safety"
+  ],
+  "bun": [
+    "bread",
+    "food",
+    "baking",
+    "snack",
+    "comfort"
+  ],
+  "bungalow": [
+    "retreat",
+    "comfort",
+    "village",
+    "community",
+    "garden",
+    "peace"
+  ],
+  "bunyip": [
+    "water",
+    "spirit",
+    "monster",
+    "fear",
+    "ancient",
+    "ghost"
+  ],
+  "burger": [
+    "food",
+    "comfort",
+    "grill",
+    "cheese",
+    "bun",
+    "snack"
+  ],
+  "burlap": [
+    "workshop"
+  ],
+  "burn": [
+    "fire",
+    "pain",
+    "injury",
+    "passion",
+    "transformation",
+    "risk"
+  ],
+  "burning": [
+    "desire",
+    "passion",
+    "transformation",
+    "fire",
+    "sacrifice",
+    "light"
+  ],
+  "burying": [
+    "earth",
+    "grave",
+    "hidden",
+    "loss",
+    "memory",
+    "secrecy"
+  ],
+  "bus": [
+    "journey",
+    "community",
+    "travel",
+    "crowd",
+    "route",
+    "schedule"
+  ],
+  "butcher": [
+    "meat",
+    "profession",
+    "trade",
+    "food",
+    "knife",
+    "market"
+  ],
+  "butter": [
+    "cooking",
+    "golden",
+    "comfort",
+    "baking",
+    "sauce"
+  ],
+  "butterfly": [
+    "transformation",
+    "freedom",
+    "grace",
+    "color",
+    "flight",
+    "change"
+  ],
+  "button": [
+    "closure",
+    "clothing",
+    "control"
+  ],
+  "buying": [
+    "purchase",
+    "shopping",
+    "value",
+    "money",
+    "investment",
+    "trade"
+  ],
+  "bystander": [
+    "witness",
+    "spectator",
+    "community",
+    "social",
+    "engagement",
+    "empathy"
+  ],
+  "byte": [
+    "computer",
+    "storage",
+    "memory",
+    "code",
+    "network",
+    "communication"
+  ],
+  "cabbage": [
+    "vegetable",
+    "green",
+    "health",
+    "nutrition",
+    "food",
+    "cooking"
+  ],
+  "cabinet": [
+    "storage",
+    "space",
+    "kitchen",
+    "office",
+    "wood"
+  ],
+  "cable": [
+    "wire",
+    "connection",
+    "communication",
+    "network",
+    "signal",
+    "link"
+  ],
+  "cabriolet": [
+    "car",
+    "convertible",
+    "freedom",
+    "road",
+    "travel",
+    "adventure"
+  ],
+  "cactus": [
+    "desert",
+    "plant",
+    "resilience",
+    "adaptation",
+    "growth",
+    "isolation"
+  ],
+  "caduceus": [
+    "medicine",
+    "healing",
+    "wisdom",
+    "balance",
+    "communication",
+    "transformation"
+  ],
+  "cafeteria": [
+    "food",
+    "community",
+    "school",
+    "restaurant",
+    "social",
+    "gathering"
+  ],
+  "caffeine": [
+    "coffee",
+    "tea",
+    "addiction",
+    "focus",
+    "excitement",
+    "social"
+  ],
+  "cage": [
+    "freedom",
+    "safety",
+    "control",
+    "isolation",
+    "security",
+    "space"
+  ],
+  "cairn": [
+    "stone",
+    "history",
+    "tradition",
+    "guide",
+    "mountain",
+    "heritage"
+  ],
+  "cake": [
+    "dessert",
+    "celebration",
+    "baking",
+    "party",
+    "frosting",
+    "sugar"
+  ],
+  "caladium": [
+    "plant",
+    "garden",
+    "growth"
+  ],
+  "calculator": [
+    "device"
+  ],
+  "calendar": [
+    "time",
+    "schedule",
+    "system",
+    "year",
+    "cycle"
+  ],
+  "calf": [
+    "growth",
+    "nurture",
+    "farm",
+    "strength",
+    "life"
+  ],
+  "caliper": [
+    "dimension",
+    "evaluation",
+    "control"
+  ],
+  "calla": [
+    "flower",
+    "grace",
+    "white",
+    "growth",
+    "celebration"
+  ],
+  "calligraphy": [
+    "writing",
+    "art",
+    "expression",
+    "creativity",
+    "script",
+    "tradition"
+  ],
+  "calliope": [
+    "music",
+    "celebration",
+    "melody",
+    "creativity",
+    "joy",
+    "festival"
+  ],
+  "camel": [
+    "desert",
+    "travel",
+    "journey",
+    "strength",
+    "adaptation",
+    "caravan"
+  ],
+  "camellia": [
+    "flower",
+    "color",
+    "growth",
+    "culture",
+    "tradition",
+    "love"
+  ],
+  "camembert": [
+    "cheese",
+    "food",
+    "snack"
+  ],
+  "camera": [
+    "memory",
+    "art",
+    "focus",
+    "perspective",
+    "creativity",
+    "expression"
+  ],
+  "camouflage": [
+    "concealment",
+    "pattern",
+    "hiding",
+    "strategy",
+    "deception",
+    "adaptation"
+  ],
+  "camp": [
+    "adventure",
+    "community",
+    "experience",
+    "exploration",
+    "gathering",
+    "learning"
+  ],
+  "campfire": [
+    "fire",
+    "gathering",
+    "light",
+    "community",
+    "comfort",
+    "smoke"
+  ],
+  "cancer": [
+    "emotion",
+    "water",
+    "introspection",
+    "family",
+    "compassion",
+    "depth"
+  ],
+  "candelabra": [
+    "light",
+    "candle",
+    "table",
+    "celebration"
+  ],
+  "candelabrum": [
+    "light",
+    "candle",
+    "celebration",
+    "table"
+  ],
+  "candle": [
+    "light",
+    "ritual",
+    "celebration",
+    "flicker",
+    "comfort"
+  ],
+  "candlestick": [
+    "light",
+    "candle",
+    "table",
+    "celebration"
+  ],
+  "candy": [
+    "sugar",
+    "snack",
+    "childhood",
+    "celebration",
+    "dessert",
+    "joy"
+  ],
+  "canister": [
+    "storage",
+    "kitchen",
+    "safety",
+    "space",
+    "purpose"
+  ],
+  "cannoli": [
+    "dessert",
+    "celebration",
+    "baking",
+    "joy",
+    "experience"
+  ],
+  "cannon": [
+    "weapon",
+    "history",
+    "battle",
+    "defense",
+    "strength",
+    "power"
+  ],
+  "canoes": [
+    "water",
+    "river",
+    "lake",
+    "journey",
+    "adventure",
+    "exploration"
+  ],
+  "canvas": [
+    "art",
+    "painting",
+    "expression",
+    "color",
+    "vision"
+  ],
+  "canyon": [
+    "valley",
+    "depth",
+    "exploration",
+    "adventure",
+    "echo",
+    "river"
+  ],
+  "cap": [
+    "hat",
+    "identity",
+    "uniform",
+    "comfort",
+    "appearance"
+  ],
+  "capitalism": [
+    "economy",
+    "market",
+    "trade",
+    "wealth",
+    "investment",
+    "competition"
+  ],
+  "captain": [
+    "leader",
+    "ship",
+    "command",
+    "responsibility",
+    "guidance",
+    "team"
+  ],
+  "capybara": [
+    "social",
+    "water",
+    "friendship",
+    "community",
+    "family",
+    "adaptation"
+  ],
+  "car": [
+    "journey",
+    "freedom",
+    "travel",
+    "road",
+    "adventure",
+    "exploration"
+  ],
+  "carabiner": [
+    "clip",
+    "climbing",
+    "safety",
+    "connection",
+    "adventure",
+    "equipment"
+  ],
+  "caramel": [
+    "sugar",
+    "dessert",
+    "candy",
+    "toffee",
+    "comfort"
+  ],
+  "caravan": [
+    "travel",
+    "journey",
+    "adventure",
+    "exploration",
+    "community",
+    "expedition"
+  ],
+  "caravansary": [
+    "travel",
+    "community",
+    "journey",
+    "trade",
+    "culture",
+    "history"
+  ],
+  "cardholder": [
+    "wallet",
+    "storage",
+    "identity",
+    "credit",
+    "travel",
+    "identity"
+  ],
+  "cards": [
+    "strategy",
+    "fortune",
+    "identity",
+    "communication",
+    "gift",
+    "trading"
+  ],
+  "career": [
+    "profession",
+    "ambition",
+    "path",
+    "success",
+    "growth",
+    "opportunity"
+  ],
+  "carillon": [
+    "music",
+    "melody",
+    "harmony",
+    "celebration",
+    "rhythm",
+    "tune"
+  ],
+  "carnation": [
+    "flower",
+    "color",
+    "love",
+    "emotion",
+    "gift",
+    "celebration"
+  ],
+  "carnelian": [
+    "color",
+    "crystal",
+    "healing",
+    "vibration",
+    "earth",
+    "strength"
+  ],
+  "carousel": [
+    "nostalgia",
+    "childhood",
+    "joy",
+    "experience",
+    "fantasy",
+    "celebration"
+  ],
+  "carpenter": [
+    "wood",
+    "trade",
+    "innovation",
+    "profession"
+  ],
+  "carpet": [
+    "comfort",
+    "color",
+    "pattern",
+    "comfort",
+    "space",
+    "room"
+  ],
+  "carpool": [
+    "community",
+    "economy",
+    "travel",
+    "collaboration",
+    "friendship",
+    "journey"
+  ],
+  "carrot": [
+    "vegetable",
+    "nutrition",
+    "health",
+    "color",
+    "growth",
+    "food"
+  ],
+  "cart": [
+    "storage",
+    "shopping",
+    "system",
+    "travel",
+    "support"
+  ],
+  "cartel": [
+    "control",
+    "market",
+    "power",
+    "economy",
+    "trade",
+    "strategy"
+  ],
+  "cartilage": [
+    "tissue",
+    "support",
+    "health",
+    "growth",
+    "support"
+  ],
+  "cartoon": [
+    "art",
+    "creativity",
+    "childhood",
+    "narrative",
+    "fantasy",
+    "culture"
+  ],
+  "caryatid": [
+    "sculpture",
+    "support",
+    "column",
+    "art",
+    "history",
+    "female"
+  ],
+  "cash": [
+    "money",
+    "wealth",
+    "value",
+    "economy",
+    "trade",
+    "wealth"
+  ],
+  "cashier": [
+    "employee",
+    "customer",
+    "responsibility",
+    "retail",
+    "support",
+    "money"
+  ],
+  "casino": [
+    "risk",
+    "games",
+    "luck",
+    "money",
+    "excitement",
+    "social"
+  ],
+  "cassava": [
+    "root",
+    "plant",
+    "food",
+    "nutrition",
+    "cooking",
+    "flour"
+  ],
+  "casserole": [
+    "cooking",
+    "baking",
+    "comfort",
+    "food",
+    "family",
+    "oven"
+  ],
+  "cassowary": [
+    "bird",
+    "forest"
+  ],
+  "castle": [
+    "fortress",
+    "history",
+    "royalty",
+    "fantasy",
+    "heritage",
+    "culture"
+  ],
+  "cat": [
+    "independence",
+    "curiosity",
+    "companion",
+    "grace",
+    "loyalty",
+    "affection"
+  ],
+  "catapult": [
+    "force",
+    "tension",
+    "device",
+    "history",
+    "strategy",
+    "power"
+  ],
+  "caterpillar": [
+    "insect",
+    "transformation",
+    "growth",
+    "life",
+    "change",
+    "butterfly"
+  ],
+  "catharsis": [
+    "emotion",
+    "purification",
+    "healing",
+    "therapy",
+    "expression",
+    "transformation"
+  ],
+  "cauldron": [
+    "pot",
+    "cooking",
+    "magic",
+    "potion",
+    "fire",
+    "transformation"
+  ],
+  "cavalry": [
+    "battle",
+    "strategy",
+    "force",
+    "history",
+    "strength",
+    "support"
+  ],
+  "cave": [
+    "darkness",
+    "exploration",
+    "depth",
+    "echo",
+    "adventure",
+    "isolation"
+  ],
+  "cavern": [
+    "cave",
+    "depth",
+    "exploration",
+    "darkness",
+    "echo",
+    "adventure"
+  ],
+  "cctv": [
+    "security",
+    "camera",
+    "safety",
+    "control",
+    "system",
+    "evidence"
+  ],
+  "cedar": [
+    "tree",
+    "wood",
+    "strength",
+    "forest",
+    "growth",
+    "resilience"
+  ],
+  "ceiling": [
+    "roof",
+    "space",
+    "support",
+    "room",
+    "light",
+    "comfort"
+  ],
+  "celebrating": [
+    "joy",
+    "festivity",
+    "gathering",
+    "tradition",
+    "community",
+    "happiness"
+  ],
+  "celebration": [
+    "joy",
+    "gathering",
+    "festivity",
+    "tradition",
+    "community",
+    "happiness"
+  ],
+  "celebrity": [
+    "fame",
+    "culture",
+    "success",
+    "celebration"
+  ],
+  "celesta": [
+    "music",
+    "melody",
+    "harmony",
+    "tune",
+    "rhythm",
+    "creativity"
+  ],
+  "cell": [
+    "prison",
+    "isolation",
+    "space",
+    "system",
+    "communication",
+    "growth"
+  ],
+  "cellar": [
+    "basement",
+    "storage",
+    "darkness",
+    "wine",
+    "hidden",
+    "earth"
+  ],
+  "cello": [
+    "music",
+    "melody",
+    "harmony",
+    "orchestra",
+    "emotion",
+    "culture"
+  ],
+  "celosia": [
+    "flower",
+    "color",
+    "garden",
+    "growth",
+    "plant",
+    "life"
+  ],
+  "cement": [
+    "strength",
+    "binding",
+    "stability",
+    "support"
+  ],
+  "cemetery": [
+    "graveyard",
+    "memory",
+    "loss",
+    "mourning",
+    "peace",
+    "reflection"
+  ],
+  "cenotaph": [
+    "monument",
+    "legacy",
+    "history",
+    "sacrifice",
+    "grief",
+    "respect"
+  ],
+  "censer": [
+    "incense",
+    "ritual",
+    "smoke",
+    "sacred",
+    "tradition",
+    "meditation"
+  ],
+  "centaur": [
+    "freedom",
+    "spirit",
+    "strength",
+    "wisdom",
+    "archetype",
+    "intellect"
+  ],
+  "cephalopod": [
+    "octopus",
+    "squid",
+    "adaptation",
+    "ocean",
+    "color",
+    "camouflage"
+  ],
+  "cerberus": [
+    "guardian",
+    "dog",
+    "spirit",
+    "death",
+    "fear",
+    "loyalty"
+  ],
+  "cereal": [
+    "food",
+    "grain",
+    "nutrition",
+    "health",
+    "fiber",
+    "snack"
+  ],
+  "certificate": [
+    "award",
+    "training",
+    "evidence",
+    "diploma"
+  ],
+  "chain": [
+    "link",
+    "connection",
+    "bond",
+    "strength",
+    "security",
+    "relationship"
+  ],
+  "chair": [
+    "comfort",
+    "support",
+    "gathering",
+    "social",
+    "stability"
+  ],
+  "chalice": [
+    "cup",
+    "goblet",
+    "sacred",
+    "ritual",
+    "celebration",
+    "grace"
+  ],
+  "chalk": [
+    "writing",
+    "drawing",
+    "dust",
+    "creativity",
+    "expression",
+    "art"
+  ],
+  "challenge": [
+    "struggle",
+    "growth",
+    "competition",
+    "goal",
+    "determination",
+    "strength"
+  ],
+  "chalupa": [
+    "food",
+    "snack",
+    "tortilla",
+    "spice",
+    "tradition",
+    "cooking"
+  ],
+  "chameleon": [
+    "adaptation",
+    "change",
+    "color",
+    "camouflage",
+    "transformation",
+    "creativity"
+  ],
+  "chamomile": [
+    "herb",
+    "tea",
+    "flower",
+    "health",
+    "comfort",
+    "healing"
+  ],
+  "champion": [
+    "success",
+    "leader",
+    "hero",
+    "excellence",
+    "competition",
+    "goal"
+  ],
+  "chandelier": [
+    "light",
+    "sparkle",
+    "grace"
+  ],
+  "change": [
+    "transformation",
+    "growth",
+    "adaptation",
+    "progress",
+    "transition",
+    "uncertainty"
+  ],
+  "channel": [
+    "communication",
+    "broadcast",
+    "signal",
+    "connection",
+    "route",
+    "network"
+  ],
+  "chant": [
+    "song",
+    "rhythm",
+    "meditation",
+    "prayer",
+    "sacred",
+    "unity"
+  ],
+  "chaos": [
+    "disorder",
+    "confusion",
+    "anarchy",
+    "uncertainty",
+    "turmoil",
+    "struggle"
+  ],
+  "chapel": [
+    "faith",
+    "community",
+    "peace",
+    "reflection",
+    "sacred",
+    "tradition"
+  ],
+  "charcoal": [
+    "drawing",
+    "art",
+    "black",
+    "creativity",
+    "expression",
+    "depth"
+  ],
+  "charger": [
+    "device",
+    "power",
+    "connection",
+    "battery",
+    "cable",
+    "support"
+  ],
+  "charitable": [
+    "generosity",
+    "giving",
+    "compassion",
+    "support",
+    "community",
+    "helping"
+  ],
+  "charm": [
+    "spell",
+    "grace",
+    "magic",
+    "joy",
+    "engagement",
+    "affection"
+  ],
+  "chart": [
+    "insight",
+    "strategy",
+    "progress",
+    "evaluation"
+  ],
+  "charter": [
+    "contract",
+    "rights",
+    "mission",
+    "commitment"
+  ],
+  "chase": [
+    "run",
+    "race",
+    "goal",
+    "desire",
+    "ambition",
+    "adventure"
+  ],
+  "chased": [
+    "fear",
+    "anxiety",
+    "tension",
+    "pressure",
+    "vulnerability",
+    "flight"
+  ],
+  "chat": [
+    "communication",
+    "engagement",
+    "connect",
+    "network",
+    "friendship",
+    "bonding"
+  ],
+  "check": [
+    "control",
+    "record"
+  ],
+  "checkered": [
+    "pattern",
+    "color",
+    "flag",
+    "identity"
+  ],
+  "checkout": [
+    "purchase",
+    "shopping",
+    "receipt",
+    "retail",
+    "shopping",
+    "experience"
+  ],
+  "cheerleader": [
+    "support",
+    "team",
+    "spirit",
+    "motivation",
+    "leadership",
+    "unity"
+  ],
+  "cheese": [
+    "food",
+    "snack",
+    "culture"
+  ],
+  "cheetah": [
+    "grace",
+    "power",
+    "adaptation",
+    "chase",
+    "freedom"
+  ],
+  "chef": [
+    "cooking",
+    "kitchen",
+    "food",
+    "creativity",
+    "presentation",
+    "innovation"
+  ],
+  "chemist": [
+    "laboratory",
+    "discovery",
+    "innovation",
+    "study",
+    "knowledge",
+    "application"
+  ],
+  "chenille": [
+    "fiber",
+    "comfort",
+    "color",
+    "pattern"
+  ],
+  "cheongsam": [
+    "dress",
+    "silk",
+    "culture",
+    "heritage",
+    "clothing",
+    "celebration"
+  ],
+  "cherry": [
+    "fruit",
+    "red",
+    "blossom",
+    "season",
+    "fresh",
+    "dessert"
+  ],
+  "chest": [
+    "box",
+    "storage",
+    "treasure",
+    "memory",
+    "safety",
+    "wood"
+  ],
+  "chewing": [
+    "eating",
+    "food",
+    "snack",
+    "engagement",
+    "experience"
   ]
 }

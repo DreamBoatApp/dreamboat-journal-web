@@ -6,84 +6,74 @@ const LOCALES = ['en', 'tr'];
 
 const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
 
-// Generate one sitemap per locale (id 0-4) + one for static pages (id 5)
-export async function generateSitemaps() {
-    return LOCALES.map((_, index) => ({ id: index })).concat({ id: LOCALES.length });
-}
-
-export default function sitemap({ id }: { id: number }): MetadataRoute.Sitemap {
+export default function sitemap(): MetadataRoute.Sitemap {
     const routes: MetadataRoute.Sitemap = [];
 
-    // id 5 = static pages (home, dictionary, about, privacy for all locales)
-    if (id === LOCALES.length) {
-        LOCALES.forEach(locale => {
-            // Home
-            routes.push({
-                url: `${BASE_URL}/${locale}`,
-                lastModified: new Date(),
-                changeFrequency: 'daily',
-                priority: 1.0,
-                alternates: {
-                    languages: LOCALES.reduce((acc, l) => ({ ...acc, [l]: `${BASE_URL}/${l}` }), {})
-                }
-            });
+    LOCALES.forEach(locale => {
+        // --- Static Pages ---
 
-            // Dictionary Index
+        // Home
+        routes.push({
+            url: `${BASE_URL}/${locale}`,
+            lastModified: new Date(),
+            changeFrequency: 'daily',
+            priority: 1.0,
+            alternates: {
+                languages: LOCALES.reduce((acc, l) => ({ ...acc, [l]: `${BASE_URL}/${l}` }), {})
+            }
+        });
+
+        // Dictionary Index
+        routes.push({
+            url: `${BASE_URL}/${locale}/dictionary`,
+            lastModified: new Date(),
+            changeFrequency: 'weekly',
+            priority: 0.8,
+            alternates: {
+                languages: LOCALES.reduce((acc, l) => ({ ...acc, [l]: `${BASE_URL}/${l}/dictionary` }), {})
+            }
+        });
+
+        // About
+        routes.push({
+            url: `${BASE_URL}/${locale}/about`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.5,
+        });
+
+        // Privacy
+        routes.push({
+            url: `${BASE_URL}/${locale}/privacy`,
+            lastModified: new Date(),
+            changeFrequency: 'yearly',
+            priority: 0.3,
+        });
+
+        // Dictionary letter pages
+        'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(letter => {
             routes.push({
-                url: `${BASE_URL}/${locale}/dictionary`,
+                url: `${BASE_URL}/${locale}/dictionary/${letter.toLowerCase()}`,
                 lastModified: new Date(),
                 changeFrequency: 'weekly',
-                priority: 0.8,
-                alternates: {
-                    languages: LOCALES.reduce((acc, l) => ({ ...acc, [l]: `${BASE_URL}/${l}/dictionary` }), {})
-                }
-            });
-
-            // About
-            routes.push({
-                url: `${BASE_URL}/${locale}/about`,
-                lastModified: new Date(),
-                changeFrequency: 'monthly',
-                priority: 0.5,
-            });
-
-            // Privacy
-            routes.push({
-                url: `${BASE_URL}/${locale}/privacy`,
-                lastModified: new Date(),
-                changeFrequency: 'yearly',
-                priority: 0.3,
-            });
-
-            // Dictionary letter pages
-            'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(letter => {
-                routes.push({
-                    url: `${BASE_URL}/${locale}/dictionary/${letter.toLowerCase()}`,
-                    lastModified: new Date(),
-                    changeFrequency: 'weekly',
-                    priority: 0.7,
-                });
+                priority: 0.7,
             });
         });
 
-        return routes;
-    }
+        // --- Dynamic Meaning Pages ---
+        const keys = Object.keys(dictionary);
+        keys.forEach(key => {
+            const slug = slugify(key);
 
-    // id 0-4 = meaning pages for each locale
-    const locale = LOCALES[id];
-    const keys = Object.keys(dictionary);
-
-    keys.forEach(key => {
-        const slug = slugify(key);
-
-        routes.push({
-            url: `${BASE_URL}/${locale}/meaning/${slug}`,
-            lastModified: new Date(),
-            changeFrequency: 'monthly',
-            priority: 0.6,
-            alternates: {
-                languages: LOCALES.reduce((acc, l) => ({ ...acc, [l]: `${BASE_URL}/${l}/meaning/${slug}` }), {})
-            }
+            routes.push({
+                url: `${BASE_URL}/${locale}/meaning/${slug}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly',
+                priority: 0.6,
+                alternates: {
+                    languages: LOCALES.reduce((acc, l) => ({ ...acc, [l]: `${BASE_URL}/${l}/meaning/${slug}` }), {})
+                }
+            });
         });
     });
 
