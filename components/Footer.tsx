@@ -59,10 +59,25 @@ export default function Footer() {
                     {/* Column 3: About & Legal */}
                     <div>
                         <h3 className="text-white font-semibold text-lg mb-4">Dreamboat Journal</h3>
-                        <ul className="space-y-2 mb-6">
+                        <ul className="space-y-2 mb-4">
                             <li>
                                 <Link href={`/${locale}`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
                                     {t_nav('home')}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/guide/dream-interpretation-guide`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
+                                    📖 {locale === 'tr' ? 'Rüya Tabiri Rehberi' : 'Dream Interpretation Guide'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/guide/lucid-dreaming-guide`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
+                                    🌙 {locale === 'tr' ? 'Lüsid Rüya Rehberi' : 'Lucid Dreaming Guide'}
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={`/${locale}/blog/why-you-dream-about-snakes`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
+                                    📝 Blog
                                 </Link>
                             </li>
                             <li>
