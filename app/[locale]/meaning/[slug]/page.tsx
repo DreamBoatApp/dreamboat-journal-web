@@ -137,7 +137,7 @@ export default async function MeaningPage({ params }: Props) {
 
     // Breadcrumb items
     const symbolName = t.localizedName || slug.charAt(0).toUpperCase() + slug.slice(1);
-    const firstLetter = slug.charAt(0).toUpperCase();
+    const firstLetter = symbolName.charAt(0).toUpperCase();
     const breadcrumbItems = [
         { label: t_nav('home'), href: `/${locale}` },
         { label: t_nav('dictionary'), href: `/${locale}/dictionary` },
