@@ -6,7 +6,7 @@ import { notFound } from 'next/navigation';
 import Breadcrumb from '@/components/Breadcrumb';
 import InlineCTA from '@/components/InlineCTA';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 // --- Types ---
 type Props = {

@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import RelatedSymbols from '@/components/RelatedSymbols';
 
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 type BlogSection = {
     heading: string;
