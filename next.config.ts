@@ -11,6 +11,15 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
     },
+    async redirects() {
+        return [
+            {
+                source: '/:locale(de|es|pt)/:path*',
+                destination: '/en/:path*',
+                permanent: false,
+            },
+        ];
+    },
 };
 
 export default withNextIntl(nextConfig);

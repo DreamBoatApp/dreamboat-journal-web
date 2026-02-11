@@ -743,5 +743,1522 @@
     "tree",
     "orchard",
     "knowledge"
+  ],
+  "apples": [
+    "fruit",
+    "tree",
+    "orchard",
+    "red",
+    "green",
+    "pie"
+  ],
+  "application": [
+    "software",
+    "system",
+    "interface",
+    "platform"
+  ],
+  "apron": [
+    "clothing",
+    "cooking",
+    "kitchen",
+    "chef",
+    "cleaning",
+    "role"
+  ],
+  "aqua": [
+    "water",
+    "blue",
+    "ocean",
+    "color",
+    "life",
+    "stream"
+  ],
+  "aquarium": [
+    "fish",
+    "water",
+    "tank",
+    "life"
+  ],
+  "arbalest": [
+    "crossbow",
+    "weapon",
+    "archery",
+    "force",
+    "hunting",
+    "defense"
+  ],
+  "arch": [
+    "support",
+    "strength",
+    "bridge",
+    "tunnel"
+  ],
+  "archery": [
+    "bow",
+    "focus",
+    "competition",
+    "hunting",
+    "ancient",
+    "strategy"
+  ],
+  "archetype": [
+    "pattern",
+    "narrative",
+    "identity",
+    "tradition"
+  ],
+  "architect": [
+    "creativity",
+    "vision",
+    "blueprint",
+    "innovation",
+    "project",
+    "space"
+  ],
+  "archive": [
+    "history",
+    "storage",
+    "system",
+    "memory",
+    "library",
+    "legacy"
+  ],
+  "arena": [
+    "space",
+    "competition",
+    "gathering",
+    "exhibition",
+    "audience",
+    "conflict"
+  ],
+  "arguing": [
+    "dispute",
+    "conflict",
+    "emotion",
+    "persuasion",
+    "communication",
+    "tension"
+  ],
+  "arm": [
+    "strength",
+    "support",
+    "muscle",
+    "control",
+    "embrace",
+    "connection"
+  ],
+  "armadillo": [
+    "armor",
+    "defense",
+    "adaptation",
+    "curiosity",
+    "curiosity"
+  ],
+  "armchair": [
+    "comfort",
+    "support",
+    "reading",
+    "space",
+    "solitude"
+  ],
+  "armillary": [
+    "sphere",
+    "time",
+    "cosmos",
+    "history",
+    "exploration",
+    "discovery"
+  ],
+  "armoire": [
+    "storage",
+    "clothing",
+    "wardrobe",
+    "space",
+    "chest"
+  ],
+  "armor": [
+    "defense",
+    "battle",
+    "strength",
+    "safety",
+    "shield",
+    "courage"
+  ],
+  "arpeggione": [
+    "melody",
+    "harmony",
+    "music",
+    "expression",
+    "creativity",
+    "genre"
+  ],
+  "arquebus": [
+    "weapon",
+    "defense",
+    "battle",
+    "innovation",
+    "hunting",
+    "power"
+  ],
+  "art": [
+    "creativity",
+    "expression",
+    "culture",
+    "painting",
+    "sculpture",
+    "emotion"
+  ],
+  "artist": [
+    "expression",
+    "vision",
+    "culture",
+    "innovation",
+    "creativity",
+    "identity"
+  ],
+  "ash": [
+    "burning",
+    "fire",
+    "transformation",
+    "life",
+    "death",
+    "dust"
+  ],
+  "ashtray": [
+    "health",
+    "culture",
+    "safety"
+  ],
+  "asphodel": [
+    "flower",
+    "memory",
+    "growth",
+    "life",
+    "death",
+    "season"
+  ],
+  "aspiration": [
+    "goal",
+    "dream",
+    "desire",
+    "ambition",
+    "motivation",
+    "hope"
+  ],
+  "assault": [
+    "attack",
+    "conflict",
+    "confrontation",
+    "force",
+    "trauma",
+    "defense"
+  ],
+  "assessing": [
+    "evaluation",
+    "examination",
+    "feedback",
+    "insight",
+    "value",
+    "perspective"
+  ],
+  "asset": [
+    "value",
+    "investment",
+    "wealth",
+    "strength",
+    "potential",
+    "security"
+  ],
+  "assignment": [
+    "task",
+    "project",
+    "responsibility",
+    "goal",
+    "objective",
+    "deadline"
+  ],
+  "asteroid": [
+    "space",
+    "planet",
+    "universe",
+    "orbit",
+    "cosmos",
+    "exploration"
+  ],
+  "astrolabe": [
+    "history",
+    "time",
+    "exploration",
+    "discovery",
+    "cosmos",
+    "knowledge"
+  ],
+  "astronaut": [
+    "space",
+    "exploration",
+    "journey",
+    "cosmos",
+    "training",
+    "mission"
+  ],
+  "athlete": [
+    "competition",
+    "training",
+    "team",
+    "strength",
+    "strategy",
+    "goal"
+  ],
+  "atm": [
+    "bank",
+    "money",
+    "cash",
+    "account",
+    "security",
+    "interface"
+  ],
+  "attack": [
+    "assault",
+    "conflict",
+    "strategy",
+    "force",
+    "confrontation",
+    "defense"
+  ],
+  "attic": [
+    "space",
+    "storage",
+    "roof",
+    "memory",
+    "nostalgia",
+    "exploration"
+  ],
+  "aubergine": [
+    "vegetable",
+    "color",
+    "eggplant",
+    "food",
+    "nutrition",
+    "purple"
+  ],
+  "audience": [
+    "engagement",
+    "communication",
+    "feedback",
+    "community",
+    "connection",
+    "focus"
+  ],
+  "aunt": [
+    "family",
+    "relationship",
+    "support",
+    "love",
+    "connection",
+    "bond"
+  ],
+  "aura": [
+    "vibration",
+    "spirit",
+    "emotion",
+    "perception",
+    "intention",
+    "connection"
+  ],
+  "auroch": [
+    "history",
+    "strength",
+    "power",
+    "culture",
+    "legacy"
+  ],
+  "aurochs": [
+    "history",
+    "strength",
+    "power",
+    "culture",
+    "legacy"
+  ],
+  "authenticity": [
+    "truth",
+    "integrity",
+    "honesty",
+    "identity",
+    "value",
+    "trust"
+  ],
+  "author": [
+    "expression",
+    "literature",
+    "narrative",
+    "content",
+    "perspective",
+    "innovation"
+  ],
+  "autumn": [
+    "season",
+    "change",
+    "transition",
+    "color",
+    "reflection",
+    "growth"
+  ],
+  "avalanche": [
+    "snow",
+    "mountain",
+    "slide",
+    "force",
+    "power",
+    "chaos"
+  ],
+  "avocado": [
+    "fruit",
+    "nutrition",
+    "food",
+    "green",
+    "growth",
+    "snack"
+  ],
+  "awakening": [
+    "realization",
+    "consciousness",
+    "growth",
+    "transformation",
+    "change",
+    "rebirth"
+  ],
+  "award": [
+    "trophy",
+    "medal",
+    "celebration",
+    "success",
+    "victory",
+    "reward"
+  ],
+  "awl": [
+    "drill",
+    "workshop"
+  ],
+  "axe": [
+    "wood",
+    "blade",
+    "forest",
+    "weapon",
+    "strength"
+  ],
+  "axolotl": [
+    "water",
+    "adaptation",
+    "curiosity"
+  ],
+  "azalea": [
+    "flower",
+    "garden",
+    "color",
+    "shrub",
+    "spring",
+    "growth"
+  ],
+  "azimuth": [
+    "orientation",
+    "compass",
+    "path",
+    "guidance"
+  ],
+  "azulejo": [
+    "art",
+    "pattern",
+    "mosaic",
+    "heritage",
+    "history",
+    "culture"
+  ],
+  "baby": [
+    "child",
+    "nurture",
+    "growth",
+    "vulnerability",
+    "joy",
+    "family"
+  ],
+  "backpack": [
+    "bag",
+    "travel",
+    "adventure",
+    "storage",
+    "exploration",
+    "school"
+  ],
+  "backyard": [
+    "space",
+    "garden",
+    "playground",
+    "family",
+    "gathering",
+    "fence"
+  ],
+  "badge": [
+    "identity",
+    "pride",
+    "uniform",
+    "reward"
+  ],
+  "badger": [
+    "adaptation",
+    "social"
+  ],
+  "bag": [
+    "storage",
+    "purse",
+    "luggage",
+    "items",
+    "travel",
+    "shopping"
+  ],
+  "bagel": [
+    "bread",
+    "food",
+    "snack"
+  ],
+  "bagpipes": [
+    "music",
+    "melody",
+    "tradition",
+    "celebration",
+    "folk",
+    "culture"
+  ],
+  "baker": [
+    "profession",
+    "bread",
+    "oven",
+    "cooking",
+    "food",
+    "baking"
+  ],
+  "baking": [
+    "cooking",
+    "oven",
+    "food",
+    "bread"
+  ],
+  "baklava": [
+    "dessert",
+    "honey",
+    "nuts",
+    "tradition",
+    "celebration",
+    "cooking"
+  ],
+  "balalaika": [
+    "music",
+    "folk",
+    "melody",
+    "tradition",
+    "culture",
+    "celebration"
+  ],
+  "balance": [
+    "stability",
+    "harmony",
+    "control",
+    "fairness",
+    "moderation",
+    "focus"
+  ],
+  "balcony": [
+    "space",
+    "gathering",
+    "patio"
+  ],
+  "ball": [
+    "sphere",
+    "dance",
+    "celebration",
+    "gathering",
+    "social",
+    "joy"
+  ],
+  "balloon": [
+    "celebration",
+    "party",
+    "joy",
+    "childhood",
+    "freedom",
+    "gathering"
+  ],
+  "baluster": [
+    "support",
+    "staircase",
+    "column",
+    "safety",
+    "balance",
+    "stability"
+  ],
+  "balustrade": [
+    "support",
+    "staircase",
+    "safety",
+    "balance",
+    "support"
+  ],
+  "bamboo": [
+    "plant",
+    "growth",
+    "strength",
+    "lightweight",
+    "green",
+    "culture"
+  ],
+  "banana": [
+    "fruit",
+    "yellow",
+    "food",
+    "snack",
+    "smoothie",
+    "nutrition"
+  ],
+  "band": [
+    "music",
+    "harmony",
+    "collaboration",
+    "rhythm",
+    "melody",
+    "celebration"
+  ],
+  "bandage": [
+    "wound",
+    "healing",
+    "treatment",
+    "support",
+    "safety",
+    "injury"
+  ],
+  "banditry": [
+    "theft",
+    "risk",
+    "conflict",
+    "rebellion",
+    "chaos",
+    "fear"
+  ],
+  "banjo": [
+    "music",
+    "folk",
+    "celebration",
+    "rhythm",
+    "culture",
+    "harmony"
+  ],
+  "bank": [
+    "money",
+    "savings",
+    "investment",
+    "loan",
+    "economy",
+    "wealth"
+  ],
+  "bankruptcy": [
+    "debt",
+    "failure",
+    "loss",
+    "crisis",
+    "risk",
+    "resolution"
+  ],
+  "banner": [
+    "flag",
+    "promotion",
+    "message",
+    "celebration",
+    "communication",
+    "identity"
+  ],
+  "banquet": [
+    "feast",
+    "celebration",
+    "food",
+    "gathering",
+    "dinner",
+    "tradition"
+  ],
+  "banshee": [
+    "spirit",
+    "death",
+    "omen",
+    "female",
+    "haunting",
+    "cry"
+  ],
+  "banyan": [
+    "tree",
+    "growth",
+    "life",
+    "heritage",
+    "community",
+    "strength"
+  ],
+  "baobab": [
+    "tree",
+    "life",
+    "growth",
+    "heritage",
+    "community",
+    "fruit"
+  ],
+  "bar": [
+    "social",
+    "gathering",
+    "community",
+    "celebration",
+    "music",
+    "food"
+  ],
+  "barber": [
+    "profession",
+    "appearance",
+    "community",
+    "social",
+    "hair",
+    "tradition"
+  ],
+  "bargain": [
+    "negotiation",
+    "discount",
+    "value",
+    "purchase",
+    "trade",
+    "economy"
+  ],
+  "barge": [
+    "boat",
+    "water",
+    "freight",
+    "river",
+    "travel",
+    "trade"
+  ],
+  "barista": [
+    "coffee",
+    "bar",
+    "espresso",
+    "customer",
+    "caffeine",
+    "community"
+  ],
+  "baritone": [
+    "singing",
+    "melody",
+    "harmony",
+    "bass",
+    "music",
+    "theater"
+  ],
+  "bark": [
+    "tree",
+    "wood",
+    "plant",
+    "growth",
+    "forest",
+    "renewal"
+  ],
+  "barn": [
+    "farm",
+    "storage",
+    "animals",
+    "community"
+  ],
+  "barometer": [
+    "pressure"
+  ],
+  "barque": [
+    "ship",
+    "sailing",
+    "ocean",
+    "trade",
+    "exploration",
+    "travel"
+  ],
+  "barrack": [
+    "camp",
+    "training",
+    "community",
+    "security",
+    "support"
+  ],
+  "barracuda": [
+    "fish",
+    "ocean",
+    "swimming",
+    "fishing",
+    "adaptation"
+  ],
+  "barricade": [
+    "defense",
+    "resistance",
+    "shield",
+    "fence",
+    "wall"
+  ],
+  "bartender": [
+    "server",
+    "bar",
+    "customer",
+    "social",
+    "alcohol",
+    "gathering"
+  ],
+  "barter": [
+    "trade",
+    "negotiation",
+    "value",
+    "bargain",
+    "economy",
+    "gift"
+  ],
+  "basement": [
+    "storage",
+    "darkness",
+    "hidden",
+    "space",
+    "cellar",
+    "depth"
+  ],
+  "basenji": [
+    "dog",
+    "companion",
+    "loyalty",
+    "alert",
+    "friendship",
+    "family"
+  ],
+  "basil": [
+    "herb",
+    "cooking",
+    "green",
+    "plant",
+    "garden",
+    "growth"
+  ],
+  "basilisk": [
+    "dragon",
+    "fear",
+    "fantasy",
+    "monster",
+    "power",
+    "magic"
+  ],
+  "basin": [
+    "water",
+    "pool",
+    "sink",
+    "fountain",
+    "gathering",
+    "depth"
+  ],
+  "basket": [
+    "storage",
+    "shopping"
+  ],
+  "basketball": [
+    "team",
+    "competition",
+    "court",
+    "ball",
+    "strategy",
+    "athlete"
+  ],
+  "bass": [
+    "fish",
+    "swimming",
+    "fishing",
+    "food",
+    "water",
+    "angler"
+  ],
+  "bassoon": [
+    "music",
+    "orchestra",
+    "melody",
+    "harmony",
+    "art",
+    "musician"
+  ],
+  "bat": [
+    "flying",
+    "darkness",
+    "fear",
+    "adaptation",
+    "colony",
+    "flight"
+  ],
+  "bath": [
+    "cleaning",
+    "water",
+    "ritual",
+    "spa",
+    "comfort",
+    "therapy"
+  ],
+  "bathhouse": [
+    "spa",
+    "community",
+    "social",
+    "tradition",
+    "culture",
+    "ritual"
+  ],
+  "bathroom": [
+    "cleaning",
+    "space",
+    "comfort",
+    "toilet",
+    "sink",
+    "shower"
+  ],
+  "bathtub": [
+    "water",
+    "comfort",
+    "cleaning",
+    "bath",
+    "serenity",
+    "spa"
+  ],
+  "battalion": [
+    "force",
+    "strategy",
+    "defense",
+    "leadership",
+    "team",
+    "hierarchy"
+  ],
+  "battery": [
+    "power",
+    "storage",
+    "device",
+    "current",
+    "circuit",
+    "system"
+  ],
+  "battle": [
+    "conflict",
+    "struggle",
+    "war",
+    "fight",
+    "challenge",
+    "victory"
+  ],
+  "bay": [
+    "water",
+    "coast",
+    "ocean",
+    "harbor",
+    "fishing",
+    "exploration"
+  ],
+  "bayonet": [
+    "weapon",
+    "defense",
+    "blade",
+    "strategy",
+    "conflict",
+    "battle"
+  ],
+  "beach": [
+    "sand",
+    "ocean",
+    "sun",
+    "coast",
+    "holiday",
+    "escape"
+  ],
+  "beacon": [
+    "light",
+    "signal",
+    "guidance",
+    "hope",
+    "safety",
+    "alert"
+  ],
+  "bean": [
+    "seed",
+    "plant",
+    "growth",
+    "food",
+    "nutrition",
+    "garden"
+  ],
+  "beanie": [
+    "hat",
+    "comfort",
+    "clothing",
+    "appearance",
+    "identity",
+    "wardrobe"
+  ],
+  "bear": [
+    "strength",
+    "power",
+    "spirit",
+    "family",
+    "adaptation",
+    "freedom"
+  ],
+  "beard": [
+    "hair",
+    "identity",
+    "appearance",
+    "expression",
+    "culture",
+    "tradition"
+  ],
+  "beat": [
+    "rhythm",
+    "music",
+    "vibration",
+    "pattern",
+    "expression",
+    "dance"
+  ],
+  "beaver": [
+    "dam",
+    "family",
+    "social",
+    "creativity",
+    "adaptation",
+    "life"
+  ],
+  "bed": [
+    "sleep",
+    "comfort",
+    "intimacy",
+    "dream",
+    "space",
+    "security"
+  ],
+  "bedroom": [
+    "space",
+    "intimacy",
+    "comfort",
+    "sleep",
+    "security",
+    "retreat"
+  ],
+  "bee": [
+    "insect",
+    "honey",
+    "community",
+    "social",
+    "life",
+    "growth"
+  ],
+  "beer": [
+    "alcohol",
+    "social",
+    "celebration",
+    "culture",
+    "party",
+    "tradition"
+  ],
+  "beetle": [
+    "insect",
+    "life",
+    "adaptation",
+    "creativity",
+    "color",
+    "growth"
+  ],
+  "beggar": [
+    "poverty",
+    "community",
+    "struggle",
+    "support",
+    "compassion",
+    "social"
+  ],
+  "beige": [
+    "color",
+    "comfort",
+    "simplicity",
+    "appearance",
+    "identity"
+  ],
+  "bell": [
+    "signal",
+    "notification",
+    "alert",
+    "ring",
+    "celebration",
+    "clarity"
+  ],
+  "bellows": [
+    "fire",
+    "force",
+    "pressure",
+    "art"
+  ],
+  "belonging": [
+    "community",
+    "connection",
+    "identity",
+    "inclusion",
+    "acceptance",
+    "relationship"
+  ],
+  "belt": [
+    "support",
+    "clothing",
+    "safety",
+    "security",
+    "identity",
+    "appearance"
+  ],
+  "benefactor": [
+    "support",
+    "community",
+    "generosity",
+    "relationship",
+    "supporter",
+    "investment"
+  ],
+  "bereavement": [
+    "loss",
+    "grief",
+    "mourning",
+    "sadness",
+    "pain",
+    "healing"
+  ],
+  "berry": [
+    "fruit",
+    "plant",
+    "food",
+    "health",
+    "nutrition",
+    "growth"
+  ],
+  "beryl": [
+    "gem",
+    "stone",
+    "color",
+    "jewelry",
+    "crystal",
+    "value"
+  ],
+  "betelgeuse": [
+    "star",
+    "universe",
+    "cosmos",
+    "light",
+    "space",
+    "galaxy"
+  ],
+  "betrayal": [
+    "deceit",
+    "trust",
+    "loss",
+    "pain",
+    "conflict",
+    "relationship"
+  ],
+  "bible": [
+    "faith",
+    "wisdom",
+    "guidance",
+    "teaching",
+    "history",
+    "community"
+  ],
+  "bicycle": [
+    "freedom",
+    "health",
+    "adventure",
+    "balance",
+    "exploration",
+    "community"
+  ],
+  "bicycles": [
+    "freedom",
+    "balance",
+    "journey",
+    "adventure",
+    "independence",
+    "exploration"
+  ],
+  "bill": [
+    "invoice",
+    "account",
+    "debt",
+    "expense",
+    "receipt",
+    "budget"
+  ],
+  "billboard": [
+    "promotion",
+    "message",
+    "communication",
+    "art"
+  ],
+  "billow": [
+    "cloud",
+    "wave",
+    "drift",
+    "smoke",
+    "tide"
+  ],
+  "binder": [
+    "storage",
+    "system",
+    "presentation",
+    "binding",
+    "archive",
+    "record"
+  ],
+  "binding": [
+    "connection",
+    "tie",
+    "link",
+    "relationship",
+    "commitment",
+    "bonding"
+  ],
+  "binturong": [
+    "forest",
+    "adaptation"
+  ],
+  "bird": [
+    "freedom",
+    "flight",
+    "life",
+    "song",
+    "sky",
+    "wings"
+  ],
+  "birth": [
+    "life",
+    "transformation",
+    "potential",
+    "growth",
+    "family",
+    "celebration"
+  ],
+  "birthday": [
+    "celebration",
+    "anniversary",
+    "age",
+    "party",
+    "cake",
+    "tradition"
+  ],
+  "biscuit": [
+    "food",
+    "snack",
+    "baking",
+    "comfort",
+    "tradition",
+    "comfort"
+  ],
+  "bison": [
+    "strength",
+    "power",
+    "history",
+    "culture",
+    "pride",
+    "heritage"
+  ],
+  "bisychosis": [
+    "mental",
+    "disorder",
+    "perception",
+    "health",
+    "treatment",
+    "therapy"
+  ],
+  "biting": [
+    "pain",
+    "attack",
+    "defense",
+    "injury",
+    "force",
+    "emotion"
+  ],
+  "black": [
+    "darkness",
+    "void",
+    "power",
+    "depth",
+    "shadow",
+    "sophistication"
+  ],
+  "blackmail": [
+    "pressure",
+    "control",
+    "fear",
+    "deception",
+    "power",
+    "secrecy"
+  ],
+  "blade": [
+    "weapon",
+    "edge",
+    "sword",
+    "strength",
+    "safety",
+    "surgery"
+  ],
+  "blanket": [
+    "comfort",
+    "security",
+    "sleep",
+    "safety",
+    "familiarity",
+    "embrace"
+  ],
+  "blaze": [
+    "fire",
+    "light",
+    "passion",
+    "fury",
+    "excitement",
+    "power"
+  ],
+  "blazer": [
+    "jacket",
+    "presentation",
+    "confidence",
+    "appearance",
+    "trend",
+    "sophistication"
+  ],
+  "bleed": [
+    "injury",
+    "pain",
+    "loss",
+    "wound",
+    "sacrifice",
+    "vulnerability"
+  ],
+  "bleeding": [
+    "injury",
+    "pain",
+    "loss",
+    "wound",
+    "sacrifice",
+    "vulnerability"
+  ],
+  "blender": [
+    "kitchen",
+    "food",
+    "smoothie",
+    "creativity",
+    "innovation"
+  ],
+  "blind": [
+    "darkness",
+    "invisibility",
+    "deception",
+    "focus",
+    "perspective",
+    "insight"
+  ],
+  "blinds": [
+    "window",
+    "light",
+    "filter",
+    "control",
+    "comfort"
+  ],
+  "bliss": [
+    "happiness",
+    "joy",
+    "peace",
+    "serenity",
+    "euphoria",
+    "ecstasy"
+  ],
+  "blizzard": [
+    "snow",
+    "storm",
+    "cold",
+    "winter",
+    "chaos",
+    "fury"
+  ],
+  "block": [
+    "challenge",
+    "resistance",
+    "space",
+    "support",
+    "shape"
+  ],
+  "blocks": [
+    "puzzle",
+    "support",
+    "system"
+  ],
+  "blog": [
+    "writing",
+    "expression",
+    "communication",
+    "content",
+    "platform",
+    "community"
+  ],
+  "blood": [
+    "life",
+    "family",
+    "connection",
+    "sacrifice",
+    "emotion",
+    "health"
+  ],
+  "blossom": [
+    "flower",
+    "growth",
+    "transformation",
+    "life",
+    "spring",
+    "renewal"
+  ],
+  "blouse": [
+    "clothing",
+    "comfort",
+    "appearance",
+    "wardrobe",
+    "trend",
+    "sophistication"
+  ],
+  "blue": [
+    "color",
+    "serenity",
+    "depth",
+    "ocean",
+    "sky",
+    "emotion"
+  ],
+  "blueprint": [
+    "strategy",
+    "project",
+    "vision",
+    "system",
+    "innovation",
+    "blueprint"
+  ],
+  "blunderbuss": [
+    "weapon",
+    "power",
+    "force",
+    "conflict",
+    "relic",
+    "defense"
+  ],
+  "blurry": [
+    "vision",
+    "confusion",
+    "focus",
+    "uncertainty"
+  ],
+  "boab": [
+    "tree",
+    "life",
+    "strength",
+    "culture",
+    "heritage",
+    "growth"
+  ],
+  "board": [
+    "platform",
+    "team",
+    "strategy",
+    "collaboration",
+    "presentation",
+    "support"
+  ],
+  "boat": [
+    "water",
+    "travel",
+    "journey",
+    "adventure",
+    "exploration",
+    "sailing"
+  ],
+  "bodhran": [
+    "drum",
+    "music",
+    "rhythm",
+    "tradition",
+    "culture",
+    "beat"
+  ],
+  "bokchoy": [
+    "vegetable",
+    "food",
+    "nutrition",
+    "health",
+    "cooking",
+    "green"
+  ],
+  "boldness": [
+    "courage",
+    "confidence",
+    "strength",
+    "risk",
+    "innovation",
+    "leadership"
+  ],
+  "bolete": [
+    "mushroom",
+    "forest",
+    "growth",
+    "nutrition",
+    "health"
+  ],
+  "bollard": [
+    "security",
+    "support",
+    "safety",
+    "harbor",
+    "stability"
+  ],
+  "bomb": [
+    "weapon",
+    "conflict",
+    "chaos",
+    "fear",
+    "terrorism",
+    "power"
+  ],
+  "bond": [
+    "connection",
+    "relationship",
+    "tie",
+    "unity",
+    "trust",
+    "commitment"
+  ],
+  "bonding": [
+    "connection",
+    "relationship",
+    "unity",
+    "trust",
+    "commitment",
+    "security"
+  ],
+  "bone": [
+    "skeleton",
+    "support",
+    "health",
+    "strength",
+    "growth",
+    "resilience"
+  ],
+  "bongos": [
+    "music",
+    "rhythm",
+    "dance",
+    "celebration",
+    "culture",
+    "expression"
   ]
 }

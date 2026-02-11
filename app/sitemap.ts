@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import dictionary from '@/scripts/data/source_dictionary';
 
 const BASE_URL = 'https://dreamboatjournal.com';
-const LOCALES = ['en', 'tr', 'de', 'es', 'pt'];
+const LOCALES = ['en', 'tr'];
 
 const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
 
