@@ -1,0 +1,747 @@
+{
+  "aardvark": [
+    "adaptation",
+    "digging",
+    "earth",
+    "fossil"
+  ],
+  "aardwolf": [
+    "hyena",
+    "adaptation",
+    "fossil"
+  ],
+  "abacus": [
+    "calculator",
+    "ancient",
+    "history",
+    "tradition",
+    "learning",
+    "system"
+  ],
+  "abandon": [
+    "desert",
+    "freedom",
+    "loss",
+    "escape",
+    "surrender",
+    "isolation"
+  ],
+  "abandonment": [
+    "loss",
+    "despair",
+    "isolation",
+    "separation",
+    "loneliness",
+    "void"
+  ],
+  "abdomen": [
+    "stomach",
+    "health",
+    "pain",
+    "muscle",
+    "sensation",
+    "balance"
+  ],
+  "abundance": [
+    "wealth",
+    "prosperity",
+    "gratitude",
+    "prosperity",
+    "growth",
+    "success"
+  ],
+  "abyssinian": [
+    "cat",
+    "companion",
+    "social",
+    "color",
+    "fur"
+  ],
+  "acacia": [
+    "tree",
+    "wood",
+    "bark",
+    "growth",
+    "resilience",
+    "flower"
+  ],
+  "acanthus": [
+    "plant",
+    "art",
+    "growth",
+    "culture",
+    "heritage",
+    "pattern"
+  ],
+  "acceptance": [
+    "embrace",
+    "reconciliation",
+    "peace",
+    "forgiveness",
+    "adaptation",
+    "serenity"
+  ],
+  "accident": [
+    "injury",
+    "risk",
+    "chaos",
+    "safety",
+    "vulnerability"
+  ],
+  "accompany": [
+    "support",
+    "partner",
+    "companion",
+    "travel",
+    "share",
+    "team"
+  ],
+  "accordion": [
+    "melody",
+    "music",
+    "harmony",
+    "tradition",
+    "culture",
+    "celebration"
+  ],
+  "account": [
+    "record",
+    "report",
+    "balance",
+    "history",
+    "ledger",
+    "evaluation"
+  ],
+  "accountability": [
+    "responsibility",
+    "trust",
+    "integrity",
+    "obligation",
+    "commitment",
+    "citizenship"
+  ],
+  "accountant": [
+    "record",
+    "budget",
+    "consultant",
+    "career",
+    "strategy"
+  ],
+  "accused": [
+    "trial",
+    "justice",
+    "guilt",
+    "court",
+    "prosecution",
+    "defense"
+  ],
+  "acorn": [
+    "seed",
+    "oak",
+    "growth",
+    "potential",
+    "planting",
+    "future"
+  ],
+  "acquaintance": [
+    "familiarity",
+    "relationship",
+    "friend",
+    "connection",
+    "social",
+    "network"
+  ],
+  "actor": [
+    "theater",
+    "role",
+    "creativity",
+    "expression",
+    "audience",
+    "script"
+  ],
+  "adaptation": [
+    "change",
+    "transformation",
+    "growth",
+    "resilience",
+    "innovation",
+    "progress"
+  ],
+  "addiction": [
+    "struggle",
+    "treatment",
+    "health",
+    "support",
+    "therapy",
+    "vulnerability"
+  ],
+  "adelie": [
+    "penguin",
+    "bird",
+    "colony",
+    "adaptation",
+    "social",
+    "life"
+  ],
+  "administrator": [
+    "leadership",
+    "strategy",
+    "support"
+  ],
+  "adobe": [
+    "earth",
+    "tradition",
+    "culture",
+    "heritage",
+    "community",
+    "innovation"
+  ],
+  "adolescence": [
+    "growth",
+    "transition",
+    "identity",
+    "change",
+    "exploration",
+    "independence"
+  ],
+  "adore": [
+    "love",
+    "affection",
+    "passion",
+    "emotion",
+    "longing",
+    "desire"
+  ],
+  "adulthood": [
+    "maturity",
+    "responsibility",
+    "independence",
+    "growth",
+    "career",
+    "life"
+  ],
+  "adventure": [
+    "exploration",
+    "journey",
+    "risk",
+    "discovery",
+    "travel",
+    "excitement"
+  ],
+  "advert": [
+    "promotion",
+    "message",
+    "communication",
+    "strategy",
+    "promotion",
+    "engagement"
+  ],
+  "advocate": [
+    "support",
+    "champion",
+    "rights",
+    "community",
+    "justice",
+    "empowerment"
+  ],
+  "affair": [
+    "relationship",
+    "romance",
+    "emotion",
+    "connection",
+    "deception",
+    "passion"
+  ],
+  "affection": [
+    "love",
+    "emotion",
+    "intimacy",
+    "support",
+    "relationship",
+    "compassion"
+  ],
+  "agate": [
+    "crystal",
+    "color",
+    "healing",
+    "earth",
+    "jewelry",
+    "pattern"
+  ],
+  "agave": [
+    "plant",
+    "desert",
+    "fiber",
+    "growth",
+    "culture",
+    "food"
+  ],
+  "age": [
+    "time",
+    "life",
+    "growth",
+    "maturity",
+    "experience",
+    "change"
+  ],
+  "aging": [
+    "growth",
+    "time",
+    "maturity",
+    "change",
+    "experience",
+    "wisdom"
+  ],
+  "agony": [
+    "pain",
+    "anguish",
+    "struggle",
+    "trauma",
+    "hurt",
+    "despair"
+  ],
+  "airplane": [
+    "travel",
+    "flight",
+    "journey",
+    "freedom",
+    "adventure",
+    "exploration"
+  ],
+  "airport": [
+    "travel",
+    "journey",
+    "connection",
+    "security",
+    "flight",
+    "experience"
+  ],
+  "alarm": [
+    "alert",
+    "signal",
+    "notification",
+    "emergency",
+    "safety",
+    "time"
+  ],
+  "albatross": [
+    "bird",
+    "ocean",
+    "flight",
+    "freedom",
+    "grace",
+    "adaptation"
+  ],
+  "albino": [
+    "color",
+    "light",
+    "white",
+    "vision",
+    "appearance",
+    "vulnerability"
+  ],
+  "alchemy": [
+    "transformation",
+    "magic",
+    "philosophy",
+    "change",
+    "knowledge",
+    "wisdom"
+  ],
+  "alcohol": [
+    "social",
+    "celebration",
+    "culture",
+    "addiction",
+    "party",
+    "health"
+  ],
+  "alcove": [
+    "space",
+    "retreat",
+    "comfort",
+    "intimacy"
+  ],
+  "alert": [
+    "notification",
+    "safety",
+    "focus",
+    "consciousness",
+    "engagement"
+  ],
+  "alexandrite": [
+    "color",
+    "change",
+    "crystal",
+    "value",
+    "jewelry",
+    "light"
+  ],
+  "algorithm": [
+    "system"
+  ],
+  "alien": [
+    "space",
+    "fear",
+    "curiosity",
+    "exploration",
+    "discovery"
+  ],
+  "alley": [
+    "narrow",
+    "street",
+    "hidden",
+    "shadow",
+    "exploration",
+    "escape"
+  ],
+  "alpaca": [
+    "wool",
+    "fleece",
+    "farm",
+    "curiosity",
+    "companionship"
+  ],
+  "altar": [
+    "sacred",
+    "ritual",
+    "sacrifice",
+    "faith",
+    "connection",
+    "meditation"
+  ],
+  "alter": [
+    "change",
+    "transition"
+  ],
+  "alterego": [
+    "identity",
+    "mask",
+    "self",
+    "reflection",
+    "role",
+    "shadow"
+  ],
+  "amaranth": [
+    "flower",
+    "eternal",
+    "life",
+    "color",
+    "resilience",
+    "growth"
+  ],
+  "amaryllis": [
+    "flower",
+    "gift",
+    "color",
+    "growth",
+    "celebration",
+    "joy"
+  ],
+  "amber": [
+    "resin",
+    "golden",
+    "ancient",
+    "jewelry",
+    "history",
+    "color"
+  ],
+  "ambergris": [
+    "whale",
+    "ocean",
+    "value",
+    "perfume",
+    "history",
+    "treasure"
+  ],
+  "ambition": [
+    "goal",
+    "aspiration",
+    "motivation",
+    "determination",
+    "success",
+    "desire"
+  ],
+  "ambivalence": [
+    "conflict",
+    "uncertainty",
+    "emotion",
+    "paradox",
+    "struggle",
+    "tension"
+  ],
+  "ambrosia": [
+    "food",
+    "bliss",
+    "sacred",
+    "celebration"
+  ],
+  "ambulance": [
+    "emergency",
+    "safety",
+    "crisis",
+    "support"
+  ],
+  "amethyst": [
+    "purple",
+    "crystal",
+    "healing",
+    "clarity",
+    "jewelry",
+    "transformation"
+  ],
+  "ammonite": [
+    "fossil",
+    "spiral",
+    "ancient",
+    "history",
+    "shell",
+    "life"
+  ],
+  "amphora": [
+    "ancient",
+    "storage",
+    "history",
+    "culture",
+    "art",
+    "wine"
+  ],
+  "ampoule": [
+    "medicine",
+    "safety",
+    "treatment",
+    "prescription",
+    "storage",
+    "vaccine"
+  ],
+  "amputation": [
+    "loss",
+    "surgery",
+    "trauma",
+    "pain",
+    "transformation",
+    "change"
+  ],
+  "amulet": [
+    "charm",
+    "talisman",
+    "faith",
+    "security",
+    "sacred",
+    "magic"
+  ],
+  "analyst": [
+    "insight",
+    "evaluation",
+    "strategy",
+    "knowledge",
+    "perspective",
+    "consultation"
+  ],
+  "analytics": [
+    "insight",
+    "evaluation",
+    "strategy",
+    "evaluation"
+  ],
+  "analyzing": [
+    "examination",
+    "evaluation",
+    "insight",
+    "clarity",
+    "perspective",
+    "knowledge"
+  ],
+  "anarchy": [
+    "chaos",
+    "disorder",
+    "freedom",
+    "rebellion",
+    "society",
+    "revolution"
+  ],
+  "anchor": [
+    "stability",
+    "security",
+    "support",
+    "safety",
+    "weight",
+    "balance"
+  ],
+  "ancient": [
+    "past",
+    "wisdom",
+    "legacy",
+    "culture",
+    "tradition",
+    "heritage"
+  ],
+  "anemone": [
+    "flower",
+    "ocean",
+    "growth",
+    "color",
+    "life",
+    "coral"
+  ],
+  "anesthesia": [
+    "pain",
+    "surgery",
+    "safety",
+    "treatment",
+    "procedure",
+    "control"
+  ],
+  "angel": [
+    "guardian",
+    "light",
+    "guidance",
+    "serenity",
+    "love",
+    "faith"
+  ],
+  "anger": [
+    "emotion",
+    "frustration",
+    "passion",
+    "conflict",
+    "power",
+    "expression"
+  ],
+  "angler": [
+    "fishing",
+    "patience",
+    "water",
+    "experience",
+    "connection",
+    "adventure"
+  ],
+  "anguish": [
+    "pain",
+    "struggle",
+    "grief",
+    "conflict",
+    "tension",
+    "despair"
+  ],
+  "animals": [
+    "life",
+    "companionship",
+    "connection",
+    "freedom",
+    "earth"
+  ],
+  "animator": [
+    "creativity",
+    "art",
+    "expression",
+    "innovation",
+    "narrative"
+  ],
+  "ankle": [
+    "joint",
+    "support",
+    "balance",
+    "stability",
+    "health",
+    "injury"
+  ],
+  "anklet": [
+    "jewelry",
+    "creativity",
+    "expression",
+    "trend",
+    "celebration"
+  ],
+  "anniversary": [
+    "celebration",
+    "memory",
+    "tradition",
+    "love",
+    "relationship",
+    "joy"
+  ],
+  "anorak": [
+    "jacket",
+    "clothing",
+    "comfort",
+    "adventure"
+  ],
+  "ant": [
+    "insect",
+    "colony",
+    "community",
+    "strength",
+    "social"
+  ],
+  "anteater": [
+    "adaptation"
+  ],
+  "antenna": [
+    "signal",
+    "communication",
+    "reception",
+    "frequency",
+    "connection",
+    "device"
+  ],
+  "anvil": [
+    "strength",
+    "shape",
+    "tradition"
+  ],
+  "anxiety": [
+    "worry",
+    "fear",
+    "stress",
+    "tension",
+    "emotion",
+    "pressure"
+  ],
+  "apartment": [
+    "space",
+    "community",
+    "independence",
+    "comfort",
+    "investment"
+  ],
+  "apathy": [
+    "emotion"
+  ],
+  "aphid": [
+    "insect",
+    "plant",
+    "control",
+    "growth"
+  ],
+  "apologizing": [
+    "regret",
+    "responsibility",
+    "reconciliation",
+    "humility",
+    "communication",
+    "relationship"
+  ],
+  "apology": [
+    "regret",
+    "responsibility",
+    "reconciliation",
+    "humility",
+    "communication",
+    "relationship"
+  ],
+  "appearance": [
+    "presentation",
+    "perception",
+    "identity",
+    "expression"
+  ],
+  "apple": [
+    "fruit",
+    "health",
+    "nutrition",
+    "tree",
+    "orchard",
+    "knowledge"
+  ]
+}

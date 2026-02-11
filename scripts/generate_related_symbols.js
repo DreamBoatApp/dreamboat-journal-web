@@ -25,7 +25,7 @@ function getAllSymbols() {
         .map(f => f.replace('.json', ''));
 }
 
-async function callGPT(batch, allSymbolsList) {
+async function callGPT(batch) {
     const response = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
         headers: {
@@ -34,26 +34,23 @@ async function callGPT(batch, allSymbolsList) {
         },
         body: JSON.stringify({
             model: 'gpt-4o-mini',
-            temperature: 0.3,
+            temperature: 0.4,
             response_format: { type: 'json_object' },
             messages: [
                 {
                     role: 'system',
-                    content: `You are a dream symbolism expert. Given a list of dream symbols, for each one suggest exactly 6 SEMANTICALLY RELATED dream symbols that a person who dreamed about the given symbol might also find meaningful.
-
-Rules:
-- Related symbols must come FROM this allowed list ONLY: ${allSymbolsList}
-- Choose symbols that share thematic, psychological, or archetypal connections
-- For animals → suggest other animals or related nature symbols
-- For emotions → suggest related emotions or psychological concepts
-- For objects → suggest objects in similar contexts
-- For places → suggest related places or settings
-- NEVER suggest random/unrelated symbols
-- Return valid JSON: {"symbolA": ["rel1","rel2","rel3","rel4","rel5","rel6"], "symbolB": [...], ...}`
+                    content: `You are a dream symbolism expert. Given a list of dream symbols, for each one suggest exactly 20 SEMANTICALLY RELATED single-word concepts.
+                    
+CRITICAL RULES:
+1. FOCUS ON MEANING: Suggest words based on thematic, psychological, or archetypal connections.
+2. NO SPELLING MATCHES: Do NOT suggest words just because they start with the same letters or sound similar. 
+   - BAD: cat -> catacomb, cut, cot
+   - GOOD: cat -> kitten, pet, animal, meow
+3. Return valid JSON: {"symbolA": ["word1", "word2", ...], "symbolB": [...]}`
                 },
                 {
                     role: 'user',
-                    content: `Generate 6 semantically related symbols for each of these dream symbols: ${batch.join(', ')}`
+                    content: `Generate 20 semantically related symbols for each of these dream symbols: ${batch.join(', ')}`
                 }
             ],
         }),
@@ -91,10 +88,6 @@ async function main() {
     }
     console.log(`Batches: ${batches.length} (${BATCH_SIZE} per batch)`);
 
-    // Trim the full symbol list for the system prompt (first 500 as reference + the batch)
-    // We send ALL symbols as the allowed list but truncate if too long
-    const symbolListStr = allSymbols.join(', ');
-
     let processedCount = Object.keys(result).length;
 
     for (let i = 0; i < batches.length; i++) {
@@ -102,7 +95,7 @@ async function main() {
         console.log(`\nBatch ${i + 1}/${batches.length}: ${batch.slice(0, 3).join(', ')}... (${batch.length} symbols)`);
 
         try {
-            const batchResult = await callGPT(batch, symbolListStr);
+            const batchResult = await callGPT(batch);
 
             // Merge results
             for (const [key, value] of Object.entries(batchResult)) {
