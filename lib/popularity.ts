@@ -1,57 +1,57 @@
-import fs from 'fs';
-import path from 'path';
-
-// A curated list of typically "popular" dreams to simulate dynamic trends
-// These are chosen because they are universally common dream themes.
-const POPULAR_POOL = [
-    'snake', 'teeth', 'flying', 'falling', 'chased',
-    'water', 'fire', 'death', 'money', 'house',
-    'baby', 'dog', 'cat', 'spider', 'ocean',
-    'earthquake', 'storm', 'naked', 'ghost', 'zombie',
-    'pregnancy', 'wedding', 'exam', 'accident', 'late',
-    'lion', 'wolf', 'bear', 'horse', 'fish',
-    'door', 'key', 'mirror', 'forest', 'mountain',
-    'sea', 'river', 'flood', 'tornado', 'vampire',
-    'alien', 'gold', 'angel', 'demon', 'god',
-    'kissing', 'cheating', 'divorce', 'crying', 'laughing'
-];
+// A curated list of "popular" dream symbols with pre-baked names per locale.
+// No filesystem reads at runtime — instant, cacheable.
 
 export interface PopularSymbol {
     slug: string;
     name: string;
 }
 
+// Top popular symbols with localized names (pre-baked, no fs reads)
+const POPULAR_SYMBOLS: Record<string, Record<string, string>> = {
+    snake: { en: 'Snake', tr: 'Yılan' },
+    teeth: { en: 'Teeth', tr: 'Diş' },
+    flying: { en: 'Flying', tr: 'Uçmak' },
+    falling: { en: 'Falling', tr: 'Düşmek' },
+    water: { en: 'Water', tr: 'Su' },
+    fire: { en: 'Fire', tr: 'Ateş' },
+    death: { en: 'Death', tr: 'Ölüm' },
+    money: { en: 'Money', tr: 'Para' },
+    baby: { en: 'Baby', tr: 'Bebek' },
+    dog: { en: 'Dog', tr: 'Köpek' },
+    cat: { en: 'Cat', tr: 'Kedi' },
+    spider: { en: 'Spider', tr: 'Örümcek' },
+    ocean: { en: 'Ocean', tr: 'Okyanus' },
+    earthquake: { en: 'Earthquake', tr: 'Deprem' },
+    wedding: { en: 'Wedding', tr: 'Düğün' },
+    lion: { en: 'Lion', tr: 'Aslan' },
+    wolf: { en: 'Wolf', tr: 'Kurt' },
+    horse: { en: 'Horse', tr: 'At' },
+    gold: { en: 'Gold', tr: 'Altın' },
+    angel: { en: 'Angel', tr: 'Melek' },
+};
+
+const SYMBOL_SLUGS = Object.keys(POPULAR_SYMBOLS);
+
 /**
- * Returns a randomized list of "popular" symbols with locale-aware names.
- * Reads localizedName from the content JSON files for the given locale.
+ * Returns a fixed list of popular symbols — no filesystem reads,
+ * no randomization on server. The order rotates daily for variety.
  */
 export function getPopularSymbols(count: number = 5, locale: string = 'en'): PopularSymbol[] {
-    const contentDir = path.join(process.cwd(), 'content', locale, 'meanings');
-    const enDir = path.join(process.cwd(), 'content', 'en', 'meanings');
+    // Rotate based on day-of-year so users see different symbols each day
+    const now = new Date();
+    const dayOfYear = Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 86400000);
+    const startIndex = dayOfYear % SYMBOL_SLUGS.length;
 
-    // Build name map for the pool
-    const available: PopularSymbol[] = [];
-    for (const slug of POPULAR_POOL) {
-        try {
-            const localePath = path.join(contentDir, `${slug}.json`);
-            const enPath = path.join(enDir, `${slug}.json`);
-            const filePath = fs.existsSync(localePath) ? localePath : (fs.existsSync(enPath) ? enPath : null);
-            if (!filePath) continue;
-
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-            const name = data.localizedName || slug.charAt(0).toUpperCase() + slug.slice(1);
-            available.push({ slug, name });
-        } catch {
-            // skip
-        }
+    const result: PopularSymbol[] = [];
+    for (let i = 0; i < count; i++) {
+        const idx = (startIndex + i) % SYMBOL_SLUGS.length;
+        const slug = SYMBOL_SLUGS[idx];
+        const names = POPULAR_SYMBOLS[slug];
+        result.push({
+            slug,
+            name: names[locale] || names['en'],
+        });
     }
 
-    // Shuffle (Fisher-Yates)
-    const shuffled = [...available];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-
-    return shuffled.slice(0, count);
+    return result;
 }
