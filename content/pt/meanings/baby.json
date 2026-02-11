@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Baby:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "Sonhar com bebê significa gravidez?",
+      "answer": "A maioria dos sonhos com bebês são simbólicos, não literais. Representam novos começos, projetos criativos ou aspectos vulneráveis de si mesmo. Se você não está grávida, o bebê provavelmente simboliza algo novo e precioso que precisa de cuidado."
+    },
+    {
+      "question": "O que significa sonhar com um bebê chorando?",
+      "answer": "Um bebê chorando sinaliza uma necessidade não atendida — seja em você mesmo ou em uma situação pela qual é responsável. Seu subconsciente está alertando que algo requer atenção imediata."
+    },
+    {
+      "question": "O que significa deixar cair um bebê no sonho?",
+      "answer": "Deixar cair um bebê representa o medo de fracassar em uma nova responsabilidade ou a preocupação de não ser capaz de lidar com algo precioso. Sua mente está processando a síndrome do impostor."
+    }
+  ]
 }

@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Horse:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa cavalgar no sonho?",
+      "answer": "Cavalgar representa sua relação com sua própria energia e ambição. Cavalgar suavemente sugere controle da sua direção. Dificuldade em cavalgar indica problemas para gerenciar sua energia ou responsabilidades."
+    },
+    {
+      "question": "O que significa um cavalo selvagem no sonho?",
+      "answer": "Um cavalo selvagem simboliza energia indomada, paixão ou aspectos da sua personalidade que resistem à estrutura. Pode representar potencial criativo que não encontrou sua saída."
+    },
+    {
+      "question": "O que significa um cavalo morto no sonho?",
+      "answer": "Um cavalo morto representa um objetivo ou força motriz que perdeu sua vitalidade. Seu subconsciente pode estar dizendo para parar de investir energia em algo que não tem mais vida."
+    }
+  ]
 }

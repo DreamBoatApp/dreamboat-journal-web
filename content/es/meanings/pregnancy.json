@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver un Pregnancy:** Una señal importante."
   ],
-  "cta": "Descarga **Dream Boat** para más."
+  "cta": "Descarga **Dream Boat** para más.",
+  "faqs": [
+    {
+      "question": "¿Qué significa soñar con estar embarazada sin estarlo?",
+      "answer": "Este sueño común representa algo desarrollándose en tu vida que aún no ha 'nacido' — una idea creativa, ambición profesional o transformación personal. El trimestre puede ofrecer pistas de tiempo."
+    },
+    {
+      "question": "¿Los hombres pueden soñar con estar embarazados?",
+      "answer": "Absolutamente. Los sueños de embarazo masculinos están bien documentados en psicología. Típicamente representan gestación creativa — un proyecto o desarrollo emocional que el soñador está cultivando."
+    },
+    {
+      "question": "¿Qué significa un embarazo difícil en un sueño?",
+      "answer": "Un embarazo difícil refleja ansiedad sobre si algo que estás desarrollando tendrá éxito. Puede indicar dudas sobre un proyecto o miedo a que circunstancias externas impidan que tus ideas se materialicen."
+    }
+  ]
 }

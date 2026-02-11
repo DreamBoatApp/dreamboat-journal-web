@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Baby sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Bedeutet ein Babytraum Schwangerschaft?",
+      "answer": "Die meisten Babyträume sind symbolisch, nicht wörtlich. Sie repräsentieren Neuanfänge, kreative Projekte oder verletzliche Aspekte von Ihnen. Wenn Sie nicht schwanger sind, symbolisiert das Baby wahrscheinlich etwas Neues und Wertvolles, das Pflege braucht."
+    },
+    {
+      "question": "Was bedeutet ein weinendes Baby im Traum?",
+      "answer": "Ein weinendes Baby signalisiert ein unerfülltes Bedürfnis — entweder in Ihnen selbst oder in einer Situation, für die Sie verantwortlich sind. Ihr Unterbewusstsein warnt Sie, dass etwas sofortige Aufmerksamkeit erfordert."
+    },
+    {
+      "question": "Was bedeutet es, ein Baby im Traum fallen zu lassen?",
+      "answer": "Ein Baby fallen zu lassen repräsentiert die Angst vor dem Scheitern bei einer neuen Verantwortung oder die Sorge, etwas Wertvolles nicht bewältigen zu können. Ihr Geist verarbeitet das Impostor-Syndrom."
+    }
+  ]
 }

@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Pregnancy sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, von Schwangerschaft zu träumen ohne schwanger zu sein?",
+      "answer": "Dieser häufige Traum repräsentiert etwas, das sich in Ihrem Leben entwickelt, aber noch nicht 'geboren' wurde — eine kreative Idee, berufliche Ambition oder persönliche Transformation."
+    },
+    {
+      "question": "Können Männer von Schwangerschaft träumen?",
+      "answer": "Absolut. Männliche Schwangerschaftsträume sind in der Psychologie gut dokumentiert. Sie repräsentieren typischerweise kreative Reifung — ein Projekt oder emotionale Entwicklung, die der Träumer pflegt."
+    },
+    {
+      "question": "Was bedeutet eine schwierige Schwangerschaft im Traum?",
+      "answer": "Eine schwierige Schwangerschaft reflektiert Angst darüber, ob etwas, das Sie entwickeln, Erfolg haben wird. Sie kann Selbstzweifel an einem Projekt oder Angst vor äußeren Hindernissen anzeigen."
+    }
+  ]
 }

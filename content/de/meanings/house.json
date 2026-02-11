@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**House sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, vom Elternhaus zu träumen?",
+      "answer": "Ihr Elternhaus repräsentiert grundlegende Erinnerungen, Familiendynamiken und Kernüberzeugungen. Dorthin zurückzukehren signalisiert, dass eine aktuelle Situation Muster aus Ihrer Erziehung auslöst."
+    },
+    {
+      "question": "Was bedeutet es, ein geheimes Zimmer zu finden?",
+      "answer": "Ein geheimes Zimmer zu entdecken ist eines der aufregendsten Traumsymbole. Es repräsentiert ungenutztes Potenzial, verborgene Talente oder Persönlichkeitsaspekte, die Sie noch nicht erschlossen haben."
+    },
+    {
+      "question": "Was bedeutet ein überflutetes Haus im Traum?",
+      "answer": "Ein überflutetes Haus kombiniert zwei kraftvolle Symbole: Ihre Psyche (Haus) und Emotionen (Wasser). Es zeigt an, dass Emotionen Ihre Fähigkeit zur psychologischen Stabilität überfordern."
+    }
+  ]
 }

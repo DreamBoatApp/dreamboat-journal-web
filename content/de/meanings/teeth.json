@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Teeth sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, wenn alle Zähne im Traum ausfallen?",
+      "answer": "Wenn alle Zähne gleichzeitig ausfallen, symbolisiert dies einen großen Kontrollverlust oder einen bedeutenden Lebensübergang. Es kann Gefühle der Hilflosigkeit während einer Veränderungsphase widerspiegeln."
+    },
+    {
+      "question": "Bedeuten Zahnträume Stress wegen meinem Aussehen?",
+      "answer": "Häufig ja. Zähne sind eng mit der Selbstdarstellung verbunden. Wenn Sie erhöhtes Selbstbewusstsein oder Angst vor Beurteilung erleben, können Zahnträume Ihr Unterbewusstsein sein, das diese Ängste verarbeitet."
+    },
+    {
+      "question": "Warum sind Zahnträume so häufig?",
+      "answer": "Zahnträume sind universell, weil Zähne grundlegende menschliche Anliegen repräsentieren: Kommunikation, Ernährung und soziale Akzeptanz. Dies sind grundlegende Überlebensinstinkte, weshalb das Unterbewusstsein Zähne häufig als Symbol verwendet."
+    }
+  ]
 }

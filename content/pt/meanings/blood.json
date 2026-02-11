@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Blood:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa sangrar no sonho?",
+      "answer": "Sangrar no sonho representa perda emocional ou esgotamento energético. Talvez você esteja dando demais de si mesmo ou experimentando uma situação que está lhe 'drenando'. A localização do sangramento oferece pistas."
+    },
+    {
+      "question": "O que significa sangue nas mãos no sonho?",
+      "answer": "Sangue nas mãos simboliza culpa, responsabilidade por dano ou as consequências de uma decisão difícil. Não necessariamente significa que você fez algo errado."
+    },
+    {
+      "question": "O que significa ver outra pessoa sangrando no sonho?",
+      "answer": "Ver outra pessoa sangrando reflete sua empatia pela dor emocional dela ou medo de perder sua conexão. Também pode representar emoções projetadas."
+    }
+  ]
 }

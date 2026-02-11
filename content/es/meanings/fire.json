@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver un Fire:** Una señal importante."
   ],
-  "cta": "Descarga **Dream Boat** para más."
+  "cta": "Descarga **Dream Boat** para más.",
+  "faqs": [
+    {
+      "question": "¿Qué significa un incendio de casa en un sueño?",
+      "answer": "Una casa en llamas representa tu identidad, seguridad o vida familiar siendo amenazada o sufriendo un cambio dramático. Como las casas simbolizan el yo en psicología onírica, el fuego destruyendo tu casa sugiere un evento transformador."
+    },
+    {
+      "question": "¿Qué significa soñar con fuego sin quemarse?",
+      "answer": "Caminar por el fuego sin quemarse es un poderoso símbolo de resiliencia. Sugiere que tienes la fortaleza interior para sobrevivir una prueba difícil. Tu subconsciente te dice que posees la fortaleza emocional para salir ileso."
+    },
+    {
+      "question": "¿Qué significa jugar con fuego en un sueño?",
+      "answer": "Jugar con fuego refleja comportamiento arriesgado en tu vida. Quizás estás empujando límites o involucrándote con algo emocionante pero potencialmente peligroso. Tu subconsciente reconoce tanto la emoción como el riesgo."
+    }
+  ]
 }

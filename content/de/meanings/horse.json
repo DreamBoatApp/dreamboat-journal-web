@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Horse sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, im Traum zu reiten?",
+      "answer": "Reiten repräsentiert Ihre Beziehung zu Ihrem eigenen Antrieb und Ehrgeiz. Geschmeidiges Reiten deutet darauf hin, dass Sie Ihre Richtung kontrollieren. Schwierigkeiten beim Reiten zeigen Probleme beim Energiemanagement."
+    },
+    {
+      "question": "Was bedeutet ein wildes Pferd im Traum?",
+      "answer": "Ein wildes Pferd symbolisiert ungezähmte Energie, Leidenschaft oder Persönlichkeitsaspekte, die sich Struktur widersetzen. Es kann kreatives Potenzial repräsentieren, das seinen Ausweg noch nicht gefunden hat."
+    },
+    {
+      "question": "Was bedeutet ein totes Pferd im Traum?",
+      "answer": "Ein totes Pferd repräsentiert ein Ziel oder eine Antriebskraft, die ihre Vitalität verloren hat. Ihr Unterbewusstsein sagt Ihnen möglicherweise, dass Sie aufhören sollen, Energie in etwas Lebloses zu investieren."
+    }
+  ]
 }

@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver un Spider:** Una señal importante."
   ],
-  "cta": "Descarga **Dream Boat** para más."
+  "cta": "Descarga **Dream Boat** para más.",
+  "faqs": [
+    {
+      "question": "¿Qué significa una araña grande en un sueño?",
+      "answer": "Una araña grande amplifica el mensaje del sueño — sugiere una fuerza creativa poderosa, una influencia significativa en tu vida o una situación compleja. Tu respuesta emocional revela si esta influencia se siente empoderadora o amenazante."
+    },
+    {
+      "question": "¿Qué significa soñar con telarañas?",
+      "answer": "Las telarañas representan las conexiones intrincadas en tu vida — relaciones, planes y el trabajo cuidadoso en construir tu situación actual. Caminar hacia una telaraña puede sugerir enredarse en los planes de otra persona."
+    },
+    {
+      "question": "¿Qué significa matar una araña en un sueño?",
+      "answer": "Matar una araña puede representar sabotear tus propios esfuerzos creativos. Sin embargo, si la araña se siente amenazante, matarla puede simbolizar superar un miedo o liberarse de una influencia manipuladora."
+    }
+  ]
 }

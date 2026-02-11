@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Fire:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa um incêndio em casa no sonho?",
+      "answer": "Uma casa em chamas representa sua identidade, segurança ou vida familiar sendo ameaçada ou passando por mudança dramática. Como casas simbolizam o eu na psicologia dos sonhos, o fogo sugere um evento transformador."
+    },
+    {
+      "question": "O que significa passar pelo fogo sem se queimar?",
+      "answer": "Passar pelo fogo sem se queimar é um poderoso símbolo de resiliência. Sugere que você tem a força interior para sobreviver a uma provação difícil."
+    },
+    {
+      "question": "O que significa brincar com fogo no sonho?",
+      "answer": "Brincar com fogo reflete comportamento arriscado na sua vida. Talvez esteja empurrando limites ou se envolvendo com algo excitante mas potencialmente perigoso."
+    }
+  ]
 }

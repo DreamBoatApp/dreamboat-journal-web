@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Snake sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet ein Schlangenbiss im Traum?",
+      "answer": "Ein Schlangenbiss im Traum symbolisiert einen plötzlichen Weckruf. Ihr Unterbewusstsein warnt Sie vor einer Situation — vielleicht einer toxischen Beziehung, einem versteckten Verrat oder einer unterdrückten Emotion — die sofortige Aufmerksamkeit erfordert."
+    },
+    {
+      "question": "Warum träume ich ständig von Schlangen?",
+      "answer": "Wiederkehrende Schlangenträume deuten darauf hin, dass eine kraftvolle Transformation in Ihrem Leben stattfinden will, Sie sich aber dagegen wehren. Die Schlange erscheint immer wieder, weil Ihr Unbewusstes Sie drängt, sich etwas zu stellen."
+    },
+    {
+      "question": "Ist die Farbe der Schlange im Traum wichtig?",
+      "answer": "Ja, die Farbe trägt wichtige Bedeutung. Eine schwarze Schlange repräsentiert das Unbekannte oder den Schattenanteil. Eine grüne symbolisiert Wachstum und Heilung. Eine rote deutet auf Leidenschaft oder Gefahr. Eine weiße gilt als glückverheißend — spirituelles Erwachen."
+    }
+  ]
 }

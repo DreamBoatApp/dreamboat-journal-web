@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Spider sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet eine große Spinne im Traum?",
+      "answer": "Eine große Spinne verstärkt die Botschaft des Traums — sie deutet auf eine kraftvolle kreative Kraft, einen bedeutenden Einfluss oder eine komplexe Situation hin. Ihre emotionale Reaktion zeigt, ob dieser Einfluss ermächtigend oder bedrohlich ist."
+    },
+    {
+      "question": "Was bedeuten Spinnennetze im Traum?",
+      "answer": "Spinnennetze repräsentieren die komplexen Verbindungen in Ihrem Leben — Beziehungen, Pläne und die sorgfältige Arbeit am Aufbau Ihrer aktuellen Situation. In ein Netz zu laufen kann Verstrickung in die Pläne anderer andeuten."
+    },
+    {
+      "question": "Was bedeutet es, eine Spinne im Traum zu töten?",
+      "answer": "Eine Spinne zu töten kann das Sabotieren eigener kreativer Bemühungen repräsentieren. Wenn die Spinne bedrohlich wirkt, kann das Töten das Überwinden einer Angst oder das Befreien von manipulativem Einfluss symbolisieren."
+    }
+  ]
 }

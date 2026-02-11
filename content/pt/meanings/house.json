@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um House:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa sonhar com a casa da infância?",
+      "answer": "Sua casa da infância representa memórias fundamentais, dinâmicas familiares e crenças centrais formadas cedo na vida. Retornar a ela sinaliza que uma situação atual está ativando padrões da sua criação."
+    },
+    {
+      "question": "O que significa encontrar um cômodo secreto no sonho?",
+      "answer": "Descobrir um cômodo secreto é um dos símbolos oníricos mais empolgantes. Representa potencial inexplorado, talentos ocultos ou aspectos da sua personalidade que você ainda não acessou."
+    },
+    {
+      "question": "O que significa uma casa inundada no sonho?",
+      "answer": "Uma casa inundada combina dois símbolos poderosos: sua psique (casa) e emoções (água). Indica que as emoções estão sobrecarregando sua capacidade de manter estabilidade psicológica."
+    }
+  ]
 }

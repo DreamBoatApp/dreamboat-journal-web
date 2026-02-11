@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Pregnancy:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa sonhar com gravidez sem estar grávida?",
+      "answer": "Este sonho comum representa algo se desenvolvendo na sua vida que ainda não 'nasceu' — uma ideia criativa, ambição profissional ou transformação pessoal. O trimestre pode oferecer pistas de tempo."
+    },
+    {
+      "question": "Homens podem sonhar com gravidez?",
+      "answer": "Absolutamente. Sonhos masculinos de gravidez são bem documentados na psicologia. Tipicamente representam gestação criativa — um projeto ou desenvolvimento emocional que o sonhador está cultivando."
+    },
+    {
+      "question": "O que significa uma gravidez difícil no sonho?",
+      "answer": "Uma gravidez difícil reflete ansiedade sobre se algo que você está desenvolvendo terá sucesso. Pode indicar dúvidas sobre um projeto ou medo de que circunstâncias externas impeçam suas ideias."
+    }
+  ]
 }

@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver un Teeth:** Una señal importante."
   ],
-  "cta": "Descarga **Dream Boat** para más."
+  "cta": "Descarga **Dream Boat** para más.",
+  "faqs": [
+    {
+      "question": "¿Qué significa soñar que se caen todos los dientes?",
+      "answer": "Cuando todos los dientes se caen a la vez, simboliza una gran pérdida de control o una transición vital significativa. Puede reflejar sentimientos de impotencia durante un periodo de cambio — como un nuevo trabajo, cambio de relación o preocupaciones por el envejecimiento."
+    },
+    {
+      "question": "¿Los sueños con dientes significan estrés por mi apariencia?",
+      "answer": "Frecuentemente sí. Los dientes están estrechamente ligados a la autopresentación y cómo nos perciben los demás. Si experimentas mayor autoconciencia o miedo a ser juzgado, los sueños con dientes pueden ser tu subconsciente procesando esas ansiedades."
+    },
+    {
+      "question": "¿Por qué los sueños con dientes son tan comunes?",
+      "answer": "Los sueños con dientes son universales porque representan preocupaciones humanas fundamentales: comunicación, nutrición y aceptación social. Estos son instintos básicos de supervivencia, por eso el subconsciente utiliza frecuentemente los dientes como símbolo."
+    }
+  ]
 }

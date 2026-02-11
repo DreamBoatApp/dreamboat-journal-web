@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Rain sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet starker Regen im Traum?",
+      "answer": "Starker Regen repräsentiert intensive emotionale Freisetzung — nicht geweinte Tränen, unterdrückte Gefühle oder eine bevorstehende kathartische Erfahrung. Entscheidend ist, ob Sie geschützt oder ausgesetzt sind."
+    },
+    {
+      "question": "Was bedeutet es, im Regen zu tanzen im Traum?",
+      "answer": "Im Regen zu tanzen ist ein zutiefst positives Symbol. Es repräsentiert das Annehmen Ihrer Emotionen statt sich zu verstecken, Freude in schwierigen Umständen zu finden und emotionale Widerstandsfähigkeit."
+    },
+    {
+      "question": "Was bedeutet Regen innerhalb des Hauses im Traum?",
+      "answer": "Regen innerhalb Ihres Hauses deutet darauf hin, dass emotionale Probleme Ihre persönlichen Grenzen durchdringen. Ihr Schutzraum hat eine Lücke, die Aufmerksamkeit braucht."
+    }
+  ]
 }

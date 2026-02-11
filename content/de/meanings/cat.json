@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Cat sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet eine schwarze Katze im Traum?",
+      "answer": "Eine schwarze Katze verbindet sich mit Ihrer Beziehung zum Unbekannten und Ihrem Schattenanteil. In der Traumpsychologie repräsentiert sie oft verborgene Intuition oder Aspekte von Ihnen, die Sie noch nicht vollständig erforscht haben."
+    },
+    {
+      "question": "Was bedeutet es, von Kätzchen zu träumen?",
+      "answer": "Kätzchen symbolisieren Neuanfänge, Verletzlichkeit und Fürsorgeinstinkte. Sie können ein neues Projekt, eine Beziehung oder kreative Idee repräsentieren, die Ihre Aufmerksamkeit braucht."
+    },
+    {
+      "question": "Warum träume ich von Katzen, obwohl ich keine besitze?",
+      "answer": "Ihr Unterbewusstsein braucht keine echte Katze, um sie als Symbol zu verwenden. Katzen repräsentieren archetypische Qualitäten — Unabhängigkeit, Geheimnis, Intuition. Ihr Traum lenkt die Aufmerksamkeit auf diese Qualitäten in Ihnen."
+    }
+  ]
 }

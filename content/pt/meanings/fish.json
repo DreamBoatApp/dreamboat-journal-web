@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Fish:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa pescar no sonho?",
+      "answer": "Pescar simboliza capturar com sucesso uma ideia, percepção ou oportunidade da sua mente inconsciente. O tamanho do peixe reflete a importância da descoberta."
+    },
+    {
+      "question": "O que significa um peixe morto no sonho?",
+      "answer": "Um peixe morto representa uma oportunidade perdida, uma ideia criativa negligenciada ou nutrição emocional que secou. Pode indicar que algo na sua vida emocional precisa ser revivido."
+    },
+    {
+      "question": "O que significa sonhar com um aquário?",
+      "answer": "Um aquário representa seu ambiente emocional controlado. Um aquário limpo sugere gerenciamento emocional saudável. Um peixe que supera seu aquário reflete sentir-se emocionalmente restrito."
+    }
+  ]
 }

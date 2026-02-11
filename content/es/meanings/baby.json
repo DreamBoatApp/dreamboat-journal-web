@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver un Baby:** Una señal importante."
   ],
-  "cta": "Descarga **Dream Boat** para más."
+  "cta": "Descarga **Dream Boat** para más.",
+  "faqs": [
+    {
+      "question": "¿Soñar con un bebé significa embarazo?",
+      "answer": "La mayoría de sueños con bebés son simbólicos, no literales. Representan nuevos comienzos, proyectos creativos o aspectos vulnerables de ti mismo. Si no estás esperando, el bebé probablemente simboliza algo nuevo y precioso en tu vida que necesita cuidado."
+    },
+    {
+      "question": "¿Qué significa soñar con un bebé llorando?",
+      "answer": "Un bebé llorando señala una necesidad insatisfecha — ya sea en ti mismo o en una situación de la que eres responsable. Tu subconsciente te alerta de que algo requiere atención inmediata."
+    },
+    {
+      "question": "¿Qué significa dejar caer un bebé en un sueño?",
+      "answer": "Dejar caer un bebé representa el miedo al fracaso en una nueva responsabilidad o la preocupación de no ser capaz de manejar algo precioso. Tu mente está procesando el síndrome del impostor o ansiedad por el cuidado."
+    }
+  ]
 }

@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Cat:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa um gato preto no sonho?",
+      "answer": "Um gato preto conecta-se com sua relação com o desconhecido e seu lado sombrio. Na psicologia dos sonhos, geralmente representa intuição oculta ou aspectos de si mesmo que você ainda não explorou completamente."
+    },
+    {
+      "question": "O que significa sonhar com gatinhos?",
+      "answer": "Gatinhos simbolizam novos começos, vulnerabilidade e instintos de cuidado. Podem representar um novo projeto, relacionamento ou ideia criativa que precisa da sua atenção."
+    },
+    {
+      "question": "Por que sonho com gatos se não tenho um?",
+      "answer": "Você não precisa ter um gato para que seu subconsciente o use como símbolo. Gatos representam qualidades arquetípicas — independência, mistério, intuição. Seu sonho pode estar chamando atenção para essas qualidades dentro de você."
+    }
+  ]
 }

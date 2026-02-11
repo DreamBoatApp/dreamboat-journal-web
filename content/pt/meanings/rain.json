@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver um Rain:** Um sinal importante."
   ],
-  "cta": "Baixe **Dream Boat** para mais."
+  "cta": "Baixe **Dream Boat** para mais.",
+  "faqs": [
+    {
+      "question": "O que significa chuva forte no sonho?",
+      "answer": "Chuva forte representa liberação emocional intensa — lágrimas não choradas, sentimentos reprimidos ou uma experiência catártica se aproximando. A chave é se você está protegido ou exposto."
+    },
+    {
+      "question": "O que significa dançar na chuva no sonho?",
+      "answer": "Dançar na chuva é um símbolo profundamente positivo. Representa abraçar suas emoções em vez de se esconder delas, encontrar alegria em circunstâncias difíceis e resiliência emocional."
+    },
+    {
+      "question": "O que significa chuva dentro de casa no sonho?",
+      "answer": "Chuva dentro da sua casa sugere que problemas emocionais estão penetrando seus limites pessoais. Seu abrigo tem uma brecha que precisa de atenção. É um chamado para reforçar seus limites emocionais."
+    }
+  ]
 }

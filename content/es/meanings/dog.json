@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Ver un Dog:** Una señal importante."
   ],
-  "cta": "Descarga **Dream Boat** para más."
+  "cta": "Descarga **Dream Boat** para más.",
+  "faqs": [
+    {
+      "question": "¿Qué significa soñar con un perro que te ataca?",
+      "answer": "Un perro atacando representa traición de alguien en quien confiabas, o tu propio conflicto interno entre lealtad e interés personal. También puede reflejar culpa por ser desleal con alguien. Considera quién en tu vida podría representar ese perro."
+    },
+    {
+      "question": "¿Qué significa un cachorro en un sueño?",
+      "answer": "Los cachorros simbolizan nuevas amistades, alegría y las primeras etapas de confianza. Soñar con un cachorro puede indicar una nueva relación formándose o el deseo de volver a un estado más despreocupado y alegre."
+    },
+    {
+      "question": "¿Qué significa soñar con un perro muerto?",
+      "answer": "Un perro muerto simboliza el fin de una amistad leal, la pérdida de una figura protectora o un aspecto descuidado de tu vida social. Puede urgirte a reconectarte con alguien o reevaluar dónde inviertes tu lealtad."
+    }
+  ]
 }

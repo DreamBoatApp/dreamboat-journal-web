@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Flying sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, im Traum zu fliegen und dann zu fallen?",
+      "answer": "Fliegen gefolgt von Fallen repräsentiert die Angst vor Erfolg oder Überschreitung. Sie haben vielleicht ein 'Hoch' erreicht, fühlen sich aber ängstlich, es aufrechtzuerhalten. Es kann auch das Impostor-Syndrom widerspiegeln."
+    },
+    {
+      "question": "Sind Flugträume ein Zeichen für luzides Träumen?",
+      "answer": "Fliegen ist einer der häufigsten Auslöser für luzides Träumen — die Erkenntnis, dass 'das nicht real sein kann', führt oft zu Traumbewusstsein. Nicht alle Flugträume sind jedoch luzid."
+    },
+    {
+      "question": "Warum fühlen sich Flugträume so real an?",
+      "answer": "Flugträume treten während des REM-Schlafs auf, wenn das Gehirn hochaktiv ist. Der vestibuläre Kortex kann extrem lebhafte Bewegungsempfindungen erzeugen. Die emotionale Intensität macht diese Träume besonders einprägsam."
+    }
+  ]
 }

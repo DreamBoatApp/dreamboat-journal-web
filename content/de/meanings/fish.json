@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Fish sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, einen Fisch im Traum zu fangen?",
+      "answer": "Einen Fisch zu fangen symbolisiert das erfolgreiche Erfassen einer Erkenntnis, Idee oder Gelegenheit aus Ihrem Unbewussten. Die Größe des Fisches spiegelt die Bedeutung der Entdeckung wider."
+    },
+    {
+      "question": "Was bedeutet ein toter Fisch im Traum?",
+      "answer": "Ein toter Fisch repräsentiert eine verpasste Gelegenheit, eine vernachlässigte kreative Idee oder emotionale Nahrung, die versiegt ist. Es kann darauf hinweisen, dass etwas in Ihrem emotionalen Leben wiederbelebt werden muss."
+    },
+    {
+      "question": "Was bedeutet es, von einem Aquarium zu träumen?",
+      "answer": "Ein Aquarium repräsentiert Ihre kontrollierte emotionale Umgebung. Ein sauberes Aquarium deutet auf gesundes emotionales Management. Ein Fisch, der sein Aquarium übergroßt, reflektiert emotionale Einschränkung."
+    }
+  ]
 }

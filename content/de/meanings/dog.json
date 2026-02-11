@@ -8,5 +8,19 @@
   "commonScenarios": [
     "**Dog sehen:** Ein wichtiges Zeichen."
   ],
-  "cta": "Laden Sie **Dream Boat** herunter für mehr."
+  "cta": "Laden Sie **Dream Boat** herunter für mehr.",
+  "faqs": [
+    {
+      "question": "Was bedeutet es, wenn ein Hund im Traum angreift?",
+      "answer": "Ein angreifender Hund repräsentiert oft Verrat durch jemanden, dem Sie vertrauten, oder Ihren eigenen inneren Konflikt zwischen Loyalität und Eigeninteresse. Überlegen Sie, wen in Ihrem Leben der Hund darstellen könnte."
+    },
+    {
+      "question": "Was bedeutet ein Welpe im Traum?",
+      "answer": "Welpen symbolisieren neue Freundschaften, Verspieltheit und die frühen Phasen von Vertrauen. Einen Welpen zu träumen kann auf eine neue sich bildende Beziehung oder den Wunsch nach einem unbeschwerteren Zustand hinweisen."
+    },
+    {
+      "question": "Was bedeutet ein toter Hund im Traum?",
+      "answer": "Ein toter Hund symbolisiert das Ende einer treuen Freundschaft, den Verlust einer beschützenden Figur oder einen vernachlässigten Aspekt Ihres sozialen Lebens."
+    }
+  ]
 }
