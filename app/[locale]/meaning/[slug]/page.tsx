@@ -60,6 +60,9 @@ const getPublishDate = (slug: string): { published: string; modified: string } =
     return dates || { published: '2026-01-15T00:00:00Z', modified: '2026-02-11T00:00:00Z' };
 };
 
+// Force dynamic rendering — this page uses getTranslations (dynamic API)
+export const dynamic = 'force-dynamic';
+
 // --- SSG PARAM GENERATION ---
 // This enables static generation for ALL valid paths at build time
 // DISABLE SSG to avoid Vercel limits (16k+ pages)
