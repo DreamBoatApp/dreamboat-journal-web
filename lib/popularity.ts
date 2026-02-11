@@ -3,15 +3,15 @@ import localizedNames from '@/scripts/data/localized_names';
 // A curated list of typically "popular" dreams to simulate dynamic trends
 // These are chosen because they are universally common dream themes.
 const POPULAR_POOL = [
-    'snake', 'teeth-falling-out', 'flying', 'falling', 'chased',
+    'snake', 'teeth', 'flying', 'falling', 'chased',
     'water', 'fire', 'death', 'money', 'house',
     'baby', 'dog', 'cat', 'spider', 'ocean',
     'earthquake', 'storm', 'naked', 'ghost', 'zombie',
-    'pregnancy', 'wedding', 'exam', 'car-accident', 'late',
+    'pregnancy', 'wedding', 'exam', 'accident', 'late',
     'lion', 'wolf', 'bear', 'horse', 'fish',
     'door', 'key', 'mirror', 'forest', 'mountain',
     'sea', 'river', 'flood', 'tornado', 'vampire',
-    'alien', 'ufo', 'angel', 'demon', 'god',
+    'alien', 'gold', 'angel', 'demon', 'god',
     'kissing', 'cheating', 'divorce', 'crying', 'laughing'
 ];
 
