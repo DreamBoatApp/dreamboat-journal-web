@@ -93,7 +93,7 @@ export default async function BlogListPage({ params }: Props) {
                             href={`/${locale}`}
                             className="inline-block mt-6 px-6 py-3 bg-indigo-600 hover:bg-indigo-500 rounded-full text-white font-medium transition-colors"
                         >
-                            Explore Dream Symbols →
+                            {locale === 'tr' ? 'Rüya Sembollerini Keşfet →' : 'Explore Dream Symbols →'}
                         </Link>
                     </div>
                 ) : (

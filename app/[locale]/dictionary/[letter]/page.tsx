@@ -88,10 +88,12 @@ function getSymbolsForLetter(locale: string, letter: string): SymbolEntry[] {
 export default async function DictionaryLetterPage({ params }: Props) {
     const { locale, letter: rawLetter } = await params;
     const alphabet = getAlphabet(locale);
-    const letter = rawLetter.toLocaleUpperCase(locale === 'tr' ? 'tr' : undefined);
+    // Decode URI-encoded Turkish chars (e.g., %C3%A7 → ç)
+    const decodedLetter = decodeURIComponent(rawLetter);
+    const letter = decodedLetter.toLocaleUpperCase(locale === 'tr' ? 'tr' : undefined);
 
     // Allow letters from the locale's alphabet
-    if (!alphabet.includes(letter) && !EN_ALPHABET.includes(letter.toUpperCase())) {
+    if (!alphabet.includes(letter)) {
         notFound();
     }
 
@@ -162,36 +164,29 @@ export default async function DictionaryLetterPage({ params }: Props) {
                     })}
                 </nav>
 
-                {/* Results Grid */}
-                <div className="lg:grid lg:grid-cols-4 lg:gap-8">
-                    <div className="lg:col-span-3">
-                        {symbols.length > 0 ? (
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {symbols.map(({ slug, name }) => (
-                                    <Link
-                                        key={slug}
-                                        href={`/meaning/${slug}`}
-                                        className="group block p-6 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 hover:bg-white/10 transition-all duration-300"
-                                    >
-                                        <h3 className="text-lg font-semibold text-white group-hover:text-indigo-300 transition-colors capitalize">
-                                            {name}
-                                        </h3>
-                                    </Link>
-                                ))}
-                            </div>
-                        ) : (
-                            <div className="text-center py-20">
-                                <div className="text-6xl mb-4">🌑</div>
-                                <p className="text-xl text-indigo-200/50">
-                                    &quot;<span className="text-white">{letter}</span>&quot; {emptyTexts[locale] || emptyTexts.en}
-                                </p>
-                            </div>
-                        )}
+                {/* Results Grid — Full Width, Centered */}
+                {symbols.length > 0 ? (
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 justify-center">
+                        {symbols.map(({ slug, name }) => (
+                            <Link
+                                key={slug}
+                                href={`/meaning/${slug}`}
+                                className="group block p-6 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 hover:bg-white/10 transition-all duration-300 text-center"
+                            >
+                                <h3 className="text-lg font-semibold text-white group-hover:text-indigo-300 transition-colors capitalize">
+                                    {name}
+                                </h3>
+                            </Link>
+                        ))}
                     </div>
-                    <div className="hidden lg:block">
-                        <InlineCTA locale={locale} />
+                ) : (
+                    <div className="text-center py-20">
+                        <div className="text-6xl mb-4">🌑</div>
+                        <p className="text-xl text-indigo-200/50">
+                            &quot;<span className="text-white">{letter}</span>&quot; {emptyTexts[locale] || emptyTexts.en}
+                        </p>
                     </div>
-                </div>
+                )}
 
             </main>
         </div>
