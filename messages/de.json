@@ -17,6 +17,29 @@
         "dictionary": "Traumdeutung",
         "blog": "Blog"
     },
+    "MeaningPage": {
+        "dictionaryTag": "Traumlexikon",
+        "symbolismTitle": "Symbolik und Bedeutung",
+        "cosmicConnectionTitle": "Kosmische Verbindung",
+        "commonDreamsTitle": "Häufige Träume",
+        "faqTitle": "Häufig gestellte Fragen",
+        "faq1Question": "Was bedeutet es, {symbol} im Traum zu sehen?",
+        "faq2Question": "Ist es gut oder schlecht, {symbol} im Traum zu sehen?",
+        "faq2Answer": "{symbol} im Traum zu sehen kann je nach Kontext des Traums sowohl positive als auch negative Bedeutungen haben. Die Emotionen, die Sie während des Traums empfunden haben, und die umgebenden Details sind entscheidend für eine genauere Deutung.",
+        "faq3Question": "Was bedeutet es, ständig von {symbol} zu träumen?",
+        "faq3Answer": "Wiederkehrende Träume von {symbol} deuten darauf hin, dass Ihr Unterbewusstsein versucht, Ihre Aufmerksamkeit auf eine wichtige Botschaft zu lenken. Diese Wiederholung weist auf ein ungelöstes emotionales oder psychologisches Muster hin.",
+        "relatedTitle": "Verwandte Traumsymbole",
+        "seeAlsoPrefix": "Siehe auch:"
+    },
+    "Footer": {
+        "dictionary": "Traumlexikon",
+        "popularSymbols": "Beliebte Symbole",
+        "about": "Über uns",
+        "privacy": "Datenschutzrichtlinie",
+        "copyright": "© {year} Dreamboat Journal. Alle Rechte vorbehalten.",
+        "disclaimer": "Traumdeutungen dienen nur zu Informationszwecken und ersetzen keine professionelle Beratung.",
+        "downloadApp": "Dream Boat herunterladen"
+    },
     "Common": {
         "moonPhaseTitle": "Aktuelle Mondphase",
         "moonPhaseDesc": "Ihre Träume werden vom Mondzyklus beeinflusst.",

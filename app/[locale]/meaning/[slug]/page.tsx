@@ -5,7 +5,12 @@ import path from 'path';
 import Link from 'next/link';
 import MoonPhaseWidget from '@/components/MoonPhaseWidget';
 import InlineCTA from '@/components/InlineCTA';
+import Breadcrumb from '@/components/Breadcrumb';
+import FAQSection from '@/components/FAQSection';
+import RelatedSymbols from '@/components/RelatedSymbols';
 import dictionary from '@/scripts/data/source_dictionary';
+import relatedSymbolsIndex from '@/scripts/data/related_symbols.json';
+import publishDates from '@/scripts/data/publish_dates.json';
 import aliasMap from '@/scripts/data/alias_map';
 import SearchBar from '@/components/SearchBar';
 
@@ -26,6 +31,7 @@ type ArticleContent = {
     commonScenarios: string[];
     cta: string;
     localizedName?: string;
+    faqs?: { question: string; answer: string }[];
 };
 
 // --- DATA FETCHING ---
@@ -48,30 +54,17 @@ const getContent = (locale: string, slug: string): ArticleContent | null => {
     }
 };
 
+// Get publish dates from build-time index (serverless-safe)
+const getPublishDate = (slug: string): { published: string; modified: string } => {
+    const dates = (publishDates as Record<string, { published: string; modified: string }>)[slug];
+    return dates || { published: '2026-01-15T00:00:00Z', modified: '2026-02-11T00:00:00Z' };
+};
+
 // --- SSG PARAM GENERATION ---
 // This enables static generation for ALL valid paths at build time
+// DISABLE SSG to avoid Vercel limits (16k+ pages)
 export async function generateStaticParams() {
-    const keys = Object.keys(dictionary); // Get all 423 keys (e.g., "SNAKE")
-    const locales = ['en', 'tr', 'de', 'es', 'pt'];
-    const paths = [];
-
-    // We need to slugify keys here to match file names
-    // Simple helper matching the script's logic
-    const slugify = (str: string) => str.toLowerCase().replace(/\s+/g, '-').replace(/_/g, '-').replace(/[^\w\-]+/g, '');
-
-    // DEBUG: Limit removed - Generate ALL pages
-    const limitedKeys = keys; // keys.slice(0, 10);
-
-    for (const locale of locales) {
-        for (const key of limitedKeys) {
-            paths.push({
-                locale,
-                slug: slugify(key)
-            });
-        }
-    }
-
-    return paths;
+    return []; // Generate on demand
 }
 
 // --- METADATA ---
@@ -81,18 +74,34 @@ export async function generateMetadata({ params }: Props) {
 
     if (!content) return { title: 'Not Found' };
 
+    const canonicalUrl = `https://dreamboatjournal.com/${locale}/meaning/${slug}`;
+
     return {
         title: content.title,
         description: content.seoDescription,
         alternates: {
+            canonical: canonicalUrl,
             languages: {
+                'x-default': `/en/meaning/${slug}`,
                 'en': `/en/meaning/${slug}`,
                 'tr': `/tr/meaning/${slug}`,
                 'de': `/de/meaning/${slug}`,
                 'es': `/es/meaning/${slug}`,
                 'pt': `/pt/meaning/${slug}`,
             }
-        }
+        },
+        openGraph: {
+            title: content.title,
+            description: content.seoDescription,
+            url: canonicalUrl,
+            type: 'article',
+            locale: locale,
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: content.title,
+            description: content.seoDescription,
+        },
     };
 }
 
@@ -114,7 +123,34 @@ export default async function MeaningPage({ params }: Props) {
     const t = content!; // Content is guaranteed here
     const t_page = await getTranslations('MeaningPage');
     const t_home = await getTranslations('HomePage');
+    const t_nav = await getTranslations('Navigation');
     const CosmicConnectionSection = (await import('@/components/CosmicConnectionSection')).default;
+
+    // Breadcrumb items
+    const symbolName = t.localizedName || slug.charAt(0).toUpperCase() + slug.slice(1);
+    const firstLetter = slug.charAt(0).toUpperCase();
+    const breadcrumbItems = [
+        { label: t_nav('home'), href: `/${locale}` },
+        { label: t_nav('dictionary'), href: `/${locale}/dictionary` },
+        { label: firstLetter, href: `/${locale}/dictionary/${firstLetter.toLowerCase()}` },
+        { label: symbolName, href: `/${locale}/meaning/${slug}` },
+    ];
+
+    // Related symbols
+    const relatedSlugs: string[] = (relatedSymbolsIndex as Record<string, string[]>)[slug] || [];
+    const relatedSymbols = relatedSlugs.map(rs => {
+        const rsContent = getContent(locale, rs);
+        return {
+            slug: rs,
+            name: rsContent?.localizedName || rs.charAt(0).toUpperCase() + rs.slice(1),
+        };
+    }).filter(rs => rs.name);
+
+    // Build 'See also' contextual links (top 4 related symbols with content)
+    const seeAlsoSymbols = relatedSymbols.slice(0, 4);
+
+    // Dates from build-time index
+    const pubDates = getPublishDate(slug);
 
     // Helper to fix capitalization title (e.g. SNAKE -> Snake)
     const fixCaps = (text: string) => {
@@ -131,7 +167,7 @@ export default async function MeaningPage({ params }: Props) {
                 <div className="absolute top-[10%] right-[10%] w-[500px] h-[500px] rounded-full bg-indigo-600/10 blur-[100px] animate-pulse"></div>
             </div>
 
-            {/* JSON-LD Schema */}
+            {/* JSON-LD Article Schema */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
@@ -141,15 +177,25 @@ export default async function MeaningPage({ params }: Props) {
                         headline: t.title,
                         description: t.seoDescription,
                         image: 'https://dreamboatjournal.com/og-image.jpg',
+                        mainEntityOfPage: {
+                            '@type': 'WebPage',
+                            '@id': `https://dreamboatjournal.com/${locale}/meaning/${slug}`,
+                        },
                         author: {
+                            '@type': 'Organization',
+                            name: 'Dream Boat Journal',
+                            url: 'https://dreamboatjournal.com',
+                        },
+                        publisher: {
                             '@type': 'Organization',
                             name: 'Dream Boat Journal',
                             logo: {
                                 '@type': 'ImageObject',
-                                url: 'https://dreamboatjournal.com/logo.png'
-                            }
+                                url: 'https://dreamboatjournal.com/images/logo.png',
+                            },
                         },
-                        datePublished: new Date().toISOString(), // In a real app this would be build time
+                        datePublished: pubDates.published,
+                        dateModified: pubDates.modified,
                     })
                 }}
             />
@@ -157,9 +203,12 @@ export default async function MeaningPage({ params }: Props) {
             <main className="relative z-10 container mx-auto px-4 py-12 md:py-24 max-w-3xl">
 
                 {/* Search Bar (Top) */}
-                <div className="mb-16 max-w-xl mx-auto">
+                <div className="mb-8 max-w-xl mx-auto">
                     <SearchBar locale={locale} placeholder={t_home('searchPlaceholder')} />
                 </div>
+
+                {/* Breadcrumb */}
+                <Breadcrumb items={breadcrumbItems} locale={locale} />
 
                 {/* Header */}
                 <header className="mb-12 text-center relative">
@@ -210,6 +259,24 @@ export default async function MeaningPage({ params }: Props) {
                         </div>
                     </section>
 
+                    {/* Contextual Internal Links (SEO: inline text links) */}
+                    {seeAlsoSymbols.length > 0 && (
+                        <p className="text-sm text-slate-400 mb-8 leading-relaxed">
+                            {t_page('seeAlsoPrefix')}{' '}
+                            {seeAlsoSymbols.map((sym, i) => (
+                                <span key={sym.slug}>
+                                    <Link
+                                        href={`/${locale}/meaning/${sym.slug}`}
+                                        className="text-indigo-300 hover:text-indigo-200 underline decoration-indigo-500/30 hover:decoration-indigo-400/60 transition-colors"
+                                    >
+                                        {sym.name}
+                                    </Link>
+                                    {i < seeAlsoSymbols.length - 1 ? ', ' : '.'}
+                                </span>
+                            ))}
+                        </p>
+                    )}
+
                     {/* Cosmic Connection (New Gated Component) */}
                     <CosmicConnectionSection
                         title={t_page('cosmicConnectionTitle')}
@@ -234,6 +301,35 @@ export default async function MeaningPage({ params }: Props) {
 
                     {/* Inline CTA (About DreamBoat) - Moved to bottom */}
                     <InlineCTA symbol={content.localizedName || t.title.split(' ').pop() || slug} />
+
+                    {/* FAQ Section — symbol-specific if available, boilerplate fallback */}
+                    <FAQSection
+                        title={t_page('faqTitle')}
+                        faqs={content.faqs && content.faqs.length > 0
+                            ? content.faqs
+                            : [
+                                {
+                                    question: t_page('faq1Question', { symbol: symbolName }),
+                                    answer: t.introduction.slice(0, 300) + (t.introduction.length > 300 ? '...' : ''),
+                                },
+                                {
+                                    question: t_page('faq2Question', { symbol: symbolName }),
+                                    answer: t_page('faq2Answer', { symbol: symbolName }),
+                                },
+                                {
+                                    question: t_page('faq3Question', { symbol: symbolName }),
+                                    answer: t_page('faq3Answer', { symbol: symbolName }),
+                                },
+                            ]
+                        }
+                    />
+
+                    {/* Related Symbols */}
+                    <RelatedSymbols
+                        symbols={relatedSymbols}
+                        locale={locale}
+                        title={t_page('relatedTitle')}
+                    />
                 </article>
             </main>
         </div>

@@ -25,6 +25,16 @@ for (const [symbol, data] of Object.entries(dictionary)) {
     }
 }
 
+// Merge SEO duplicate aliases (plural/variant redirects)
+try {
+    const seoAliases = require('./seo_aliases.json');
+    for (const [dup, canonical] of Object.entries(seoAliases)) {
+        aliasMap[dup] = canonical;
+    }
+} catch (e) {
+    // seo_aliases.json not yet generated — skip
+}
+
 module.exports = aliasMap;
 
 // Debug: show some examples

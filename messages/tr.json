@@ -26,7 +26,24 @@
         "dictionaryTag": "Rüya Sözlüğü",
         "symbolismTitle": "Sembolizm ve Anlamı",
         "cosmicConnectionTitle": "Kozmik Bağlantı",
-        "commonDreamsTitle": "Yaygın Rüyalar"
+        "commonDreamsTitle": "Yaygın Rüyalar",
+        "faqTitle": "Sıkça Sorulan Sorular",
+        "faq1Question": "Rüyada {symbol} görmek ne anlama gelir?",
+        "faq2Question": "Rüyada {symbol} görmek iyi mi kötü mü?",
+        "faq2Answer": "Rüyada {symbol} görmek, rüyanın bağlamına göre hem olumlu hem de olumsuz anlamlar taşıyabilir. Rüya sırasında hissettiğiniz duygular ve çevredeki detaylar daha doğru bir yorum için belirleyicidir.",
+        "faq3Question": "Sürekli rüyamda {symbol} görmek ne demek?",
+        "faq3Answer": "Tekrarlayan {symbol} rüyaları, bilinçaltınızın önemli bir mesajı dikkatinize sunmaya çalıştığını gösterir. Bu tekrar, farkındalığınızı gerektiren çözülmemiş duygusal veya psikolojik bir kalıba işaret eder.",
+        "relatedTitle": "İlgili Rüya Sembolleri",
+        "seeAlsoPrefix": "Ayrıca bakınız:"
+    },
+    "Footer": {
+        "dictionary": "Rüya Sözlüğü",
+        "popularSymbols": "Popüler Semboller",
+        "about": "Hakkımızda",
+        "privacy": "Gizlilik Politikası",
+        "copyright": "© {year} Dreamboat Journal. Tüm hakları saklıdır.",
+        "disclaimer": "Rüya tabirleri yalnızca bilgilendirme amaçlıdır ve profesyonel tavsiye yerine geçmez.",
+        "downloadApp": "Dream Boat'u İndir"
     },
     "Common": {
         "moonPhaseTitle": "Şu Anki Ay Evresi",

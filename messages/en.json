@@ -26,7 +26,24 @@
     "dictionaryTag": "Dream Dictionary",
     "symbolismTitle": "Symbolism and Meaning",
     "cosmicConnectionTitle": "Cosmic Connection",
-    "commonDreamsTitle": "Common Dreams"
+    "commonDreamsTitle": "Common Dreams",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "What does it mean to see {symbol} in a dream?",
+    "faq2Question": "Is seeing {symbol} in a dream good or bad?",
+    "faq2Answer": "Seeing {symbol} in a dream can carry both positive and negative meanings depending on the context of the dream. The emotions you felt during the dream and the surrounding details are key to a more accurate interpretation.",
+    "faq3Question": "What does it mean to keep dreaming about {symbol}?",
+    "faq3Answer": "Recurring dreams about {symbol} suggest that your subconscious is trying to draw your attention to an important message. This repetition indicates an unresolved emotional or psychological pattern that needs your awareness.",
+    "relatedTitle": "Related Dream Symbols",
+    "seeAlsoPrefix": "See also:"
+  },
+  "Footer": {
+    "dictionary": "Dream Dictionary",
+    "popularSymbols": "Popular Symbols",
+    "about": "About Us",
+    "privacy": "Privacy Policy",
+    "copyright": "© {year} Dreamboat Journal. All rights reserved.",
+    "disclaimer": "Dream interpretations are for informational purposes only and do not replace professional advice.",
+    "downloadApp": "Download Dream Boat"
   },
   "Common": {
     "moonPhaseTitle": "Current Moon Phase",

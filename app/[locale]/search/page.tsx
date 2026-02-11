@@ -1,5 +1,6 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import keywordIndex from '@/scripts/data/keyword_index';
 // @ts-ignore
 import localizedNames from '@/scripts/data/localized_names';
@@ -7,6 +8,10 @@ import localizedNames from '@/scripts/data/localized_names';
 import localizedKeywords from '@/scripts/data/keyword_index_localized';
 import { logFailedSearch } from '@/lib/logger';
 
+// noindex search results - thin/duplicate content
+export const metadata: Metadata = {
+    robots: { index: false, follow: true },
+};
 
 type Props = {
     params: Promise<{ locale: string }>;

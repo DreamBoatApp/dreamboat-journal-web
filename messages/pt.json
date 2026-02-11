@@ -17,6 +17,29 @@
         "dictionary": "Sonhos",
         "blog": "Blog"
     },
+    "MeaningPage": {
+        "dictionaryTag": "Dicionário de Sonhos",
+        "symbolismTitle": "Simbolismo e Significado",
+        "cosmicConnectionTitle": "Conexão Cósmica",
+        "commonDreamsTitle": "Sonhos Comuns",
+        "faqTitle": "Perguntas Frequentes",
+        "faq1Question": "O que significa ver {symbol} em um sonho?",
+        "faq2Question": "Ver {symbol} em um sonho é bom ou ruim?",
+        "faq2Answer": "Ver {symbol} em um sonho pode ter significados tanto positivos quanto negativos, dependendo do contexto do sonho. As emoções que você sentiu durante o sonho e os detalhes ao redor são fundamentais para uma interpretação mais precisa.",
+        "faq3Question": "O que significa sonhar constantemente com {symbol}?",
+        "faq3Answer": "Sonhos recorrentes sobre {symbol} sugerem que seu subconsciente está tentando chamar sua atenção para uma mensagem importante. Essa repetição indica um padrão emocional ou psicológico não resolvido que precisa da sua consciência.",
+        "relatedTitle": "Símbolos de Sonhos Relacionados",
+        "seeAlsoPrefix": "Veja também:"
+    },
+    "Footer": {
+        "dictionary": "Dicionário de Sonhos",
+        "popularSymbols": "Símbolos Populares",
+        "about": "Sobre Nós",
+        "privacy": "Política de Privacidade",
+        "copyright": "© {year} Dreamboat Journal. Todos os direitos reservados.",
+        "disclaimer": "As interpretações de sonhos são apenas para fins informativos e não substituem aconselhamento profissional.",
+        "downloadApp": "Baixar Dream Boat"
+    },
     "Common": {
         "moonPhaseTitle": "Fase da Lua Atual",
         "moonPhaseDesc": "Seus sonhos são influenciados pelo ciclo lunar.",
