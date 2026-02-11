@@ -73,7 +73,8 @@ export async function generateStaticParams() {
 
 // --- METADATA ---
 export async function generateMetadata({ params }: Props) {
-    const { locale, slug } = await params;
+    const { locale, slug: rawSlug } = await params;
+    const slug = decodeURIComponent(rawSlug);
     const content = getContent(locale, slug);
 
     if (!content) return { title: 'Not Found' };
@@ -116,7 +117,8 @@ export async function generateMetadata({ params }: Props) {
 
 // --- PAGE COMPONENT ---
 export default async function MeaningPage({ params }: Props) {
-    const { locale, slug } = await params;
+    const { locale, slug: rawSlug } = await params;
+    const slug = decodeURIComponent(rawSlug);
     const content = getContent(locale, slug);
 
     // If no direct content, check if slug is an alias (e.g., "viper" -> "snake")

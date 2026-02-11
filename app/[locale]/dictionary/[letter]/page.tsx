@@ -2,7 +2,7 @@ import { Link } from '@/i18n/routing';
 import { getTranslations } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import Breadcrumb from '@/components/Breadcrumb';
 import InlineCTA from '@/components/InlineCTA';
 
@@ -94,6 +94,16 @@ export default async function DictionaryLetterPage({ params }: Props) {
 
     // Allow letters from the locale's alphabet
     if (!alphabet.includes(letter)) {
+        // Fallback: map Turkish special chars to Latin equivalents (e.g., Ç→C when switching from TR to EN)
+        const TR_TO_LATIN: Record<string, string> = {
+            'Ç': 'C', 'Ğ': 'G', 'İ': 'I', 'I': 'I',
+            'Ö': 'O', 'Ş': 'S', 'Ü': 'U',
+            'Ä': 'A', 'Ñ': 'N', // DE/ES fallback too
+        };
+        const fallback = TR_TO_LATIN[letter];
+        if (fallback && alphabet.includes(fallback)) {
+            redirect(`/${locale}/dictionary/${fallback.toLowerCase()}`);
+        }
         notFound();
     }
 
