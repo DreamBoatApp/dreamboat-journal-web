@@ -16,7 +16,7 @@ const nextConfig = {
             {
                 source: '/:locale(de|es|pt)/:path*',
                 destination: '/en/:path*',
-                permanent: false,
+                permanent: true,
             },
         ];
     },

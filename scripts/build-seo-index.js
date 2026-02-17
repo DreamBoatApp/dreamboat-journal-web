@@ -40,8 +40,10 @@ for (const locale of LOCALES) {
 
             const words = wordCount(content.introduction) +
                 wordCount(content.symbolism) +
-                wordCount(content.psychologicalPerspective) +
-                wordCount(content.culturalContext);
+                wordCount(content.cosmicAnalysis) +
+                (content.commonScenarios || []).reduce((s, sc) => s + wordCount(sc), 0) +
+                (content.faqs || []).reduce((s, f) => s + wordCount(f.question) + wordCount(f.answer), 0) +
+                wordCount(content.cta);
 
             const hasRequiredFields = content.title && content.seoDescription &&
                 content.introduction && content.symbolism;

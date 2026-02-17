@@ -7,7 +7,7 @@ import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import RelatedSymbols from '@/components/RelatedSymbols';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 86400; // ISR: revalidate daily
 
 type BlogSection = {
     heading: string;
@@ -64,7 +64,14 @@ export async function generateMetadata({ params }: Props) {
     return {
         title: post.title,
         description: post.seoDescription,
-        alternates: { canonical: canonicalUrl },
+        alternates: {
+            canonical: canonicalUrl,
+            languages: {
+                'x-default': `https://dreamboatjournal.com/en/blog/${slug}`,
+                'en': `https://dreamboatjournal.com/en/blog/${slug}`,
+                'tr': `https://dreamboatjournal.com/tr/blog/${slug}`,
+            },
+        },
         openGraph: {
             title: post.title,
             description: post.seoDescription,

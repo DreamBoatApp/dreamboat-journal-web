@@ -61,8 +61,8 @@ const getPublishDate = (slug: string): { published: string; modified: string } =
     return dates || { published: '2026-01-15T00:00:00Z', modified: '2026-02-11T00:00:00Z' };
 };
 
-// Force dynamic rendering — this page uses getTranslations (dynamic API)
-export const dynamic = 'force-dynamic';
+// ISR: pages generated on first request and cached
+export const revalidate = 86400; // revalidate once per day
 
 // --- SSG PARAM GENERATION ---
 // This enables static generation for ALL valid paths at build time
@@ -95,9 +95,6 @@ export async function generateMetadata({ params }: Props) {
                 'x-default': `/en/meaning/${slug}`,
                 'en': `/en/meaning/${slug}`,
                 'tr': `/tr/meaning/${slug}`,
-                'de': `/de/meaning/${slug}`,
-                'es': `/es/meaning/${slug}`,
-                'pt': `/pt/meaning/${slug}`,
             }
         },
         openGraph: {
@@ -269,6 +266,9 @@ export default async function MeaningPage({ params }: Props) {
                             </p>
                         </div>
                     </section>
+
+                    {/* App Download CTA */}
+                    <InlineCTA symbol={symbolName} />
 
                     {/* Contextual Internal Links (SEO: inline text links) */}
                     {seeAlsoSymbols.length > 0 && (

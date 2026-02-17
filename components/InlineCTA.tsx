@@ -1,6 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 type Props = {
     symbol: string;
@@ -8,22 +9,55 @@ type Props = {
 
 export default function InlineCTA({ symbol }: Props) {
     const t = useTranslations('InlineCTA');
+    const tc = useTranslations('Common');
+
+    const copy = symbol
+        ? tc('bannerSymbolCopy', { symbol })
+        : tc('bannerDefaultCopy');
 
     return (
-        <div className="my-12 py-8 px-6 md:px-0 text-center relative overflow-hidden border-t border-white/10">
+        <section className="my-12 relative overflow-hidden rounded-2xl border border-indigo-500/20">
+            {/* Background gradient */}
+            <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/60 via-purple-900/40 to-fuchsia-900/30 pointer-events-none" />
+            <div className="absolute -top-20 -right-20 w-64 h-64 bg-purple-500/10 rounded-full blur-[80px] pointer-events-none" />
 
-            {/* Background Decor - Subtle & Blended */}
-            <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-indigo-500/50 to-transparent"></div>
-            <div className="absolute -top-24 left-1/2 w-96 h-96 bg-indigo-900/10 rounded-full blur-[100px] -translate-x-1/2 pointer-events-none"></div>
+            <div className="relative z-10 p-8 md:p-10 flex flex-col md:flex-row items-center gap-8">
+                {/* App Icon */}
+                <div className="flex-shrink-0">
+                    <Image
+                        src="/images/app_icon.png"
+                        alt="DreamBoat"
+                        width={80}
+                        height={80}
+                        className="rounded-2xl shadow-lg shadow-purple-500/20"
+                    />
+                </div>
 
-            <div className="relative z-10 max-w-2xl mx-auto">
-                <h3 className="text-xl font-bold text-indigo-200 mb-4 tracking-wide uppercase text-sm">
-                    {t('title')}
-                </h3>
-                <div className="text-slate-400 space-y-4 text-left leading-relaxed text-sm md:text-base font-light">
-                    <p className="whitespace-pre-line text-center">{t('description')}</p>
+                {/* Content */}
+                <div className="flex-1 text-center md:text-left">
+                    <h3 className="text-lg md:text-xl font-bold text-white mb-2">
+                        {t('title')}
+                    </h3>
+                    <p className="text-slate-300 text-sm md:text-base leading-relaxed mb-4 max-w-lg">
+                        {copy}
+                    </p>
+
+                    {/* Download Button */}
+                    <a
+                        href="https://onelink.to/dreamboat"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full text-white font-semibold text-sm hover:from-indigo-400 hover:to-purple-400 transition-all shadow-lg shadow-indigo-500/25 hover:shadow-indigo-500/40 hover:scale-[1.02] active:scale-[0.98]"
+                    >
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                            <polyline points="7 10 12 15 17 10" />
+                            <line x1="12" y1="15" x2="12" y2="3" />
+                        </svg>
+                        {tc('openInApp')}
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
