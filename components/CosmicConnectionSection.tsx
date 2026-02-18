@@ -9,6 +9,11 @@ type Props = {
 };
 
 const CosmicConnectionSection = ({ title, analysisText }: Props) => {
+    // Defensive: ensure analysisText is always a string
+    const text = typeof analysisText === 'string' ? analysisText
+        : typeof analysisText === 'object' && analysisText
+            ? Object.entries(analysisText).map(([k, v]) => `**${k}:** ${v}`).join('\n\n')
+            : '';
     const t = useTranslations('Common');
     const [phase, setPhase] = useState<'New' | 'Waxing' | 'Full' | 'Waning' | 'Dark'>('Full');
 
@@ -77,7 +82,7 @@ const CosmicConnectionSection = ({ title, analysisText }: Props) => {
                     {/* Text Content - Rendered fully but masked */}
                     <p className="text-slate-300 italic leading-loose text-lg whitespace-pre-line pb-4 opacity-90">
                         &quot;
-                        {analysisText.split(/(\*\*.*?\*\*|\*[^*]+?\*)/g).map((part, i) => {
+                        {text.split(/(\*\*.*?\*\*|\*[^*]+?\*)/g).map((part, i) => {
                             if (part.startsWith('**') && part.endsWith('**')) {
                                 return <strong key={i} className="text-indigo-200 font-semibold not-italic">{part.slice(2, -2)}</strong>;
                             }

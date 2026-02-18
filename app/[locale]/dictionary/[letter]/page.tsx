@@ -1,10 +1,12 @@
 import { Link } from '@/i18n/routing';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
-import { notFound, redirect } from 'next/navigation';
 import Breadcrumb from '@/components/Breadcrumb';
 import InlineCTA from '@/components/InlineCTA';
+
+// SSG: only params from generateStaticParams are valid
+export const dynamicParams = false;
 
 // SSG: pre-render all letter pages at build time
 export async function generateStaticParams() {
@@ -98,24 +100,16 @@ function getSymbolsForLetter(locale: string, letter: string): SymbolEntry[] {
 
 export default async function DictionaryLetterPage({ params }: Props) {
     const { locale, letter: rawLetter } = await params;
+    setRequestLocale(locale);
     const alphabet = getAlphabet(locale);
     // Decode URI-encoded Turkish chars (e.g., %C3%A7 → ç)
     const decodedLetter = decodeURIComponent(rawLetter);
     const letter = decodedLetter.toLocaleUpperCase(locale === 'tr' ? 'tr' : undefined);
 
-    // Allow letters from the locale's alphabet
+    // With dynamicParams=false, only valid letters reach here
+    // Guard defensively without using dynamic APIs
     if (!alphabet.includes(letter)) {
-        // Fallback: map Turkish special chars to Latin equivalents (e.g., Ç→C when switching from TR to EN)
-        const TR_TO_LATIN: Record<string, string> = {
-            'Ç': 'C', 'Ğ': 'G', 'İ': 'I', 'I': 'I',
-            'Ö': 'O', 'Ş': 'S', 'Ü': 'U',
-            'Ä': 'A', 'Ñ': 'N', // DE/ES fallback too
-        };
-        const fallback = TR_TO_LATIN[letter];
-        if (fallback && alphabet.includes(fallback)) {
-            redirect(`/${locale}/dictionary/${fallback.toLowerCase()}`);
-        }
-        notFound();
+        return <div>Letter not found</div>;
     }
 
     const t = await getTranslations('Navigation');

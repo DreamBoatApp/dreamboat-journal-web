@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -56,6 +56,7 @@ function getLocalizedSymbolName(locale: string, slug: string): string {
 
 export async function generateMetadata({ params }: Props) {
     const { locale, slug } = await params;
+    setRequestLocale(locale);
     const post = getBlogPost(locale, slug);
     if (!post) return { title: 'Not Found' };
 
@@ -101,6 +102,7 @@ function renderMarkdown(text: string) {
 
 export default async function BlogPostPage({ params }: Props) {
     const { locale, slug } = await params;
+    setRequestLocale(locale);
     const post = getBlogPost(locale, slug);
     if (!post) notFound();
 

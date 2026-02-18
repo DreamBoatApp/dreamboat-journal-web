@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Breadcrumb from '@/components/Breadcrumb';
 
 type Props = {
@@ -7,6 +7,7 @@ type Props = {
 
 export async function generateMetadata({ params }: Props) {
     const { locale } = await params;
+    setRequestLocale(locale);
     const titles: Record<string, string> = {
         en: 'Privacy Policy — Dreamboat Journal',
         tr: 'Gizlilik Politikası — Dreamboat Journal',
@@ -80,6 +81,7 @@ const content: Record<string, { title: string; lastUpdated: string; sections: { 
 
 export default async function PrivacyPage({ params }: Props) {
     const { locale } = await params;
+    setRequestLocale(locale);
     const t_nav = await getTranslations('Navigation');
     const c = content[locale] || content.en;
 

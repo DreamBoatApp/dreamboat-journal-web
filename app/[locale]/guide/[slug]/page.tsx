@@ -1,11 +1,13 @@
-import { notFound } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import RelatedSymbols from '@/components/RelatedSymbols';
+
+// SSG: only params from generateStaticParams are valid
+export const dynamicParams = false;
 
 // SSG: pre-render all guide pages at build time
 export async function generateStaticParams() {
@@ -116,8 +118,9 @@ function renderMarkdown(text: string) {
 
 export default async function GuidePage({ params }: Props) {
     const { locale, slug } = await params;
+    setRequestLocale(locale);
     const guide = getGuideContent(locale, slug);
-    if (!guide) notFound();
+    if (!guide) return <div>Guide not found</div>;
 
     const t_nav = await getTranslations('Navigation');
 

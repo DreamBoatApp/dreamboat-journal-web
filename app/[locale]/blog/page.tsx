@@ -1,12 +1,10 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import Breadcrumb from '@/components/Breadcrumb';
 
 export const revalidate = 86400; // ISR: revalidate daily
-
-const POSTS_PER_PAGE = 12;
 
 type BlogPost = {
     slug: string;
@@ -19,7 +17,6 @@ type BlogPost = {
 
 type Props = {
     params: Promise<{ locale: string }>;
-    searchParams: Promise<{ page?: string }>;
 };
 
 function getBlogPosts(locale: string): BlogPost[] {
@@ -46,10 +43,9 @@ function getBlogPosts(locale: string): BlogPost[] {
     }
 }
 
-export async function generateMetadata({ params, searchParams }: Props) {
+export async function generateMetadata({ params }: Props) {
     const { locale } = await params;
-    const { page } = await searchParams;
-    const currentPage = Math.max(1, parseInt(page || '1', 10));
+    setRequestLocale(locale);
 
     const titles: Record<string, string> = {
         en: 'Dream Journal Blog — Insights & Guides',
@@ -61,34 +57,25 @@ export async function generateMetadata({ params, searchParams }: Props) {
         tr: 'Rüya psikolojisi, yaygın rüya anlamları ve daha iyi rüya hatırlama ipuçları hakkında makaleler.',
     };
 
-    const pageSuffix = currentPage > 1 ? ` — Page ${currentPage}` : '';
-
     return {
-        title: (titles[locale] || titles.en) + pageSuffix,
+        title: titles[locale] || titles.en,
         description: descriptions[locale] || descriptions.en,
         alternates: {
-            canonical: `https://dreamboatjournal.com/${locale}/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+            canonical: `https://dreamboatjournal.com/${locale}/blog`,
             languages: {
-                'x-default': `https://dreamboatjournal.com/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-                'en': `https://dreamboatjournal.com/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
-                'tr': `https://dreamboatjournal.com/tr/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+                'x-default': `https://dreamboatjournal.com/en/blog`,
+                'en': `https://dreamboatjournal.com/en/blog`,
+                'tr': `https://dreamboatjournal.com/tr/blog`,
             },
         },
     };
 }
 
-export default async function BlogListPage({ params, searchParams }: Props) {
+export default async function BlogListPage({ params }: Props) {
     const { locale } = await params;
-    const { page } = await searchParams;
+    setRequestLocale(locale);
     const t_nav = await getTranslations('Navigation');
     const allPosts = getBlogPosts(locale);
-
-    // Pagination
-    const currentPage = Math.max(1, parseInt(page || '1', 10));
-    const totalPages = Math.max(1, Math.ceil(allPosts.length / POSTS_PER_PAGE));
-    const safePage = Math.min(currentPage, totalPages);
-    const startIdx = (safePage - 1) * POSTS_PER_PAGE;
-    const posts = allPosts.slice(startIdx, startIdx + POSTS_PER_PAGE);
 
     const breadcrumbItems = [
         { label: t_nav('home'), href: `/${locale}` },
@@ -112,7 +99,7 @@ export default async function BlogListPage({ params, searchParams }: Props) {
                     <div className="w-24 h-1 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto rounded-full mt-6"></div>
                 </header>
 
-                {posts.length === 0 ? (
+                {allPosts.length === 0 ? (
                     <div className="text-center py-20">
                         <p className="text-xl text-slate-400 mb-4">Coming soon...</p>
                         <p className="text-slate-500">We&apos;re working on insightful articles about dream interpretation.</p>
@@ -124,65 +111,27 @@ export default async function BlogListPage({ params, searchParams }: Props) {
                         </Link>
                     </div>
                 ) : (
-                    <>
-                        <div className="grid gap-6">
-                            {posts.map((post) => (
-                                <Link
-                                    key={post.slug}
-                                    href={`/${locale}/blog/${post.slug}`}
-                                    className="group block p-6 rounded-2xl bg-white/5 border border-white/5 hover:border-indigo-500/30 hover:bg-white/10 transition-all duration-300"
-                                >
-                                    <div className="flex items-center gap-3 mb-3">
-                                        <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-indigo-600/20 text-indigo-300">
-                                            {post.category}
-                                        </span>
-                                        <span className="text-xs text-slate-500">{post.date}</span>
-                                        <span className="text-xs text-slate-500">· {post.readTime} {locale === 'tr' ? 'okuma' : 'read'}</span>
-                                    </div>
-                                    <h2 className="text-xl font-semibold text-white group-hover:text-indigo-300 transition-colors mb-2">
-                                        {post.title}
-                                    </h2>
-                                    <p className="text-slate-400 text-sm line-clamp-2">{post.excerpt}</p>
-                                </Link>
-                            ))}
-                        </div>
-
-                        {/* Pagination */}
-                        {totalPages > 1 && (
-                            <nav className="flex justify-center items-center gap-2 mt-12" aria-label="Blog pagination">
-                                {safePage > 1 && (
-                                    <Link
-                                        href={`/${locale}/blog${safePage - 1 > 1 ? `?page=${safePage - 1}` : ''}`}
-                                        className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-slate-300 hover:bg-white/10 hover:border-indigo-500/30 transition-all"
-                                    >
-                                        ← {locale === 'tr' ? 'Önceki' : 'Previous'}
-                                    </Link>
-                                )}
-
-                                {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
-                                    <Link
-                                        key={p}
-                                        href={`/${locale}/blog${p > 1 ? `?page=${p}` : ''}`}
-                                        className={`w-10 h-10 flex items-center justify-center rounded-lg text-sm font-medium transition-all ${p === safePage
-                                                ? 'bg-indigo-600 text-white border border-indigo-500'
-                                                : 'bg-white/5 border border-white/10 text-slate-400 hover:bg-white/10 hover:border-indigo-500/30'
-                                            }`}
-                                    >
-                                        {p}
-                                    </Link>
-                                ))}
-
-                                {safePage < totalPages && (
-                                    <Link
-                                        href={`/${locale}/blog?page=${safePage + 1}`}
-                                        className="px-4 py-2 rounded-lg bg-white/5 border border-white/10 text-sm text-slate-300 hover:bg-white/10 hover:border-indigo-500/30 transition-all"
-                                    >
-                                        {locale === 'tr' ? 'Sonraki' : 'Next'} →
-                                    </Link>
-                                )}
-                            </nav>
-                        )}
-                    </>
+                    <div className="grid gap-6">
+                        {allPosts.map((post) => (
+                            <Link
+                                key={post.slug}
+                                href={`/${locale}/blog/${post.slug}`}
+                                className="group block p-6 rounded-2xl bg-white/5 border border-white/5 hover:border-indigo-500/30 hover:bg-white/10 transition-all duration-300"
+                            >
+                                <div className="flex items-center gap-3 mb-3">
+                                    <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-indigo-600/20 text-indigo-300">
+                                        {post.category}
+                                    </span>
+                                    <span className="text-xs text-slate-500">{post.date}</span>
+                                    <span className="text-xs text-slate-500">· {post.readTime} {locale === 'tr' ? 'okuma' : 'read'}</span>
+                                </div>
+                                <h2 className="text-xl font-semibold text-white group-hover:text-indigo-300 transition-colors mb-2">
+                                    {post.title}
+                                </h2>
+                                <p className="text-slate-400 text-sm line-clamp-2">{post.excerpt}</p>
+                            </Link>
+                        ))}
+                    </div>
                 )}
             </main>
         </div>

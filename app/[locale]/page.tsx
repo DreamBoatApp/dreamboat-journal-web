@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Link } from '@/i18n/routing';
 import { getPopularSymbols } from '@/lib/popularity';
 import SearchBar from '@/components/SearchBar';
@@ -9,6 +9,7 @@ type Props = {
 
 export default async function HomePage({ params }: Props) {
     const { locale } = await params;
+    setRequestLocale(locale);
     const t = await getTranslations('HomePage');
 
     // Get dynamic popular symbols (randomized subset per request)

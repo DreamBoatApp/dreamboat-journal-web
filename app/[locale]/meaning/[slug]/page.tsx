@@ -1,5 +1,4 @@
-import { notFound, redirect } from 'next/navigation';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
@@ -61,6 +60,9 @@ const getPublishDate = (slug: string): { published: string; modified: string } =
     return dates || { published: '2026-01-15T00:00:00Z', modified: '2026-02-11T00:00:00Z' };
 };
 
+// SSG: only params from generateStaticParams are valid (auto-404 for others)
+export const dynamicParams = false;
+
 // SSG: pre-render all meaning pages at build time
 export async function generateStaticParams() {
     const locales = ['en', 'tr'];
@@ -81,6 +83,7 @@ export async function generateStaticParams() {
 // --- METADATA ---
 export async function generateMetadata({ params }: Props) {
     const { locale, slug: rawSlug } = await params;
+    setRequestLocale(locale);
     const slug = decodeURIComponent(rawSlug);
     const content = getContent(locale, slug);
 
@@ -122,17 +125,14 @@ export async function generateMetadata({ params }: Props) {
 // --- PAGE COMPONENT ---
 export default async function MeaningPage({ params }: Props) {
     const { locale, slug: rawSlug } = await params;
+    setRequestLocale(locale);
     const slug = decodeURIComponent(rawSlug);
     const content = getContent(locale, slug);
 
-    // If no direct content, check if slug is an alias (e.g., "viper" -> "snake")
+    // With dynamicParams=false, only valid slugs from generateStaticParams reach here
+    // Content should always exist, but guard defensively
     if (!content) {
-        const mainSlug = (aliasMap as Record<string, string>)[slug];
-        if (mainSlug) {
-            // Redirect to the main symbol page
-            redirect(`/${locale}/meaning/${mainSlug}`);
-        }
-        notFound();
+        return <div>Not found</div>;
     }
 
     const t = content!; // Content is guaranteed here
@@ -308,10 +308,15 @@ export default async function MeaningPage({ params }: Props) {
                             {t_page('commonDreamsTitle')}
                         </h2>
                         <ul className="grid gap-4">
-                            {content.commonScenarios.map((scenario, i) => (
+                            {content.commonScenarios.map((scenario: any, i: number) => (
                                 <li key={i} className="flex gap-4 p-4 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 transition-all">
                                     <span className="text-indigo-400 font-bold text-lg">–</span>
-                                    <p className="text-gray-300">{fixCaps(scenario)}</p>
+                                    <div className="text-gray-300">
+                                        <p className="font-medium text-white/90 mb-1">{fixCaps(typeof scenario === 'string' ? scenario : scenario.scenario || '')}</p>
+                                        {typeof scenario === 'object' && scenario.interpretation && (
+                                            <p className="text-sm text-slate-400">{scenario.interpretation}</p>
+                                        )}
+                                    </div>
                                 </li>
                             ))}
                         </ul>
