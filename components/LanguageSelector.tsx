@@ -15,10 +15,14 @@ export default function LanguageSelector() {
     const router = useRouter();
 
     const handleChange = (newLocale: string) => {
-        // Replace the current locale in the pathname with the new one
         const segments = pathname.split('/');
         segments[1] = newLocale;
-        router.push(segments.join('/'));
+        // Blog posts have different slugs per language — redirect to blog list
+        if (segments[2] === 'blog' && segments[3]) {
+            router.push(`/${newLocale}/blog`);
+        } else {
+            router.push(segments.join('/'));
+        }
     };
 
     return (
