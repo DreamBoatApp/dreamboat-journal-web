@@ -6,7 +6,18 @@ import { notFound, redirect } from 'next/navigation';
 import Breadcrumb from '@/components/Breadcrumb';
 import InlineCTA from '@/components/InlineCTA';
 
-export const dynamic = 'force-dynamic';
+// SSG: pre-render all letter pages at build time
+export async function generateStaticParams() {
+    const locales = ['en', 'tr'];
+    const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    const params: { locale: string; letter: string }[] = [];
+    for (const locale of locales) {
+        for (const letter of letters) {
+            params.push({ locale, letter });
+        }
+    }
+    return params;
+}
 
 // --- Types ---
 type Props = {

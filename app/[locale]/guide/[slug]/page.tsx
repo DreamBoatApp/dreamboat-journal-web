@@ -7,7 +7,21 @@ import Breadcrumb from '@/components/Breadcrumb';
 import FAQSection from '@/components/FAQSection';
 import RelatedSymbols from '@/components/RelatedSymbols';
 
-export const dynamic = 'force-dynamic';
+// SSG: pre-render all guide pages at build time
+export async function generateStaticParams() {
+    const locales = ['en', 'tr'];
+    const guidesDir = path.join(process.cwd(), 'content', 'en', 'guides');
+    const slugs = fs.readdirSync(guidesDir)
+        .filter((f: string) => f.endsWith('.json'))
+        .map((f: string) => f.replace('.json', ''));
+    const params: { locale: string; slug: string }[] = [];
+    for (const locale of locales) {
+        for (const slug of slugs) {
+            params.push({ locale, slug });
+        }
+    }
+    return params;
+}
 
 type GuideSection = {
     id: string;

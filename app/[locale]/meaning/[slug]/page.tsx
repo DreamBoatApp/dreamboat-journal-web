@@ -61,12 +61,21 @@ const getPublishDate = (slug: string): { published: string; modified: string } =
     return dates || { published: '2026-01-15T00:00:00Z', modified: '2026-02-11T00:00:00Z' };
 };
 
-// Dynamic rendering required because getTranslations() uses request context
-export const dynamic = 'force-dynamic';
-
-// No static params — pages generated on demand
+// SSG: pre-render all meaning pages at build time
 export async function generateStaticParams() {
-    return [];
+    const locales = ['en', 'tr'];
+    const params: { locale: string; slug: string }[] = [];
+    for (const locale of locales) {
+        const dir = path.join(process.cwd(), 'content', locale, 'meanings');
+        if (fs.existsSync(dir)) {
+            fs.readdirSync(dir)
+                .filter((f: string) => f.endsWith('.json'))
+                .forEach((f: string) => {
+                    params.push({ locale, slug: f.replace('.json', '') });
+                });
+        }
+    }
+    return params;
 }
 
 // --- METADATA ---
