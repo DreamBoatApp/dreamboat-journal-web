@@ -16,7 +16,9 @@ export default function Footer() {
         { slug: 'baby', name: locale === 'tr' ? 'Bebek' : locale === 'de' ? 'Baby' : locale === 'es' ? 'Bebé' : locale === 'pt' ? 'Bebê' : 'Baby' },
     ];
 
-    const letterLinks = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const letterLinks = locale === 'tr'
+        ? 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('')
+        : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
     return (
         <footer className="relative border-t border-white/10 bg-[#020010]">
