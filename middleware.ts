@@ -20,7 +20,14 @@ export default function middleware(request: NextRequest) {
         return NextResponse.redirect(url, 308);
     }
 
-    return intlMiddleware(request);
+    const response = intlMiddleware(request);
+
+    // Strip NEXT_LOCALE cookie to allow Vercel CDN caching.
+    // The locale is already in the URL path (/en/..., /tr/...),
+    // so the cookie is redundant and prevents CDN edge caching.
+    response.headers.delete('set-cookie');
+
+    return response;
 }
 
 export const config = {
