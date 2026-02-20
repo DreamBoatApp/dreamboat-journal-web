@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
 type Props = {
-    symbol: string;
+    symbol?: string;
 };
 
 export default function InlineCTA({ symbol }: Props) {

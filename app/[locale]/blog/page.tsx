@@ -133,6 +133,45 @@ export default async function BlogListPage({ params }: Props) {
                         ))}
                     </div>
                 )}
+
+                {/* Cross-link: Popular Dream Symbols → Dictionary (SEO internal linking) */}
+                <section className="mt-16 pt-10 border-t border-white/10">
+                    <h2 className="text-xl font-semibold text-white mb-6">
+                        {locale === 'tr' ? 'Popüler Rüya Sembolleri' : 'Popular Dream Symbols'}
+                    </h2>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+                        {[
+                            { slug: 'snake', en: 'Snake', tr: 'Yılan' },
+                            { slug: 'water', en: 'Water', tr: 'Su' },
+                            { slug: 'falling', en: 'Falling', tr: 'Düşmek' },
+                            { slug: 'teeth', en: 'Teeth', tr: 'Diş' },
+                            { slug: 'death', en: 'Death', tr: 'Ölüm' },
+                            { slug: 'flying', en: 'Flying', tr: 'Uçmak' },
+                            { slug: 'baby', en: 'Baby', tr: 'Bebek' },
+                            { slug: 'spider', en: 'Spider', tr: 'Örümcek' },
+                            { slug: 'fire', en: 'Fire', tr: 'Ateş' },
+                            { slug: 'dog', en: 'Dog', tr: 'Köpek' },
+                        ].map(symbol => (
+                            <Link
+                                key={symbol.slug}
+                                href={`/${locale}/meaning/${symbol.slug}`}
+                                className="group block p-3 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 hover:bg-white/10 transition-all duration-300 text-center"
+                            >
+                                <span className="text-sm font-medium text-white group-hover:text-indigo-300 transition-colors">
+                                    {locale === 'tr' ? symbol.tr : symbol.en}
+                                </span>
+                            </Link>
+                        ))}
+                    </div>
+                    <div className="mt-4 text-center">
+                        <Link
+                            href={`/${locale}/dictionary/a`}
+                            className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+                        >
+                            {locale === 'tr' ? 'Tüm Sembolleri Keşfet →' : 'Explore All Symbols →'}
+                        </Link>
+                    </div>
+                </section>
             </main>
         </div>
     );

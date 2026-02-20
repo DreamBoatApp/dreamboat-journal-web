@@ -8,6 +8,35 @@ import InlineCTA from '@/components/InlineCTA';
 // SSG: only params from generateStaticParams are valid
 export const dynamicParams = false;
 
+type BlogPostLink = {
+    slug: string;
+    title: string;
+    category: string;
+};
+
+function getBlogPosts(locale: string): BlogPostLink[] {
+    try {
+        const dir = path.join(process.cwd(), 'content', locale, 'blog');
+        const enDir = path.join(process.cwd(), 'content', 'en', 'blog');
+        const targetDir = fs.existsSync(dir) ? dir : (fs.existsSync(enDir) ? enDir : null);
+        if (!targetDir) return [];
+
+        return fs.readdirSync(targetDir)
+            .filter(f => f.endsWith('.json'))
+            .slice(0, 4) // Show max 4 blog posts
+            .map(f => {
+                const content = JSON.parse(fs.readFileSync(path.join(targetDir, f), 'utf-8'));
+                return {
+                    slug: f.replace('.json', ''),
+                    title: content.title,
+                    category: content.category || 'Dream Psychology',
+                };
+            });
+    } catch {
+        return [];
+    }
+}
+
 // SSG: pre-render all letter pages at build time
 export async function generateStaticParams() {
     const locales = ['en', 'tr'];
@@ -202,6 +231,42 @@ export default async function DictionaryLetterPage({ params }: Props) {
                         </p>
                     </div>
                 )}
+
+                {/* App CTA */}
+                <div className="mt-12">
+                    <InlineCTA />
+                </div>
+
+                {/* Cross-link: Related Blog Articles (SEO internal linking) */}
+                <section className="mt-16 pt-10 border-t border-white/10">
+                    <h2 className="text-xl font-semibold text-white mb-6">
+                        {locale === 'tr' ? 'İlgili Yazılar' : 'Related Articles'}
+                    </h2>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                        {getBlogPosts(locale).map(post => (
+                            <Link
+                                key={post.slug}
+                                href={`/blog/${post.slug}`}
+                                className="group block p-4 rounded-xl bg-white/5 border border-white/5 hover:border-indigo-500/30 hover:bg-white/10 transition-all duration-300"
+                            >
+                                <span className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-indigo-600/20 text-indigo-300">
+                                    {post.category}
+                                </span>
+                                <h3 className="text-sm font-medium text-white group-hover:text-indigo-300 transition-colors mt-2 line-clamp-2">
+                                    {post.title}
+                                </h3>
+                            </Link>
+                        ))}
+                    </div>
+                    <div className="mt-4 text-center">
+                        <Link
+                            href={`/blog`}
+                            className="text-xs text-indigo-400 hover:text-indigo-300 transition-colors"
+                        >
+                            {locale === 'tr' ? 'Tüm Yazıları Gör →' : 'View All Articles →'}
+                        </Link>
+                    </div>
+                </section>
 
             </main>
         </div>
