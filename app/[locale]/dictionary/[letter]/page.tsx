@@ -39,16 +39,24 @@ function getBlogPosts(locale: string): BlogPostLink[] {
 
 // SSG: pre-render all letter pages at build time
 export async function generateStaticParams() {
-    const locales = ['en', 'tr'];
-    const letters = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    const enLetters = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    const trLetters = 'abcçdefgğhıijklmnoöprsştuüvyz'.split('');
+
     const params: { locale: string; letter: string }[] = [];
-    for (const locale of locales) {
-        for (const letter of letters) {
-            params.push({ locale, letter });
-        }
+
+    // English locale
+    for (const letter of enLetters) {
+        params.push({ locale: 'en', letter });
     }
+
+    // Turkish locale — includes ç, ğ, ı, ö, ş, ü
+    for (const letter of trLetters) {
+        params.push({ locale: 'tr', letter });
+    }
+
     return params;
 }
+
 
 // --- Types ---
 type Props = {
