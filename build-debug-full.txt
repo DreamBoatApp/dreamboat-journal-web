@@ -1,0 +1,87 @@
+﻿   Ôû▓ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 11.7s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/83) ...
+node.exe : Error: Static generation failed due to 
+dynamic usage on /en/blog, reason: `await searchPa
+rams`, `searchParams.then`, or similar
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program
+ Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Erro 
+   r: Static g...en`, or similar:String) [], Rem  
+  oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+    at s (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\chunks\331.j
+s:1:28646)
+    at Object.get (C:\Users\guney\.gemini\antigrav
+ity\scratch\dreamboat_journal_web\.next\server\chu
+nks\267.js:9:8291)
+    at Module.n (C:\Users\guney\.gemini\antigravit
+y\scratch\dreamboat_journal_web\.next\server\app\[
+locale]\blog\page.js:2:7746)
+Error: Static generation failed due to dynamic usa
+ge on /tr/blog, reason: `await searchParams`, `sea
+rchParams.then`, or similar
+    at s (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\chunks\331.j
+s:1:28646)
+    at Object.get (C:\Users\guney\.gemini\antigrav
+ity\scratch\dreamboat_journal_web\.next\server\chu
+nks\267.js:9:8291)
+    at Module.n (C:\Users\guney\.gemini\antigravit
+y\scratch\dreamboat_journal_web\.next\server\app\[
+locale]\blog\page.js:2:7746)
+   Generating static pages (20/83) 
+   Generating static pages (41/83) 
+Error: Static generation failed due to dynamic usa
+ge on /tr/search, reason: `await searchParams`, `s
+earchParams.then`, or similar
+    at s (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\chunks\331.j
+s:1:28646)
+    at Object.get (C:\Users\guney\.gemini\antigrav
+ity\scratch\dreamboat_journal_web\.next\server\chu
+nks\267.js:9:8291)
+    at q (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\app\[locale]
+\search\page.js:1:371121)
+Error: Static generation failed due to dynamic usa
+ge on /en/search, reason: `await searchParams`, `s
+earchParams.then`, or similar
+    at s (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\chunks\331.j
+s:1:28646)
+    at Object.get (C:\Users\guney\.gemini\antigrav
+ity\scratch\dreamboat_journal_web\.next\server\chu
+nks\267.js:9:8291)
+    at q (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\app\[locale]
+\search\page.js:1:371121)
+   Generating static pages (62/83) 
+Error occurred prerendering page "/en/meaning/reta
+il". Read more: https://nextjs.org/docs/messages/p
+rerender-error
+TypeError: a.replace is not a function
+    at <unknown> (C:\Users\guney\.gemini\antigravi
+ty\scratch\dreamboat_journal_web\.next\server\app\
+[locale]\meaning\[slug]\page.js:2:143942)
+    at Array.map (<anonymous>)
+    at A (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\app\[locale]
+\meaning\[slug]\page.js:2:143660) {
+  digest: '3020332084'
+}
+Export encountered an error on /[locale]/meaning/[
+slug]/page: /en/meaning/retail, exiting the build.
+ Ô¿» Next.js build worker exited with code: 1 and 
+signal: null

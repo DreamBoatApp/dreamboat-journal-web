@@ -1,0 +1,23 @@
+﻿=== STDOUT ===
+   Ôû▓ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 11.0s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/6500) ...
+   Generating static pages (1625/6500) 
+   Generating static pages (3250/6500) 
+   Generating static pages (4875/6500) 
+
+=== STDERR ===
+Error occurred prerendering page "/en/meaning/abandon". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: b.split is not a function
+    at g (C:\Users\guney\.gemini\antigravity\scratch\dreamboat_journal_web\.next\server\app\[locale]\meaning\[slug]\page.js:2:13952) {
+  digest: '2289825623'
+}
+Export encountered an error on /[locale]/meaning/[slug]/page: /en/meaning/abandon, exiting the build.
+ Ô¿» Next.js build worker exited with code: 1 and signal: null
+

@@ -41,12 +41,10 @@ function getRecentBlogPosts(locale: string, count: number = 4): BlogPostMeta[] {
     }
 }
 
-const ALPHABET_EN = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-const ALPHABET_TR = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('');
+
 
 export default async function HomePage({ params }: Props) {
     const { locale } = await params;
-    const alphabet = locale === 'tr' ? ALPHABET_TR : ALPHABET_EN;
     setRequestLocale(locale);
     const t = await getTranslations('HomePage');
 
@@ -81,22 +79,6 @@ export default async function HomePage({ params }: Props) {
                             {symbol.name}
                         </Link>
                     ))}
-                </div>
-
-                {/* A-Z Dictionary Strip */}
-                <div className="w-full max-w-2xl mt-4">
-                    <h2 className="text-sm font-medium text-slate-400 mb-3">{t('browseDictionary')}</h2>
-                    <nav className="flex flex-wrap justify-center gap-1.5">
-                        {alphabet.map((letter: string) => (
-                            <Link
-                                key={letter}
-                                href={`/dictionary/${letter.toLowerCase()}`}
-                                className="w-9 h-9 flex items-center justify-center rounded-lg bg-white/5 text-xs text-slate-400 hover:bg-indigo-600/30 hover:text-white transition-colors font-mono"
-                            >
-                                {letter}
-                            </Link>
-                        ))}
-                    </nav>
                 </div>
 
                 {/* Latest Blog Posts */}

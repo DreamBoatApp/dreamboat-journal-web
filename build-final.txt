@@ -1,0 +1,36 @@
+﻿   Ôû▓ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 16.6s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/6500) ...
+node.exe : Error occurred prerendering page "/en/m
+eaning/retail". Read more: https://nextjs.org/docs
+/messages/prerender-error
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program
+ Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Erro 
+   r occurred ...prerender-error:String) [], Rem  
+  oteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TypeError: a.replace is not a function
+    at <unknown> (C:\Users\guney\.gemini\antigravi
+ty\scratch\dreamboat_journal_web\.next\server\app\
+[locale]\meaning\[slug]\page.js:2:142760)
+    at Array.map (<anonymous>)
+    at y (C:\Users\guney\.gemini\antigravity\scrat
+ch\dreamboat_journal_web\.next\server\app\[locale]
+\meaning\[slug]\page.js:2:142478) {
+  digest: '2938551465'
+}
+Export encountered an error on /[locale]/meaning/[
+slug]/page: /en/meaning/retail, exiting the build.
+ Ô¿» Next.js build worker exited with code: 1 and 
+signal: null

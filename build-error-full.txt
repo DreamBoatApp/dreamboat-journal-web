@@ -1,0 +1,22 @@
+﻿=== STDOUT ===
+   Ôû▓ Next.js 15.5.12
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+ Ô£ô Compiled successfully in 10.9s
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/6500) ...
+
+=== STDERR ===
+Error occurred prerendering page "/en/meaning/retail". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: a.replace is not a function
+    at <unknown> (C:\Users\guney\.gemini\antigravity\scratch\dreamboat_journal_web\.next\server\app\[locale]\meaning\[slug]\page.js:2:144143)
+    at Array.map (<anonymous>)
+    at A (C:\Users\guney\.gemini\antigravity\scratch\dreamboat_journal_web\.next\server\app\[locale]\meaning\[slug]\page.js:2:143861) {
+  digest: '2174797141'
+}
+Export encountered an error on /[locale]/meaning/[slug]/page: /en/meaning/retail, exiting the build.
+ Ô¿» Next.js build worker exited with code: 1 and signal: null
+
