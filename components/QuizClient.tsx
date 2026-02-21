@@ -93,12 +93,12 @@ export default function QuizClient({ locale }: { locale: string }) {
                         {lang === 'tr' ? '✨ 12 Soru · 2 Dakika' : '✨ 12 Questions · 2 Minutes'}
                     </span>
                     <h1 className="quiz-title">
-                        {lang === 'tr' ? 'Rüya Kişiliğin Ne?' : "What's Your Dream Personality?"}
+                        {lang === 'tr' ? 'Her Gece Bir Mesaj Alıyorsun.' : 'You Receive a Message Every Night.'}
                     </h1>
                     <p className="quiz-subtitle">
                         {lang === 'tr'
-                            ? 'Bilinçaltın sana her gece mesajlar gönderiyor. Bu test, rüyalarının arkasındaki kişiliğini ortaya çıkarıyor.'
-                            : 'Your subconscious sends you messages every night. This quiz reveals the personality behind your dreams.'}
+                            ? 'Uyurken bilinçaltın seninle konuşuyor — sembollerle, sahnelerle, duygularla. Bu test, rüyalarının dilini çözüyor ve sana ait rüya kişiliğini ortaya çıkarıyor.'
+                            : 'While you sleep, your subconscious speaks — through symbols, scenes, and emotions. This quiz decodes the hidden language of your dreams and reveals the dreamer within you.'}
                     </p>
                     <button className="quiz-start-btn" onClick={handleStart}>
                         {lang === 'tr' ? 'Teste Başla' : 'Start the Quiz'}

@@ -1,9 +1,6 @@
 import { setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import QuizClient from '@/components/QuizClient';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import SmartBanner from '@/components/SmartBanner';
 import './quiz.css';
 
 type Props = {
@@ -76,7 +73,6 @@ export default async function QuizPage({ params }: Props) {
 
     return (
         <>
-            <Header />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -84,8 +80,6 @@ export default async function QuizPage({ params }: Props) {
             <main>
                 <QuizClient locale={locale} />
             </main>
-            <SmartBanner />
-            <Footer />
         </>
     );
 }
