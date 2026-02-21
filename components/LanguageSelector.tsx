@@ -26,7 +26,7 @@ export default function LanguageSelector() {
     };
 
     return (
-        <div className="fixed top-4 right-4 z-[90]">
+        <div>
             <select
                 value={locale}
                 onChange={(e) => handleChange(e.target.value)}
