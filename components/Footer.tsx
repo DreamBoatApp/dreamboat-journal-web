@@ -84,7 +84,7 @@ export default function Footer() {
                             </li>
                             <li>
                                 <Link href={`/${locale}/quiz`} className="text-slate-400 hover:text-indigo-300 transition-colors text-sm">
-                                    {locale === 'tr' ? '🌙 Rüya Kişiliği Testi' : locale === 'de' ? '🌙 Traumpersönlichkeitstest' : locale === 'es' ? '🌙 Test de Personalidad' : locale === 'pt' ? '🌙 Teste de Personalidade' : '🌙 Dream Personality Quiz'}
+                                    {locale === 'tr' ? 'Rüya Kişiliği Testi' : locale === 'de' ? 'Traumpersönlichkeitstest' : locale === 'es' ? 'Test de Personalidad' : locale === 'pt' ? 'Teste de Personalidade' : 'Dream Personality Quiz'}
                                 </Link>
                             </li>
                             <li>
