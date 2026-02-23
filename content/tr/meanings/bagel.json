@@ -1,12 +1,44 @@
 {
   "localizedName": "Bagel",
-  "title": "Rüyada Bagel Görmek",
-  "seoDescription": "Rüyada bagel görmek, modern yaşamın döngüsel doğasını ve kendini yenileme ihtiyacını simgeler.",
-  "introduction": "Rüyada bagel görmek, günümüzün hızlı tempolu yaşamında dengeyi ve sürekliliği temsil edebilir. Bagel, şekli itibarıyla döngüsel bir yapıya sahiptir ve bu da yaşamın sürekli tekrar eden doğasını simgeler.",
-  "symbolism": "Bagel, tarih boyunca döngüsellik ve süreklilikle ilişkilendirilmiştir. Modern yaşamda ise bu sembol, günlük rutinlerin ve alışkanlıkların önemini vurgular. Jungian bakış açısıyla, bagel, bireyin içsel döngülerini ve sürekli değişim ihtiyacını yansıtabilir.",
-  "cosmicAnalysis": "**🌑 Yeni Ay:** Bu dönemde rüyada bagel görmek, yeni başlangıçlar ve kendini yenileme arzusunu ifade eder.\n\n**🌓 Büyüyen Ay:** Bu aşamada bagel görmek, kişisel gelişim ve yeni fırsatların kapıda olduğu anlamına gelir.\n\n**🌕 Dolunay:** Dolunayda bagel görmek, tamamlanma ve içsel tatmin duygusunun habercisidir.\n\n**🌗 Küçülen Ay:** Bu dönem, geçmiş alışkanlıkları bırakmak ve yeni alışkanlıklar geliştirmek için uygun bir zaman olduğunu gösterir.",
+  "title": "Rüyada Bagel Görmek: Anlam ve Yorum",
+  "seoDescription": "Rüyada bagel görmek ne anlama gelir? Döngüsellik, bütünlük ve yenilenme sembolizmi ile derinlemesine rüya yorumu.",
+  "introduction": "Rüyada bagel görmek, yaşamın döngüsel doğasını ve bütünlük arayışını temsil eden güçlü bir semboldir. Bagel'ın yuvarlak ve ortası delik yapısı, hem sonsuzluğu hem de bir şeylerin eksikliğini simgeleyebilir. Bu rüya, bilinçaltının size günlük rutinlerinizi ve alışkanlıklarınızı sorgulamanız gerektiğini fısıldaması olarak yorumlanabilir.\n\nDerinlik psikolojisi perspektifinden bakıldığında, bagel sembolü bireyin içsel döngülerini ve tekrarlayan kalıplarını yansıtır. Jung'un kolektif bilinçdışı kavramıyla bağdaştırıldığında, bu dairesel şekil mandalaya benzer bir bütünlük arayışını ifade eder. Rüyada bagel görmek, kişinin yaşamında bir dönüşüm sürecine girdiğini veya tamamlanmamış bir döngüyü kapatması gerektiğini işaret edebilir.",
+  "symbolism": "Bagel, tarih boyunca birçok kültürde döngüsellik ve süreklilikle ilişkilendirilmiştir. Doğu Avrupa Yahudi geleneğinde bagel, yaşam döngüsünü ve sonsuzluğu simgeler; cenaze törenlerinde bile sunularak yaşamın devam ettiğini vurgular. Modern bağlamda ise bu sembol, günlük rutinlerin ve alışkanlıkların bilinçaltındaki derin izlerini temsil eder.\n\nJungian bakış açısıyla bagel, bireyin anima ve animus dengesini arama sürecini yansıtabilir. Ortasındaki boşluk, gölge arketipinin — yani bastırılmış duyguların ve kabul edilmeyen yönlerin — sembolüdür. Bu boşluk aynı zamanda potansiyel ve yaratıcılık alanını da ifade eder. Bireyselleşme sürecinde bagel görmek, kişinin kendi iç dünyasındaki eksiklikleri fark etmesi ve bunları kabul ederek bütünleşmesi gerektiğine işaret eder.",
+  "cosmicAnalysis": "Bu rüya, Ay'ın evrelerine göre 4 farklı kozmik mesaj taşır:\n\n**🌑 Yeni Ay:** Bu dönemde rüyada bagel görmek, yeni başlangıçlar ve kendini yeniden keşfetme arzusunu ifade eder. Bilinçaltı, geçmişteki döngüleri kırarak taze bir sayfa açmanız gerektiğini söylüyor olabilir. Bu evre, eski alışkanlıkları geride bırakıp yeni rutinler oluşturmak için idealdir.\n\n**🌓 Büyüyen Ay:** Bu aşamada bagel görmek, kişisel gelişim ve büyüme sürecinizin ivme kazandığı anlamına gelir. Yaşamınızdaki boşlukları doldurmak için harekete geçme zamanı gelmiştir. İç dünyanızdaki potansiyeli dış dünyaya yansıtma fırsatlarını değerlendirin.\n\n**🌕 Dolunay:** Dolunayda bagel görmek, bir döngünün tamamlanması ve içsel aydınlanmanın habercisidir. Bu evre, uzun süredir üzerinde çalıştığınız bir sürecin meyvelerini toplamaya başlayacağınızı gösterir. Duygusal ve ruhsal bütünlüğünüzün doruk noktasına ulaştığını hissedebilirsiniz.\n\n**🌗 Küçülen Ay:** Bu dönem, artık işlevini yitirmiş alışkanlıkları bırakmak ve geçmişin yüklerinden arınmak için uygun bir zamandır. Bagel sembolü burada, eski kalıpları serbest bırakarak yeni ve daha sağlıklı döngüler oluşturmanız gerektiğini vurgular.",
   "commonScenarios": [
-    "Scenario 1: Eğer rüyada bir bagel yiyorsanız, bu, yaşamınızda tatmin ve doyum arayışında olduğunuzu gösterebilir.",
-    "Scenario 2: Rüyada bir bagel fırınlamak, yeni projelere ve yaratıcı süreçlere olan eğiliminizi temsil edebilir."
+    {
+      "scenario": "Rüyada bagel yemek",
+      "interpretation": "Bu rüya, yaşamınızda tatmin ve doyum arayışında olduğunuzu gösterir. Beslenme ihtiyacınızın ötesinde, duygusal ve ruhsal açlığınızı gidermeye çalıştığınızı simgeler."
+    },
+    {
+      "scenario": "Rüyada bagel fırınlamak veya hamur açmak",
+      "interpretation": "Yaratıcı enerjinizin yükseldiğini ve yeni projelere başlama zamanının geldiğini ifade eder. Kendi elinizle bir şeyler üretme arzunuz güçlenmektedir."
+    },
+    {
+      "scenario": "Rüyada bayat veya küflü bir bagel görmek",
+      "interpretation": "Hayatınızdaki bazı alışkanlıkların veya ilişkilerin artık size besleyici olmadığını gösterir. Eskimiş kalıplardan kurtulma zamanı gelmiş olabilir."
+    },
+    {
+      "scenario": "Rüyada birine bagel ikram etmek",
+      "interpretation": "Çevrenizdeki insanlarla duygusal bağlarınızı güçlendirme isteğinizi yansıtır. Paylaşma ve cömertlik temalarıyla ilgili bir mesaj taşır."
+    },
+    {
+      "scenario": "Rüyada bagel'ın ortasındaki deliğe bakmak",
+      "interpretation": "Bilinçaltınız, yaşamınızda hissettiğiniz bir boşluğa veya eksikliğe dikkatinizi çekiyor olabilir. Bu boşluk aynı zamanda yeni olanaklar ve potansiyel alanı da temsil eder."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Rüyada bagel görmek ne anlama gelir?",
+      "answer": "Rüyada bagel görmek genellikle yaşamın döngüsel doğasını, alışkanlıkları ve bütünlük arayışını simgeler. Bagel'ın dairesel şekli sonsuzluğu ve sürekli tekrarlanan kalıpları temsil ederken, ortasındaki boşluk eksiklik veya potansiyel anlamına gelebilir."
+    },
+    {
+      "question": "Rüyada bagel görmek iyi mi kötü mü?",
+      "answer": "Rüyada bagel görmek genellikle nötr veya olumlu bir semboldür. Taze ve iştah açıcı bir bagel bolluk ve tatmini simgelerken, bayat bir bagel eski alışkanlıklardan kurtulma ihtiyacını işaret edebilir. Rüyanın bağlamı ve size hissettirdiği duygular yorumu belirler."
+    },
+    {
+      "question": "Rüyada bagel yemek ne anlama gelir?",
+      "answer": "Rüyada bagel yemek, duygusal beslenme ihtiyacınızı ve yaşamınızda doyum arayışınızı temsil eder. İç dünyanızda bir şeyleri sindirme ve özümseme sürecinde olduğunuza işaret eder. Bagel'ı keyifle yiyorsanız, mevcut durumunuzdan memnun olduğunuzu gösterir."
+    }
   ]
 }

@@ -12,13 +12,7 @@ const nextConfig = {
         ignoreDuringBuilds: true,
     },
     async redirects() {
-        return [
-            {
-                source: '/:locale(de|es|pt)/:path*',
-                destination: '/en/:path*',
-                permanent: true,
-            },
-        ];
+        return [];
     },
 };
 

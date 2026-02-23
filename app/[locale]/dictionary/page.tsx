@@ -1,5 +1,5 @@
-import { redirect } from 'next/navigation';
+import { permanentRedirect } from 'next/navigation';
 
 export default function DictionaryIndex({ params }: { params: { locale: string } }) {
-    redirect(`/${params.locale}/dictionary/a`);
+    permanentRedirect(`/${params.locale}/dictionary/a`);
 }

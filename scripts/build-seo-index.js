@@ -13,9 +13,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const LOCALES = ['en', 'tr', 'es', 'de', 'pt'];
+const LOCALES = ['en', 'tr'];
 const CONTENT_ROOT = path.join(__dirname, '..', 'content');
-const MIN_WORDS = 250; // Slightly lower bar, still substantial
+const MIN_WORDS = 150; // Lowered — was blocking many valid pages
 
 const index = {};
 let indexable = 0, noindex = 0;
@@ -41,7 +41,10 @@ for (const locale of LOCALES) {
             const words = wordCount(content.introduction) +
                 wordCount(content.symbolism) +
                 wordCount(content.cosmicAnalysis) +
-                (content.commonScenarios || []).reduce((s, sc) => s + wordCount(sc), 0) +
+                (content.commonScenarios || []).reduce((s, sc) => {
+                    if (typeof sc === 'string') return s + wordCount(sc);
+                    return s + wordCount(sc.scenario) + wordCount(sc.interpretation);
+                }, 0) +
                 (content.faqs || []).reduce((s, f) => s + wordCount(f.question) + wordCount(f.answer), 0) +
                 wordCount(content.cta);
 

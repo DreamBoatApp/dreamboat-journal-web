@@ -1,17 +1,46 @@
 import { NextResponse } from 'next/server';
+import dictionary from '@/scripts/data/source_dictionary';
+import seoIndex from '@/scripts/data/seo_index.json';
+import fs from 'fs';
+import path from 'path';
 
-// Manually serve a sitemap index because Next.js 15's generateSitemaps()
-// only produces chunk files (/sitemap/0.xml, /sitemap/1.xml, etc.)
-// but does NOT auto-generate a /sitemap.xml index file.
-// Google Search Console needs /sitemap.xml to discover all chunks.
+// Dynamically calculate the number of sitemap chunks to match app/sitemap.ts
+// This avoids the sitemap index getting out of sync with actual chunk files.
 
 const BASE_URL = 'https://dreamboatjournal.com';
+const LOCALES = ['en', 'tr'];
+const CHUNK_SIZE = 2000;
 
-// Must match the number of chunks from app/sitemap.ts generateSitemaps()
-const CHUNK_COUNT = 3; // 0, 1, 2
+function countRoutes(): number {
+    let count = 0;
+    for (const locale of LOCALES) {
+        // Static pages: home, blog, dictionary, about, privacy = 5
+        count += 5;
+        // Dictionary letter pages: 26
+        count += 26;
+        // Blog posts
+        try {
+            const blogDir = path.join(process.cwd(), 'content', locale, 'blog');
+            if (fs.existsSync(blogDir)) {
+                count += fs.readdirSync(blogDir).filter(f => f.endsWith('.json')).length;
+            }
+        } catch { }
+        // Meaning pages (only indexable ones)
+        const seo = seoIndex as Record<string, boolean>;
+        const keys = Object.keys(dictionary);
+        keys.forEach(key => {
+            const slug = key.toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-]+/g, '');
+            if (seo[`${locale}/${slug}`] !== false) count++;
+        });
+    }
+    return count;
+}
 
 export async function GET() {
-    const sitemaps = Array.from({ length: CHUNK_COUNT }, (_, i) =>
+    const totalRoutes = countRoutes();
+    const chunkCount = Math.ceil(totalRoutes / CHUNK_SIZE);
+
+    const sitemaps = Array.from({ length: chunkCount }, (_, i) =>
         `  <sitemap>\n    <loc>${BASE_URL}/sitemap/${i}.xml</loc>\n  </sitemap>`
     ).join('\n');
 
