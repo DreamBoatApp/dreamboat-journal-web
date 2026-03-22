@@ -26,24 +26,11 @@ export default function AppStoreBanner() {
                     </div>
                 </div>
 
-                {/* Buttons */}
+                {/* Coming Soon */}
                 <div className="flex items-center gap-2">
-                    <a
-                        href="https://apps.apple.com/app/id6739992078"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="px-6 py-2 bg-white text-indigo-950 rounded-full text-xs font-bold hover:bg-indigo-50 transition-colors shadow-lg"
-                    >
-                        {t('downloadIOS')}
-                    </a>
-                    <a
-                        href="https://play.google.com/store/apps/details?id=com.dreamboat.journal"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="px-6 py-2 bg-white/10 border border-white/20 text-white rounded-full text-xs font-bold hover:bg-white/20 transition-colors backdrop-blur-sm"
-                    >
-                        {t('downloadAndroid')}
-                    </a>
+                    <span className="px-6 py-2 bg-white/10 border border-white/20 text-white/60 rounded-full text-xs font-bold cursor-default">
+                        {t('comingSoon')} 🚀
+                    </span>
                 </div>
 
             </div>

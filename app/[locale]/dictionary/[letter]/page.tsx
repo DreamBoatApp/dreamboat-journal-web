@@ -60,11 +60,31 @@ export async function generateStaticParams() {
 
 // --- Types ---
 type Props = {
-    params: {
+    params: Promise<{
+        locale: string;
+        letter: string;
+    }> | {
         locale: string;
         letter: string;
     };
 };
+
+export async function generateMetadata({ params }: Props) {
+    const res = await params;
+    const locale = res.locale;
+    const letter = decodeURIComponent(res.letter).toLowerCase();
+    
+    return {
+        alternates: {
+            canonical: `https://dreamboatjournal.com/${locale}/dictionary/${letter}`,
+            languages: {
+                'x-default': `https://dreamboatjournal.com/en/dictionary/${letter}`,
+                'en': `https://dreamboatjournal.com/en/dictionary/${letter}`,
+                'tr': `https://dreamboatjournal.com/tr/dictionary/${letter}`,
+            }
+        }
+    };
+}
 
 // Turkish-specific alphabet for proper ordering
 const TR_ALPHABET = 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('');

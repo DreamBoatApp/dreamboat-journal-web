@@ -24,25 +24,6 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
         }
     }, []);
 
-    const APP_STORE_URL = 'https://apps.apple.com/app/id6739992078';
-    const PLAY_STORE_URL = 'https://play.google.com/store/apps/details?id=com.dreamboat.journal';
-
-    // QR Code that links to a smart link (could be a Linktr.ee, Branch.io, or custom redirect)
-    // For now, using a placeholder QR - in production use a real QR generator
-    const QR_CODE_URL = 'https://api.qrserver.com/v1/create-qr-code/?size=100x100&data=https://dreamboatjournal.com/download';
-
-    const getStoreLink = () => {
-        if (device === 'ios') return APP_STORE_URL;
-        if (device === 'android') return PLAY_STORE_URL;
-        return APP_STORE_URL; // Default for desktop
-    };
-
-    const getButtonText = () => {
-        if (device === 'ios') return 'App Store';
-        if (device === 'android') return 'Google Play';
-        return 'Download';
-    };
-
     // Context-aware copy
     const getCopy = () => {
         if (symbol) {
@@ -79,15 +60,10 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                             </div>
                         </div>
 
-                        {/* CTA Button */}
-                        <a
-                            href={getStoreLink()}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="shrink-0 px-4 py-2.5 bg-gradient-to-r from-amber-500 to-orange-500 text-white rounded-xl text-xs font-bold hover:from-amber-400 hover:to-orange-400 transition-all shadow-lg"
-                        >
-                            {t('openInApp') || 'Uygulamada Aç'}
-                        </a>
+                        {/* Coming Soon Badge */}
+                        <span className="shrink-0 px-4 py-2.5 bg-white/10 border border-white/20 text-white/60 rounded-xl text-xs font-bold cursor-default">
+                            {t('comingSoon')} 🚀
+                        </span>
                     </div>
                 </div>
             </div>
@@ -121,38 +97,11 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                     {getCopy()}
                 </p>
 
-                {/* QR Code */}
+                {/* Coming Soon Badge */}
                 <div className="flex flex-col items-center">
-                    <div className="bg-white p-2 rounded-lg mb-2">
-                        <img
-                            src={QR_CODE_URL}
-                            alt="Scan to Download"
-                            className="w-20 h-20"
-                        />
-                    </div>
-                    <p className="text-[10px] text-slate-400 text-center">
-                        {t('scanToDownload') || 'Telefonunuzla tarayın'}
-                    </p>
-                </div>
-
-                {/* Store Buttons */}
-                <div className="flex gap-2 mt-3">
-                    <a
-                        href={APP_STORE_URL}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex-1 py-2 bg-white/5 border border-white/10 text-white rounded-lg text-[10px] font-medium text-center hover:bg-white/10 transition-colors"
-                    >
-                        iOS
-                    </a>
-                    <a
-                        href={PLAY_STORE_URL}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex-1 py-2 bg-white/5 border border-white/10 text-white rounded-lg text-[10px] font-medium text-center hover:bg-white/10 transition-colors"
-                    >
-                        Android
-                    </a>
+                    <span className="px-6 py-2.5 bg-white/5 border border-white/10 text-white/60 rounded-lg text-xs font-bold text-center w-full cursor-default">
+                        {t('comingSoon')} 🚀
+                    </span>
                 </div>
             </div>
         </div>

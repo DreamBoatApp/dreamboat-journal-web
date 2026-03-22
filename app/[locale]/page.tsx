@@ -9,6 +9,21 @@ type Props = {
     params: Promise<{ locale: string }>;
 };
 
+export async function generateMetadata({ params }: Props) {
+    const { locale } = await params;
+    
+    return {
+        alternates: {
+            canonical: `https://dreamboatjournal.com/${locale}`,
+            languages: {
+                'x-default': `https://dreamboatjournal.com/en`,
+                'en': `https://dreamboatjournal.com/en`,
+                'tr': `https://dreamboatjournal.com/tr`,
+            }
+        }
+    };
+}
+
 type BlogPostMeta = {
     slug: string;
     title: string;

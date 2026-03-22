@@ -317,12 +317,9 @@ export default async function SearchPage({ params, searchParams }: Props) {
                     <p className="text-slate-300 mb-4">
                         Dream Boat uygulamasında rüyanızın kişisel analizini alın.
                     </p>
-                    <a
-                        href="https://onelink.to/dreamboat"
-                        className="inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full text-white font-bold hover:from-amber-400 hover:to-orange-400 transition-all"
-                    >
-                        Uygulamayı İndir
-                    </a>
+                    <span className="inline-block px-8 py-3 bg-white/10 border border-white/20 rounded-full text-white/60 font-bold cursor-default">
+                        Çok Yakında 🚀
+                    </span>
                 </div>
 
             </main>

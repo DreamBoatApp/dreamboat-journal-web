@@ -232,17 +232,12 @@ export default function QuizClient({ locale }: { locale: string }) {
                         </button>
                     </div>
 
-                    {/* App CTA */}
-                    <a
-                        href="https://onelink.to/dreamboat"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="result-cta"
-                    >
+                    {/* App CTA - Coming Soon */}
+                    <div className="result-cta" style={{ cursor: 'default', opacity: 0.6 }}>
                         <span className="cta-icon">🚀</span>
                         <div className="cta-text-wrap">
                             <span className="cta-main">
-                                {lang === 'tr' ? "DreamBoat'u İndir" : 'Download DreamBoat'}
+                                {lang === 'tr' ? "DreamBoat — Çok Yakında" : 'DreamBoat — Coming Soon'}
                             </span>
                             <span className="cta-sub">
                                 {lang === 'tr'
@@ -250,8 +245,7 @@ export default function QuizClient({ locale }: { locale: string }) {
                                     : 'Record dreams, get AI interpretations'}
                             </span>
                         </div>
-                        <span className="cta-arrow">→</span>
-                    </a>
+                    </div>
 
                     {/* Disclaimer */}
                     <p className="quiz-disclaimer" style={{ marginTop: '1.5rem' }}>

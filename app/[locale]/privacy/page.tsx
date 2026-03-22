@@ -18,7 +18,14 @@ export async function generateMetadata({ params }: Props) {
 
     return {
         title: titles[locale] || titles.en,
-        alternates: { canonical: `https://dreamboatjournal.com/${locale}/privacy` },
+        alternates: {
+            canonical: `https://dreamboatjournal.com/${locale}/privacy`,
+            languages: {
+                'x-default': `https://dreamboatjournal.com/en/privacy`,
+                'en': `https://dreamboatjournal.com/en/privacy`,
+                'tr': `https://dreamboatjournal.com/tr/privacy`,
+            }
+        },
     };
 }
 

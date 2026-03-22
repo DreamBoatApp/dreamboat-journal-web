@@ -98,19 +98,14 @@ export default function Footer() {
                                 </Link>
                             </li>
                         </ul>
-                        <a
-                            href="https://onelink.to/dreamboat"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block px-5 py-2.5 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full text-white text-sm font-medium hover:from-indigo-500 hover:to-purple-500 transition-all"
-                        >
+                        <span className="inline-block px-5 py-2.5 bg-white/5 border border-white/10 rounded-full text-white/50 text-sm font-medium cursor-default">
                             <span className="flex items-center gap-2">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="white" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
-                                {t('downloadApp')}
+                                {t('downloadApp')} — {locale === 'tr' ? 'Çok Yakında' : locale === 'de' ? 'Demnächst' : locale === 'es' ? 'Próximamente' : locale === 'pt' ? 'Em breve' : 'Coming Soon'} 🚀
                             </span>
-                        </a>
+                        </span>
                     </div>
                 </div>
 

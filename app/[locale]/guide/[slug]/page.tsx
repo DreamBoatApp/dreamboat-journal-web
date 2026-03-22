@@ -234,14 +234,9 @@ export default async function GuidePage({ params }: Props) {
                     <div className="p-8 rounded-2xl bg-gradient-to-r from-indigo-900/30 to-purple-900/30 border border-indigo-500/20 text-center">
                         <h2 className="text-2xl font-bold text-white mb-3">{locale === 'tr' ? '📱 Rüyalarınızı Yorumlamaya Başlayın' : '📱 Start Interpreting Your Dreams'}</h2>
                         <p className="text-slate-300 mb-6">{locale === 'tr' ? 'DreamBoat ile rüyalarınızı kaydedin, yapay zeka destekli analizlerle yorumlayın ve görselleştirin.' : 'Download Dream Boat to record, analyze and visualize your dreams with AI-powered insights.'}</p>
-                        <a
-                            href="https://onelink.to/dreamboat"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full text-white font-bold hover:from-amber-400 hover:to-orange-400 transition-all"
-                        >
-                            {locale === 'tr' ? 'DreamBoat\'u İndir →' : 'Download Dream Boat →'}
-                        </a>
+                        <span className="inline-block px-8 py-3 bg-white/10 border border-white/20 rounded-full text-white/60 font-bold cursor-default">
+                            {locale === 'tr' ? 'Çok Yakında 🚀' : 'Coming Soon 🚀'}
+                        </span>
                     </div>
                 </article>
             </main>
