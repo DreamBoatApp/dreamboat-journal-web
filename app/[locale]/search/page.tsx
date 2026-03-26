@@ -317,9 +317,14 @@ export default async function SearchPage({ params, searchParams }: Props) {
                     <p className="text-slate-300 mb-4">
                         Dream Boat uygulamasında rüyanızın kişisel analizini alın.
                     </p>
-                    <span className="inline-block px-8 py-3 bg-white/10 border border-white/20 rounded-full text-white/60 font-bold cursor-default">
-                        Çok Yakında 🚀
-                    </span>
+                    <div className="flex flex-wrap gap-3 justify-center">
+                        <a href="https://apps.apple.com/app/id6756622594" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-indigo-600 hover:bg-indigo-500 rounded-full text-white font-bold transition-colors">
+                            🍎 App Store
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.dreamboat.mobile" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full text-white font-bold transition-colors">
+                            ▶️ Google Play
+                        </a>
+                    </div>
                 </div>
 
             </main>

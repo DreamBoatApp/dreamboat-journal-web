@@ -78,10 +78,13 @@ const MoonPhaseWidget = () => {
                 </div>
             </div>
 
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-                <span className="flex-1 rounded-xl bg-white/10 border border-white/20 text-white/60 px-4 py-2 text-center text-sm font-semibold cursor-default">
-                    {t('comingSoon')} 🚀
-                </span>
+            <div className="mt-6 flex flex-col gap-2 sm:flex-row">
+                <a href="https://apps.apple.com/app/id6756622594" target="_blank" rel="noopener noreferrer" className="flex-1 rounded-xl bg-indigo-600/20 hover:bg-indigo-600/40 border border-indigo-500/30 text-white px-4 py-2 text-center text-sm font-semibold transition-colors">
+                    🍎 App Store
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.dreamboat.mobile" target="_blank" rel="noopener noreferrer" className="flex-1 rounded-xl bg-indigo-600/20 hover:bg-indigo-600/40 border border-indigo-500/30 text-white px-4 py-2 text-center text-sm font-semibold transition-colors">
+                    ▶️ Google Play
+                </a>
             </div>
         </div>
     );

@@ -3,9 +3,18 @@
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 
+const STORE_LINKS = {
+    android: 'https://play.google.com/store/apps/details?id=com.dreamboat.mobile',
+    ios: 'https://apps.apple.com/app/id6756622594',
+};
+
 export default function AppStoreBanner() {
     const t = useTranslations('Common');
-    // Removed delay and animation for immediate visibility debugging
+    const [isIOS, setIsIOS] = useState(false);
+
+    useEffect(() => {
+        setIsIOS(/iphone|ipad|ipod/i.test(navigator.userAgent));
+    }, []);
 
     return (
         <div className="fixed bottom-0 left-0 right-0 z-[100] p-4">
@@ -26,11 +35,16 @@ export default function AppStoreBanner() {
                     </div>
                 </div>
 
-                {/* Coming Soon */}
+                {/* Download Buttons */}
                 <div className="flex items-center gap-2">
-                    <span className="px-6 py-2 bg-white/10 border border-white/20 text-white/60 rounded-full text-xs font-bold cursor-default">
-                        {t('comingSoon')} 🚀
-                    </span>
+                    <a
+                        href={isIOS ? STORE_LINKS.ios : STORE_LINKS.android}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="px-6 py-2 bg-indigo-600 hover:bg-indigo-500 text-white rounded-full text-xs font-bold transition-colors"
+                    >
+                        {t('downloadApp')} 📲
+                    </a>
                 </div>
 
             </div>

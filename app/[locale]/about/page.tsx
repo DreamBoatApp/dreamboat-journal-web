@@ -147,9 +147,14 @@ export default async function AboutPage({ params }: Props) {
                     <section className="p-8 rounded-2xl bg-gradient-to-r from-indigo-900/30 to-purple-900/30 border border-indigo-500/20">
                         <h2 className="text-2xl font-bold text-white mb-4">📱 {c.app}</h2>
                         <p className="text-lg leading-relaxed text-slate-200 mb-6">{c.appText}</p>
-                        <span className="inline-block px-8 py-3 bg-white/10 border border-white/20 rounded-full text-white/60 font-bold cursor-default">
-                            {(locale === 'tr' ? 'Çok Yakında' : locale === 'de' ? 'Demnächst verfügbar' : locale === 'es' ? 'Próximamente' : locale === 'pt' ? 'Em breve' : 'Coming Soon')} 🚀
-                        </span>
+                        <div className="flex flex-wrap gap-3">
+                            <a href="https://apps.apple.com/app/id6756622594" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-indigo-600 hover:bg-indigo-500 rounded-full text-white font-bold transition-colors">
+                                🍎 App Store
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.dreamboat.mobile" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-full text-white font-bold transition-colors">
+                                ▶️ Google Play
+                            </a>
+                        </div>
                     </section>
                 </article>
             </main>

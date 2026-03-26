@@ -232,12 +232,18 @@ export default function QuizClient({ locale }: { locale: string }) {
                         </button>
                     </div>
 
-                    {/* App CTA - Coming Soon */}
-                    <div className="result-cta" style={{ cursor: 'default', opacity: 0.6 }}>
-                        <span className="cta-icon">🚀</span>
+                    {/* App CTA - Download Links */}
+                    <a
+                        href="https://apps.apple.com/app/id6756622594"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="result-cta"
+                        style={{ cursor: 'pointer', opacity: 1 }}
+                    >
+                        <span className="cta-icon">📲</span>
                         <div className="cta-text-wrap">
                             <span className="cta-main">
-                                {lang === 'tr' ? "DreamBoat — Çok Yakında" : 'DreamBoat — Coming Soon'}
+                                {lang === 'tr' ? "DreamBoat'u İndir" : 'Download DreamBoat'}
                             </span>
                             <span className="cta-sub">
                                 {lang === 'tr'
@@ -245,7 +251,7 @@ export default function QuizClient({ locale }: { locale: string }) {
                                     : 'Record dreams, get AI interpretations'}
                             </span>
                         </div>
-                    </div>
+                    </a>
 
                     {/* Disclaimer */}
                     <p className="quiz-disclaimer" style={{ marginTop: '1.5rem' }}>

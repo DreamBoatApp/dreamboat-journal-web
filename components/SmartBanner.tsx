@@ -5,6 +5,11 @@ import { useState, useEffect } from 'react';
 
 type DeviceType = 'ios' | 'android' | 'desktop';
 
+const STORE_LINKS = {
+    android: 'https://play.google.com/store/apps/details?id=com.dreamboat.mobile',
+    ios: 'https://apps.apple.com/app/id6756622594',
+};
+
 interface SmartBannerProps {
     symbol?: string; // The dream symbol for context-aware copy
 }
@@ -30,6 +35,16 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
             return t('bannerSymbolCopy', { symbol }) || `Rüyadaki "${symbol}" sembolünün senin için özel anlamını öğren.`;
         }
         return t('bannerDefaultCopy') || 'Rüyalarının gerçek anlamını keşfet.';
+    };
+
+    const getStoreLink = () => {
+        return device === 'ios' ? STORE_LINKS.ios : STORE_LINKS.android;
+    };
+
+    const getButtonText = () => {
+        if (device === 'ios') return t('downloadOnAppStore') || 'App Store';
+        if (device === 'android') return t('downloadOnGooglePlay') || 'Google Play';
+        return t('downloadApp') || 'Download';
     };
 
     // Mobile Banner
@@ -60,17 +75,22 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                             </div>
                         </div>
 
-                        {/* Coming Soon Badge */}
-                        <span className="shrink-0 px-4 py-2.5 bg-white/10 border border-white/20 text-white/60 rounded-xl text-xs font-bold cursor-default">
-                            {t('comingSoon')} 🚀
-                        </span>
+                        {/* Download Button */}
+                        <a
+                            href={getStoreLink()}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="shrink-0 px-4 py-2.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-xl text-xs font-bold transition-colors"
+                        >
+                            {getButtonText()}
+                        </a>
                     </div>
                 </div>
             </div>
         );
     }
 
-    // Desktop Banner with QR Code (Sidebar style)
+    // Desktop Banner with Store Links
     return (
         <div className="fixed bottom-4 right-4 z-[100] hidden lg:block">
             <div className="w-64 rounded-2xl border border-white/10 bg-[#0a0a16]/95 backdrop-blur-lg p-4 shadow-2xl">
@@ -97,11 +117,24 @@ export default function SmartBanner({ symbol }: SmartBannerProps) {
                     {getCopy()}
                 </p>
 
-                {/* Coming Soon Badge */}
-                <div className="flex flex-col items-center">
-                    <span className="px-6 py-2.5 bg-white/5 border border-white/10 text-white/60 rounded-lg text-xs font-bold text-center w-full cursor-default">
-                        {t('comingSoon')} 🚀
-                    </span>
+                {/* Store Buttons */}
+                <div className="flex flex-col gap-2">
+                    <a
+                        href={STORE_LINKS.ios}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-4 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white rounded-lg text-xs font-bold transition-colors"
+                    >
+                        🍎 App Store
+                    </a>
+                    <a
+                        href={STORE_LINKS.android}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-center gap-2 px-4 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 text-white rounded-lg text-xs font-bold transition-colors"
+                    >
+                        ▶️ Google Play
+                    </a>
                 </div>
             </div>
         </div>

@@ -98,14 +98,18 @@ export default function Footer() {
                                 </Link>
                             </li>
                         </ul>
-                        <span className="inline-block px-5 py-2.5 bg-white/5 border border-white/10 rounded-full text-white/50 text-sm font-medium cursor-default">
-                            <span className="flex items-center gap-2">
-                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
-                                {t('downloadApp')} — {locale === 'tr' ? 'Çok Yakında' : locale === 'de' ? 'Demnächst' : locale === 'es' ? 'Próximamente' : locale === 'pt' ? 'Em breve' : 'Coming Soon'} 🚀
-                            </span>
-                        </span>
+                        <div className="flex flex-col gap-2">
+                            <a href="https://apps.apple.com/app/id6756622594" target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-white/80 text-sm font-medium transition-colors">
+                                <span className="flex items-center gap-2">
+                                    🍎 {t('downloadApp')} — App Store
+                                </span>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.dreamboat.mobile" target="_blank" rel="noopener noreferrer" className="inline-block px-5 py-2.5 bg-white/5 hover:bg-white/10 border border-white/10 rounded-full text-white/80 text-sm font-medium transition-colors">
+                                <span className="flex items-center gap-2">
+                                    ▶️ {t('downloadApp')} — Google Play
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
