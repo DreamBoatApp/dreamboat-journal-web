@@ -20,6 +20,9 @@ export default function Footer() {
         ? 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('')
         : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 
+    const TR_LOWER: Record<string, string> = { 'I': 'ı', 'İ': 'i', 'Ç': 'ç', 'Ş': 'ş', 'Ğ': 'ğ', 'Ü': 'ü', 'Ö': 'ö' };
+    const safeLower = (ch: string) => locale === 'tr' && TR_LOWER[ch] ? TR_LOWER[ch] : ch.toLowerCase();
+
     return (
         <footer className="relative border-t border-white/10 bg-[#020010]">
             <div className="container mx-auto px-4 py-12 max-w-6xl">
@@ -32,7 +35,7 @@ export default function Footer() {
                             {letterLinks.map((letter) => (
                                 <Link
                                     key={letter}
-                                    href={`/${locale}/dictionary/${letter.toLowerCase()}`}
+                                    href={`/${locale}/dictionary/${safeLower(letter)}`}
                                     className="w-8 h-8 flex items-center justify-center rounded-md bg-white/5 text-xs text-slate-400 hover:bg-indigo-600/30 hover:text-white transition-colors font-mono"
                                 >
                                     {letter}
