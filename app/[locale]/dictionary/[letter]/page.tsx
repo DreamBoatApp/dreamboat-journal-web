@@ -103,17 +103,24 @@ function getAlphabet(locale: string): string[] {
     }
 }
 
+const TR_LOWER_MAP: Record<string, string> = { 'I': 'ı', 'İ': 'i', 'Ç': 'ç', 'Ş': 'ş', 'Ğ': 'ğ', 'Ü': 'ü', 'Ö': 'ö' };
+const TR_UPPER_MAP: Record<string, string> = { 'ı': 'I', 'i': 'İ', 'ç': 'Ç', 'ş': 'Ş', 'ğ': 'Ğ', 'ü': 'Ü', 'ö': 'Ö' };
+
+function toSafeLower(char: string, locale: string): string {
+    if (locale === 'tr' && TR_LOWER_MAP[char]) return TR_LOWER_MAP[char];
+    return char.toLowerCase();
+}
+
+function toSafeUpper(char: string, locale: string): string {
+    if (locale === 'tr' && TR_UPPER_MAP[char]) return TR_UPPER_MAP[char];
+    return char.toUpperCase();
+}
+
 // Normalize letter for comparison (handle Turkish İ/I specifics)
 function normalizeFirstChar(name: string, locale: string): string {
     if (!name) return '';
     const ch = name.charAt(0);
-    if (locale === 'tr') {
-        // Turkish-specific normalization
-        if (ch === 'i' || ch === 'İ') return 'İ';
-        if (ch === 'ı' || ch === 'I') return 'I';
-        return ch.toLocaleUpperCase('tr');
-    }
-    return ch.toUpperCase();
+    return toSafeUpper(ch, locale);
 }
 
 type SymbolEntry = {
@@ -138,7 +145,7 @@ function getSymbolsForLetter(locale: string, letter: string): SymbolEntry[] {
             const localizedName = content.localizedName || file.replace('.json', '');
             const firstChar = normalizeFirstChar(localizedName, locale);
 
-            if (firstChar === letter.toLocaleUpperCase(locale === 'tr' ? 'tr' : undefined)) {
+            if (firstChar === toSafeUpper(letter, locale)) {
                 symbols.push({
                     slug: file.replace('.json', ''),
                     name: localizedName,
@@ -161,7 +168,7 @@ export default async function DictionaryLetterPage({ params }: Props) {
     const alphabet = getAlphabet(locale);
     // Decode URI-encoded Turkish chars (e.g., %C3%A7 → ç)
     const decodedLetter = decodeURIComponent(rawLetter);
-    const letter = decodedLetter.toLocaleUpperCase(locale === 'tr' ? 'tr' : undefined);
+    const letter = toSafeUpper(decodedLetter, locale);
 
     // With dynamicParams=false, only valid letters reach here
     // Guard defensively without using dynamic APIs
@@ -224,7 +231,7 @@ export default async function DictionaryLetterPage({ params }: Props) {
                         return (
                             <Link
                                 key={char}
-                                href={`/dictionary/${char.toLocaleLowerCase(locale === 'tr' ? 'tr-TR' : 'en-US')}`}
+                                href={`/dictionary/${toSafeLower(char, locale)}`}
                                 className={`w-10 h-10 flex items-center justify-center rounded-lg font-mono text-sm transition-all duration-300 ${isActive
                                     ? 'bg-indigo-600 text-white shadow-[0_0_15px_rgba(79,70,229,0.5)] scale-110'
                                     : 'bg-white/5 text-indigo-200/50 hover:bg-white/10 hover:text-white'

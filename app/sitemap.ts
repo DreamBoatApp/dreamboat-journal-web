@@ -93,8 +93,9 @@ function buildAllRoutes(): MetadataRoute.Sitemap {
         const alphabet = locale === 'tr' 
             ? 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('') 
             : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+        const TR_LOWER_MAP: Record<string, string> = { 'I': 'ı', 'İ': 'i', 'Ç': 'ç', 'Ş': 'ş', 'Ğ': 'ğ', 'Ü': 'ü', 'Ö': 'ö' };
         alphabet.forEach(letter => {
-            const letterSlug = letter.toLocaleLowerCase(locale === 'tr' ? 'tr-TR' : 'en-US');
+            const letterSlug = locale === 'tr' && TR_LOWER_MAP[letter] ? TR_LOWER_MAP[letter] : letter.toLowerCase();
             routes.push({
                 url: `${BASE_URL}/${locale}/dictionary/${letterSlug}`,
                 lastModified: new Date('2026-02-15'),
