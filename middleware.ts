@@ -10,9 +10,12 @@ export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
     // URL case normalization: redirect uppercase ASCII paths to lowercase
-    // Only normalize ASCII letters — do NOT touch URL-encoded UTF-8 bytes
-    // (e.g., %C4%B1 for ı) as lowercasing hex causes infinite 308 redirect loops
-    const asciiLowered = pathname.replace(/[A-Z]/g, c => c.toLowerCase());
+    // CRITICAL: preserve percent-encoded sequences (%C4%B1 etc.) as-is,
+    // only lowercase standalone ASCII A-Z letters in the path
+    const asciiLowered = pathname.replace(/%[0-9A-Fa-f]{2}|[A-Z]/g, match => {
+        if (match.startsWith('%')) return match; // keep %C4, %B1 etc. untouched
+        return match.toLowerCase();
+    });
     if (
         pathname !== asciiLowered &&
         !pathname.startsWith('/_next') &&
