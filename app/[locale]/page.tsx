@@ -77,6 +77,10 @@ export default async function HomePage({ params }: Props) {
 
             <div className="max-w-4xl w-full flex flex-col items-center z-10 space-y-8">
 
+                <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white via-indigo-100 to-purple-200">
+                    {locale === 'tr' ? 'Rüya Tabiri — DreamBoat Journal' : 'Dream Interpretation — DreamBoat Journal'}
+                </h1>
+
                 <p className="text-xl md:text-2xl text-slate-300 max-w-2xl font-light tracking-wide leading-relaxed">
                     {t('subtitle')}
                 </p>
