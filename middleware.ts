@@ -9,16 +9,18 @@ const SUPPORTED_LOCALES = ['en', 'tr'];
 export default function middleware(request: NextRequest) {
     const { pathname } = request.nextUrl;
 
-    // URL case normalization: redirect uppercase paths to lowercase
-    // Only normalize content paths, not static assets or API
+    // URL case normalization: redirect uppercase ASCII paths to lowercase
+    // Only normalize ASCII letters — do NOT touch URL-encoded UTF-8 bytes
+    // (e.g., %C4%B1 for ı) as lowercasing hex causes infinite 308 redirect loops
+    const asciiLowered = pathname.replace(/[A-Z]/g, c => c.toLowerCase());
     if (
-        pathname !== pathname.toLowerCase() &&
+        pathname !== asciiLowered &&
         !pathname.startsWith('/_next') &&
         !pathname.startsWith('/api') &&
         !pathname.includes('.')
     ) {
         const url = request.nextUrl.clone();
-        url.pathname = pathname.toLowerCase();
+        url.pathname = asciiLowered;
         return NextResponse.redirect(url, 308);
     }
 
