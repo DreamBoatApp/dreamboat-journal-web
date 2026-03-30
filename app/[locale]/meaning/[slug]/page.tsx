@@ -153,13 +153,16 @@ export default async function MeaningPage({ params }: Props) {
 
     // Related symbols
     const relatedSlugs: string[] = (relatedSymbolsIndex as Record<string, string[]>)[slug] || [];
-    const relatedSymbols = relatedSlugs.map(rs => {
+    const relatedSymbols = relatedSlugs.reduce((acc, rs) => {
         const rsContent = getContent(locale, rs);
-        return {
-            slug: rs,
-            name: rsContent?.localizedName || rs.charAt(0).toUpperCase() + rs.slice(1),
-        };
-    }).filter(rs => rs.name);
+        if (rsContent) {
+            acc.push({
+                slug: rs,
+                name: rsContent.localizedName || rs.charAt(0).toUpperCase() + rs.slice(1),
+            });
+        }
+        return acc;
+    }, [] as { slug: string; name: string }[]);
 
     // Build 'See also' contextual links (top 4 related symbols with content)
     const seeAlsoSymbols = relatedSymbols.slice(0, 4);

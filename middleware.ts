@@ -29,11 +29,13 @@ export default function middleware(request: NextRequest) {
         return NextResponse.rewrite(url);
     }
 
-    // Block unsupported locale prefixes (de, es, pt, fr…) → 404
-    // Prevents [locale] dynamic segment from matching invalid locales
+    // Support legacy locales (de, es, pt) mapping to English (en) via 301 Permanent Redirect
+    // This resolves Search Console 404 errors for unsupported indexed locales
     const localeMatch = pathname.match(/^\/([a-z]{2})(\/|$)/);
     if (localeMatch && !SUPPORTED_LOCALES.includes(localeMatch[1])) {
-        return new NextResponse(null, { status: 404 });
+        const url = request.nextUrl.clone();
+        url.pathname = '/en' + pathname.slice(3);
+        return NextResponse.redirect(url, 301);
     }
 
     const response = intlMiddleware(request);
