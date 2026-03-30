@@ -90,7 +90,10 @@ function buildAllRoutes(): MetadataRoute.Sitemap {
         } catch { /* blog dir missing is fine */ }
 
         // Dictionary letter pages
-        'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').forEach(letter => {
+        const alphabet = locale === 'tr' 
+            ? 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('') 
+            : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+        alphabet.forEach(letter => {
             routes.push({
                 url: `${BASE_URL}/${locale}/dictionary/${letter.toLowerCase()}`,
                 lastModified: new Date('2026-02-15'),
@@ -107,6 +110,10 @@ function buildAllRoutes(): MetadataRoute.Sitemap {
 
             // Skip noindex pages — no point putting them in sitemap
             if (seo[seoKey] === false) return;
+
+            // FIX: Skip meaning pages where the content JSON does not yet exist to prevent 404 indexing errors
+            const filePath = path.join(process.cwd(), 'content', locale, 'meanings', `${slug}.json`);
+            if (!fs.existsSync(filePath)) return;
 
             const pubDates = dates[slug];
             const lastMod = pubDates?.modified
