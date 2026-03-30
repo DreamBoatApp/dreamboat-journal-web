@@ -94,8 +94,9 @@ function buildAllRoutes(): MetadataRoute.Sitemap {
             ? 'ABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ'.split('') 
             : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
         alphabet.forEach(letter => {
+            const letterSlug = letter.toLocaleLowerCase(locale === 'tr' ? 'tr-TR' : 'en-US');
             routes.push({
-                url: `${BASE_URL}/${locale}/dictionary/${letter.toLowerCase()}`,
+                url: `${BASE_URL}/${locale}/dictionary/${letterSlug}`,
                 lastModified: new Date('2026-02-15'),
                 changeFrequency: 'weekly',
                 priority: 0.7,

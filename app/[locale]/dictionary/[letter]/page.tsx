@@ -224,7 +224,7 @@ export default async function DictionaryLetterPage({ params }: Props) {
                         return (
                             <Link
                                 key={char}
-                                href={`/dictionary/${char.toLowerCase()}`}
+                                href={`/dictionary/${char.toLocaleLowerCase(locale === 'tr' ? 'tr-TR' : 'en-US')}`}
                                 className={`w-10 h-10 flex items-center justify-center rounded-lg font-mono text-sm transition-all duration-300 ${isActive
                                     ? 'bg-indigo-600 text-white shadow-[0_0_15px_rgba(79,70,229,0.5)] scale-110'
                                     : 'bg-white/5 text-indigo-200/50 hover:bg-white/10 hover:text-white'
